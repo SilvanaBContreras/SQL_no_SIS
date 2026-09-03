@@ -1,0 +1,17 @@
+# Datos 
+full_export.csv
+full_export.zip
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+*.rar
+*.*descartado
+*.pdf
+
+# Archivos de VS Code
+.vscode/
+
+# plantilla
+plantilla_ejercicio.py

@@ -1,0 +1,5 @@
+Nombre de deportistas segun Ids solicitados
+id_deportista,nombre_deportista
+10,Yohan BLAKE
+30,Carina HORN
+20,Tyquendo TRACEY
