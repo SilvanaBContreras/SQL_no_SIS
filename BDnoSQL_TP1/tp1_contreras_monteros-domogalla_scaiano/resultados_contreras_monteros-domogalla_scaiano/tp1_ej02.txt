@@ -1,0 +1,21 @@
+Especialidades registradas y su tipo de especialidad:
+altura,salto con pertiga
+altura,salto de altura
+lanzamiento,lanzamiento de bala
+lanzamiento,lanzamiento de disco
+lanzamiento,lanzamiento de jabalina
+lanzamiento,lanzamiento de martillo
+largo,salto largo
+largo,salto triple
+tiempo,carrera 100 m
+tiempo,carrera 10000 m
+tiempo,carrera 110 m con vallas
+tiempo,carrera 1500 m
+tiempo,carrera 200 m
+tiempo,carrera 21000 m
+tiempo,carrera 3000 m con vallas
+tiempo,carrera 400 m
+tiempo,carrera 400 m con vallas
+tiempo,carrera 42000 m
+tiempo,carrera 5000 m
+tiempo,carrera 800 m
