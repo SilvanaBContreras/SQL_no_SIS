@@ -1,4 +1,0 @@
-Deportistas con id 10, 20 y 30:
-30,Carina HORN
-20,Tyquendo TRACEY
-10,Yohan BLAKE

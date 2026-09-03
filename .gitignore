@@ -7,8 +7,9 @@ __pycache__/
 *.pyc
 
 *.rar
-*.*descartado
+*descartado*.*
 *.pdf
+*plantilla*.*
 
 # Archivos de VS Code
 .vscode/

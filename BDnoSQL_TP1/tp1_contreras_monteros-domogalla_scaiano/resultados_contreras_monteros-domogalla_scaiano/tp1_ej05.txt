@@ -1,5 +1,0 @@
-Podio de carrera 100 m en Torneo de Argentina:
-Torneo,Especialidad,Deportista,Marca
-Torneo de Argentina,carrera 100 m,Justin GATLIN,9772
-Torneo de Argentina,carrera 100 m,Blessing OKAGBARE,9796
-Torneo de Argentina,carrera 100 m,Murielle AHOURÉ,9813

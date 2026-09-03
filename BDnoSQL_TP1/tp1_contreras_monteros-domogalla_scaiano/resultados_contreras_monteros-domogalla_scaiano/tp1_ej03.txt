@@ -1,5 +1,0 @@
-Cantidad de especialidades asociadas a cada tipo:
-altura,2
-lanzamiento,4
-largo,2
-tiempo,12
