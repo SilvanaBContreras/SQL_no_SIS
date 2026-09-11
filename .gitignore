@@ -1,18 +1,11 @@
-# Datos 
-full_export.csv
-full_export.zip
+# Ignora todo por defecto
+*
 
-# Archivos temporales de Python
-__pycache__/
-*.pyc
+# Permite que Git entre a inspeccionar las carpetas
+!*/
 
-*.rar
-*descartado*.*
-*.pdf
-*plantilla*.*
-
-# Archivos de VS Code
-.vscode/
-
-# plantilla
-plantilla_ejercicio.py
+# Exceptúa archivos .py y .txt en la raíz y en subcarpetas
+!*.py
+!**/*.py
+!*.txt
+!**/*.txt

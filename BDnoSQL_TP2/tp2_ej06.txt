@@ -1,0 +1,62 @@
+Top 3 anual por especialidad
+nombre_especialidad,nombre_deportista,intento,marca,posicion_podio
+carrera 100 m,Aleia HOBBS,1,9760.0,1
+carrera 100 m,Mario BURKE,1,9760.0,2
+carrera 100 m,ShaCarri RICHARDSON,1,9760.0,3
+carrera 10000 m,Lopez LOMONG,1,1608036.0,1
+carrera 10000 m,Abdallah Kibet MANDE,1,1608063.0,2
+carrera 10000 m,Rodgers KWEMOI,1,1608075.0,3
+carrera 110 m con vallas,Payton CHADWICK,1,12098.0,1
+carrera 110 m con vallas,Anna COCKRELL,1,12098.0,2
+carrera 110 m con vallas,Wenjun XIE,1,12098.0,3
+carrera 1500 m,Sifan HASSAN,1,208771.0,1
+carrera 1500 m,Matthew CENTROWITZ,1,208772.0,2
+carrera 1500 m,Dawit SEYAUM,1,208772.0,3
+carrera 200 m,Mario BURKE,1,19500.0,1
+carrera 200 m,Elaine THOMPSON,1,19500.0,2
+carrera 200 m,Kayla WHITE,1,19500.0,3
+carrera 21000 m,Evaline CHIRCHIR,1,3481005.0,1
+carrera 21000 m,Zeineba YIMER,1,3481062.0,2
+carrera 21000 m,Roza DEREJE,1,3481121.0,3
+carrera 3000 m con vallas,Andrew BAYER,1,481036.0,1
+carrera 3000 m con vallas,Chala BEYO,1,481040.0,2
+carrera 3000 m con vallas,Norah JERUTO,1,481044.0,3
+carrera 400 m,Phyllis FRANCIS,1,43450.0,1
+carrera 400 m,Courtney OKOLO,1,43451.0,2
+carrera 400 m,Sharrika BARNETT,1,43452.0,3
+carrera 400 m con vallas,Lindsay HANEKOM,1,46092.0,1
+carrera 400 m con vallas,Ashley SPENCER,1,46092.0,2
+carrera 400 m con vallas,TJ HOLMES,1,46094.0,3
+carrera 42000 m,Zeineba YIMER,1,7301146.0,1
+carrera 42000 m,Kinde ATANAW,1,7301386.0,2
+carrera 42000 m,Kinde ATANAW,1,7301499.0,3
+carrera 5000 m,Sifan HASSAN,1,772098.0,1
+carrera 5000 m,Birhanu BALEW,1,772110.0,2
+carrera 5000 m,Selemon BAREGA,1,772111.0,3
+carrera 800 m,Francine NIYONSABA,1,101892.0,1
+carrera 800 m,Raevyn ROGERS,1,101893.0,2
+carrera 800 m,Natalya PRYSHCHEPA,1,101893.0,3
+lanzamiento de bala,Danniel THOMAS-DODD,7,2521.0,1
+lanzamiento de bala,Michał HARATYK,2,2521.0,2
+lanzamiento de bala,Anita MÁRTON,9,2521.0,3
+lanzamiento de disco,Kelsey CARD,1,7905.0,1
+lanzamiento de disco,Kristin PUDENZ,8,7905.0,2
+lanzamiento de disco,Reggie JAGERS III,3,7905.0,3
+lanzamiento de jabalina,Arshad NADEEM,10,9968.0,1
+lanzamiento de jabalina,Martina RATEJ,5,9968.0,2
+lanzamiento de jabalina,Martina RATEJ,7,9968.0,3
+lanzamiento de martillo,Serhiy PEREVOZNIKOV,10,8992.0,1
+lanzamiento de martillo,Iryna KLYMETS,2,8992.0,2
+lanzamiento de martillo,Zalina PETRIVSKAYA,1,8992.0,3
+salto con pertiga,Katie NAGEOTTE,3,667.0,1
+salto con pertiga,Michaela MEIJER,5,667.0,2
+salto con pertiga,Nikoleta KIRIAKOPOULOU,2,667.0,3
+salto de altura,Yuliya LEVCHENKO,7,261.0,1
+salto de altura,Nafissatou THIAM,7,261.0,2
+salto de altura,Tihomir IVANOV,4,261.0,3
+salto largo,Ese BRUME,9,956.0,1
+salto largo,Keturah ORJI,8,956.0,2
+salto largo,Jianan WANG,1,956.0,3
+salto triple,Darya NIDBAYKINA,6,1996.0,1
+salto triple,Jordan Alejandro DÍAZ FORTUN,2,1996.0,2
+salto triple,Dmitriy SOROKIN,9,1996.0,3

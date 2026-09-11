@@ -1,0 +1,1608 @@
+Mejor y peor marca de cada deportista
+id_deportista,id_especialidad,nombre_torneo,intento,marca,tipo_marca
+1,1,Torneo de Philippines,1,9762.0,mejor
+1,1,Torneo de Latvia,1,10726.0,peor
+1,2,Torneo de South Africa,1,19505.0,mejor
+1,2,Torneo de North Korea,1,21449.0,peor
+2,1,Torneo de Puerto Rico,1,9760.0,mejor
+2,1,Torneo de Libya,1,10736.0,peor
+2,2,Torneo de Serbia,1,19505.0,mejor
+2,2,Torneo de South Sudan,1,21444.0,peor
+3,1,Torneo de Djibouti,1,9761.0,mejor
+3,1,Torneo de Central African Republic,1,10716.0,peor
+3,2,Torneo de Tonga,1,19503.0,mejor
+3,2,Torneo de El Salvador,1,21449.0,peor
+4,1,Torneo de Liberia,1,9766.0,mejor
+4,1,Torneo de Gabon,1,10736.0,peor
+5,1,Torneo de Ecuador,1,9767.0,mejor
+5,1,Torneo de United States,1,10731.0,peor
+5,2,Torneo de Kenya,1,19508.0,mejor
+5,2,Torneo de Brunei,1,21450.0,peor
+6,1,Torneo de Barbados,1,9769.0,mejor
+6,1,Torneo de Honduras,1,10731.0,peor
+6,2,Torneo de Kuwait,1,19517.0,mejor
+6,2,Torneo de Tonga,1,21438.0,peor
+7,1,Torneo de Palau,1,9765.0,mejor
+7,1,Torneo de Mali,1,10736.0,peor
+8,1,Torneo de Georgia,1,9760.0,mejor
+8,1,Torneo de Eritrea,1,10735.0,peor
+9,1,Torneo de Sri Lanka,1,9766.0,mejor
+9,1,Torneo de Morocco,1,10734.0,peor
+10,1,Torneo de United States,1,9761.0,mejor
+10,1,Torneo de Virgin Islands (British),1,10733.0,peor
+11,1,Torneo de Jordan,1,9764.0,mejor
+11,1,Torneo de Micronesia,1,10726.0,peor
+11,2,Torneo de Greece,1,19503.0,mejor
+11,2,Torneo de Morocco,1,21448.0,peor
+12,1,Torneo de Burundi,1,9765.0,mejor
+12,1,Torneo de Latvia,1,10735.0,peor
+13,1,Torneo de Niger,1,9762.0,mejor
+13,1,Torneo de Libya,1,10733.0,peor
+14,1,Torneo de Mali,1,9763.0,mejor
+14,1,Torneo de Equatorial Guinea,1,10731.0,peor
+14,2,Torneo de United Arab Emirates,1,19515.0,mejor
+14,2,Torneo de Sweden,1,21450.0,peor
+15,1,Torneo de Lebanon,1,9760.0,mejor
+15,1,Torneo de Uruguay,1,10733.0,peor
+16,1,Torneo de Cyprus,1,9766.0,mejor
+16,1,Torneo de Morocco,1,10726.0,peor
+17,1,Torneo de San Marino,1,9760.0,mejor
+17,1,Torneo de Belize,1,10733.0,peor
+17,2,Torneo de South Sudan,1,19500.0,mejor
+17,2,Torneo de Yemen,1,21448.0,peor
+18,1,Torneo de Gambia,1,9764.0,mejor
+18,1,Torneo de Timor-Leste,1,10733.0,peor
+19,1,Torneo de Macedonia,1,9769.0,mejor
+19,1,Torneo de Barbados,1,10728.0,peor
+20,1,Torneo de Denmark,1,9770.0,mejor
+20,1,Torneo de Eritrea,1,10733.0,peor
+21,1,Torneo de Sri Lanka,1,9764.0,mejor
+21,1,Torneo de Panama,1,10735.0,peor
+21,2,Torneo de Kuwait,1,19509.0,mejor
+21,2,Torneo de Italy,1,21440.0,peor
+22,1,Torneo de Puerto Rico,1,9761.0,mejor
+22,1,Torneo de Monaco,1,10732.0,peor
+22,2,Torneo de Grenada,1,19500.0,mejor
+22,2,Torneo de Luxembourg,1,21444.0,peor
+23,1,Torneo de Suriname,1,9760.0,mejor
+23,1,Torneo de Mauritius,1,10732.0,peor
+23,2,Torneo de Tonga,1,19501.0,mejor
+23,2,Torneo de Austria,1,21423.0,peor
+24,1,Torneo de Congo Democratic Republic of the,1,9766.0,mejor
+24,1,Torneo de Finland,1,10728.0,peor
+24,2,Torneo de Jamaica,1,19507.0,mejor
+24,2,Torneo de Kosovo,1,21441.0,peor
+25,1,Torneo de Latvia,1,9760.0,mejor
+25,1,Torneo de Mexico,1,10732.0,peor
+25,2,Torneo de Sudan,1,19501.0,mejor
+25,2,Torneo de Mauritius,1,21420.0,peor
+26,1,Torneo de Algeria,1,9765.0,mejor
+26,1,Torneo de Syria,1,10732.0,peor
+26,2,Torneo de Jamaica,1,19500.0,mejor
+26,2,Torneo de Russia,1,21444.0,peor
+27,1,Torneo de Scotland,1,9769.0,mejor
+27,1,Torneo de Luxembourg,1,10734.0,peor
+28,1,Torneo de Syria,1,9793.0,mejor
+28,1,Torneo de Sri Lanka,1,10722.0,peor
+28,2,Torneo de Georgia,1,19506.0,mejor
+28,2,Torneo de Uzbekistan,1,21444.0,peor
+29,1,Torneo de Northern Ireland,1,9764.0,mejor
+29,1,Torneo de Iraq,1,10732.0,peor
+29,2,Torneo de Belize,1,19515.0,mejor
+29,2,Torneo de Japan,1,21448.0,peor
+30,1,Torneo de Canada,1,9764.0,mejor
+30,1,Torneo de Mauritius,1,10733.0,peor
+31,1,Torneo de Mozambique,1,9765.0,mejor
+31,1,Torneo de Monaco,1,10730.0,peor
+32,1,Torneo de Qatar,1,9762.0,mejor
+32,1,Torneo de United Arab Emirates,1,10736.0,peor
+33,1,Torneo de United States,1,9760.0,mejor
+33,1,Torneo de Sao Tome and Principe,1,10736.0,peor
+34,1,Torneo de Namibia,1,9760.0,mejor
+34,1,Torneo de Haiti,1,10736.0,peor
+35,1,Torneo de Vatican City,1,9760.0,mejor
+35,1,Torneo de North Korea,1,10726.0,peor
+36,1,Torneo de Germany,1,9763.0,mejor
+36,1,Torneo de Lesotho,1,10734.0,peor
+37,1,Torneo de Kuwait,1,9763.0,mejor
+37,1,Torneo de Brunei,1,10735.0,peor
+38,1,Torneo de Mongolia,1,9779.0,mejor
+38,1,Torneo de Costa Rica,1,10718.0,peor
+39,1,Torneo de Congo Republic of the,1,9776.0,mejor
+39,1,Torneo de Cambodia,1,10734.0,peor
+39,2,Torneo de United Kingdom,1,19501.0,mejor
+39,2,Torneo de Dominican Republic,1,21444.0,peor
+40,1,Torneo de Guinea-Bissau,1,9761.0,mejor
+40,1,Torneo de Guyana,1,10736.0,peor
+41,1,Torneo de Brunei,1,9760.0,mejor
+41,1,Torneo de Dominican Republic,1,10735.0,peor
+42,1,Torneo de Guinea-Bissau,1,9760.0,mejor
+42,1,Torneo de Russia,1,10736.0,peor
+42,2,Torneo de Oman,1,19508.0,mejor
+42,2,Torneo de Austria,1,21449.0,peor
+43,2,Torneo de Denmark,1,19501.0,mejor
+43,2,Torneo de Rwanda,1,21423.0,peor
+43,3,Torneo de Ghana,1,43463.0,mejor
+43,3,Torneo de Guinea-Bissau,1,47737.0,peor
+47,2,Torneo de Nepal,1,19506.0,mejor
+47,2,Torneo de Dominican Republic,1,21433.0,peor
+50,2,Torneo de Tonga,1,19508.0,mejor
+50,2,Torneo de Costa Rica,1,21446.0,peor
+53,2,Torneo de Algeria,1,19506.0,mejor
+53,2,Torneo de Albania,1,21436.0,peor
+54,2,Torneo de Niger,1,19505.0,mejor
+54,2,Torneo de Australia,1,21442.0,peor
+54,10,Torneo de Indonesia,1,12102.0,mejor
+54,10,Torneo de Panama,1,13308.0,peor
+55,2,Torneo de Greece,1,19501.0,mejor
+55,2,Torneo de Netherlands,1,21438.0,peor
+57,2,Torneo de Guinea,1,19504.0,mejor
+57,2,Torneo de Marshall Islands,1,21446.0,peor
+58,2,Torneo de Cameroon,1,19532.0,mejor
+58,2,Torneo de Congo Republic of the,1,21426.0,peor
+59,2,Torneo de Saint Kitts and Nevis,1,19502.0,mejor
+59,2,Torneo de Ethiopia,1,21429.0,peor
+61,2,Torneo de Luxembourg,1,19504.0,mejor
+61,2,Torneo de Malawi,1,21443.0,peor
+61,3,Torneo de South Korea,1,43457.0,mejor
+61,3,Torneo de Trinidad and Tobago,1,47771.0,peor
+64,2,Torneo de Finland,1,19521.0,mejor
+64,2,Torneo de Jamaica,1,21448.0,peor
+64,3,Torneo de India,1,43455.0,mejor
+64,3,Torneo de Jamaica,1,47793.0,peor
+66,2,Torneo de Botswana,1,19514.0,mejor
+66,2,Torneo de Gambia,1,21444.0,peor
+66,3,Torneo de Uzbekistan,1,43496.0,mejor
+66,3,Torneo de Taiwan,1,47784.0,peor
+67,2,Torneo de Lithuania,1,19518.0,mejor
+67,2,Torneo de Latvia,1,21412.0,peor
+68,2,Torneo de Lebanon,1,19514.0,mejor
+68,2,Torneo de Kosovo,1,21446.0,peor
+70,2,Torneo de Kyrgyzstan,1,19502.0,mejor
+70,2,Torneo de Ecuador,1,21430.0,peor
+74,2,Torneo de Tonga,1,19507.0,mejor
+74,2,Torneo de Latvia,1,21438.0,peor
+75,2,Torneo de Venezuela,1,19515.0,mejor
+75,2,Torneo de Jamaica,1,21422.0,peor
+76,2,Torneo de Monaco,1,19509.0,mejor
+76,2,Torneo de Congo Republic of the,1,21406.0,peor
+77,2,Torneo de Fiji,1,19504.0,mejor
+77,2,Torneo de Gambia,1,21450.0,peor
+77,3,Torneo de Andorra,1,43453.0,mejor
+77,3,Torneo de Algeria,1,47789.0,peor
+78,2,Torneo de Saudi Arabia,1,19506.0,mejor
+78,2,Torneo de Liechtenstein,1,21433.0,peor
+79,2,Torneo de Peru,1,19503.0,mejor
+79,2,Torneo de Greece,1,21434.0,peor
+80,2,Torneo de Guinea-Bissau,1,19522.0,mejor
+80,2,Torneo de Sao Tome and Principe,1,21440.0,peor
+81,2,Torneo de China,1,19519.0,mejor
+81,2,Torneo de Yemen,1,21441.0,peor
+86,3,Torneo de French Guiana,1,43470.0,mejor
+86,3,Torneo de Thailand,1,47776.0,peor
+87,3,Torneo de Brunei,1,43573.0,mejor
+87,3,Torneo de Cuba,1,47777.0,peor
+88,3,Torneo de Dominica,1,43461.0,mejor
+88,3,Torneo de Laos,1,47791.0,peor
+89,3,Torneo de South Africa,1,43494.0,mejor
+89,3,Torneo de Singapore,1,47772.0,peor
+90,3,Torneo de Japan,1,43458.0,mejor
+90,3,Torneo de Russia,1,47783.0,peor
+91,3,Torneo de Burkina Faso,1,43463.0,mejor
+91,3,Torneo de Equatorial Guinea,1,47750.0,peor
+92,3,Torneo de Burkina Faso,1,43457.0,mejor
+92,3,Torneo de Cyprus,1,47794.0,peor
+92,11,Torneo de Estonia,1,46107.0,mejor
+92,11,Torneo de United States,1,50610.0,peor
+93,3,Torneo de Kiribati,1,43498.0,mejor
+93,3,Torneo de Madagascar,1,47765.0,peor
+93,4,Torneo de Japan,1,101910.0,mejor
+93,4,Torneo de Tuvalu,1,112026.0,peor
+94,3,Torneo de Burkina Faso,1,43476.0,mejor
+94,3,Torneo de Malaysia,1,47760.0,peor
+95,3,Torneo de Belize,1,43464.0,mejor
+95,3,Torneo de Haiti,1,47793.0,peor
+96,3,Torneo de Comoros,1,43473.0,mejor
+96,3,Torneo de Chad,1,47774.0,peor
+97,3,Torneo de Dominican Republic,1,43500.0,mejor
+97,3,Torneo de Papua New Guinea,1,47724.0,peor
+98,3,Torneo de Ukraine,1,43457.0,mejor
+98,3,Torneo de Mexico,1,47761.0,peor
+98,11,Torneo de Maldives,1,46127.0,mejor
+98,11,Torneo de Zimbabwe,1,50664.0,peor
+99,3,Torneo de Estonia,1,43477.0,mejor
+99,3,Torneo de Taiwan,1,47769.0,peor
+99,11,Torneo de Tuvalu,1,46102.0,mejor
+99,11,Torneo de Antigua and Barbuda,1,50676.0,peor
+100,3,Torneo de Laos,1,43456.0,mejor
+100,3,Torneo de Liberia,1,47706.0,peor
+101,3,Torneo de Papua New Guinea,1,43455.0,mejor
+101,3,Torneo de Israel,1,47794.0,peor
+101,17,Torneo de Slovakia,8,2521.0,mejor
+101,17,Torneo de Sri Lanka,1,2293.0,peor
+102,3,Torneo de Equatorial Guinea,1,43454.0,mejor
+102,3,Torneo de Congo Republic of the,1,47788.0,peor
+106,3,Torneo de Niger,1,43484.0,mejor
+106,3,Torneo de Guatemala,1,47772.0,peor
+107,3,Torneo de Sweden,1,43501.0,mejor
+107,3,Torneo de Gambia,1,47762.0,peor
+108,3,Torneo de Scotland,1,43458.0,mejor
+108,3,Torneo de Sudan,1,47795.0,peor
+109,3,Torneo de Lithuania,1,43450.0,mejor
+109,3,Torneo de Serbia,1,47792.0,peor
+110,3,Torneo de Gabon,1,43458.0,mejor
+110,3,Torneo de Chad,1,47781.0,peor
+111,3,Torneo de Niger,1,43454.0,mejor
+111,3,Torneo de Cameroon,1,47793.0,peor
+112,3,Torneo de Australia,1,43471.0,mejor
+112,3,Torneo de Cambodia,1,47791.0,peor
+113,3,Torneo de Czechia,1,43452.0,mejor
+113,3,Torneo de Afghanistan,1,47776.0,peor
+114,3,Torneo de Malta,1,43467.0,mejor
+114,3,Torneo de Timor-Leste,1,47786.0,peor
+114,11,Torneo de Cambodia,1,46135.0,mejor
+114,11,Torneo de Libya,1,50646.0,peor
+115,3,Torneo de Italy,1,43467.0,mejor
+115,3,Torneo de Wales,1,47791.0,peor
+116,3,Torneo de Moldova,1,43470.0,mejor
+116,3,Torneo de Somalia,1,47765.0,peor
+117,3,Torneo de United States,1,43453.0,mejor
+117,3,Torneo de Iceland,1,47793.0,peor
+117,11,Torneo de Jamaica,1,46095.0,mejor
+117,11,Torneo de Costa Rica,1,50649.0,peor
+118,3,Torneo de Iraq,1,43451.0,mejor
+118,3,Torneo de Cyprus,1,47791.0,peor
+119,3,Torneo de Kenya,1,43466.0,mejor
+119,3,Torneo de New Zealand,1,47793.0,peor
+120,3,Torneo de Argentina,1,43454.0,mejor
+120,3,Torneo de South Sudan,1,47768.0,peor
+121,3,Torneo de Monaco,1,43462.0,mejor
+121,3,Torneo de Czechia,1,47792.0,peor
+122,3,Torneo de Brazil,1,43452.0,mejor
+122,3,Torneo de Laos,1,47776.0,peor
+123,3,Torneo de Libya,1,43484.0,mejor
+123,3,Torneo de Colombia,1,47790.0,peor
+124,4,Torneo de Canada,1,101977.0,mejor
+124,4,Torneo de Tajikistan,1,112036.0,peor
+125,4,Torneo de Malta,1,101977.0,mejor
+125,4,Torneo de Sudan,1,112075.0,peor
+126,4,Torneo de Netherlands,1,101918.0,mejor
+126,4,Torneo de Virgin Islands (British),1,112019.0,peor
+127,4,Torneo de Hungary,1,101989.0,mejor
+127,4,Torneo de Slovenia,1,111995.0,peor
+127,5,Torneo de Benin,1,208800.0,mejor
+127,5,Torneo de Denmark,1,229619.0,peor
+128,4,Torneo de Guinea,1,101946.0,mejor
+128,4,Torneo de Spain,1,112071.0,peor
+129,4,Torneo de Vanuatu,1,101920.0,mejor
+129,4,Torneo de Cuba,1,111991.0,peor
+130,4,Torneo de Grenada,1,102106.0,mejor
+130,4,Torneo de Brazil,1,111994.0,peor
+132,4,Torneo de Somalia,1,101921.0,mejor
+132,4,Torneo de Namibia,1,111973.0,peor
+133,4,Torneo de Zambia,1,101921.0,mejor
+133,4,Torneo de Bahamas,1,112033.0,peor
+133,5,Torneo de Norway,1,208843.0,mejor
+133,5,Torneo de Brazil,1,229592.0,peor
+134,4,Torneo de Germany,1,101895.0,mejor
+134,4,Torneo de Poland,1,111997.0,peor
+135,4,Torneo de San Marino,1,102008.0,mejor
+135,4,Torneo de Rwanda,1,112055.0,peor
+136,4,Torneo de Monaco,1,101925.0,mejor
+136,4,Torneo de Nicaragua,1,112059.0,peor
+137,4,Torneo de Central African Republic,1,101895.0,mejor
+137,4,Torneo de Zimbabwe,1,112075.0,peor
+138,4,Torneo de Tunisia,1,102083.0,mejor
+138,4,Torneo de Bulgaria,1,112070.0,peor
+139,4,Torneo de Yemen,1,101895.0,mejor
+139,4,Torneo de Colombia,1,112075.0,peor
+140,4,Torneo de Barbados,1,101918.0,mejor
+140,4,Torneo de Rwanda,1,112066.0,peor
+140,5,Torneo de Mongolia,1,208842.0,mejor
+140,5,Torneo de Armenia,1,229580.0,peor
+141,4,Torneo de Czechia,1,101906.0,mejor
+141,4,Torneo de Rwanda,1,112056.0,peor
+142,4,Torneo de Lesotho,1,101929.0,mejor
+142,4,Torneo de Cyprus,1,112052.0,peor
+143,4,Torneo de Argentina,1,101945.0,mejor
+143,4,Torneo de Philippines,1,112066.0,peor
+144,4,Torneo de Iran,1,102076.0,mejor
+144,4,Torneo de Costa Rica,1,112072.0,peor
+145,4,Torneo de Angola,1,101983.0,mejor
+145,4,Torneo de Japan,1,112078.0,peor
+146,4,Torneo de Libya,1,101892.0,mejor
+146,4,Torneo de Serbia,1,112075.0,peor
+147,4,Torneo de Monaco,1,101894.0,mejor
+147,4,Torneo de Liberia,1,112077.0,peor
+148,4,Torneo de Cambodia,1,101916.0,mejor
+148,4,Torneo de Trinidad and Tobago,1,112041.0,peor
+149,4,Torneo de Malaysia,1,101893.0,mejor
+149,4,Torneo de Bahamas,1,112038.0,peor
+150,4,Torneo de Georgia,1,101928.0,mejor
+150,4,Torneo de Timor-Leste,1,112020.0,peor
+151,4,Torneo de Malawi,1,101895.0,mejor
+151,4,Torneo de Pakistan,1,112043.0,peor
+151,5,Torneo de Italy,1,209050.0,mejor
+151,5,Torneo de Liechtenstein,1,229591.0,peor
+152,4,Torneo de Monaco,1,101904.0,mejor
+152,4,Torneo de Angola,1,112022.0,peor
+153,4,Torneo de Hungary,1,101954.0,mejor
+153,4,Torneo de South Africa,1,112078.0,peor
+154,4,Torneo de Bosnia and Herzegovina,1,101926.0,mejor
+154,4,Torneo de Tonga,1,112071.0,peor
+155,4,Torneo de South Korea,1,101899.0,mejor
+155,4,Torneo de Canada,1,111989.0,peor
+155,5,Torneo de Togo,1,208805.0,mejor
+155,5,Torneo de Guinea,1,229610.0,peor
+156,4,Torneo de Colombia,1,101915.0,mejor
+156,4,Torneo de Lebanon,1,112045.0,peor
+157,4,Torneo de China,1,101909.0,mejor
+157,4,Torneo de Turkmenistan,1,112032.0,peor
+158,4,Torneo de Guyana,1,101933.0,mejor
+158,4,Torneo de Armenia,1,111967.0,peor
+159,4,Torneo de Bhutan,1,101893.0,mejor
+159,4,Torneo de Tuvalu,1,111904.0,peor
+160,4,Torneo de Vatican City,1,101940.0,mejor
+160,4,Torneo de Tunisia,1,111974.0,peor
+161,4,Torneo de Myanmar,1,101999.0,mejor
+161,4,Torneo de Bahamas,1,112070.0,peor
+162,4,Torneo de Haiti,1,101994.0,mejor
+162,4,Torneo de Spain,1,112017.0,peor
+163,4,Torneo de Netherlands,1,101901.0,mejor
+163,4,Torneo de Virgin Islands (British),1,112079.0,peor
+165,5,Torneo de Jamaica,1,208949.0,mejor
+165,5,Torneo de Finland,1,229578.0,peor
+165,6,Torneo de Argentina,1,772184.0,mejor
+165,6,Torneo de Colombia,1,849290.0,peor
+166,5,Torneo de Sierra Leone,1,208813.0,mejor
+166,5,Torneo de Suriname,1,229579.0,peor
+167,5,Torneo de Guatemala,1,208780.0,mejor
+167,5,Torneo de Kiribati,1,229577.0,peor
+169,5,Torneo de Bosnia and Herzegovina,1,208778.0,mejor
+169,5,Torneo de Somalia,1,229448.0,peor
+170,5,Torneo de Dominican Republic,1,208784.0,mejor
+170,5,Torneo de Guatemala,1,229586.0,peor
+171,5,Torneo de Malta,1,208888.0,mejor
+171,5,Torneo de Austria,1,229634.0,peor
+172,5,Torneo de United States,1,208797.0,mejor
+172,5,Torneo de Argentina,1,229496.0,peor
+174,5,Torneo de Albania,1,208809.0,mejor
+174,5,Torneo de Panama,1,229624.0,peor
+175,5,Torneo de Papua New Guinea,1,208795.0,mejor
+175,5,Torneo de Wales,1,229640.0,peor
+176,5,Torneo de Maldives,1,208788.0,mejor
+176,5,Torneo de San Marino,1,229585.0,peor
+176,7,Torneo de Kosovo,1,1608164.0,mejor
+176,7,Torneo de Slovakia,1,1768354.0,peor
+177,5,Torneo de Bosnia and Herzegovina,1,208828.0,mejor
+177,5,Torneo de Taiwan,1,229574.0,peor
+178,5,Torneo de Armenia,1,208951.0,mejor
+178,5,Torneo de French Guiana,1,229494.0,peor
+179,5,Torneo de Costa Rica,1,208786.0,mejor
+179,5,Torneo de Azerbaijan,1,229632.0,peor
+180,5,Torneo de Denmark,1,209025.0,mejor
+180,5,Torneo de Qatar,1,229584.0,peor
+181,5,Torneo de Niger,1,208772.0,mejor
+181,5,Torneo de Saint Kitts and Nevis,1,229629.0,peor
+181,6,Torneo de Nicaragua,1,772861.0,mejor
+181,6,Torneo de Grenada,1,849217.0,peor
+182,5,Torneo de Vietnam,1,208801.0,mejor
+182,5,Torneo de Kiribati,1,229628.0,peor
+183,5,Torneo de Uganda,1,208853.0,mejor
+183,5,Torneo de Cabo Verde,1,229496.0,peor
+184,5,Torneo de South Sudan,1,208771.0,mejor
+184,5,Torneo de Ghana,1,229521.0,peor
+184,6,Torneo de Australia,1,772098.0,mejor
+184,6,Torneo de Panama,1,849167.0,peor
+184,7,Torneo de Fiji,1,1608968.0,mejor
+184,7,Torneo de Syria,1,1766874.0,peor
+184,8,Torneo de Gambia,1,3482679.0,mejor
+184,8,Torneo de Saint Lucia,1,3826790.0,peor
+185,5,Torneo de Finland,1,208809.0,mejor
+185,5,Torneo de Comoros,1,229641.0,peor
+186,5,Torneo de Morocco,1,208792.0,mejor
+186,5,Torneo de Israel,1,229566.0,peor
+187,5,Torneo de Madagascar,1,208773.0,mejor
+187,5,Torneo de Uganda,1,229598.0,peor
+188,5,Torneo de Antigua and Barbuda,1,208883.0,mejor
+188,5,Torneo de Zimbabwe,1,229523.0,peor
+190,5,Torneo de Kuwait,1,208819.0,mejor
+190,5,Torneo de Bolivia,1,229437.0,peor
+190,6,Torneo de Denmark,1,773042.0,mejor
+190,6,Torneo de Taiwan,1,848705.0,peor
+191,5,Torneo de Togo,1,208809.0,mejor
+191,5,Torneo de Belize,1,229539.0,peor
+192,5,Torneo de Mali,1,208884.0,mejor
+192,5,Torneo de Barbados,1,229430.0,peor
+193,5,Torneo de San Marino,1,208782.0,mejor
+193,5,Torneo de Bhutan,1,229647.0,peor
+194,5,Torneo de Mongolia,1,208867.0,mejor
+194,5,Torneo de Algeria,1,229647.0,peor
+195,5,Torneo de Burundi,1,208796.0,mejor
+195,5,Torneo de Sierra Leone,1,229463.0,peor
+195,6,Torneo de Cameroon,1,772460.0,mejor
+195,6,Torneo de Congo Democratic Republic of the,1,849050.0,peor
+197,5,Torneo de Bhutan,1,209043.0,mejor
+197,5,Torneo de Panama,1,229635.0,peor
+198,5,Torneo de Peru,1,208794.0,mejor
+198,5,Torneo de Serbia,1,229428.0,peor
+199,5,Torneo de Mongolia,1,208792.0,mejor
+199,5,Torneo de Chile,1,229613.0,peor
+199,6,Torneo de Grenada,1,772743.0,mejor
+199,6,Torneo de Mexico,1,848834.0,peor
+200,5,Torneo de Turkey,1,208821.0,mejor
+200,5,Torneo de Lithuania,1,229632.0,peor
+200,6,Torneo de Samoa,1,772270.0,mejor
+200,6,Torneo de Brunei,1,848915.0,peor
+201,5,Torneo de Oman,1,208772.0,mejor
+201,5,Torneo de Equatorial Guinea,1,229624.0,peor
+202,5,Torneo de Virgin Islands (British),1,208920.0,mejor
+202,5,Torneo de Comoros,1,229633.0,peor
+203,5,Torneo de Turkey,1,208852.0,mejor
+203,5,Torneo de Gabon,1,229623.0,peor
+204,6,Torneo de Samoa,1,772121.0,mejor
+204,6,Torneo de Sierra Leone,1,849204.0,peor
+205,6,Torneo de Bangladesh,1,772111.0,mejor
+205,6,Torneo de Azerbaijan,1,849153.0,peor
+205,7,Torneo de Zambia,1,1608319.0,mejor
+205,7,Torneo de Azerbaijan,1,1768601.0,peor
+206,6,Torneo de Honduras,1,772664.0,mejor
+206,6,Torneo de Sweden,1,848703.0,peor
+206,7,Torneo de Eritrea,1,1608136.0,mejor
+206,7,Torneo de Scotland,1,1767755.0,peor
+207,6,Torneo de Ecuador,1,772110.0,mejor
+207,6,Torneo de Fiji,1,849170.0,peor
+208,6,Torneo de Estonia,1,772645.0,mejor
+208,6,Torneo de Lithuania,1,849157.0,peor
+208,7,Torneo de Belgium,1,1608999.0,mejor
+208,7,Torneo de South Sudan,1,1767320.0,peor
+208,8,Torneo de Kazakhstan,1,3481565.0,mejor
+208,8,Torneo de Moldova,1,3828537.0,peor
+209,6,Torneo de Kyrgyzstan,1,772176.0,mejor
+209,6,Torneo de Puerto Rico,1,848785.0,peor
+209,7,Torneo de Thailand,1,1609174.0,mejor
+209,7,Torneo de South Africa,1,1766586.0,peor
+210,6,Torneo de Andorra,1,772709.0,mejor
+210,6,Torneo de Austria,1,849023.0,peor
+211,6,Torneo de Guyana,1,772143.0,mejor
+211,6,Torneo de Lebanon,1,849211.0,peor
+212,6,Torneo de Kosovo,1,772524.0,mejor
+212,6,Torneo de Fiji,1,847578.0,peor
+212,7,Torneo de Cambodia,1,1608242.0,mejor
+212,7,Torneo de Central African Republic,1,1768340.0,peor
+213,6,Torneo de Angola,1,773126.0,mejor
+213,6,Torneo de Estonia,1,849223.0,peor
+214,6,Torneo de Nigeria,1,772331.0,mejor
+214,6,Torneo de Norway,1,849264.0,peor
+214,7,Torneo de Bhutan,1,1608036.0,mejor
+214,7,Torneo de Maldives,1,1768421.0,peor
+216,6,Torneo de Qatar,1,772725.0,mejor
+216,6,Torneo de United Kingdom,1,848818.0,peor
+216,7,Torneo de Seychelles,1,1608123.0,mejor
+216,7,Torneo de United States,1,1768131.0,peor
+216,8,Torneo de Wales,1,3481810.0,mejor
+216,8,Torneo de Cyprus,1,3828454.0,peor
+218,6,Torneo de Saint Vincent and the Grenadines,1,772147.0,mejor
+218,6,Torneo de Azerbaijan,1,848824.0,peor
+218,7,Torneo de Chile,1,1608510.0,mejor
+218,7,Torneo de South Korea,1,1768122.0,peor
+218,8,Torneo de Vatican City,1,3484137.0,mejor
+218,8,Torneo de Cambodia,1,3826954.0,peor
+219,6,Torneo de Guyana,1,772722.0,mejor
+219,6,Torneo de Montenegro,1,848625.0,peor
+220,6,Torneo de Saudi Arabia,1,772128.0,mejor
+220,6,Torneo de Bahamas,1,848817.0,peor
+221,6,Torneo de Vietnam,1,772938.0,mejor
+221,6,Torneo de Benin,1,849067.0,peor
+222,6,Torneo de Saudi Arabia,1,772442.0,mejor
+222,6,Torneo de Myanmar,1,849132.0,peor
+223,6,Torneo de Iceland,1,772521.0,mejor
+223,6,Torneo de Colombia,1,849028.0,peor
+224,6,Torneo de Nepal,1,772409.0,mejor
+224,6,Torneo de Nicaragua,1,849204.0,peor
+224,7,Torneo de Eritrea,1,1608470.0,mejor
+224,7,Torneo de Turkey,1,1767213.0,peor
+225,6,Torneo de Maldives,1,772162.0,mejor
+225,6,Torneo de Mongolia,1,849293.0,peor
+225,7,Torneo de Russia,1,1608740.0,mejor
+225,7,Torneo de Iran,1,1768146.0,peor
+228,6,Torneo de Ukraine,1,772274.0,mejor
+228,6,Torneo de Algeria,1,849119.0,peor
+229,6,Torneo de Algeria,1,772303.0,mejor
+229,6,Torneo de Australia,1,849287.0,peor
+229,7,Torneo de Liberia,1,1608326.0,mejor
+229,7,Torneo de Lebanon,1,1768785.0,peor
+230,6,Torneo de Malawi,1,772342.0,mejor
+230,6,Torneo de Lebanon,1,849076.0,peor
+230,7,Torneo de Dominican Republic,1,1608234.0,mejor
+230,7,Torneo de Vietnam,1,1767171.0,peor
+230,8,Torneo de Cambodia,1,3481952.0,mejor
+230,8,Torneo de Monaco,1,3828843.0,peor
+231,6,Torneo de Maldives,1,773421.0,mejor
+231,6,Torneo de Timor-Leste,1,849044.0,peor
+232,6,Torneo de Myanmar,1,772171.0,mejor
+232,6,Torneo de Pakistan,1,849044.0,peor
+232,8,Torneo de North Korea,1,3481586.0,mejor
+232,8,Torneo de Cuba,1,3825784.0,peor
+233,6,Torneo de Germany,1,772169.0,mejor
+233,6,Torneo de Cuba,1,848869.0,peor
+234,6,Torneo de Cyprus,1,772275.0,mejor
+234,6,Torneo de Haiti,1,848796.0,peor
+235,6,Torneo de Qatar,1,772328.0,mejor
+235,6,Torneo de Syria,1,849255.0,peor
+238,6,Torneo de Nicaragua,1,772237.0,mejor
+238,6,Torneo de Ireland,1,848970.0,peor
+239,6,Torneo de Angola,1,772188.0,mejor
+239,6,Torneo de South Korea,1,849057.0,peor
+241,6,Torneo de Ghana,1,772231.0,mejor
+241,6,Torneo de Dominican Republic,1,848797.0,peor
+241,12,Torneo de Kyrgyzstan,1,481056.0,mejor
+241,12,Torneo de Scotland,1,529067.0,peor
+242,6,Torneo de Algeria,1,772318.0,mejor
+242,6,Torneo de Serbia,1,849207.0,peor
+243,6,Torneo de Djibouti,1,772375.0,mejor
+243,6,Torneo de Czechia,1,849135.0,peor
+243,12,Torneo de Ivory Coast,1,481175.0,mejor
+243,12,Torneo de Afghanistan,1,529133.0,peor
+247,7,Torneo de Philippines,1,1608863.0,mejor
+247,7,Torneo de Thailand,1,1768687.0,peor
+249,7,Torneo de Argentina,1,1609354.0,mejor
+249,7,Torneo de Monaco,1,1768375.0,peor
+249,8,Torneo de Syria,1,3482018.0,mejor
+249,8,Torneo de Switzerland,1,3828474.0,peor
+250,7,Torneo de Guyana,1,1608244.0,mejor
+250,7,Torneo de Tanzania,1,1768606.0,peor
+250,8,Torneo de Gambia,1,3481418.0,mejor
+250,8,Torneo de Vatican City,1,3828714.0,peor
+251,7,Torneo de Australia,1,1610215.0,mejor
+251,7,Torneo de Sri Lanka,1,1768287.0,peor
+251,8,Torneo de Indonesia,1,3481062.0,mejor
+251,8,Torneo de Samoa,1,3828790.0,peor
+251,9,Torneo de Ecuador,1,7301146.0,mejor
+251,9,Torneo de Azerbaijan,1,8030030.0,peor
+252,7,Torneo de Hungary,1,1609185.0,mejor
+252,7,Torneo de Chad,1,1768556.0,peor
+253,7,Torneo de Montenegro,1,1609982.0,mejor
+253,7,Torneo de Vatican City,1,1768566.0,peor
+255,7,Torneo de Bahamas,1,1608532.0,mejor
+255,7,Torneo de Gabon,1,1768260.0,peor
+256,7,Torneo de Paraguay,1,1608151.0,mejor
+256,7,Torneo de Serbia,1,1767096.0,peor
+257,7,Torneo de Saint Lucia,1,1608952.0,mejor
+257,7,Torneo de Moldova,1,1768723.0,peor
+258,7,Torneo de Bhutan,1,1608385.0,mejor
+258,7,Torneo de Micronesia,1,1768204.0,peor
+259,7,Torneo de Uruguay,1,1608516.0,mejor
+259,7,Torneo de Mali,1,1768095.0,peor
+260,7,Torneo de Equatorial Guinea,1,1610703.0,mejor
+260,7,Torneo de Sri Lanka,1,1768348.0,peor
+260,8,Torneo de Belarus,1,3482276.0,mejor
+260,8,Torneo de Malawi,1,3825488.0,peor
+260,9,Torneo de Russia,1,7307624.0,mejor
+260,9,Torneo de Malta,1,8030678.0,peor
+261,7,Torneo de Monaco,1,1609056.0,mejor
+261,7,Torneo de Uzbekistan,1,1768428.0,peor
+262,7,Torneo de Switzerland,1,1608971.0,mejor
+262,7,Torneo de Azerbaijan,1,1766456.0,peor
+263,7,Torneo de Morocco,1,1610159.0,mejor
+263,7,Torneo de Vatican City,1,1766905.0,peor
+268,7,Torneo de Israel,1,1608528.0,mejor
+268,7,Torneo de Gabon,1,1768742.0,peor
+269,7,Torneo de Mexico,1,1608408.0,mejor
+269,7,Torneo de New Zealand,1,1767554.0,peor
+269,8,Torneo de Ghana,1,3482665.0,mejor
+269,8,Torneo de Myanmar,1,3827938.0,peor
+270,7,Torneo de Australia,1,1610950.0,mejor
+270,7,Torneo de El Salvador,1,1768818.0,peor
+270,8,Torneo de Saint Lucia,1,3484446.0,mejor
+270,8,Torneo de Sweden,1,3826906.0,peor
+271,7,Torneo de Ecuador,1,1608075.0,mejor
+271,7,Torneo de Estonia,1,1768720.0,peor
+274,7,Torneo de Belarus,1,1608306.0,mejor
+274,7,Torneo de Mauritius,1,1768547.0,peor
+274,8,Torneo de Sri Lanka,1,3481292.0,mejor
+274,8,Torneo de Finland,1,3828021.0,peor
+277,7,Torneo de Netherlands,1,1609113.0,mejor
+277,7,Torneo de Mali,1,1768515.0,peor
+278,7,Torneo de Pakistan,1,1608920.0,mejor
+278,7,Torneo de Panama,1,1767881.0,peor
+278,8,Torneo de Mauritania,1,3483721.0,mejor
+278,8,Torneo de Denmark,1,3828808.0,peor
+279,7,Torneo de Kosovo,1,1608079.0,mejor
+279,7,Torneo de Finland,1,1767550.0,peor
+280,7,Torneo de Luxembourg,1,1608063.0,mejor
+280,7,Torneo de Netherlands,1,1768314.0,peor
+281,7,Torneo de Mexico,1,1611081.0,mejor
+281,7,Torneo de Kiribati,1,1768816.0,peor
+283,7,Torneo de Vietnam,1,1609953.0,mejor
+283,7,Torneo de Bahrain,1,1767971.0,peor
+284,8,Torneo de Bulgaria,1,3484230.0,mejor
+284,8,Torneo de Namibia,1,3827647.0,peor
+285,8,Torneo de North Korea,1,3481218.0,mejor
+285,8,Torneo de Bosnia and Herzegovina,1,3828110.0,peor
+287,8,Torneo de Suriname,1,3483548.0,mejor
+287,8,Torneo de Rwanda,1,3827918.0,peor
+289,8,Torneo de Indonesia,1,3485931.0,mejor
+289,8,Torneo de Congo Democratic Republic of the,1,3826137.0,peor
+291,8,Torneo de Burkina Faso,1,3481489.0,mejor
+291,8,Torneo de Ecuador,1,3828843.0,peor
+292,8,Torneo de Lebanon,1,3482012.0,mejor
+292,8,Torneo de Poland,1,3826570.0,peor
+294,8,Torneo de Papua New Guinea,1,3484102.0,mejor
+294,8,Torneo de Guatemala,1,3827516.0,peor
+297,8,Torneo de Congo Democratic Republic of the,1,3481150.0,mejor
+297,8,Torneo de Panama,1,3829025.0,peor
+299,8,Torneo de Japan,1,3481732.0,mejor
+299,8,Torneo de Brazil,1,3827379.0,peor
+301,8,Torneo de Grenada,1,3484115.0,mejor
+301,8,Torneo de Thailand,1,3827304.0,peor
+302,8,Torneo de Greece,1,3481507.0,mejor
+302,8,Torneo de Zimbabwe,1,3827462.0,peor
+303,8,Torneo de Papua New Guinea,1,3485317.0,mejor
+303,8,Torneo de Rwanda,1,3828626.0,peor
+304,8,Torneo de Vatican City,1,3482843.0,mejor
+304,8,Torneo de Northern Ireland,1,3828074.0,peor
+304,9,Torneo de Ethiopia,1,7305943.0,mejor
+304,9,Torneo de Ireland,1,8026138.0,peor
+305,8,Torneo de Brunei,1,3482162.0,mejor
+305,8,Torneo de Uzbekistan,1,3828690.0,peor
+305,9,Torneo de Egypt,1,7308031.0,mejor
+305,9,Torneo de Nauru,1,8028469.0,peor
+311,8,Torneo de Guinea,1,3488790.0,mejor
+311,8,Torneo de Chile,1,3828892.0,peor
+311,9,Torneo de Gambia,1,7303234.0,mejor
+311,9,Torneo de Syria,1,8023527.0,peor
+313,8,Torneo de Senegal,1,3481121.0,mejor
+313,8,Torneo de Netherlands,1,3825191.0,peor
+313,9,Torneo de Azerbaijan,1,7304491.0,mejor
+313,9,Torneo de Gambia,1,8029156.0,peor
+314,8,Torneo de Azerbaijan,1,3482942.0,mejor
+314,8,Torneo de Marshall Islands,1,3827260.0,peor
+316,8,Torneo de Russia,1,3481643.0,mejor
+316,8,Torneo de Moldova,1,3826972.0,peor
+316,9,Torneo de Zimbabwe,1,7310801.0,mejor
+316,9,Torneo de Haiti,1,8030831.0,peor
+317,8,Torneo de Nicaragua,1,3482666.0,mejor
+317,8,Torneo de Saudi Arabia,1,3824795.0,peor
+318,8,Torneo de Uganda,1,3482183.0,mejor
+318,8,Torneo de Belgium,1,3827475.0,peor
+318,9,Torneo de Paraguay,1,7303454.0,mejor
+318,9,Torneo de Cyprus,1,8026066.0,peor
+319,8,Torneo de Luxembourg,1,3481005.0,mejor
+319,8,Torneo de Serbia,1,3823854.0,peor
+320,8,Torneo de Guinea-Bissau,1,3483042.0,mejor
+320,8,Torneo de Virgin Islands (British),1,3827062.0,peor
+321,8,Torneo de Bangladesh,1,3484087.0,mejor
+321,8,Torneo de Turkey,1,3827707.0,peor
+321,9,Torneo de Equatorial Guinea,1,7308210.0,mejor
+321,9,Torneo de Northern Ireland,1,8028981.0,peor
+322,8,Torneo de Puerto Rico,1,3482593.0,mejor
+322,8,Torneo de Scotland,1,3826947.0,peor
+323,8,Torneo de Pakistan,1,3481578.0,mejor
+323,8,Torneo de Moldova,1,3825513.0,peor
+326,9,Torneo de Mauritania,1,7313334.0,mejor
+326,9,Torneo de Laos,1,8030444.0,peor
+328,9,Torneo de Palau,1,7311781.0,mejor
+328,9,Torneo de Colombia,1,8029944.0,peor
+336,9,Torneo de Cabo Verde,1,7304332.0,mejor
+336,9,Torneo de Netherlands,1,8027313.0,peor
+337,9,Torneo de Mozambique,1,7302469.0,mejor
+337,9,Torneo de Grenada,1,8025541.0,peor
+338,9,Torneo de Lebanon,1,7304505.0,mejor
+338,9,Torneo de Chile,1,8028679.0,peor
+339,9,Torneo de Germany,1,7303553.0,mejor
+339,9,Torneo de Chad,1,8031054.0,peor
+340,9,Torneo de Turkey,1,7301667.0,mejor
+340,9,Torneo de Japan,1,8030158.0,peor
+341,9,Torneo de Russia,1,7303562.0,mejor
+341,9,Torneo de Uganda,1,8030363.0,peor
+342,9,Torneo de Albania,1,7304941.0,mejor
+342,9,Torneo de Lithuania,1,8030474.0,peor
+343,9,Torneo de Russia,1,7309791.0,mejor
+343,9,Torneo de Panama,1,8029220.0,peor
+344,9,Torneo de Mauritania,1,7309082.0,mejor
+344,9,Torneo de Uzbekistan,1,8026649.0,peor
+345,9,Torneo de Albania,1,7306906.0,mejor
+345,9,Torneo de Senegal,1,8027660.0,peor
+346,9,Torneo de Botswana,1,7303206.0,mejor
+346,9,Torneo de Australia,1,8023472.0,peor
+347,9,Torneo de Mongolia,1,7308190.0,mejor
+347,9,Torneo de Uzbekistan,1,8024575.0,peor
+348,9,Torneo de Sierra Leone,1,7303410.0,mejor
+348,9,Torneo de Cambodia,1,8026576.0,peor
+349,9,Torneo de Bahrain,1,7303850.0,mejor
+349,9,Torneo de Nigeria,1,8026049.0,peor
+350,9,Torneo de Peru,1,7309275.0,mejor
+350,9,Torneo de Kiribati,1,8023521.0,peor
+351,9,Torneo de Eritrea,1,7304817.0,mejor
+351,9,Torneo de Tajikistan,1,8030853.0,peor
+352,9,Torneo de Guyana,1,7301386.0,mejor
+352,9,Torneo de Lithuania,1,8025039.0,peor
+353,9,Torneo de Uzbekistan,1,7307460.0,mejor
+353,9,Torneo de Afghanistan,1,8026004.0,peor
+354,9,Torneo de San Marino,1,7303292.0,mejor
+354,9,Torneo de North Korea,1,8028537.0,peor
+355,9,Torneo de Japan,1,7302153.0,mejor
+355,9,Torneo de Honduras,1,8030109.0,peor
+356,9,Torneo de Tanzania,1,7302147.0,mejor
+356,9,Torneo de Cambodia,1,8030629.0,peor
+357,9,Torneo de Ecuador,1,7306648.0,mejor
+357,9,Torneo de Iceland,1,8027315.0,peor
+358,9,Torneo de Bahrain,1,7303429.0,mejor
+358,9,Torneo de Luxembourg,1,8026434.0,peor
+359,9,Torneo de Congo Republic of the,1,7311718.0,mejor
+359,9,Torneo de Andorra,1,8030767.0,peor
+360,9,Torneo de Luxembourg,1,7313756.0,mejor
+360,9,Torneo de Singapore,1,8024020.0,peor
+361,9,Torneo de Tonga,1,7304007.0,mejor
+361,9,Torneo de Sweden,1,8027625.0,peor
+362,9,Torneo de Slovakia,1,7307905.0,mejor
+362,9,Torneo de Myanmar,1,8024238.0,peor
+363,9,Torneo de Burundi,1,7304424.0,mejor
+363,9,Torneo de Laos,1,8030868.0,peor
+364,10,Torneo de Canada,1,12101.0,mejor
+364,10,Torneo de Vanuatu,1,13308.0,peor
+365,10,Torneo de Georgia,1,12105.0,mejor
+365,10,Torneo de Malta,1,13283.0,peor
+366,10,Torneo de Kuwait,1,12109.0,mejor
+366,10,Torneo de Jordan,1,13304.0,peor
+367,10,Torneo de Kosovo,1,12099.0,mejor
+367,10,Torneo de Kenya,1,13307.0,peor
+368,10,Torneo de Cuba,1,12113.0,mejor
+368,10,Torneo de Mauritius,1,13308.0,peor
+369,10,Torneo de Netherlands,1,12119.0,mejor
+369,10,Torneo de South Africa,1,13308.0,peor
+370,10,Torneo de Canada,1,12098.0,mejor
+370,10,Torneo de Belarus,1,13308.0,peor
+371,10,Torneo de Togo,1,12105.0,mejor
+371,10,Torneo de Trinidad and Tobago,1,13287.0,peor
+372,10,Torneo de Timor-Leste,1,12098.0,mejor
+372,10,Torneo de Lesotho,1,13306.0,peor
+373,10,Torneo de Tunisia,1,12104.0,mejor
+373,10,Torneo de Oman,1,13305.0,peor
+374,10,Torneo de Laos,1,12102.0,mejor
+374,10,Torneo de Bosnia and Herzegovina,1,13308.0,peor
+375,10,Torneo de Micronesia,1,12099.0,mejor
+375,10,Torneo de Tunisia,1,13307.0,peor
+376,10,Torneo de Vietnam,1,12112.0,mejor
+376,10,Torneo de Cabo Verde,1,13302.0,peor
+377,10,Torneo de Nauru,1,12104.0,mejor
+377,10,Torneo de Ivory Coast,1,13306.0,peor
+378,10,Torneo de Namibia,1,12106.0,mejor
+378,10,Torneo de Kosovo,1,13301.0,peor
+379,10,Torneo de Romania,1,12099.0,mejor
+379,10,Torneo de Papua New Guinea,1,13307.0,peor
+380,10,Torneo de Luxembourg,1,12100.0,mejor
+380,10,Torneo de Nicaragua,1,13293.0,peor
+381,10,Torneo de Slovakia,1,12128.0,mejor
+381,10,Torneo de Moldova,1,13307.0,peor
+382,10,Torneo de Dominica,1,12100.0,mejor
+382,10,Torneo de Ecuador,1,13304.0,peor
+383,10,Torneo de Micronesia,1,12105.0,mejor
+383,10,Torneo de Timor-Leste,1,13304.0,peor
+384,10,Torneo de Moldova,1,12100.0,mejor
+384,10,Torneo de Tunisia,1,13306.0,peor
+385,10,Torneo de Papua New Guinea,1,12102.0,mejor
+385,10,Torneo de Vanuatu,1,13305.0,peor
+387,10,Torneo de Eritrea,1,12100.0,mejor
+387,10,Torneo de New Zealand,1,13308.0,peor
+388,10,Torneo de Italy,1,12099.0,mejor
+388,10,Torneo de Wales,1,13305.0,peor
+389,10,Torneo de Virgin Islands (British),1,12107.0,mejor
+389,10,Torneo de Samoa,1,13303.0,peor
+390,10,Torneo de Papua New Guinea,1,12100.0,mejor
+390,10,Torneo de Georgia,1,13286.0,peor
+391,10,Torneo de France,1,12103.0,mejor
+391,10,Torneo de Uganda,1,13302.0,peor
+392,10,Torneo de Vietnam,1,12100.0,mejor
+392,10,Torneo de Palau,1,13304.0,peor
+393,10,Torneo de Iraq,1,12109.0,mejor
+393,10,Torneo de Afghanistan,1,13293.0,peor
+394,10,Torneo de Saint Lucia,1,12115.0,mejor
+394,10,Torneo de Wales,1,13302.0,peor
+395,10,Torneo de Saudi Arabia,1,12100.0,mejor
+395,10,Torneo de Venezuela,1,13307.0,peor
+396,10,Torneo de Djibouti,1,12098.0,mejor
+396,10,Torneo de Jamaica,1,13295.0,peor
+397,10,Torneo de Germany,1,12105.0,mejor
+397,10,Torneo de Saint Lucia,1,13295.0,peor
+398,10,Torneo de Sudan,1,12129.0,mejor
+398,10,Torneo de Bangladesh,1,13304.0,peor
+399,10,Torneo de Tunisia,1,12098.0,mejor
+399,10,Torneo de Uzbekistan,1,13301.0,peor
+400,10,Torneo de Tonga,1,12098.0,mejor
+400,10,Torneo de Eritrea,1,13305.0,peor
+401,10,Torneo de Palau,1,12100.0,mejor
+401,10,Torneo de Mongolia,1,13305.0,peor
+402,10,Torneo de New Zealand,1,12105.0,mejor
+402,10,Torneo de Niger,1,13305.0,peor
+403,10,Torneo de Antigua and Barbuda,1,12105.0,mejor
+403,10,Torneo de Maldives,1,13297.0,peor
+404,11,Torneo de Israel,1,46102.0,mejor
+404,11,Torneo de Ivory Coast,1,50697.0,peor
+407,11,Torneo de Timor-Leste,1,46094.0,mejor
+407,11,Torneo de Bahrain,1,50689.0,peor
+408,11,Torneo de Comoros,1,46094.0,mejor
+408,11,Torneo de Azerbaijan,1,50687.0,peor
+409,11,Torneo de United Arab Emirates,1,46120.0,mejor
+409,11,Torneo de Georgia,1,50698.0,peor
+410,11,Torneo de Mexico,1,46095.0,mejor
+410,11,Torneo de Wales,1,50689.0,peor
+411,11,Torneo de Vietnam,1,46118.0,mejor
+411,11,Torneo de Gambia,1,50697.0,peor
+412,11,Torneo de Chile,1,46099.0,mejor
+412,11,Torneo de Lithuania,1,50702.0,peor
+414,11,Torneo de Jamaica,1,46151.0,mejor
+414,11,Torneo de United States,1,50693.0,peor
+415,11,Torneo de Mexico,1,46115.0,mejor
+415,11,Torneo de Chile,1,50682.0,peor
+416,11,Torneo de Botswana,1,46130.0,mejor
+416,11,Torneo de Ivory Coast,1,50625.0,peor
+417,11,Torneo de Uruguay,1,46118.0,mejor
+417,11,Torneo de San Marino,1,50690.0,peor
+418,11,Torneo de Bahamas,1,46099.0,mejor
+418,11,Torneo de Armenia,1,50687.0,peor
+419,11,Torneo de Serbia,1,46121.0,mejor
+419,11,Torneo de Suriname,1,50623.0,peor
+420,11,Torneo de Malawi,1,46102.0,mejor
+420,11,Torneo de South Africa,1,50696.0,peor
+421,11,Torneo de Bulgaria,1,46116.0,mejor
+421,11,Torneo de Finland,1,50692.0,peor
+422,11,Torneo de Kazakhstan,1,46106.0,mejor
+422,11,Torneo de Bahrain,1,50679.0,peor
+423,11,Torneo de Sudan,1,46092.0,mejor
+423,11,Torneo de Jordan,1,50699.0,peor
+426,11,Torneo de France,1,46092.0,mejor
+426,11,Torneo de Iraq,1,50674.0,peor
+427,11,Torneo de Kazakhstan,1,46113.0,mejor
+427,11,Torneo de Mexico,1,50699.0,peor
+428,11,Torneo de Papua New Guinea,1,46118.0,mejor
+428,11,Torneo de Ethiopia,1,50693.0,peor
+429,11,Torneo de Tajikistan,1,46143.0,mejor
+429,11,Torneo de Syria,1,50701.0,peor
+430,11,Torneo de Azerbaijan,1,46138.0,mejor
+430,11,Torneo de Dominican Republic,1,50693.0,peor
+431,11,Torneo de Central African Republic,1,46202.0,mejor
+431,11,Torneo de Gabon,1,50660.0,peor
+432,11,Torneo de Central African Republic,1,46178.0,mejor
+432,11,Torneo de Kenya,1,50699.0,peor
+433,11,Torneo de Georgia,1,46101.0,mejor
+433,11,Torneo de Benin,1,50656.0,peor
+434,11,Torneo de Taiwan,1,46208.0,mejor
+434,11,Torneo de Liberia,1,50684.0,peor
+435,11,Torneo de Serbia,1,46104.0,mejor
+435,11,Torneo de Germany,1,50693.0,peor
+436,11,Torneo de South Africa,1,46199.0,mejor
+436,11,Torneo de Chad,1,50696.0,peor
+437,11,Torneo de Bolivia,1,46100.0,mejor
+437,11,Torneo de Comoros,1,50698.0,peor
+438,11,Torneo de United States,1,46122.0,mejor
+438,11,Torneo de Kiribati,1,50701.0,peor
+439,11,Torneo de Ivory Coast,1,46153.0,mejor
+439,11,Torneo de Zambia,1,50617.0,peor
+440,11,Torneo de Indonesia,1,46113.0,mejor
+440,11,Torneo de Cambodia,1,50675.0,peor
+441,11,Torneo de Dominica,1,46103.0,mejor
+441,11,Torneo de Jamaica,1,50685.0,peor
+442,11,Torneo de Malawi,1,46117.0,mejor
+442,11,Torneo de Philippines,1,50694.0,peor
+443,11,Torneo de Haiti,1,46108.0,mejor
+443,11,Torneo de Botswana,1,50698.0,peor
+444,12,Torneo de Italy,1,481433.0,mejor
+444,12,Torneo de New Zealand,1,528674.0,peor
+445,12,Torneo de Mali,1,481078.0,mejor
+445,12,Torneo de Morocco,1,528818.0,peor
+446,12,Torneo de Marshall Islands,1,481711.0,mejor
+446,12,Torneo de Germany,1,529036.0,peor
+447,12,Torneo de Sweden,1,481168.0,mejor
+447,12,Torneo de Kazakhstan,1,528889.0,peor
+448,12,Torneo de Greece,1,481590.0,mejor
+448,12,Torneo de Slovenia,1,528948.0,peor
+449,12,Torneo de Moldova,1,482078.0,mejor
+449,12,Torneo de Turkmenistan,1,528354.0,peor
+450,12,Torneo de French Guiana,1,481126.0,mejor
+450,12,Torneo de Maldives,1,528963.0,peor
+451,12,Torneo de Marshall Islands,1,481060.0,mejor
+451,12,Torneo de Paraguay,1,528923.0,peor
+452,12,Torneo de Georgia,1,481040.0,mejor
+452,12,Torneo de Mozambique,1,529015.0,peor
+453,12,Torneo de French Guiana,1,481332.0,mejor
+453,12,Torneo de Bulgaria,1,529108.0,peor
+454,12,Torneo de Costa Rica,1,481113.0,mejor
+454,12,Torneo de Namibia,1,528870.0,peor
+455,12,Torneo de Venezuela,1,481059.0,mejor
+455,12,Torneo de Chile,1,528903.0,peor
+456,12,Torneo de Ghana,1,481207.0,mejor
+456,12,Torneo de Vatican City,1,529060.0,peor
+457,12,Torneo de Mauritania,1,481452.0,mejor
+457,12,Torneo de Benin,1,528660.0,peor
+458,12,Torneo de Seychelles,1,481261.0,mejor
+458,12,Torneo de Nicaragua,1,528928.0,peor
+459,12,Torneo de Armenia,1,481195.0,mejor
+459,12,Torneo de Ukraine,1,529086.0,peor
+460,12,Torneo de New Zealand,1,481036.0,mejor
+460,12,Torneo de Canada,1,529061.0,peor
+461,12,Torneo de Kyrgyzstan,1,481061.0,mejor
+461,12,Torneo de Suriname,1,528938.0,peor
+462,12,Torneo de Australia,1,481256.0,mejor
+462,12,Torneo de United Arab Emirates,1,529130.0,peor
+463,12,Torneo de Germany,1,481095.0,mejor
+463,12,Torneo de Mali,1,529132.0,peor
+465,12,Torneo de Saint Lucia,1,481064.0,mejor
+465,12,Torneo de Vietnam,1,528477.0,peor
+466,12,Torneo de Mauritius,1,481492.0,mejor
+466,12,Torneo de Indonesia,1,528951.0,peor
+467,12,Torneo de Honduras,1,481044.0,mejor
+467,12,Torneo de Costa Rica,1,529121.0,peor
+468,12,Torneo de Kenya,1,481179.0,mejor
+468,12,Torneo de Oman,1,528800.0,peor
+469,12,Torneo de Nepal,1,481479.0,mejor
+469,12,Torneo de Comoros,1,528814.0,peor
+470,12,Torneo de Ecuador,1,481060.0,mejor
+470,12,Torneo de Guyana,1,528623.0,peor
+471,12,Torneo de Denmark,1,481266.0,mejor
+471,12,Torneo de Ghana,1,529006.0,peor
+472,12,Torneo de Solomon Islands,1,482244.0,mejor
+472,12,Torneo de Switzerland,1,528970.0,peor
+473,12,Torneo de Tunisia,1,481272.0,mejor
+473,12,Torneo de Sweden,1,529080.0,peor
+474,12,Torneo de Madagascar,1,481375.0,mejor
+474,12,Torneo de Botswana,1,529033.0,peor
+475,12,Torneo de Barbados,1,481045.0,mejor
+475,12,Torneo de Congo Republic of the,1,528968.0,peor
+476,12,Torneo de Sierra Leone,1,481224.0,mejor
+476,12,Torneo de South Sudan,1,528861.0,peor
+478,12,Torneo de Libya,1,481151.0,mejor
+478,12,Torneo de Laos,1,529081.0,peor
+479,12,Torneo de Mongolia,1,481081.0,mejor
+479,12,Torneo de Japan,1,528670.0,peor
+480,12,Torneo de Chad,1,481076.0,mejor
+480,12,Torneo de Mexico,1,528811.0,peor
+481,12,Torneo de Saint Vincent and the Grenadines,1,481379.0,mejor
+481,12,Torneo de Bolivia,1,529087.0,peor
+482,12,Torneo de Marshall Islands,1,481184.0,mejor
+482,12,Torneo de Colombia,1,529071.0,peor
+483,12,Torneo de Slovakia,1,481149.0,mejor
+483,12,Torneo de Belgium,1,529122.0,peor
+484,13,Torneo de Tonga,9,261.0,mejor
+484,13,Torneo de Qatar,10,237.0,peor
+485,13,Torneo de Mali,9,261.0,mejor
+485,13,Torneo de Burundi,1,237.0,peor
+486,13,Torneo de Puerto Rico,9,261.0,mejor
+486,13,Torneo de Syria,10,237.0,peor
+487,13,Torneo de Bahamas,9,261.0,mejor
+487,13,Torneo de Turkmenistan,1,237.0,peor
+488,13,Torneo de Denmark,9,261.0,mejor
+488,13,Torneo de Armenia,10,237.0,peor
+489,13,Torneo de Fiji,9,261.0,mejor
+489,13,Torneo de Lithuania,10,237.0,peor
+490,13,Torneo de Romania,7,261.0,mejor
+490,13,Torneo de Papua New Guinea,10,237.0,peor
+491,13,Torneo de Kiribati,9,261.0,mejor
+491,13,Torneo de Liberia,2,237.0,peor
+492,13,Torneo de Jordan,9,261.0,mejor
+492,13,Torneo de Australia,1,237.0,peor
+493,13,Torneo de Congo Republic of the,8,261.0,mejor
+493,13,Torneo de Turkmenistan,10,237.0,peor
+494,13,Torneo de Venezuela,9,261.0,mejor
+494,13,Torneo de Sao Tome and Principe,10,237.0,peor
+495,13,Torneo de Cabo Verde,9,261.0,mejor
+495,13,Torneo de Poland,1,237.0,peor
+496,13,Torneo de Trinidad and Tobago,9,261.0,mejor
+496,13,Torneo de Marshall Islands,1,237.0,peor
+497,13,Torneo de Myanmar,8,261.0,mejor
+497,13,Torneo de Dominica,10,237.0,peor
+498,13,Torneo de Canada,9,261.0,mejor
+498,13,Torneo de Ukraine,2,237.0,peor
+499,13,Torneo de Cuba,9,261.0,mejor
+499,13,Torneo de Romania,1,237.0,peor
+500,13,Torneo de Namibia,7,261.0,mejor
+500,13,Torneo de Jordan,10,237.0,peor
+501,13,Torneo de Uruguay,8,261.0,mejor
+501,13,Torneo de Cambodia,10,237.0,peor
+502,13,Torneo de Mauritania,9,261.0,mejor
+502,13,Torneo de Mexico,10,237.0,peor
+503,13,Torneo de Andorra,8,261.0,mejor
+503,13,Torneo de Togo,1,237.0,peor
+504,13,Torneo de Brazil,8,261.0,mejor
+504,13,Torneo de Congo Republic of the,10,237.0,peor
+505,13,Torneo de Chile,9,261.0,mejor
+505,13,Torneo de Spain,1,237.0,peor
+506,13,Torneo de United Kingdom,9,261.0,mejor
+506,13,Torneo de Vanuatu,10,237.0,peor
+507,13,Torneo de Syria,9,261.0,mejor
+507,13,Torneo de Liberia,4,237.0,peor
+507,15,Torneo de Angola,7,956.0,mejor
+507,15,Torneo de Latvia,10,869.0,peor
+508,13,Torneo de Bulgaria,8,261.0,mejor
+508,13,Torneo de Bahrain,10,237.0,peor
+509,13,Torneo de Denmark,8,261.0,mejor
+509,13,Torneo de Senegal,10,237.0,peor
+510,13,Torneo de Guatemala,9,261.0,mejor
+510,13,Torneo de Estonia,1,237.0,peor
+511,13,Torneo de Gambia,9,261.0,mejor
+511,13,Torneo de Kyrgyzstan,1,237.0,peor
+512,13,Torneo de Saint Lucia,8,261.0,mejor
+512,13,Torneo de Nauru,10,237.0,peor
+513,13,Torneo de Kenya,9,261.0,mejor
+513,13,Torneo de Suriname,10,237.0,peor
+514,13,Torneo de Israel,9,261.0,mejor
+514,13,Torneo de Belize,4,237.0,peor
+515,13,Torneo de India,8,261.0,mejor
+515,13,Torneo de Italy,10,237.0,peor
+516,13,Torneo de Morocco,9,261.0,mejor
+516,13,Torneo de Madagascar,5,237.0,peor
+517,13,Torneo de Gabon,8,261.0,mejor
+517,13,Torneo de Slovenia,2,237.0,peor
+518,13,Torneo de India,7,261.0,mejor
+518,13,Torneo de Australia,10,237.0,peor
+519,13,Torneo de Burkina Faso,9,261.0,mejor
+519,13,Torneo de Namibia,1,237.0,peor
+520,13,Torneo de Maldives,9,261.0,mejor
+520,13,Torneo de Ireland,10,237.0,peor
+520,15,Torneo de Gambia,7,955.0,mejor
+520,15,Torneo de Belgium,10,869.0,peor
+521,13,Torneo de Saint Kitts and Nevis,9,261.0,mejor
+521,13,Torneo de Pakistan,4,237.0,peor
+522,13,Torneo de Georgia,5,261.0,mejor
+522,13,Torneo de Macedonia,1,237.0,peor
+523,13,Torneo de Nicaragua,6,261.0,mejor
+523,13,Torneo de Fiji,10,237.0,peor
+524,14,Torneo de Mexico,2,667.0,mejor
+524,14,Torneo de Guinea-Bissau,10,606.0,peor
+525,14,Torneo de Central African Republic,7,667.0,mejor
+525,14,Torneo de Slovenia,8,606.0,peor
+526,14,Torneo de Rwanda,1,667.0,mejor
+526,14,Torneo de Czechia,1,606.0,peor
+527,14,Torneo de Kyrgyzstan,4,667.0,mejor
+527,14,Torneo de Djibouti,10,606.0,peor
+528,14,Torneo de Guatemala,9,667.0,mejor
+528,14,Torneo de Pakistan,2,606.0,peor
+529,14,Torneo de Mongolia,8,667.0,mejor
+529,14,Torneo de Slovenia,1,606.0,peor
+530,14,Torneo de Nicaragua,7,667.0,mejor
+530,14,Torneo de Kiribati,10,606.0,peor
+531,14,Torneo de Egypt,9,667.0,mejor
+531,14,Torneo de Djibouti,10,606.0,peor
+532,14,Torneo de Mauritania,4,667.0,mejor
+532,14,Torneo de Trinidad and Tobago,1,606.0,peor
+533,14,Torneo de Liechtenstein,8,667.0,mejor
+533,14,Torneo de Philippines,1,606.0,peor
+534,14,Torneo de Argentina,7,667.0,mejor
+534,14,Torneo de Russia,10,606.0,peor
+535,14,Torneo de Armenia,8,667.0,mejor
+535,14,Torneo de Andorra,5,606.0,peor
+536,14,Torneo de Singapore,8,667.0,mejor
+536,14,Torneo de Nicaragua,4,606.0,peor
+537,14,Torneo de Albania,8,667.0,mejor
+537,14,Torneo de Bosnia and Herzegovina,4,606.0,peor
+538,14,Torneo de Venezuela,2,667.0,mejor
+538,14,Torneo de Norway,10,606.0,peor
+539,14,Torneo de Canada,9,667.0,mejor
+539,14,Torneo de Liberia,10,606.0,peor
+540,14,Torneo de Iceland,8,667.0,mejor
+540,14,Torneo de Austria,10,606.0,peor
+541,14,Torneo de Virgin Islands (British),5,667.0,mejor
+541,14,Torneo de Guyana,7,606.0,peor
+542,14,Torneo de India,9,667.0,mejor
+542,14,Torneo de Moldova,1,606.0,peor
+543,14,Torneo de Sri Lanka,6,667.0,mejor
+543,14,Torneo de Netherlands,9,606.0,peor
+544,14,Torneo de Kiribati,9,667.0,mejor
+544,14,Torneo de Indonesia,2,606.0,peor
+545,14,Torneo de Albania,9,667.0,mejor
+545,14,Torneo de Philippines,10,606.0,peor
+546,14,Torneo de Denmark,4,667.0,mejor
+546,14,Torneo de Eritrea,10,606.0,peor
+547,14,Torneo de Kosovo,9,667.0,mejor
+547,14,Torneo de Estonia,4,606.0,peor
+548,14,Torneo de Macedonia,5,667.0,mejor
+548,14,Torneo de Saint Kitts and Nevis,4,606.0,peor
+549,14,Torneo de Kenya,3,667.0,mejor
+549,14,Torneo de Uganda,10,606.0,peor
+550,14,Torneo de Papua New Guinea,3,667.0,mejor
+550,14,Torneo de Kosovo,4,606.0,peor
+551,14,Torneo de Switzerland,4,667.0,mejor
+551,14,Torneo de Colombia,10,606.0,peor
+552,14,Torneo de Belize,8,667.0,mejor
+552,14,Torneo de Portugal,1,606.0,peor
+553,14,Torneo de Qatar,9,667.0,mejor
+553,14,Torneo de Ireland,4,606.0,peor
+554,14,Torneo de Timor-Leste,8,667.0,mejor
+554,14,Torneo de South Africa,10,606.0,peor
+555,14,Torneo de Myanmar,9,667.0,mejor
+555,14,Torneo de Ghana,2,606.0,peor
+556,14,Torneo de Jamaica,6,667.0,mejor
+556,14,Torneo de Tunisia,1,606.0,peor
+557,14,Torneo de Denmark,8,667.0,mejor
+557,14,Torneo de Grenada,10,606.0,peor
+558,14,Torneo de Bangladesh,5,667.0,mejor
+558,14,Torneo de Slovakia,10,606.0,peor
+559,14,Torneo de Turkmenistan,8,667.0,mejor
+559,14,Torneo de Denmark,10,606.0,peor
+560,14,Torneo de Iran,7,667.0,mejor
+560,14,Torneo de North Korea,10,606.0,peor
+561,14,Torneo de Wales,9,666.0,mejor
+561,14,Torneo de Lesotho,10,606.0,peor
+562,14,Torneo de Kenya,9,667.0,mejor
+562,14,Torneo de Liechtenstein,1,606.0,peor
+563,15,Torneo de Saint Vincent and the Grenadines,6,955.0,mejor
+563,15,Torneo de Papua New Guinea,6,869.0,peor
+564,15,Torneo de Ghana,5,956.0,mejor
+564,15,Torneo de North Korea,2,869.0,peor
+565,15,Torneo de Sweden,8,956.0,mejor
+565,15,Torneo de Bolivia,2,869.0,peor
+566,15,Torneo de Chad,8,956.0,mejor
+566,15,Torneo de Saint Vincent and the Grenadines,2,869.0,peor
+567,15,Torneo de Ivory Coast,7,956.0,mejor
+567,15,Torneo de Romania,10,869.0,peor
+568,15,Torneo de United Arab Emirates,9,956.0,mejor
+568,15,Torneo de Guatemala,10,869.0,peor
+569,15,Torneo de United Arab Emirates,9,956.0,mejor
+569,15,Torneo de Mozambique,3,869.0,peor
+570,15,Torneo de Finland,9,956.0,mejor
+570,15,Torneo de Lesotho,4,869.0,peor
+571,15,Torneo de Egypt,8,956.0,mejor
+571,15,Torneo de Luxembourg,4,869.0,peor
+572,15,Torneo de Ukraine,2,956.0,mejor
+572,15,Torneo de Kazakhstan,2,869.0,peor
+573,15,Torneo de Pakistan,5,956.0,mejor
+573,15,Torneo de Spain,1,869.0,peor
+574,15,Torneo de Puerto Rico,8,956.0,mejor
+574,15,Torneo de Equatorial Guinea,9,870.0,peor
+575,15,Torneo de Romania,9,956.0,mejor
+575,15,Torneo de Chad,10,869.0,peor
+576,15,Torneo de France,6,956.0,mejor
+576,15,Torneo de Romania,1,869.0,peor
+577,15,Torneo de Antigua and Barbuda,9,956.0,mejor
+577,15,Torneo de Nicaragua,2,869.0,peor
+578,15,Torneo de Argentina,6,956.0,mejor
+578,15,Torneo de South Korea,10,869.0,peor
+579,15,Torneo de Bangladesh,4,956.0,mejor
+579,15,Torneo de Mexico,2,869.0,peor
+580,15,Torneo de Guinea-Bissau,9,956.0,mejor
+580,15,Torneo de Lebanon,3,870.0,peor
+580,16,Torneo de San Marino,7,1996.0,mejor
+580,16,Torneo de Turkmenistan,10,1814.0,peor
+581,15,Torneo de Nicaragua,7,956.0,mejor
+581,15,Torneo de Comoros,1,869.0,peor
+582,15,Torneo de Thailand,9,956.0,mejor
+582,15,Torneo de Saudi Arabia,1,869.0,peor
+583,15,Torneo de France,5,956.0,mejor
+583,15,Torneo de Zimbabwe,9,869.0,peor
+584,15,Torneo de Lesotho,9,956.0,mejor
+584,15,Torneo de Mauritius,3,869.0,peor
+585,15,Torneo de Burundi,9,956.0,mejor
+585,15,Torneo de Namibia,5,869.0,peor
+586,15,Torneo de Dominica,2,956.0,mejor
+586,15,Torneo de Colombia,3,869.0,peor
+587,15,Torneo de Guinea-Bissau,2,956.0,mejor
+587,15,Torneo de Tonga,10,869.0,peor
+588,15,Torneo de Italy,7,956.0,mejor
+588,15,Torneo de Namibia,1,869.0,peor
+589,15,Torneo de Sierra Leone,8,956.0,mejor
+589,15,Torneo de Bahamas,2,870.0,peor
+590,15,Torneo de Kosovo,8,956.0,mejor
+590,15,Torneo de Saint Vincent and the Grenadines,1,869.0,peor
+591,15,Torneo de Suriname,5,956.0,mejor
+591,15,Torneo de Uzbekistan,10,869.0,peor
+591,16,Torneo de Angola,7,1995.0,mejor
+591,16,Torneo de Laos,1,1814.0,peor
+593,15,Torneo de Uruguay,9,955.0,mejor
+593,15,Torneo de United States,3,869.0,peor
+594,15,Torneo de Panama,8,956.0,mejor
+594,15,Torneo de Singapore,1,869.0,peor
+596,15,Torneo de Luxembourg,7,956.0,mejor
+596,15,Torneo de Suriname,10,869.0,peor
+596,16,Torneo de Canada,1,1996.0,mejor
+596,16,Torneo de Paraguay,3,1815.0,peor
+597,15,Torneo de Albania,8,956.0,mejor
+597,15,Torneo de Latvia,2,869.0,peor
+598,15,Torneo de Sri Lanka,6,956.0,mejor
+598,15,Torneo de Belize,1,869.0,peor
+599,15,Torneo de New Zealand,8,956.0,mejor
+599,15,Torneo de Slovenia,10,871.0,peor
+600,15,Torneo de Nauru,5,956.0,mejor
+600,15,Torneo de Ivory Coast,1,869.0,peor
+601,15,Torneo de Austria,2,956.0,mejor
+601,15,Torneo de Slovakia,6,869.0,peor
+602,15,Torneo de Palau,8,956.0,mejor
+602,15,Torneo de Thailand,2,869.0,peor
+603,15,Torneo de Kyrgyzstan,5,956.0,mejor
+603,15,Torneo de Hungary,1,869.0,peor
+604,15,Torneo de Latvia,8,956.0,mejor
+604,15,Torneo de Northern Ireland,10,870.0,peor
+604,16,Torneo de Gabon,10,1996.0,mejor
+604,16,Torneo de France,4,1814.0,peor
+605,16,Torneo de Togo,6,1996.0,mejor
+605,16,Torneo de Canada,4,1815.0,peor
+606,16,Torneo de Barbados,6,1995.0,mejor
+606,16,Torneo de Kazakhstan,10,1814.0,peor
+608,16,Torneo de Cabo Verde,7,1996.0,mejor
+608,16,Torneo de Niger,3,1815.0,peor
+610,16,Torneo de Kiribati,6,1996.0,mejor
+610,16,Torneo de Turkey,3,1814.0,peor
+611,16,Torneo de Cuba,4,1996.0,mejor
+611,16,Torneo de Tuvalu,3,1814.0,peor
+612,16,Torneo de Suriname,7,1996.0,mejor
+612,16,Torneo de Kyrgyzstan,4,1814.0,peor
+613,16,Torneo de United Kingdom,2,1996.0,mejor
+613,16,Torneo de French Guiana,1,1814.0,peor
+614,16,Torneo de United Arab Emirates,4,1996.0,mejor
+614,16,Torneo de Croatia,5,1814.0,peor
+615,16,Torneo de Indonesia,8,1996.0,mejor
+615,16,Torneo de Central African Republic,10,1814.0,peor
+616,16,Torneo de Antigua and Barbuda,4,1996.0,mejor
+616,16,Torneo de Colombia,3,1816.0,peor
+617,16,Torneo de Myanmar,7,1995.0,mejor
+617,16,Torneo de Greece,9,1814.0,peor
+618,16,Torneo de Colombia,6,1996.0,mejor
+618,16,Torneo de Kuwait,6,1814.0,peor
+619,16,Torneo de Scotland,7,1996.0,mejor
+619,16,Torneo de Belgium,10,1814.0,peor
+620,16,Torneo de Eritrea,7,1996.0,mejor
+620,16,Torneo de Oman,4,1814.0,peor
+621,16,Torneo de Afghanistan,7,1996.0,mejor
+621,16,Torneo de France,1,1815.0,peor
+622,16,Torneo de Panama,7,1995.0,mejor
+622,16,Torneo de Solomon Islands,7,1814.0,peor
+624,16,Torneo de Bhutan,8,1996.0,mejor
+624,16,Torneo de Guyana,3,1814.0,peor
+626,16,Torneo de China,8,1994.0,mejor
+626,16,Torneo de Oman,6,1815.0,peor
+627,16,Torneo de Tanzania,3,1995.0,mejor
+627,16,Torneo de Puerto Rico,2,1814.0,peor
+628,16,Torneo de Palau,8,1994.0,mejor
+628,16,Torneo de Benin,5,1816.0,peor
+629,16,Torneo de Norway,2,1996.0,mejor
+629,16,Torneo de Egypt,2,1815.0,peor
+630,16,Torneo de Kiribati,2,1996.0,mejor
+630,16,Torneo de Fiji,1,1815.0,peor
+631,16,Torneo de Luxembourg,9,1996.0,mejor
+631,16,Torneo de Madagascar,4,1815.0,peor
+632,16,Torneo de Suriname,4,1995.0,mejor
+632,16,Torneo de Mozambique,7,1814.0,peor
+633,16,Torneo de Puerto Rico,3,1996.0,mejor
+633,16,Torneo de Russia,1,1815.0,peor
+634,16,Torneo de Maldives,3,1996.0,mejor
+634,16,Torneo de Saint Lucia,9,1814.0,peor
+635,16,Torneo de Tunisia,9,1996.0,mejor
+635,16,Torneo de Philippines,10,1814.0,peor
+636,16,Torneo de South Korea,4,1995.0,mejor
+636,16,Torneo de Saint Lucia,1,1814.0,peor
+637,16,Torneo de Kenya,9,1996.0,mejor
+637,16,Torneo de Togo,4,1815.0,peor
+638,16,Torneo de Guyana,10,1996.0,mejor
+638,16,Torneo de Marshall Islands,6,1815.0,peor
+639,16,Torneo de Namibia,1,1994.0,mejor
+639,16,Torneo de Haiti,10,1814.0,peor
+640,16,Torneo de Luxembourg,4,1995.0,mejor
+640,16,Torneo de Niger,9,1815.0,peor
+641,16,Torneo de Moldova,8,1996.0,mejor
+641,16,Torneo de Mozambique,1,1816.0,peor
+642,16,Torneo de Switzerland,9,1996.0,mejor
+642,16,Torneo de Macedonia,7,1814.0,peor
+643,16,Torneo de Malawi,4,1996.0,mejor
+643,16,Torneo de Turkey,3,1814.0,peor
+644,16,Torneo de Senegal,8,1995.0,mejor
+644,16,Torneo de Congo Democratic Republic of the,7,1815.0,peor
+645,17,Torneo de Jamaica,9,2519.0,mejor
+645,17,Torneo de Canada,7,2291.0,peor
+646,17,Torneo de Central African Republic,1,2520.0,mejor
+646,17,Torneo de Egypt,8,2291.0,peor
+647,17,Torneo de Panama,6,2521.0,mejor
+647,17,Torneo de Nigeria,1,2291.0,peor
+648,17,Torneo de Sri Lanka,8,2521.0,mejor
+648,17,Torneo de Ukraine,8,2291.0,peor
+649,17,Torneo de French Guiana,4,2520.0,mejor
+649,17,Torneo de Mauritania,3,2293.0,peor
+650,17,Torneo de Jamaica,2,2521.0,mejor
+650,17,Torneo de Turkey,10,2293.0,peor
+651,17,Torneo de Uruguay,7,2521.0,mejor
+651,17,Torneo de Central African Republic,6,2292.0,peor
+652,17,Torneo de United Arab Emirates,1,2521.0,mejor
+652,17,Torneo de Italy,3,2292.0,peor
+653,17,Torneo de Tonga,9,2520.0,mejor
+653,17,Torneo de Marshall Islands,8,2291.0,peor
+654,17,Torneo de Benin,6,2521.0,mejor
+654,17,Torneo de Monaco,5,2292.0,peor
+655,17,Torneo de Monaco,7,2521.0,mejor
+655,17,Torneo de Benin,6,2293.0,peor
+657,17,Torneo de Mali,6,2521.0,mejor
+657,17,Torneo de Vanuatu,5,2291.0,peor
+658,17,Torneo de Burkina Faso,5,2520.0,mejor
+658,17,Torneo de Luxembourg,1,2294.0,peor
+659,17,Torneo de Papua New Guinea,5,2520.0,mejor
+659,17,Torneo de Indonesia,10,2292.0,peor
+660,17,Torneo de Ukraine,7,2521.0,mejor
+660,17,Torneo de India,5,2291.0,peor
+661,17,Torneo de Argentina,3,2519.0,mejor
+661,17,Torneo de Russia,7,2291.0,peor
+662,17,Torneo de Cuba,9,2516.0,mejor
+662,17,Torneo de Solomon Islands,9,2291.0,peor
+663,17,Torneo de Turkey,2,2520.0,mejor
+663,17,Torneo de United States,9,2291.0,peor
+664,17,Torneo de United States,7,2521.0,mejor
+664,17,Torneo de Micronesia,1,2292.0,peor
+665,17,Torneo de Czechia,4,2521.0,mejor
+665,17,Torneo de Saint Lucia,8,2291.0,peor
+666,17,Torneo de Bahrain,5,2521.0,mejor
+666,17,Torneo de Kazakhstan,5,2291.0,peor
+667,17,Torneo de Laos,7,2521.0,mejor
+667,17,Torneo de Paraguay,10,2292.0,peor
+668,17,Torneo de Oman,5,2521.0,mejor
+668,17,Torneo de Turkey,4,2293.0,peor
+668,19,Torneo de Panama,10,8985.0,mejor
+668,19,Torneo de Guinea,3,8174.0,peor
+669,17,Torneo de United States,6,2520.0,mejor
+669,17,Torneo de Vatican City,2,2291.0,peor
+670,17,Torneo de Ivory Coast,8,2521.0,mejor
+670,17,Torneo de Qatar,7,2291.0,peor
+671,17,Torneo de South Sudan,4,2513.0,mejor
+671,17,Torneo de Brazil,10,2291.0,peor
+672,17,Torneo de Suriname,2,2521.0,mejor
+672,17,Torneo de Indonesia,8,2291.0,peor
+673,17,Torneo de Argentina,4,2519.0,mejor
+673,17,Torneo de Puerto Rico,3,2292.0,peor
+674,17,Torneo de Honduras,9,2521.0,mejor
+674,17,Torneo de Northern Ireland,3,2291.0,peor
+675,17,Torneo de Pakistan,10,2521.0,mejor
+675,17,Torneo de Maldives,5,2291.0,peor
+676,17,Torneo de Zimbabwe,10,2518.0,mejor
+676,17,Torneo de Saudi Arabia,6,2291.0,peor
+677,17,Torneo de Bhutan,3,2521.0,mejor
+677,17,Torneo de Malawi,2,2291.0,peor
+678,17,Torneo de Ukraine,6,2521.0,mejor
+678,17,Torneo de Cameroon,1,2291.0,peor
+679,17,Torneo de Nicaragua,2,2516.0,mejor
+679,17,Torneo de Madagascar,10,2291.0,peor
+680,17,Torneo de Burundi,7,2521.0,mejor
+680,17,Torneo de Guinea-Bissau,2,2291.0,peor
+681,17,Torneo de Egypt,10,2520.0,mejor
+681,17,Torneo de Kuwait,4,2291.0,peor
+682,17,Torneo de Fiji,8,2518.0,mejor
+682,17,Torneo de Kiribati,3,2293.0,peor
+683,17,Torneo de Scotland,8,2521.0,mejor
+683,17,Torneo de Bhutan,6,2292.0,peor
+684,17,Torneo de Congo Republic of the,9,2519.0,mejor
+684,17,Torneo de Papua New Guinea,3,2291.0,peor
+685,18,Torneo de Benin,5,7905.0,mejor
+685,18,Torneo de Austria,8,7189.0,peor
+686,18,Torneo de Paraguay,4,7904.0,mejor
+686,18,Torneo de Uzbekistan,1,7189.0,peor
+687,18,Torneo de Ivory Coast,10,7894.0,mejor
+687,18,Torneo de Marshall Islands,5,7188.0,peor
+688,18,Torneo de Ecuador,6,7902.0,mejor
+688,18,Torneo de Hungary,6,7187.0,peor
+689,18,Torneo de Sierra Leone,10,7903.0,mejor
+689,18,Torneo de Guinea,5,7186.0,peor
+690,18,Torneo de Israel,4,7904.0,mejor
+690,18,Torneo de Turkey,2,7192.0,peor
+691,18,Torneo de Nepal,8,7899.0,mejor
+691,18,Torneo de Senegal,10,7188.0,peor
+692,18,Torneo de Chad,3,7905.0,mejor
+692,18,Torneo de Myanmar,3,7187.0,peor
+693,18,Torneo de Rwanda,4,7903.0,mejor
+693,18,Torneo de Cambodia,6,7186.0,peor
+694,18,Torneo de Eritrea,1,7902.0,mejor
+694,18,Torneo de Northern Ireland,7,7186.0,peor
+695,18,Torneo de Somalia,4,7901.0,mejor
+695,18,Torneo de Chile,2,7186.0,peor
+696,18,Torneo de Uganda,5,7905.0,mejor
+696,18,Torneo de Vietnam,4,7190.0,peor
+697,18,Torneo de Argentina,3,7905.0,mejor
+697,18,Torneo de Bulgaria,7,7188.0,peor
+698,18,Torneo de Vietnam,8,7898.0,mejor
+698,18,Torneo de Tanzania,3,7192.0,peor
+699,18,Torneo de Iraq,1,7898.0,mejor
+699,18,Torneo de Bolivia,4,7188.0,peor
+700,18,Torneo de Peru,10,7904.0,mejor
+700,18,Torneo de Spain,4,7186.0,peor
+701,18,Torneo de Sri Lanka,1,7899.0,mejor
+701,18,Torneo de Albania,5,7187.0,peor
+702,18,Torneo de Norway,4,7905.0,mejor
+702,18,Torneo de Mexico,1,7187.0,peor
+703,18,Torneo de Lithuania,5,7905.0,mejor
+703,18,Torneo de Iraq,5,7191.0,peor
+704,18,Torneo de Peru,3,7905.0,mejor
+704,18,Torneo de Georgia,3,7194.0,peor
+705,18,Torneo de Gambia,10,7899.0,mejor
+705,18,Torneo de Puerto Rico,4,7189.0,peor
+706,18,Torneo de United States,5,7900.0,mejor
+706,18,Torneo de Switzerland,7,7187.0,peor
+707,18,Torneo de Nigeria,5,7903.0,mejor
+707,18,Torneo de Zambia,3,7189.0,peor
+708,18,Torneo de French Guiana,8,7905.0,mejor
+708,18,Torneo de Iraq,7,7190.0,peor
+709,18,Torneo de Sudan,9,7905.0,mejor
+709,18,Torneo de India,3,7189.0,peor
+710,18,Torneo de Belarus,7,7895.0,mejor
+710,18,Torneo de Ireland,6,7186.0,peor
+711,18,Torneo de Zimbabwe,10,7905.0,mejor
+711,18,Torneo de Malta,5,7188.0,peor
+712,18,Torneo de Rwanda,8,7905.0,mejor
+712,18,Torneo de Central African Republic,3,7191.0,peor
+713,18,Torneo de Myanmar,3,7905.0,mejor
+713,18,Torneo de Ecuador,1,7191.0,peor
+714,18,Torneo de Zimbabwe,8,7903.0,mejor
+714,18,Torneo de Latvia,3,7189.0,peor
+715,18,Torneo de Albania,6,7903.0,mejor
+715,18,Torneo de Turkmenistan,8,7187.0,peor
+716,18,Torneo de Argentina,8,7905.0,mejor
+716,18,Torneo de Georgia,3,7187.0,peor
+717,18,Torneo de Liberia,5,7904.0,mejor
+717,18,Torneo de Sao Tome and Principe,10,7186.0,peor
+718,18,Torneo de Guatemala,2,7903.0,mejor
+718,18,Torneo de Russia,1,7186.0,peor
+719,18,Torneo de Yemen,6,7904.0,mejor
+719,18,Torneo de Suriname,3,7187.0,peor
+720,18,Torneo de Ethiopia,3,7905.0,mejor
+720,18,Torneo de New Zealand,1,7191.0,peor
+721,18,Torneo de Mauritania,3,7904.0,mejor
+721,18,Torneo de Puerto Rico,5,7197.0,peor
+722,18,Torneo de Qatar,9,7905.0,mejor
+722,18,Torneo de Sweden,6,7194.0,peor
+723,18,Torneo de United Arab Emirates,5,7904.0,mejor
+723,18,Torneo de Albania,8,7186.0,peor
+724,18,Torneo de Jordan,1,7905.0,mejor
+724,18,Torneo de Chad,4,7187.0,peor
+725,18,Torneo de Sweden,4,7892.0,mejor
+725,18,Torneo de Indonesia,10,7192.0,peor
+726,19,Torneo de Venezuela,5,8992.0,mejor
+726,19,Torneo de Togo,4,8177.0,peor
+727,19,Torneo de Central African Republic,6,8988.0,mejor
+727,19,Torneo de Comoros,1,8174.0,peor
+728,19,Torneo de Colombia,8,8991.0,mejor
+728,19,Torneo de Nepal,9,8175.0,peor
+729,19,Torneo de Djibouti,10,8991.0,mejor
+729,19,Torneo de Greece,5,8174.0,peor
+730,19,Torneo de Uganda,3,8980.0,mejor
+730,19,Torneo de Burkina Faso,6,8180.0,peor
+731,19,Torneo de Argentina,9,8991.0,mejor
+731,19,Torneo de Bangladesh,10,8174.0,peor
+732,19,Torneo de Iraq,9,8992.0,mejor
+732,19,Torneo de Malaysia,8,8177.0,peor
+733,19,Torneo de El Salvador,9,8988.0,mejor
+733,19,Torneo de Comoros,6,8178.0,peor
+734,19,Torneo de Niger,6,8992.0,mejor
+734,19,Torneo de Kenya,8,8180.0,peor
+735,19,Torneo de United States,4,8991.0,mejor
+735,19,Torneo de Mauritius,6,8175.0,peor
+736,19,Torneo de Thailand,5,8986.0,mejor
+736,19,Torneo de Malawi,2,8182.0,peor
+737,19,Torneo de Venezuela,10,8988.0,mejor
+737,19,Torneo de Denmark,7,8181.0,peor
+738,19,Torneo de Suriname,3,8988.0,mejor
+738,19,Torneo de Bahrain,7,8179.0,peor
+739,19,Torneo de Wales,8,8990.0,mejor
+739,19,Torneo de Congo Democratic Republic of the,6,8175.0,peor
+740,19,Torneo de Germany,10,8975.0,mejor
+740,19,Torneo de Montenegro,2,8178.0,peor
+741,19,Torneo de Wales,4,8987.0,mejor
+741,19,Torneo de Nigeria,10,8176.0,peor
+742,19,Torneo de Sri Lanka,7,8989.0,mejor
+742,19,Torneo de Georgia,8,8174.0,peor
+743,19,Torneo de Eritrea,2,8991.0,mejor
+743,19,Torneo de Nepal,8,8174.0,peor
+744,19,Torneo de Australia,10,8992.0,mejor
+744,19,Torneo de Somalia,10,8174.0,peor
+745,19,Torneo de Rwanda,6,8989.0,mejor
+745,19,Torneo de Timor-Leste,1,8177.0,peor
+746,19,Torneo de Grenada,3,8987.0,mejor
+746,19,Torneo de Malaysia,2,8176.0,peor
+747,19,Torneo de Kyrgyzstan,8,8990.0,mejor
+747,19,Torneo de Wales,4,8177.0,peor
+748,19,Torneo de Senegal,10,8979.0,mejor
+748,19,Torneo de Ireland,7,8174.0,peor
+749,19,Torneo de San Marino,1,8986.0,mejor
+749,19,Torneo de Costa Rica,5,8175.0,peor
+750,19,Torneo de Norway,5,8988.0,mejor
+750,19,Torneo de Saint Kitts and Nevis,3,8178.0,peor
+751,19,Torneo de Sudan,4,8990.0,mejor
+751,19,Torneo de Vanuatu,1,8175.0,peor
+752,19,Torneo de New Zealand,10,8992.0,mejor
+752,19,Torneo de Hungary,2,8179.0,peor
+753,19,Torneo de Papua New Guinea,10,8992.0,mejor
+753,19,Torneo de Mongolia,2,8175.0,peor
+755,19,Torneo de Serbia,8,8992.0,mejor
+755,19,Torneo de Chile,5,8181.0,peor
+756,19,Torneo de Russia,9,8990.0,mejor
+756,19,Torneo de Lebanon,9,8179.0,peor
+757,19,Torneo de Fiji,3,8992.0,mejor
+757,19,Torneo de San Marino,9,8175.0,peor
+758,19,Torneo de Iraq,10,8990.0,mejor
+758,19,Torneo de Ivory Coast,2,8175.0,peor
+759,19,Torneo de Kuwait,2,8992.0,mejor
+759,19,Torneo de Nicaragua,7,8185.0,peor
+760,19,Torneo de Brazil,10,8989.0,mejor
+760,19,Torneo de Sudan,1,8174.0,peor
+761,19,Torneo de Spain,8,8992.0,mejor
+761,19,Torneo de Equatorial Guinea,6,8174.0,peor
+762,19,Torneo de Bahamas,1,8990.0,mejor
+762,19,Torneo de China,6,8180.0,peor
+763,19,Torneo de Sri Lanka,6,8989.0,mejor
+763,19,Torneo de Panama,1,8175.0,peor
+764,19,Torneo de Grenada,6,8984.0,mejor
+764,19,Torneo de El Salvador,8,8175.0,peor
+765,19,Torneo de Kazakhstan,9,8990.0,mejor
+765,19,Torneo de Ukraine,2,8175.0,peor
+766,20,Torneo de Singapore,6,9959.0,mejor
+766,20,Torneo de Bolivia,9,9063.0,peor
+767,20,Torneo de Mexico,7,9963.0,mejor
+767,20,Torneo de Netherlands,3,9066.0,peor
+768,20,Torneo de Grenada,6,9960.0,mejor
+768,20,Torneo de Lithuania,4,9065.0,peor
+769,20,Torneo de Serbia,6,9962.0,mejor
+769,20,Torneo de Grenada,1,9064.0,peor
+770,20,Torneo de Eritrea,3,9966.0,mejor
+770,20,Torneo de Lithuania,8,9065.0,peor
+771,20,Torneo de Morocco,8,9940.0,mejor
+771,20,Torneo de Jamaica,1,9087.0,peor
+772,20,Torneo de Bulgaria,6,9966.0,mejor
+772,20,Torneo de Lithuania,1,9072.0,peor
+773,20,Torneo de Rwanda,4,9960.0,mejor
+773,20,Torneo de Burundi,8,9061.0,peor
+774,20,Torneo de Poland,6,9966.0,mejor
+774,20,Torneo de Malta,7,9066.0,peor
+775,20,Torneo de Albania,3,9963.0,mejor
+775,20,Torneo de Burkina Faso,8,9072.0,peor
+776,20,Torneo de India,8,9965.0,mejor
+776,20,Torneo de Trinidad and Tobago,8,9071.0,peor
+777,20,Torneo de Cabo Verde,2,9964.0,mejor
+777,20,Torneo de Morocco,9,9064.0,peor
+778,20,Torneo de Thailand,2,9953.0,mejor
+778,20,Torneo de Bolivia,8,9064.0,peor
+779,20,Torneo de Andorra,7,9968.0,mejor
+779,20,Torneo de Georgia,1,9067.0,peor
+780,20,Torneo de Ecuador,8,9966.0,mejor
+780,20,Torneo de Benin,8,9063.0,peor
+781,20,Torneo de Italy,2,9967.0,mejor
+781,20,Torneo de Serbia,1,9064.0,peor
+782,20,Torneo de Saint Lucia,5,9962.0,mejor
+782,20,Torneo de Afghanistan,8,9065.0,peor
+783,20,Torneo de Kuwait,4,9967.0,mejor
+783,20,Torneo de Norway,4,9064.0,peor
+784,20,Torneo de Tunisia,4,9965.0,mejor
+784,20,Torneo de North Korea,8,9063.0,peor
+785,20,Torneo de Austria,9,9967.0,mejor
+785,20,Torneo de Gambia,2,9062.0,peor
+786,20,Torneo de Finland,10,9958.0,mejor
+786,20,Torneo de Nigeria,2,9065.0,peor
+787,20,Torneo de Maldives,8,9967.0,mejor
+787,20,Torneo de Portugal,9,9063.0,peor
+788,20,Torneo de Serbia,5,9964.0,mejor
+788,20,Torneo de Russia,1,9067.0,peor
+789,20,Torneo de Jordan,7,9966.0,mejor
+789,20,Torneo de Singapore,10,9067.0,peor
+790,20,Torneo de Portugal,8,9966.0,mejor
+790,20,Torneo de Guinea-Bissau,4,9062.0,peor
+791,20,Torneo de Syria,6,9968.0,mejor
+791,20,Torneo de Equatorial Guinea,4,9063.0,peor
+792,20,Torneo de United Arab Emirates,1,9968.0,mejor
+792,20,Torneo de Austria,9,9062.0,peor
+793,20,Torneo de Liechtenstein,8,9966.0,mejor
+793,20,Torneo de Colombia,5,9061.0,peor
+794,20,Torneo de Chad,9,9967.0,mejor
+794,20,Torneo de Saint Vincent and the Grenadines,3,9063.0,peor
+795,20,Torneo de Slovakia,8,9956.0,mejor
+795,20,Torneo de Saint Kitts and Nevis,2,9067.0,peor
+796,20,Torneo de Azerbaijan,1,9968.0,mejor
+796,20,Torneo de Senegal,3,9061.0,peor
+797,20,Torneo de Japan,10,9968.0,mejor
+797,20,Torneo de Finland,10,9062.0,peor
+798,20,Torneo de Greece,2,9967.0,mejor
+798,20,Torneo de Nauru,2,9063.0,peor
+799,20,Torneo de Marshall Islands,9,9959.0,mejor
+799,20,Torneo de Scotland,2,9061.0,peor
+800,20,Torneo de Palau,3,9968.0,mejor
+800,20,Torneo de Albania,6,9061.0,peor
+801,20,Torneo de Austria,4,9967.0,mejor
+801,20,Torneo de Switzerland,9,9062.0,peor
+802,20,Torneo de New Zealand,3,9968.0,mejor
+802,20,Torneo de Bangladesh,1,9064.0,peor
+803,20,Torneo de Belize,6,9963.0,mejor
+803,20,Torneo de Andorra,2,9085.0,peor
+804,20,Torneo de Niger,5,9966.0,mejor
+804,20,Torneo de Romania,2,9069.0,peor
+805,20,Torneo de Northern Ireland,3,9964.0,mejor
+805,20,Torneo de France,2,9068.0,peor

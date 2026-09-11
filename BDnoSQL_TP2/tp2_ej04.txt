@@ -1,3 +1,6 @@
 Tipos de especialidad y cantidad de especialidades asociadas
 id_tipo_especialidad,nombre_tipo_especialidad,cantidad_especialidades
-4,lanzamiento,1
+1,tiempo,12
+2,altura,2
+3,largo,2
+4,lanzamiento,4

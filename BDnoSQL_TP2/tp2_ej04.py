@@ -35,11 +35,9 @@ def grabar_linea(archivo, linea):
     print(linea)
     archivo.write(str(linea) + '\n')
 
-
 def inicializar(conn):
     r = redis.Redis(conn["redisurl"], conn["redispuerto"], db=0, decode_responses=True)
     return r
-
 
 def procesar_fila(db, fila):
     id_especialidad = fila["id_especialidad"] 
@@ -47,15 +45,14 @@ def procesar_fila(db, fila):
     nombre_tipo_especialidad = fila["nombre_tipo_especialidad"]
 
     db.set(
-        "tipo_especialidad:" + id_tipo_especialidad,
+        "nombre_tipo_especialidad:" + id_tipo_especialidad,
         nombre_tipo_especialidad
     )
 
     db.sadd(
-        "especialidades_tipo:" + id_tipo_especialidad,
+        "id_especialidad:" + id_tipo_especialidad,
         id_especialidad
     )
-
 
 def generar_reporte(db):
     archivo = open(
@@ -76,15 +73,23 @@ def generar_reporte(db):
     grabar_linea(archivo, titulo_reporte)
     grabar_linea(archivo, encabezado_columnas)
 
-    claves = db.keys("tipo_especialidad:*")
+    claves = db.keys("nombre_tipo_especialidad:*")
+
+    ids_tipos = []
 
     for clave in claves:
         id_tipo_especialidad = clave.split(":")[1]
+        ids_tipos.append(id_tipo_especialidad)
 
-        nombre_tipo_especialidad = db.get(clave)
+    ids_tipos.sort(key=int)
+
+    for id_tipo_especialidad in ids_tipos:
+        nombre_tipo_especialidad = db.get(
+            "nombre_tipo_especialidad:" + id_tipo_especialidad
+        )
 
         cantidad_especialidades = db.scard(
-            "especialidades_tipo:" + id_tipo_especialidad
+            "id_especialidad:" + id_tipo_especialidad
         )
 
         linea = (
