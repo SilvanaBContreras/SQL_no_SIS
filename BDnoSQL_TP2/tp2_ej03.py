@@ -1,8 +1,8 @@
 import csv
 import redis
 
-archivo_entrada = 'full_export.csv'
-nombre_archivo_resultado_ejercicio = 'tp2_ej03.txt'
+archivo_entrada = 'BDnoSQL_TP2/full_export.csv'
+nombre_archivo_resultado_ejercicio = 'BDnoSQL_TP2/tp2_ej03.txt'
 
 conexion = {
     'redisurl': 'localhost',
@@ -42,22 +42,27 @@ def inicializar(conn):
     return r
 
 
+ids_deportista_cargados = set()
+
 def procesar_fila(db, fila):
     id_deportista = fila["id_deportista"]
-    nombre_deportista = fila["nombre_deportista"]
-    fecha_nacimiento = fila["fecha_nacimiento"]
-    nombre_pais_deportista = fila["nombre_pais_deportista"]
     id_especialidad = fila["id_especialidad"]
 
-    db.hset(
-        id_deportista,
-        mapping={
-            "id_deportista": id_deportista,
-            "nombre_deportista": nombre_deportista,
-            "fecha_nacimiento": fecha_nacimiento,
-            "nombre_pais_deportista": nombre_pais_deportista
-        }
-    )
+    if id_deportista not in ids_deportista_cargados:
+        nombre_deportista = fila["nombre_deportista"]
+        fecha_nacimiento = fila["fecha_nacimiento"]
+        nombre_pais_deportista = fila["nombre_pais_deportista"]
+
+        db.hset(
+            id_deportista,
+            mapping={
+                "id_deportista": id_deportista,
+                "nombre_deportista": nombre_deportista,
+                "fecha_nacimiento": fecha_nacimiento,
+                "nombre_pais_deportista": nombre_pais_deportista
+            }
+        )
+        ids_deportista_cargados.add(id_deportista)
 
     db.sadd(
         "especialidades:" + id_deportista,

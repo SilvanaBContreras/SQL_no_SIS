@@ -1,8 +1,8 @@
 import csv
 import redis
 
-archivo_entrada = 'full_export.csv'
-nombre_archivo_resultado_ejercicio = 'tp2_ej04.txt'
+archivo_entrada = 'BDnoSQL_TP2/full_export.csv'
+nombre_archivo_resultado_ejercicio = 'BDnoSQL_TP2/tp2_ej04.txt'
 
 conexion = {
     'redisurl': 'localhost',

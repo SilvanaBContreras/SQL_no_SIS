@@ -1,8 +1,8 @@
 import csv
 import redis
 
-archivo_entrada = 'full_export.csv'
-nombre_archivo_resultado_ejercicio = 'tp2_ej07.txt'
+archivo_entrada = 'BDnoSQL_TP2/full_export.csv'
+nombre_archivo_resultado_ejercicio = 'BDnoSQL_TP2/tp2_ej07.txt'
 
 conexion = {
     'redisurl': 'localhost',
@@ -85,7 +85,7 @@ def generar_reporte(db):
         nombre_torneo = db.hget("nombre_torneo",id_torneo)
         especialidades_torneo.append((nombre_especialidad, id_especialidad, nombre_torneo, id_torneo, clave))
 
-    especialidades_torneo.sort(key=lambda x: (x[2], x[0]))  # orden alfabético por nombre_especialidad
+    especialidades_torneo.sort(key=lambda x: (x[2], x[0]))
 
     for nombre_especialidad, id_especialidad, nombre_torneo, id_torneo, clave in especialidades_torneo:
         nombre_tipo_especialidad = db.hget("nombre_tipo_especialidad", id_especialidad)
@@ -95,8 +95,7 @@ def generar_reporte(db):
         else:
             mejor = db.zrevrange(clave, 0, 2, withscores=True)
 
-        for i in range(0, 3):
-            intento_id_deportista, marca = mejor[i]
+        for i, (intento_id_deportista, marca) in enumerate(mejor):
             _, intento, id_deportista = intento_id_deportista.split(":")
             nombre_deportista = db.hget("nombre_deportista", id_deportista)
 

@@ -1,8 +1,8 @@
 import csv
 import redis
 
-archivo_entrada = 'full_export.csv'
-nombre_archivo_resultado_ejercicio = 'tp2_ej05.txt'
+archivo_entrada = 'BDnoSQL_TP2/full_export.csv'
+nombre_archivo_resultado_ejercicio = 'BDnoSQL_TP2/tp2_ej05.txt'
 
 conexion = {
     'redisurl': 'localhost',
@@ -72,8 +72,6 @@ def generar_reporte(db):
     grabar_linea(archivo, encabezado_columnas)
 
     claves = db.keys("clave_deportista_especialidad:*")
-
-    claves.sort(key=lambda c: (int(c.split(":")[1]), int(c.split(":")[2])))
 
     for clave in claves:
         _, id_deportista, id_especialidad = clave.split(":")

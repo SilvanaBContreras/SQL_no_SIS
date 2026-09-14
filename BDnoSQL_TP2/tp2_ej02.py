@@ -1,8 +1,8 @@
 import csv
 import redis
 
-archivo_entrada = 'full_export.csv'
-nombre_archivo_resultado_ejercicio = 'tp2_ej02.txt'
+archivo_entrada = 'BDnoSQL_TP2/full_export.csv'
+nombre_archivo_resultado_ejercicio = 'BDnoSQL_TP2/tp2_ej02.txt'
 
 conexion = {
     'redisurl': 'localhost',
@@ -40,15 +40,22 @@ def inicializar(conn):
     r = redis.Redis(conn["redisurl"], conn["redispuerto"], db=0, decode_responses=True)
     return r
 
+ids_deportista_cargados = set()
+
 def procesar_fila(db, fila):
     id_deportista = fila["id_deportista"]
+
+    if id_deportista in ids_deportista_cargados:
+        return
+
     nombre_deportista = fila["nombre_deportista"]
     fecha_nacimiento = fila["fecha_nacimiento"]
     nombre_pais_deportista = fila["nombre_pais_deportista"]
 
-    db.hset(id_deportista, mapping = {"nombre_deportista": nombre_deportista, 
+    db.hset(id_deportista, mapping = {"nombre_deportista": nombre_deportista,
                                       "fecha_nacimiento": fecha_nacimiento,
                                       "nombre_pais_deportista": nombre_pais_deportista})
+    ids_deportista_cargados.add(id_deportista)
 
 
 def generar_reporte(db):
