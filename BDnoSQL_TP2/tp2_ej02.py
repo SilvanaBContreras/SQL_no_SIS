@@ -1,13 +1,18 @@
 import csv
 import redis
+from pathlib import Path
 
-archivo_entrada = 'BDnoSQL_TP2/full_export.csv'
-nombre_archivo_resultado_ejercicio = 'BDnoSQL_TP2/tp2_ej02.txt'
+BASE_DIR = Path(__file__).resolve().parent
+
+archivo_entrada = BASE_DIR / 'full_export.csv'
+nombre_archivo_resultado_ejercicio = BASE_DIR / 'tp2_ej02.txt'
 
 conexion = {
     'redisurl': 'localhost',
     'redispuerto': 6379
 }
+
+ids_deportista_cargados = set()
 
 def ejecutar(file, conn):
     import time
@@ -40,8 +45,6 @@ def inicializar(conn):
     r = redis.Redis(conn["redisurl"], conn["redispuerto"], db=0, decode_responses=True)
     return r
 
-ids_deportista_cargados = set()
-
 def procesar_fila(db, fila):
     id_deportista = fila["id_deportista"]
 
@@ -52,7 +55,7 @@ def procesar_fila(db, fila):
     fecha_nacimiento = fila["fecha_nacimiento"]
     nombre_pais_deportista = fila["nombre_pais_deportista"]
 
-    db.hset(id_deportista, mapping = {"nombre_deportista": nombre_deportista,
+    db.hset("deportista:" + id_deportista, mapping = {"nombre_deportista": nombre_deportista,
                                       "fecha_nacimiento": fecha_nacimiento,
                                       "nombre_pais_deportista": nombre_pais_deportista})
     ids_deportista_cargados.add(id_deportista)
@@ -78,7 +81,7 @@ def generar_reporte(db):
     ids_solicitados = ["10", "20", "30"]
 
     for id_deportista in ids_solicitados:
-        ficha_deportista = db.hgetall(id_deportista)
+        ficha_deportista = db.hgetall("deportista:" + id_deportista)
 
         linea = (
             id_deportista + ","

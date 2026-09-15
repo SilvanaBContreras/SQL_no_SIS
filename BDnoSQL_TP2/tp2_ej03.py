@@ -1,13 +1,18 @@
 import csv
 import redis
+from pathlib import Path
 
-archivo_entrada = 'BDnoSQL_TP2/full_export.csv'
-nombre_archivo_resultado_ejercicio = 'BDnoSQL_TP2/tp2_ej03.txt'
+BASE_DIR = Path(__file__).resolve().parent
+
+archivo_entrada = BASE_DIR / 'full_export.csv'
+nombre_archivo_resultado_ejercicio = BASE_DIR / 'tp2_ej03.txt'
 
 conexion = {
     'redisurl': 'localhost',
     'redispuerto': 6379
 }
+
+ids_deportista_cargados = set()
 
 def ejecutar(file, conn):
     import time
@@ -41,9 +46,6 @@ def inicializar(conn):
     r = redis.Redis(conn["redisurl"], conn["redispuerto"], db=0, decode_responses=True)
     return r
 
-
-ids_deportista_cargados = set()
-
 def procesar_fila(db, fila):
     id_deportista = fila["id_deportista"]
     id_especialidad = fila["id_especialidad"]
@@ -54,7 +56,7 @@ def procesar_fila(db, fila):
         nombre_pais_deportista = fila["nombre_pais_deportista"]
 
         db.hset(
-            id_deportista,
+            "deportista:" + id_deportista,
             mapping={
                 "id_deportista": id_deportista,
                 "nombre_deportista": nombre_deportista,
@@ -85,7 +87,7 @@ def generar_reporte(db):
     ids_solicitados = ["10", "20", "30", "229"]
 
     for id_deportista in ids_solicitados:
-        ficha_deportista = db.hgetall(id_deportista)
+        ficha_deportista = db.hgetall("deportista:" + id_deportista)
 
         cantidad_especialidades = db.scard(
             "especialidades:" + id_deportista

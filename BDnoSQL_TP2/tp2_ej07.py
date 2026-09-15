@@ -1,8 +1,11 @@
 import csv
 import redis
+from pathlib import Path
 
-archivo_entrada = 'BDnoSQL_TP2/full_export.csv'
-nombre_archivo_resultado_ejercicio = 'BDnoSQL_TP2/tp2_ej07.txt'
+BASE_DIR = Path(__file__).resolve().parent
+
+archivo_entrada = BASE_DIR / 'full_export.csv'
+nombre_archivo_resultado_ejercicio = BASE_DIR / 'tp2_ej07.txt'
 
 conexion = {
     'redisurl': 'localhost',
