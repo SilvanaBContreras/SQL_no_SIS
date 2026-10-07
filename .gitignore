@@ -1,10 +1,10 @@
 # Ignora todo por defecto
 *
 
-# Permite que Git entre a inspeccionar las carpetas
+# Permite recorrer las carpetas
 !*/
 
-# Exceptúa archivos .py y .txt en la raíz y en subcarpetas
+# Conserva las reglas y los archivos del trabajo
+!.gitignore
 !*.py
-!**/*.py
-*.pdf
+!*.txt
