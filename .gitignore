@@ -7,5 +7,4 @@
 # Exceptúa archivos .py y .txt en la raíz y en subcarpetas
 !*.py
 !**/*.py
-#!*.txt
-#!**/*.txt
+*.pdf
