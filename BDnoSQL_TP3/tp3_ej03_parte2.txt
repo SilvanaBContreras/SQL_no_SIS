@@ -1,0 +1,6 @@
+Cantidad de marcas por tipo de especialidad
+tipo_especialidad, cantidad_marcas
+lanzamiento, 32361
+tiempo, 96681
+altura, 15879
+largo, 16482
