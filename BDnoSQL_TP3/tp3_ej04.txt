@@ -1,0 +1,805 @@
+Mejor y peor marca por deportista y especialidad
+id_deportista, nombre_deportista, id_especialidad, nombre_especialidad, tipo_especialidad, marca_mejor, id_torneo_mejor, torneo_mejor, intento_mejor, marca_peor, id_torneo_peor, torneo_peor, intento_peor
+1, Christian COLEMAN, 1, carrera 100 m, tiempo, 9762, 140, Torneo de Philippines, 1, 10726, 96, Torneo de Latvia, 1
+1, Christian COLEMAN, 2, carrera 200 m, tiempo, 19505, 164, Torneo de South Africa, 1, 21449, 129, Torneo de North Korea, 1
+2, Noah LYLES, 1, carrera 100 m, tiempo, 9760, 200, Torneo de Puerto Rico, 1, 10736, 100, Torneo de Libya, 1
+2, Noah LYLES, 2, carrera 200 m, tiempo, 19505, 63, Torneo de French Guiana, 1, 21444, 166, Torneo de South Sudan, 1
+3, Divine ODUDURU, 1, carrera 100 m, tiempo, 9761, 48, Torneo de Djibouti, 1, 10716, 33, Torneo de Central African Republic, 1
+3, Divine ODUDURU, 2, carrera 200 m, tiempo, 19503, 179, Torneo de Tonga, 1, 21449, 54, Torneo de El Salvador, 1
+4, Justin GATLIN, 1, carrera 100 m, tiempo, 9766, 99, Torneo de Liberia, 1, 10736, 64, Torneo de Gabon, 1
+5, Andre DE GRASSE, 1, carrera 100 m, tiempo, 9767, 52, Torneo de Ecuador, 1, 10731, 189, Torneo de United States, 1
+5, Andre DE GRASSE, 2, carrera 200 m, tiempo, 19508, 90, Torneo de Kenya, 1, 21450, 25, Torneo de Brunei, 1
+6, Cravon GILLESPIE, 1, carrera 100 m, tiempo, 9769, 15, Torneo de Barbados, 1, 10731, 76, Torneo de Honduras, 1
+6, Cravon GILLESPIE, 2, carrera 200 m, tiempo, 19517, 93, Torneo de Kuwait, 1, 21438, 179, Torneo de Tonga, 1
+7, Akani SIMBINE, 1, carrera 100 m, tiempo, 9765, 135, Torneo de Palau, 1, 10736, 108, Torneo de Mali, 1
+8, Arthur CISSÉ, 1, carrera 100 m, tiempo, 9760, 66, Torneo de Georgia, 1, 10735, 56, Torneo de Eritrea, 1
+9, Zharnel HUGHES, 1, carrera 100 m, tiempo, 9766, 168, Torneo de Sri Lanka, 1, 10734, 118, Torneo de Morocco, 1
+10, Yohan BLAKE, 1, carrera 100 m, tiempo, 9761, 189, Torneo de United States, 1, 10733, 201, Torneo de Virgin Islands (British), 1
+11, Aaron BROWN, 1, carrera 100 m, tiempo, 9764, 88, Torneo de Jordan, 1, 10726, 59, Torneo de Micronesia, 1
+11, Aaron BROWN, 2, carrera 200 m, tiempo, 19503, 69, Torneo de Greece, 1, 21448, 118, Torneo de Morocco, 1
+12, Raymond EKEVWO, 1, carrera 100 m, tiempo, 9765, 28, Torneo de Burundi, 1, 10735, 96, Torneo de Latvia, 1
+13, Reece PRESCOD, 1, carrera 100 m, tiempo, 9762, 127, Torneo de Niger, 1, 10733, 100, Torneo de Libya, 1
+14, Abdul Hakim SANI BROWN, 1, carrera 100 m, tiempo, 9763, 108, Torneo de Mali, 1, 10731, 55, Torneo de Equatorial Guinea, 1
+14, Abdul Hakim SANI BROWN, 2, carrera 200 m, tiempo, 19515, 187, Torneo de United Arab Emirates, 1, 21450, 171, Torneo de Sweden, 1
+15, Michael RODGERS, 1, carrera 100 m, tiempo, 9760, 97, Torneo de Lebanon, 1, 10733, 190, Torneo de Uruguay, 1
+16, Roberto SKYERS, 1, carrera 100 m, tiempo, 9766, 45, Torneo de Cyprus, 1, 10726, 118, Torneo de Morocco, 1
+17, Mario BURKE, 1, carrera 100 m, tiempo, 9760, 151, Torneo de San Marino, 1, 10733, 18, Torneo de Belize, 1
+17, Mario BURKE, 2, carrera 200 m, tiempo, 19500, 166, Torneo de South Sudan, 1, 21448, 197, Torneo de Yemen, 1
+18, Yuki KOIKE, 1, carrera 100 m, tiempo, 9764, 65, Torneo de Gambia, 1, 10733, 51, Torneo de Timor-Leste, 1
+19, Isiah YOUNG, 1, carrera 100 m, tiempo, 9769, 130, Torneo de Macedonia, 1, 10728, 15, Torneo de Barbados, 1
+20, Tyquendo TRACEY, 1, carrera 100 m, tiempo, 9770, 47, Torneo de Denmark, 1, 10733, 56, Torneo de Eritrea, 1
+21, Shelly-Ann FRASER-PRYCE, 1, carrera 100 m, tiempo, 9764, 168, Torneo de Sri Lanka, 1, 10735, 136, Torneo de Panama, 1
+21, Shelly-Ann FRASER-PRYCE, 2, carrera 200 m, tiempo, 19509, 93, Torneo de Kuwait, 1, 21440, 85, Torneo de Italy, 1
+22, Elaine THOMPSON, 1, carrera 100 m, tiempo, 9761, 200, Torneo de Puerto Rico, 1, 10732, 115, Torneo de Monaco, 1
+22, Elaine THOMPSON, 2, carrera 200 m, tiempo, 19500, 70, Torneo de Grenada, 1, 21444, 103, Torneo de Luxembourg, 1
+23, ShaCarri RICHARDSON, 1, carrera 100 m, tiempo, 9760, 170, Torneo de Suriname, 1, 10732, 112, Torneo de Mauritius, 1
+23, ShaCarri RICHARDSON, 2, carrera 200 m, tiempo, 19501, 179, Torneo de Tonga, 1, 21423, 10, Torneo de Austria, 1
+24, Dina ASHER-SMITH, 1, carrera 100 m, tiempo, 9766, 39, Torneo de Congo Democratic Republic of the, 1, 10728, 61, Torneo de Finland, 1
+24, Dina ASHER-SMITH, 2, carrera 200 m, tiempo, 19507, 86, Torneo de Jamaica, 1, 21441, 92, Torneo de Kosovo, 1
+25, Marie-Josée TA LOU, 1, carrera 100 m, tiempo, 9760, 96, Torneo de Latvia, 1, 10732, 113, Torneo de Mexico, 1
+25, Marie-Josée TA LOU, 2, carrera 200 m, tiempo, 19501, 169, Torneo de Sudan, 1, 21420, 112, Torneo de Mauritius, 1
+26, Kayla WHITE, 1, carrera 100 m, tiempo, 9765, 3, Torneo de Algeria, 1, 10732, 173, Torneo de Syria, 1
+26, Kayla WHITE, 2, carrera 200 m, tiempo, 19500, 86, Torneo de Jamaica, 1, 21444, 145, Torneo de Russia, 1
+27, Twanisha TERRY, 1, carrera 100 m, tiempo, 9769, 154, Torneo de Scotland, 1, 10734, 103, Torneo de Luxembourg, 1
+28, Teahna DANIELS, 1, carrera 100 m, tiempo, 9793, 173, Torneo de Syria, 1, 10722, 168, Torneo de Sri Lanka, 1
+28, Teahna DANIELS, 2, carrera 200 m, tiempo, 19506, 66, Torneo de Georgia, 1, 21444, 191, Torneo de Uzbekistan, 1
+29, Mujinga KAMBUNDJI, 1, carrera 100 m, tiempo, 9764, 131, Torneo de Northern Ireland, 1, 10732, 82, Torneo de Iraq, 1
+29, Mujinga KAMBUNDJI, 2, carrera 200 m, tiempo, 19515, 18, Torneo de Belize, 1, 21448, 87, Torneo de Japan, 1
+30, Carina HORN, 1, carrera 100 m, tiempo, 9764, 31, Torneo de Canada, 1, 10733, 112, Torneo de Mauritius, 1
+31, Kiara PARKER, 1, carrera 100 m, tiempo, 9765, 69, Torneo de Greece, 1, 10730, 115, Torneo de Monaco, 1
+32, Briana WILLIAMS, 1, carrera 100 m, tiempo, 9762, 143, Torneo de Qatar, 1, 10736, 187, Torneo de United Arab Emirates, 1
+33, Murielle AHOURÉ, 1, carrera 100 m, tiempo, 9760, 189, Torneo de United States, 1, 10736, 152, Torneo de Sao Tome and Principe, 1
+34, Aleia HOBBS, 1, carrera 100 m, tiempo, 9760, 121, Torneo de Namibia, 1, 10736, 75, Torneo de Haiti, 1
+35, Kiara GRANT, 1, carrera 100 m, tiempo, 9760, 193, Torneo de Vatican City, 1, 10726, 129, Torneo de North Korea, 1
+36, Jonielle SMITH, 1, carrera 100 m, tiempo, 9763, 67, Torneo de Germany, 1, 10734, 98, Torneo de Lesotho, 1
+37, Tebogo MAMATHU, 1, carrera 100 m, tiempo, 9763, 93, Torneo de Kuwait, 1, 10735, 25, Torneo de Brunei, 1
+38, Yongli WEI, 1, carrera 100 m, tiempo, 9779, 116, Torneo de Mongolia, 1, 10718, 41, Torneo de Costa Rica, 1
+39, Dafne SCHIPPERS, 1, carrera 100 m, tiempo, 9776, 40, Torneo de Congo Republic of the, 1, 10734, 29, Torneo de Cambodia, 1
+39, Dafne SCHIPPERS, 2, carrera 200 m, tiempo, 19501, 188, Torneo de United Kingdom, 1, 21444, 50, Torneo de Dominican Republic, 1
+40, Manqi GE, 1, carrera 100 m, tiempo, 9761, 73, Torneo de Guinea-Bissau, 1, 10736, 74, Torneo de Guyana, 1
+41, Tynia GAITHER, 1, carrera 100 m, tiempo, 9760, 25, Torneo de Brunei, 1, 10735, 50, Torneo de Dominican Republic, 1
+42, Blessing OKAGBARE, 1, carrera 100 m, tiempo, 9760, 73, Torneo de Guinea-Bissau, 1, 10736, 145, Torneo de Russia, 1
+42, Blessing OKAGBARE, 2, carrera 200 m, tiempo, 19508, 133, Torneo de Oman, 1, 21449, 10, Torneo de Austria, 1
+43, Shaunae MILLER-UIBO, 2, carrera 200 m, tiempo, 19501, 47, Torneo de Denmark, 1, 21423, 146, Torneo de Rwanda, 1
+43, Shaunae MILLER-UIBO, 3, carrera 400 m, tiempo, 43463, 68, Torneo de Ghana, 1, 47737, 73, Torneo de Guinea-Bissau, 1
+47, Anglerne ANNELUS, 2, carrera 200 m, tiempo, 19506, 123, Torneo de Nepal, 1, 21433, 50, Torneo de Dominican Republic, 1
+50, Brittany BROWN, 2, carrera 200 m, tiempo, 19508, 179, Torneo de Tonga, 1, 21446, 41, Torneo de Costa Rica, 1
+53, Cambrea STURGIS, 2, carrera 200 m, tiempo, 19506, 3, Torneo de Algeria, 1, 21436, 2, Torneo de Albania, 1
+54, Janeek BROWN, 2, carrera 200 m, tiempo, 19505, 88, Torneo de Jordan, 1, 21442, 9, Torneo de Australia, 1
+54, Janeek BROWN, 10, carrera 110 m con vallas, tiempo, 12102, 80, Torneo de Indonesia, 1, 13308, 136, Torneo de Panama, 1
+55, Amy HUNT, 2, carrera 200 m, tiempo, 19501, 69, Torneo de Greece, 1, 21438, 124, Torneo de Netherlands, 1
+57, Ivet LALOVA-COLLIO, 2, carrera 200 m, tiempo, 19504, 72, Torneo de Guinea, 1, 21446, 110, Torneo de Marshall Islands, 1
+58, Dezerea BRYANT, 2, carrera 200 m, tiempo, 19532, 30, Torneo de Cameroon, 1, 21426, 40, Torneo de Congo Republic of the, 1
+59, Beth DOBBIN, 2, carrera 200 m, tiempo, 19502, 147, Torneo de Saint Kitts and Nevis, 1, 21429, 58, Torneo de Ethiopia, 1
+61, Salwa Eid NASER, 2, carrera 200 m, tiempo, 19504, 103, Torneo de Luxembourg, 1, 21443, 105, Torneo de Malawi, 1
+61, Salwa Eid NASER, 3, carrera 400 m, tiempo, 43457, 165, Torneo de South Korea, 1, 47771, 180, Torneo de Trinidad and Tobago, 1
+64, Michael NORMAN, 2, carrera 200 m, tiempo, 19521, 61, Torneo de Finland, 1, 21448, 86, Torneo de Jamaica, 1
+64, Michael NORMAN, 3, carrera 400 m, tiempo, 43455, 79, Torneo de India, 1, 47793, 86, Torneo de Jamaica, 1
+66, Kenneth BEDNAREK, 2, carrera 200 m, tiempo, 19514, 23, Torneo de Botswana, 1, 21444, 65, Torneo de Gambia, 1
+66, Kenneth BEDNAREK, 3, carrera 400 m, tiempo, 43496, 191, Torneo de Uzbekistan, 1, 47784, 174, Torneo de Taiwan, 1
+67, Ramil GULIYEV, 2, carrera 200 m, tiempo, 19518, 102, Torneo de Lithuania, 1, 21412, 96, Torneo de Latvia, 1
+68, Alex QUIÑÓNEZ, 2, carrera 200 m, tiempo, 19514, 97, Torneo de Lebanon, 1, 21446, 162, Torneo de Solomon Islands, 1
+70, Zhenye XIE, 2, carrera 200 m, tiempo, 19502, 94, Torneo de Kyrgyzstan, 1, 21430, 52, Torneo de Ecuador, 1
+74, Miguel FRANCIS, 2, carrera 200 m, tiempo, 19507, 179, Torneo de Tonga, 1, 21438, 113, Torneo de Mexico, 1
+75, Alex WILSON, 2, carrera 200 m, tiempo, 19515, 194, Torneo de Venezuela, 1, 21422, 86, Torneo de Jamaica, 1
+76, Adam GEMILI, 2, carrera 200 m, tiempo, 19509, 115, Torneo de Monaco, 1, 21406, 40, Torneo de Congo Republic of the, 1
+77, Steven GARDINER, 2, carrera 200 m, tiempo, 19504, 60, Torneo de Fiji, 1, 21450, 65, Torneo de Gambia, 1
+77, Steven GARDINER, 3, carrera 400 m, tiempo, 43453, 4, Torneo de Andorra, 1, 47789, 3, Torneo de Algeria, 1
+78, Andrew HUDSON, 2, carrera 200 m, tiempo, 19506, 153, Torneo de Saudi Arabia, 1, 21433, 101, Torneo de Liechtenstein, 1
+79, Clarence MUNYAI, 2, carrera 200 m, tiempo, 19503, 139, Torneo de Peru, 1, 21434, 198, Torneo de Zambia, 1
+80, Bernardo BALOYES, 2, carrera 200 m, tiempo, 19522, 73, Torneo de Guinea-Bissau, 1, 21440, 152, Torneo de Sao Tome and Principe, 1
+81, Joseph Paul AMOAH, 2, carrera 200 m, tiempo, 19519, 36, Torneo de China, 1, 21441, 197, Torneo de Yemen, 1
+86, Fred KERLEY, 3, carrera 400 m, tiempo, 43470, 63, Torneo de French Guiana, 1, 47776, 177, Torneo de Thailand, 1
+87, Anthony José ZAMBRANO, 3, carrera 400 m, tiempo, 43573, 25, Torneo de Brunei, 1, 47777, 44, Torneo de Cuba, 1
+88, Kahmari MONTGOMERY, 3, carrera 400 m, tiempo, 43461, 49, Torneo de Dominica, 1, 47791, 95, Torneo de Laos, 1
+89, Kirani JAMES, 3, carrera 400 m, tiempo, 43494, 164, Torneo de South Africa, 1, 47772, 159, Torneo de Singapore, 1
+90, Trevor STEWART, 3, carrera 400 m, tiempo, 43458, 87, Torneo de Japan, 1, 47783, 145, Torneo de Russia, 1
+91, Nathan STROTHER, 3, carrera 400 m, tiempo, 43463, 27, Torneo de Burkina Faso, 1, 47750, 55, Torneo de Equatorial Guinea, 1
+92, Rai BENJAMIN, 3, carrera 400 m, tiempo, 43457, 27, Torneo de Burkina Faso, 1, 47794, 45, Torneo de Cyprus, 1
+92, Rai BENJAMIN, 11, carrera 400 m con vallas, tiempo, 46107, 57, Torneo de Estonia, 1, 50610, 189, Torneo de United States, 1
+93, Emmanuel Kipkurui KORIR, 3, carrera 400 m, tiempo, 43498, 91, Torneo de Kiribati, 1, 47765, 104, Torneo de Madagascar, 1
+93, Emmanuel Kipkurui KORIR, 4, carrera 800 m, tiempo, 101910, 87, Torneo de Japan, 1, 112026, 184, Torneo de Tuvalu, 1
+94, Akeem BLOOMFIELD, 3, carrera 400 m, tiempo, 43476, 27, Torneo de Burkina Faso, 1, 47760, 106, Torneo de Malaysia, 1
+95, Vernon NORWOOD, 3, carrera 400 m, tiempo, 43464, 18, Torneo de Belize, 1, 47793, 75, Torneo de Haiti, 1
+96, Machel CEDENIO, 3, carrera 400 m, tiempo, 43473, 38, Torneo de Comoros, 1, 47774, 34, Torneo de Chad, 1
+97, ​Demish GAYE, 3, carrera 400 m, tiempo, 43500, 50, Torneo de Dominican Republic, 1, 47724, 137, Torneo de Papua New Guinea, 1
+98, Quincy HALL, 3, carrera 400 m, tiempo, 43457, 186, Torneo de Ukraine, 1, 47761, 113, Torneo de Mexico, 1
+98, Quincy HALL, 11, carrera 400 m con vallas, tiempo, 46127, 107, Torneo de Maldives, 1, 50664, 199, Torneo de Zimbabwe, 1
+99, Abderrahman SAMBA, 3, carrera 400 m, tiempo, 43477, 57, Torneo de Estonia, 1, 47769, 174, Torneo de Taiwan, 1
+99, Abderrahman SAMBA, 11, carrera 400 m con vallas, tiempo, 46102, 184, Torneo de Tuvalu, 1, 50676, 6, Torneo de Antigua and Barbuda, 1
+100, Wilbert LONDON, 3, carrera 400 m, tiempo, 43456, 95, Torneo de Laos, 1, 47706, 99, Torneo de Liberia, 1
+101, Jonathan JONES, 3, carrera 400 m, tiempo, 43455, 137, Torneo de Papua New Guinea, 1, 47794, 84, Torneo de Israel, 1
+101, Jonathan JONES, 17, lanzamiento de bala, lanzamiento, 2521, 199, Torneo de Zimbabwe, 6, 2293, 168, Torneo de Sri Lanka, 1
+102, Michael CHERRY, 3, carrera 400 m, tiempo, 43454, 55, Torneo de Equatorial Guinea, 1, 47788, 40, Torneo de Congo Republic of the, 1
+106, Aminatou SEYNI, 3, carrera 400 m, tiempo, 43484, 127, Torneo de Niger, 1, 47772, 71, Torneo de Guatemala, 1
+107, Shericka JACKSON, 3, carrera 400 m, tiempo, 43501, 171, Torneo de Sweden, 1, 47762, 65, Torneo de Gambia, 1
+108, Wadeline JONATHAS, 3, carrera 400 m, tiempo, 43458, 154, Torneo de Scotland, 1, 47795, 169, Torneo de Sudan, 1
+109, Phyllis FRANCIS, 3, carrera 400 m, tiempo, 43450, 102, Torneo de Lithuania, 1, 47792, 156, Torneo de Serbia, 1
+110, Shakima WIMBLEY, 3, carrera 400 m, tiempo, 43458, 64, Torneo de Gabon, 1, 47781, 34, Torneo de Chad, 1
+111, Kendall ELLIS, 3, carrera 400 m, tiempo, 43454, 127, Torneo de Niger, 1, 47793, 30, Torneo de Cameroon, 1
+112, Christine BOTLOGETSWE, 3, carrera 400 m, tiempo, 43471, 9, Torneo de Australia, 1, 47791, 29, Torneo de Cambodia, 1
+113, Galefele MOROKO, 3, carrera 400 m, tiempo, 43452, 46, Torneo de Czechia, 1, 47776, 1, Torneo de Afghanistan, 1
+114, Dalilah MUHAMMAD, 3, carrera 400 m, tiempo, 43467, 109, Torneo de Malta, 1, 47786, 51, Torneo de Timor-Leste, 1
+114, Dalilah MUHAMMAD, 11, carrera 400 m con vallas, tiempo, 46135, 29, Torneo de Cambodia, 1, 50646, 100, Torneo de Libya, 1
+115, Chrisann GORDON, 3, carrera 400 m, tiempo, 43467, 85, Torneo de Italy, 1, 47791, 196, Torneo de Wales, 1
+116, Stephenie Ann MCPHERSON, 3, carrera 400 m, tiempo, 43470, 114, Torneo de Moldova, 1, 47765, 163, Torneo de Somalia, 1
+117, Sydney MCLAUGHLIN, 3, carrera 400 m, tiempo, 43453, 189, Torneo de United States, 1, 47793, 78, Torneo de Iceland, 1
+117, Sydney MCLAUGHLIN, 11, carrera 400 m con vallas, tiempo, 46095, 86, Torneo de Jamaica, 1, 50649, 41, Torneo de Costa Rica, 1
+118, Courtney OKOLO, 3, carrera 400 m, tiempo, 43451, 82, Torneo de Iraq, 1, 47791, 45, Torneo de Cyprus, 1
+119, Laviai NIELSEN, 3, carrera 400 m, tiempo, 43466, 90, Torneo de Kenya, 1, 47793, 125, Torneo de New Zealand, 1
+120, Justyna ŚWIĘTY-ERSETIC, 3, carrera 400 m, tiempo, 43454, 7, Torneo de Argentina, 1, 47768, 166, Torneo de South Sudan, 1
+121, Anastasia LE-ROY, 3, carrera 400 m, tiempo, 43462, 115, Torneo de Monaco, 1, 47792, 46, Torneo de Czechia, 1
+122, Sharrika BARNETT, 3, carrera 400 m, tiempo, 43452, 24, Torneo de Brazil, 1, 47776, 95, Torneo de Laos, 1
+123, Chloe ABBOTT, 3, carrera 400 m, tiempo, 43484, 100, Torneo de Libya, 1, 47790, 37, Torneo de Colombia, 1
+124, Nijel AMOS, 4, carrera 800 m, tiempo, 101977, 31, Torneo de Canada, 1, 112036, 175, Torneo de Tajikistan, 1
+125, Donavan BRAZIER, 4, carrera 800 m, tiempo, 101977, 109, Torneo de Malta, 1, 112075, 169, Torneo de Sudan, 1
+126, Ferguson Cheruiyot ROTICH, 4, carrera 800 m, tiempo, 101918, 124, Torneo de Netherlands, 1, 112019, 201, Torneo de Virgin Islands (British), 1
+127, Timothy CHERUIYOT, 4, carrera 800 m, tiempo, 101989, 77, Torneo de Hungary, 1, 111995, 161, Torneo de Slovenia, 1
+127, Timothy CHERUIYOT, 5, carrera 1500 m, tiempo, 208800, 19, Torneo de Benin, 1, 229619, 47, Torneo de Denmark, 1
+128, Amel TUKA, 4, carrera 800 m, tiempo, 101946, 72, Torneo de Guinea, 1, 112071, 167, Torneo de Spain, 1
+129, Wyclife KINYAMAL, 4, carrera 800 m, tiempo, 101920, 192, Torneo de Vanuatu, 1, 111991, 44, Torneo de Cuba, 1
+130, Brandon MCBRIDE, 4, carrera 800 m, tiempo, 102106, 70, Torneo de Grenada, 1, 111994, 24, Torneo de Brazil, 1
+132, Michael SARUNI, 4, carrera 800 m, tiempo, 101921, 163, Torneo de Somalia, 1, 111973, 121, Torneo de Namibia, 1
+133, Marcin LEWANDOWSKI, 4, carrera 800 m, tiempo, 101921, 198, Torneo de Zambia, 1, 112033, 12, Torneo de Bahamas, 1
+133, Marcin LEWANDOWSKI, 5, carrera 1500 m, tiempo, 208843, 132, Torneo de Norway, 1, 229592, 24, Torneo de Brazil, 1
+134, Wesley VÁZQUEZ, 4, carrera 800 m, tiempo, 101895, 67, Torneo de Germany, 1, 111997, 141, Torneo de Poland, 1
+135, Cornelius TUWEI, 4, carrera 800 m, tiempo, 102008, 151, Torneo de San Marino, 1, 112055, 146, Torneo de Rwanda, 1
+136, Clayton MURPHY, 4, carrera 800 m, tiempo, 101925, 115, Torneo de Monaco, 1, 112059, 126, Torneo de Nicaragua, 1
+137, Marco AROP, 4, carrera 800 m, tiempo, 101895, 33, Torneo de Central African Republic, 1, 112075, 199, Torneo de Zimbabwe, 1
+138, Bryce HOPPEL, 4, carrera 800 m, tiempo, 102083, 181, Torneo de Tunisia, 1, 112070, 26, Torneo de Bulgaria, 1
+139, Abubaker Haydar ABDALLA, 4, carrera 800 m, tiempo, 101895, 197, Torneo de Yemen, 1, 112075, 37, Torneo de Colombia, 1
+140, Ayanleh SOULEIMAN, 4, carrera 800 m, tiempo, 101918, 15, Torneo de Barbados, 1, 112066, 146, Torneo de Rwanda, 1
+140, Ayanleh SOULEIMAN, 5, carrera 1500 m, tiempo, 208842, 116, Torneo de Mongolia, 1, 229580, 8, Torneo de Armenia, 1
+141, Collins KIPRUTO, 4, carrera 800 m, tiempo, 101906, 46, Torneo de Czechia, 1, 112056, 146, Torneo de Rwanda, 1
+142, Jonathan KITILIT, 4, carrera 800 m, tiempo, 101929, 98, Torneo de Lesotho, 1, 112052, 45, Torneo de Cyprus, 1
+143, Alfred KIPKETER, 4, carrera 800 m, tiempo, 101945, 7, Torneo de Argentina, 1, 112066, 140, Torneo de Philippines, 1
+144, Caster SEMENYA, 4, carrera 800 m, tiempo, 102076, 81, Torneo de Iran, 1, 112072, 41, Torneo de Costa Rica, 1
+145, Ajee WILSON, 4, carrera 800 m, tiempo, 101983, 5, Torneo de Angola, 1, 112078, 87, Torneo de Japan, 1
+146, Francine NIYONSABA, 4, carrera 800 m, tiempo, 101892, 100, Torneo de Libya, 1, 112075, 156, Torneo de Serbia, 1
+147, Natoya GOULE, 4, carrera 800 m, tiempo, 101894, 115, Torneo de Monaco, 1, 112077, 99, Torneo de Liberia, 1
+148, Halimah NAKAAYI, 4, carrera 800 m, tiempo, 101916, 29, Torneo de Cambodia, 1, 112041, 180, Torneo de Trinidad and Tobago, 1
+149, Raevyn ROGERS, 4, carrera 800 m, tiempo, 101893, 106, Torneo de Malaysia, 1, 112038, 12, Torneo de Bahamas, 1
+150, Hanna GREEN, 4, carrera 800 m, tiempo, 101928, 66, Torneo de Georgia, 1, 112020, 51, Torneo de Timor-Leste, 1
+151, Laura MUIR, 4, carrera 800 m, tiempo, 101895, 105, Torneo de Malawi, 1, 112043, 134, Torneo de Pakistan, 1
+151, Laura MUIR, 5, carrera 1500 m, tiempo, 209050, 85, Torneo de Italy, 1, 229591, 101, Torneo de Liechtenstein, 1
+152, Lynsey SHARP, 4, carrera 800 m, tiempo, 101904, 115, Torneo de Monaco, 1, 112022, 5, Torneo de Angola, 1
+153, Catriona BISSET, 4, carrera 800 m, tiempo, 101954, 77, Torneo de Hungary, 1, 112078, 164, Torneo de South Africa, 1
+154, Jackline WAMBUI, 4, carrera 800 m, tiempo, 101926, 22, Torneo de Bosnia and Herzegovina, 1, 112071, 179, Torneo de Tonga, 1
+155, Winnie NANYONDO, 4, carrera 800 m, tiempo, 101899, 165, Torneo de South Korea, 1, 111989, 31, Torneo de Canada, 1
+155, Winnie NANYONDO, 5, carrera 1500 m, tiempo, 208805, 178, Torneo de Togo, 1, 229610, 72, Torneo de Guinea, 1
+156, Eunice Jepkoech SUM, 4, carrera 800 m, tiempo, 101915, 37, Torneo de Colombia, 1, 112045, 97, Torneo de Lebanon, 1
+157, Nelly JEPKOSGEI, 4, carrera 800 m, tiempo, 101909, 36, Torneo de China, 1, 112032, 183, Torneo de Turkmenistan, 1
+158, Rose Mary ALMANZA, 4, carrera 800 m, tiempo, 101933, 74, Torneo de Guyana, 1, 111967, 8, Torneo de Armenia, 1
+159, Natalya PRYSHCHEPA, 4, carrera 800 m, tiempo, 101893, 20, Torneo de Bhutan, 1, 111904, 184, Torneo de Tuvalu, 1
+160, Olha LYAKHOVA, 4, carrera 800 m, tiempo, 101940, 193, Torneo de Vatican City, 1, 111974, 181, Torneo de Tunisia, 1
+161, Emily Cherotich TUEI, 4, carrera 800 m, tiempo, 101999, 120, Torneo de Myanmar, 1, 112070, 12, Torneo de Bahamas, 1
+162, Habitam ALEMU, 4, carrera 800 m, tiempo, 101994, 75, Torneo de Haiti, 1, 112017, 167, Torneo de Spain, 1
+163, Kate GRACE, 4, carrera 800 m, tiempo, 101901, 124, Torneo de Netherlands, 1, 112079, 201, Torneo de Virgin Islands (British), 1
+165, Jakob INGEBRIGTSEN, 5, carrera 1500 m, tiempo, 208949, 86, Torneo de Jamaica, 1, 229578, 61, Torneo de Finland, 1
+165, Jakob INGEBRIGTSEN, 6, carrera 5000 m, tiempo, 772184, 7, Torneo de Argentina, 1, 849290, 37, Torneo de Colombia, 1
+166, Ronald MUSAGALA, 5, carrera 1500 m, tiempo, 208813, 158, Torneo de Sierra Leone, 1, 229579, 170, Torneo de Suriname, 1
+167, Charlie DAVALL GRICE, 5, carrera 1500 m, tiempo, 208780, 71, Torneo de Guatemala, 1, 229577, 91, Torneo de Kiribati, 1
+169, Filip INGEBRIGTSEN, 5, carrera 1500 m, tiempo, 208778, 22, Torneo de Bosnia and Herzegovina, 1, 229448, 163, Torneo de Somalia, 1
+170, Taoufik MAKHLOUFI, 5, carrera 1500 m, tiempo, 208784, 50, Torneo de Dominican Republic, 1, 229586, 71, Torneo de Guatemala, 1
+171, Samuel TEFERA, 5, carrera 1500 m, tiempo, 208888, 109, Torneo de Malta, 1, 229634, 10, Torneo de Austria, 1
+172, Bethwell BIRGEN, 5, carrera 1500 m, tiempo, 208797, 189, Torneo de United States, 1, 229496, 7, Torneo de Argentina, 1
+174, George Meitamei MANANGOI, 5, carrera 1500 m, tiempo, 208809, 2, Torneo de Albania, 1, 229624, 136, Torneo de Panama, 1
+175, Abdelaati IGUIDER, 5, carrera 1500 m, tiempo, 208795, 137, Torneo de Papua New Guinea, 1, 229640, 196, Torneo de Wales, 1
+176, Stewart MCSWEYN, 5, carrera 1500 m, tiempo, 208788, 107, Torneo de Maldives, 1, 229585, 151, Torneo de San Marino, 1
+176, Stewart MCSWEYN, 7, carrera 10000 m, tiempo, 1608164, 92, Torneo de Kosovo, 1, 1768354, 160, Torneo de Slovakia, 1
+177, Jake WIGHTMAN, 5, carrera 1500 m, tiempo, 208828, 22, Torneo de Bosnia and Herzegovina, 1, 229574, 174, Torneo de Taiwan, 1
+178, Elijah Motonei MANANGOI, 5, carrera 1500 m, tiempo, 208951, 8, Torneo de Armenia, 1, 229494, 63, Torneo de French Guiana, 1
+179, Josh KERR, 5, carrera 1500 m, tiempo, 208786, 41, Torneo de Costa Rica, 1, 229632, 11, Torneo de Azerbaijan, 1
+180, Ronald KWEMOI, 5, carrera 1500 m, tiempo, 209025, 47, Torneo de Denmark, 1, 229584, 143, Torneo de Qatar, 1
+181, Matthew CENTROWITZ, 5, carrera 1500 m, tiempo, 208772, 127, Torneo de Niger, 1, 229629, 147, Torneo de Saint Kitts and Nevis, 1
+181, Matthew CENTROWITZ, 6, carrera 5000 m, tiempo, 772861, 126, Torneo de Nicaragua, 1, 849217, 70, Torneo de Grenada, 1
+182, Rabii DOUKKANA, 5, carrera 1500 m, tiempo, 208801, 195, Torneo de Vietnam, 1, 229628, 91, Torneo de Kiribati, 1
+183, Vincent KIBET, 5, carrera 1500 m, tiempo, 208853, 185, Torneo de Uganda, 1, 229496, 32, Torneo de Cabo Verde, 1
+184, Sifan HASSAN, 5, carrera 1500 m, tiempo, 208771, 166, Torneo de South Sudan, 1, 229521, 68, Torneo de Ghana, 1
+184, Sifan HASSAN, 6, carrera 5000 m, tiempo, 772098, 9, Torneo de Australia, 1, 849167, 136, Torneo de Panama, 1
+184, Sifan HASSAN, 7, carrera 10000 m, tiempo, 1608968, 60, Torneo de Fiji, 1, 1766874, 173, Torneo de Syria, 1
+184, Sifan HASSAN, 8, carrera 21000 m, tiempo, 3482679, 65, Torneo de Gambia, 1, 3826790, 148, Torneo de Saint Lucia, 1
+185, Faith KIPYEGON, 5, carrera 1500 m, tiempo, 208809, 61, Torneo de Finland, 1, 229641, 38, Torneo de Comoros, 1
+186, Gudaf TSEGAY, 5, carrera 1500 m, tiempo, 208792, 118, Torneo de Morocco, 1, 229566, 84, Torneo de Israel, 1
+187, Shelby HOULIHAN, 5, carrera 1500 m, tiempo, 208773, 104, Torneo de Madagascar, 1, 229598, 185, Torneo de Uganda, 1
+188, Genzebe DIBABA, 5, carrera 1500 m, tiempo, 208883, 6, Torneo de Antigua and Barbuda, 1, 229523, 199, Torneo de Zimbabwe, 1
+190, Gabriela DEBUES-STAFFORD, 5, carrera 1500 m, tiempo, 208819, 93, Torneo de Kuwait, 1, 229437, 21, Torneo de Bolivia, 1
+190, Gabriela DEBUES-STAFFORD, 6, carrera 5000 m, tiempo, 773042, 47, Torneo de Denmark, 1, 848705, 174, Torneo de Taiwan, 1
+191, Winny CHEBET, 5, carrera 1500 m, tiempo, 208809, 178, Torneo de Togo, 1, 229539, 18, Torneo de Belize, 1
+192, Jenny SIMPSON, 5, carrera 1500 m, tiempo, 208884, 108, Torneo de Mali, 1, 229430, 15, Torneo de Barbados, 1
+193, Rababe ARAFI, 5, carrera 1500 m, tiempo, 208782, 151, Torneo de San Marino, 1, 229647, 20, Torneo de Bhutan, 1
+194, Axumawit EMBAYE, 5, carrera 1500 m, tiempo, 208867, 116, Torneo de Mongolia, 1, 229647, 3, Torneo de Algeria, 1
+195, Konstanze KLOSTERHALFEN, 5, carrera 1500 m, tiempo, 208796, 28, Torneo de Burundi, 1, 229463, 158, Torneo de Sierra Leone, 1
+195, Konstanze KLOSTERHALFEN, 6, carrera 5000 m, tiempo, 772460, 30, Torneo de Cameroon, 1, 849050, 39, Torneo de Congo Democratic Republic of the, 1
+197, Ciara MAGEEAN, 5, carrera 1500 m, tiempo, 209043, 20, Torneo de Bhutan, 1, 229635, 136, Torneo de Panama, 1
+198, Sarah MCDONALD, 5, carrera 1500 m, tiempo, 208794, 139, Torneo de Peru, 1, 229428, 156, Torneo de Serbia, 1
+199, Laura WEIGHTMAN, 5, carrera 1500 m, tiempo, 208792, 116, Torneo de Mongolia, 1, 229613, 35, Torneo de Chile, 1
+199, Laura WEIGHTMAN, 6, carrera 5000 m, tiempo, 772743, 70, Torneo de Grenada, 1, 848834, 113, Torneo de Mexico, 1
+200, Eilish MCCOLGAN, 5, carrera 1500 m, tiempo, 208821, 182, Torneo de Turkey, 1, 229632, 102, Torneo de Lithuania, 1
+200, Eilish MCCOLGAN, 6, carrera 5000 m, tiempo, 772270, 150, Torneo de Samoa, 1, 848915, 25, Torneo de Brunei, 1
+201, Dawit SEYAUM, 5, carrera 1500 m, tiempo, 208772, 133, Torneo de Oman, 1, 229624, 55, Torneo de Equatorial Guinea, 1
+202, Nikki HILTZ, 5, carrera 1500 m, tiempo, 208920, 98, Torneo de Lesotho, 1, 229633, 38, Torneo de Comoros, 1
+203, Shannon OSIKA, 5, carrera 1500 m, tiempo, 208852, 182, Torneo de Turkey, 1, 229623, 64, Torneo de Gabon, 1
+204, Telahun Haile BEKELE, 6, carrera 5000 m, tiempo, 772121, 150, Torneo de Samoa, 1, 849204, 158, Torneo de Sierra Leone, 1
+205, Selemon BAREGA, 6, carrera 5000 m, tiempo, 772111, 14, Torneo de Bangladesh, 1, 849153, 11, Torneo de Azerbaijan, 1
+205, Selemon BAREGA, 7, carrera 10000 m, tiempo, 1608319, 198, Torneo de Zambia, 1, 1768601, 11, Torneo de Azerbaijan, 1
+206, Hagos GEBRHIWET, 6, carrera 5000 m, tiempo, 772664, 76, Torneo de Honduras, 1, 848703, 171, Torneo de Sweden, 1
+206, Hagos GEBRHIWET, 7, carrera 10000 m, tiempo, 1608136, 56, Torneo de Eritrea, 1, 1767755, 154, Torneo de Scotland, 1
+207, Birhanu BALEW, 6, carrera 5000 m, tiempo, 772110, 52, Torneo de Ecuador, 1, 849170, 60, Torneo de Fiji, 1
+208, Abadi HADIS, 6, carrera 5000 m, tiempo, 772645, 57, Torneo de Estonia, 1, 849157, 102, Torneo de Lithuania, 1
+208, Abadi HADIS, 7, carrera 10000 m, tiempo, 1608999, 17, Torneo de Belgium, 1, 1767320, 166, Torneo de South Sudan, 1
+208, Abadi HADIS, 8, carrera 21000 m, tiempo, 3481565, 89, Torneo de Kazakhstan, 1, 3828537, 114, Torneo de Moldova, 1
+209, Joshua CHEPTEGEI, 6, carrera 5000 m, tiempo, 772176, 94, Torneo de Kyrgyzstan, 1, 848785, 200, Torneo de Puerto Rico, 1
+209, Joshua CHEPTEGEI, 7, carrera 10000 m, tiempo, 1609174, 177, Torneo de Thailand, 1, 1766586, 164, Torneo de South Africa, 1
+210, Nicholas Kipkorir KIMELI, 6, carrera 5000 m, tiempo, 772709, 4, Torneo de Andorra, 1, 849023, 10, Torneo de Austria, 1
+211, William KINCAID, 6, carrera 5000 m, tiempo, 772143, 74, Torneo de Guyana, 1, 849211, 97, Torneo de Lebanon, 1
+212, Mohammed AHMED, 6, carrera 5000 m, tiempo, 772524, 92, Torneo de Kosovo, 1, 847578, 60, Torneo de Fiji, 1
+212, Mohammed AHMED, 7, carrera 10000 m, tiempo, 1608242, 29, Torneo de Cambodia, 1, 1768340, 33, Torneo de Central African Republic, 1
+213, Muktar EDRIS, 6, carrera 5000 m, tiempo, 773126, 5, Torneo de Angola, 1, 849223, 57, Torneo de Estonia, 1
+214, Lopez LOMONG, 6, carrera 5000 m, tiempo, 772331, 128, Torneo de Nigeria, 1, 849264, 132, Torneo de Norway, 1
+214, Lopez LOMONG, 7, carrera 10000 m, tiempo, 1608036, 20, Torneo de Bhutan, 1, 1768421, 107, Torneo de Maldives, 1
+216, Yomif KEJELCHA, 6, carrera 5000 m, tiempo, 772725, 143, Torneo de Qatar, 1, 848818, 188, Torneo de United Kingdom, 1
+216, Yomif KEJELCHA, 7, carrera 10000 m, tiempo, 1608123, 157, Torneo de Seychelles, 1, 1768131, 189, Torneo de United States, 1
+216, Yomif KEJELCHA, 8, carrera 21000 m, tiempo, 3481810, 196, Torneo de Wales, 1, 3828454, 45, Torneo de Cyprus, 1
+218, Solomon BERIHU, 6, carrera 5000 m, tiempo, 772147, 149, Torneo de Saint Vincent and the Grenadines, 1, 848824, 11, Torneo de Azerbaijan, 1
+218, Solomon BERIHU, 7, carrera 10000 m, tiempo, 1608510, 35, Torneo de Chile, 1, 1768122, 165, Torneo de South Korea, 1
+218, Solomon BERIHU, 8, carrera 21000 m, tiempo, 3484137, 193, Torneo de Vatican City, 1, 3826954, 29, Torneo de Cambodia, 1
+219, Jacob KROP, 6, carrera 5000 m, tiempo, 772722, 74, Torneo de Guyana, 1, 848625, 117, Torneo de Montenegro, 1
+220, Edward Zakayo PINGUA, 6, carrera 5000 m, tiempo, 772128, 153, Torneo de Saudi Arabia, 1, 848817, 12, Torneo de Bahamas, 1
+221, Edward CHESEREK, 6, carrera 5000 m, tiempo, 772938, 195, Torneo de Vietnam, 1, 849067, 19, Torneo de Benin, 1
+222, Paul CHELIMO, 6, carrera 5000 m, tiempo, 772442, 153, Torneo de Saudi Arabia, 1, 849132, 120, Torneo de Myanmar, 1
+223, Stanley Waithaka MBURU, 6, carrera 5000 m, tiempo, 772521, 78, Torneo de Iceland, 1, 849028, 37, Torneo de Colombia, 1
+224, Hellen OBIRI, 6, carrera 5000 m, tiempo, 772409, 123, Torneo de Nepal, 1, 849204, 126, Torneo de Nicaragua, 1
+224, Hellen OBIRI, 7, carrera 10000 m, tiempo, 1608470, 56, Torneo de Eritrea, 1, 1767213, 182, Torneo de Turkey, 1
+225, Agnes Jebet TIROP, 6, carrera 5000 m, tiempo, 772162, 107, Torneo de Maldives, 1, 849293, 116, Torneo de Mongolia, 1
+225, Agnes Jebet TIROP, 7, carrera 10000 m, tiempo, 1608740, 145, Torneo de Russia, 1, 1768146, 81, Torneo de Iran, 1
+228, Margaret Chelimo KIPKEMBOI, 6, carrera 5000 m, tiempo, 772274, 186, Torneo de Ukraine, 1, 849119, 3, Torneo de Algeria, 1
+229, Letesenbet GIDEY, 6, carrera 5000 m, tiempo, 772303, 3, Torneo de Algeria, 1, 849287, 9, Torneo de Australia, 1
+229, Letesenbet GIDEY, 7, carrera 10000 m, tiempo, 1608326, 99, Torneo de Liberia, 1, 1768785, 97, Torneo de Lebanon, 1
+230, Tsehay GEMECHU, 6, carrera 5000 m, tiempo, 772342, 105, Torneo de Malawi, 1, 849076, 97, Torneo de Lebanon, 1
+230, Tsehay GEMECHU, 7, carrera 10000 m, tiempo, 1608234, 50, Torneo de Dominican Republic, 1, 1767171, 195, Torneo de Vietnam, 1
+230, Tsehay GEMECHU, 8, carrera 21000 m, tiempo, 3481952, 29, Torneo de Cambodia, 1, 3828843, 115, Torneo de Monaco, 1
+231, Lilian Kasait RENGERUK, 6, carrera 5000 m, tiempo, 773421, 107, Torneo de Maldives, 1, 849044, 51, Torneo de Timor-Leste, 1
+232, Caroline Chepkoech KIPKIRUI, 6, carrera 5000 m, tiempo, 772171, 120, Torneo de Myanmar, 1, 849044, 134, Torneo de Pakistan, 1
+232, Caroline Chepkoech KIPKIRUI, 8, carrera 21000 m, tiempo, 3481586, 129, Torneo de North Korea, 1, 3825784, 44, Torneo de Cuba, 1
+233, Hawi FEYSA, 6, carrera 5000 m, tiempo, 772169, 67, Torneo de Germany, 1, 848869, 44, Torneo de Cuba, 1
+234, Eva CHERONO, 6, carrera 5000 m, tiempo, 772275, 45, Torneo de Cyprus, 1, 848796, 75, Torneo de Haiti, 1
+235, Fantu WORKU, 6, carrera 5000 m, tiempo, 772328, 143, Torneo de Qatar, 1, 849255, 173, Torneo de Syria, 1
+238, Karissa SCHWEIZER, 6, carrera 5000 m, tiempo, 772237, 126, Torneo de Nicaragua, 1, 848970, 83, Torneo de Ireland, 1
+239, Beatrice CHEBET, 6, carrera 5000 m, tiempo, 772188, 5, Torneo de Angola, 1, 849057, 165, Torneo de South Korea, 1
+241, Beatrice CHEPKOECH, 6, carrera 5000 m, tiempo, 772231, 68, Torneo de Ghana, 1, 848797, 50, Torneo de Dominican Republic, 1
+241, Beatrice CHEPKOECH, 12, carrera 3000 m con vallas, tiempo, 481056, 94, Torneo de Kyrgyzstan, 1, 529067, 154, Torneo de Scotland, 1
+242, Gloriah KITE, 6, carrera 5000 m, tiempo, 772318, 3, Torneo de Algeria, 1, 849207, 156, Torneo de Serbia, 1
+243, Karoline Bjerkeli GRØVDAL, 6, carrera 5000 m, tiempo, 772375, 48, Torneo de Djibouti, 1, 849135, 46, Torneo de Czechia, 1
+243, Karoline Bjerkeli GRØVDAL, 12, carrera 3000 m con vallas, tiempo, 481175, 42, Torneo de Ivory Coast, 1, 529133, 1, Torneo de Afghanistan, 1
+247, Rosemary Monica WANJIRU, 7, carrera 10000 m, tiempo, 1608863, 140, Torneo de Philippines, 1, 1768687, 177, Torneo de Thailand, 1
+249, Netsanet GUDETA, 7, carrera 10000 m, tiempo, 1609354, 7, Torneo de Argentina, 1, 1768375, 115, Torneo de Monaco, 1
+249, Netsanet GUDETA, 8, carrera 21000 m, tiempo, 3482018, 173, Torneo de Syria, 1, 3828474, 172, Torneo de Switzerland, 1
+250, Senbere TEFERI, 7, carrera 10000 m, tiempo, 1608244, 74, Torneo de Guyana, 1, 1768606, 176, Torneo de Tanzania, 1
+250, Senbere TEFERI, 8, carrera 21000 m, tiempo, 3481418, 65, Torneo de Gambia, 1, 3828714, 193, Torneo de Vatican City, 1
+251, Zeineba YIMER, 7, carrera 10000 m, tiempo, 1610215, 9, Torneo de Australia, 1, 1768287, 168, Torneo de Sri Lanka, 1
+251, Zeineba YIMER, 8, carrera 21000 m, tiempo, 3481062, 80, Torneo de Indonesia, 1, 3828790, 150, Torneo de Samoa, 1
+251, Zeineba YIMER, 9, carrera 42000 m, tiempo, 7301146, 52, Torneo de Ecuador, 1, 8030030, 11, Torneo de Azerbaijan, 1
+252, Emily SISSON, 7, carrera 10000 m, tiempo, 1609185, 77, Torneo de Hungary, 1, 1768556, 34, Torneo de Chad, 1
+253, Dera DIDA, 7, carrera 10000 m, tiempo, 1609982, 117, Torneo de Montenegro, 1, 1768566, 193, Torneo de Vatican City, 1
+255, Gete ALEMAYEHU, 7, carrera 10000 m, tiempo, 1608532, 12, Torneo de Bahamas, 1, 1768260, 64, Torneo de Gabon, 1
+256, Girmawit GEBRZIHAIR, 7, carrera 10000 m, tiempo, 1608151, 138, Torneo de Paraguay, 1, 1767096, 156, Torneo de Serbia, 1
+257, Tsigie GEBRESELAMA, 7, carrera 10000 m, tiempo, 1608952, 148, Torneo de Saint Lucia, 1, 1768723, 114, Torneo de Moldova, 1
+258, Molly HUDDLE, 7, carrera 10000 m, tiempo, 1608385, 20, Torneo de Bhutan, 1, 1768204, 59, Torneo de Micronesia, 1
+259, Yasemin CAN, 7, carrera 10000 m, tiempo, 1608516, 190, Torneo de Uruguay, 1, 1768095, 108, Torneo de Mali, 1
+260, Degitu AZIMERAW, 7, carrera 10000 m, tiempo, 1610703, 55, Torneo de Equatorial Guinea, 1, 1768348, 168, Torneo de Sri Lanka, 1
+260, Degitu AZIMERAW, 8, carrera 21000 m, tiempo, 3482276, 16, Torneo de Belarus, 1, 3825488, 105, Torneo de Malawi, 1
+260, Degitu AZIMERAW, 9, carrera 42000 m, tiempo, 7307624, 145, Torneo de Russia, 1, 8030678, 109, Torneo de Malta, 1
+261, Susan KRUMINS, 7, carrera 10000 m, tiempo, 1609056, 115, Torneo de Monaco, 1, 1768428, 191, Torneo de Uzbekistan, 1
+262, Marielle HALL, 7, carrera 10000 m, tiempo, 1608971, 172, Torneo de Switzerland, 1, 1766456, 11, Torneo de Azerbaijan, 1
+263, Stephanie TWELL, 7, carrera 10000 m, tiempo, 1610159, 118, Torneo de Morocco, 1, 1766905, 193, Torneo de Vatican City, 1
+268, Rhonex KIPRUTO, 7, carrera 10000 m, tiempo, 1608528, 84, Torneo de Israel, 1, 1768742, 64, Torneo de Gabon, 1
+269, Andamlak BELIHU, 7, carrera 10000 m, tiempo, 1608408, 113, Torneo de Mexico, 1, 1767554, 125, Torneo de New Zealand, 1
+269, Andamlak BELIHU, 8, carrera 21000 m, tiempo, 3482665, 68, Torneo de Ghana, 1, 3827938, 120, Torneo de Myanmar, 1
+270, Jemal Yimer MEKONNEN, 7, carrera 10000 m, tiempo, 1610950, 9, Torneo de Australia, 1, 1768818, 54, Torneo de El Salvador, 1
+270, Jemal Yimer MEKONNEN, 8, carrera 21000 m, tiempo, 3484446, 148, Torneo de Saint Lucia, 1, 3826906, 171, Torneo de Sweden, 1
+271, Rodgers KWEMOI, 7, carrera 10000 m, tiempo, 1608075, 52, Torneo de Ecuador, 1, 1768720, 57, Torneo de Estonia, 1
+274, Berehanu TSEGU, 7, carrera 10000 m, tiempo, 1608306, 16, Torneo de Belarus, 1, 1768547, 112, Torneo de Mauritius, 1
+274, Berehanu TSEGU, 8, carrera 21000 m, tiempo, 3481292, 168, Torneo de Sri Lanka, 1, 3828021, 61, Torneo de Finland, 1
+277, Yemaneberhan CRIPPA, 7, carrera 10000 m, tiempo, 1609113, 124, Torneo de Netherlands, 1, 1768515, 108, Torneo de Mali, 1
+278, Julien WANDERS, 7, carrera 10000 m, tiempo, 1608920, 134, Torneo de Pakistan, 1, 1767881, 136, Torneo de Panama, 1
+278, Julien WANDERS, 8, carrera 21000 m, tiempo, 3483721, 111, Torneo de Mauritania, 1, 3828808, 47, Torneo de Denmark, 1
+279, Tamirat TOLA, 7, carrera 10000 m, tiempo, 1608079, 92, Torneo de Kosovo, 1, 1767550, 61, Torneo de Finland, 1
+280, Abdallah Kibet MANDE, 7, carrera 10000 m, tiempo, 1608063, 103, Torneo de Luxembourg, 1, 1768314, 124, Torneo de Netherlands, 1
+281, Mogos TUEMAY, 7, carrera 10000 m, tiempo, 1611081, 113, Torneo de Mexico, 1, 1768816, 91, Torneo de Kiribati, 1
+283, Vincent Kiprotich KIBET, 7, carrera 10000 m, tiempo, 1609953, 195, Torneo de Vietnam, 1, 1767971, 13, Torneo de Bahrain, 1
+284, Geoffrey KAMWOROR, 8, carrera 21000 m, tiempo, 3484230, 26, Torneo de Bulgaria, 1, 3827647, 121, Torneo de Namibia, 1
+285, Stephen KIPROP, 8, carrera 21000 m, tiempo, 3481218, 129, Torneo de North Korea, 1, 3828110, 22, Torneo de Bosnia and Herzegovina, 1
+287, Bedan KAROKI, 8, carrera 21000 m, tiempo, 3483548, 170, Torneo de Suriname, 1, 3827918, 146, Torneo de Rwanda, 1
+289, Benard KIMELI, 8, carrera 21000 m, tiempo, 3485931, 80, Torneo de Indonesia, 1, 3826137, 39, Torneo de Congo Democratic Republic of the, 1
+291, Fikadu HAFTU, 8, carrera 21000 m, tiempo, 3481489, 27, Torneo de Burkina Faso, 1, 3828843, 52, Torneo de Ecuador, 1
+292, Felix KIBITOK, 8, carrera 21000 m, tiempo, 3482012, 97, Torneo de Lebanon, 1, 3826570, 141, Torneo de Poland, 1
+294, Leonard BARSOTON, 8, carrera 21000 m, tiempo, 3484102, 137, Torneo de Papua New Guinea, 1, 3827516, 71, Torneo de Guatemala, 1
+297, Seifu TURA, 8, carrera 21000 m, tiempo, 3481150, 39, Torneo de Congo Democratic Republic of the, 1, 3829025, 136, Torneo de Panama, 1
+299, Morris Munene GACHAGA, 8, carrera 21000 m, tiempo, 3481732, 87, Torneo de Japan, 1, 3827379, 24, Torneo de Brazil, 1
+301, Edwin KIPTOO, 8, carrera 21000 m, tiempo, 3484115, 70, Torneo de Grenada, 1, 3827304, 177, Torneo de Thailand, 1
+302, Leonard LANGAT, 8, carrera 21000 m, tiempo, 3481507, 69, Torneo de Greece, 1, 3827462, 199, Torneo de Zimbabwe, 1
+303, Kibiwott KANDIE, 8, carrera 21000 m, tiempo, 3485317, 137, Torneo de Papua New Guinea, 1, 3828626, 146, Torneo de Rwanda, 1
+304, Brigid KOSGEI, 8, carrera 21000 m, tiempo, 3482843, 193, Torneo de Vatican City, 1, 3828074, 131, Torneo de Northern Ireland, 1
+304, Brigid KOSGEI, 9, carrera 42000 m, tiempo, 7305943, 58, Torneo de Ethiopia, 1, 8026138, 83, Torneo de Ireland, 1
+305, Ruth CHEPNGETICH, 8, carrera 21000 m, tiempo, 3482162, 25, Torneo de Brunei, 1, 3828690, 191, Torneo de Uzbekistan, 1
+305, Ruth CHEPNGETICH, 9, carrera 42000 m, tiempo, 7308031, 53, Torneo de Egypt, 1, 8028469, 122, Torneo de Nauru, 1
+311, Birhane DIBABA, 8, carrera 21000 m, tiempo, 3488790, 72, Torneo de Guinea, 1, 3828892, 35, Torneo de Chile, 1
+311, Birhane DIBABA, 9, carrera 42000 m, tiempo, 7303234, 65, Torneo de Gambia, 1, 8023527, 173, Torneo de Syria, 1
+313, Roza DEREJE, 8, carrera 21000 m, tiempo, 3481121, 155, Torneo de Senegal, 1, 3825191, 124, Torneo de Netherlands, 1
+313, Roza DEREJE, 9, carrera 42000 m, tiempo, 7304491, 11, Torneo de Azerbaijan, 1, 8029156, 65, Torneo de Gambia, 1
+314, Yalemzerf YEHUALAW, 8, carrera 21000 m, tiempo, 3482942, 11, Torneo de Azerbaijan, 1, 3827260, 110, Torneo de Marshall Islands, 1
+316, Lonah Chemtai SALPETER, 8, carrera 21000 m, tiempo, 3481643, 145, Torneo de Russia, 1, 3826972, 114, Torneo de Moldova, 1
+316, Lonah Chemtai SALPETER, 9, carrera 42000 m, tiempo, 7310801, 199, Torneo de Zimbabwe, 1, 8030831, 75, Torneo de Haiti, 1
+317, Joan Chelimo MELLY, 8, carrera 21000 m, tiempo, 3482666, 126, Torneo de Nicaragua, 1, 3824795, 153, Torneo de Saudi Arabia, 1
+318, Valary JEMELI, 8, carrera 21000 m, tiempo, 3482183, 185, Torneo de Uganda, 1, 3827475, 17, Torneo de Belgium, 1
+318, Valary JEMELI, 9, carrera 42000 m, tiempo, 7303454, 138, Torneo de Paraguay, 1, 8026066, 45, Torneo de Cyprus, 1
+319, Evaline CHIRCHIR, 8, carrera 21000 m, tiempo, 3481005, 103, Torneo de Luxembourg, 1, 3823854, 156, Torneo de Serbia, 1
+320, Dorcas Jepchirchir TUITOEK, 8, carrera 21000 m, tiempo, 3483042, 73, Torneo de Guinea-Bissau, 1, 3827062, 201, Torneo de Virgin Islands (British), 1
+321, Vivian J. CHERUIYOT, 8, carrera 21000 m, tiempo, 3484087, 14, Torneo de Bangladesh, 1, 3827707, 182, Torneo de Turkey, 1
+321, Vivian J. CHERUIYOT, 9, carrera 42000 m, tiempo, 7308210, 55, Torneo de Equatorial Guinea, 1, 8028981, 131, Torneo de Northern Ireland, 1
+322, Alemu MEGERTU, 8, carrera 21000 m, tiempo, 3482593, 200, Torneo de Puerto Rico, 1, 3826947, 154, Torneo de Scotland, 1
+323, Dibabe KUMA, 8, carrera 21000 m, tiempo, 3481578, 134, Torneo de Pakistan, 1, 3825513, 114, Torneo de Moldova, 1
+326, Worknesh DEGEFA, 9, carrera 42000 m, tiempo, 7313334, 111, Torneo de Mauritania, 1, 8030444, 95, Torneo de Laos, 1
+328, Azmera ABREHA, 9, carrera 42000 m, tiempo, 7311781, 135, Torneo de Palau, 1, 8029944, 37, Torneo de Colombia, 1
+336, Ashete BEKERE, 9, carrera 42000 m, tiempo, 7304332, 32, Torneo de Cabo Verde, 1, 8027313, 124, Torneo de Netherlands, 1
+337, Mare DIBABA, 9, carrera 42000 m, tiempo, 7302469, 119, Torneo de Mozambique, 1, 8025541, 70, Torneo de Grenada, 1
+338, Workenesh EDESA, 9, carrera 42000 m, tiempo, 7304505, 97, Torneo de Lebanon, 1, 8028679, 35, Torneo de Chile, 1
+339, Purity Cherotich RIONORIPO, 9, carrera 42000 m, tiempo, 7303553, 67, Torneo de Germany, 1, 8031054, 34, Torneo de Chad, 1
+340, Ruti AGA, 9, carrera 42000 m, tiempo, 7301667, 182, Torneo de Turkey, 1, 8030158, 87, Torneo de Japan, 1
+341, Azmera GEBRU, 9, carrera 42000 m, tiempo, 7303562, 145, Torneo de Russia, 1, 8030363, 185, Torneo de Uganda, 1
+342, Ababel YESHANEH, 9, carrera 42000 m, tiempo, 7304941, 2, Torneo de Albania, 1, 8030474, 102, Torneo de Lithuania, 1
+343, Gladys CHERONO, 9, carrera 42000 m, tiempo, 7309791, 145, Torneo de Russia, 1, 8029220, 136, Torneo de Panama, 1
+344, Kenenisa BEKELE, 9, carrera 42000 m, tiempo, 7309082, 111, Torneo de Mauritania, 1, 8026649, 191, Torneo de Uzbekistan, 1
+345, Eliud KIPCHOGE, 9, carrera 42000 m, tiempo, 7306906, 2, Torneo de Albania, 1, 8027660, 155, Torneo de Senegal, 1
+346, Birhanu LEGESE, 9, carrera 42000 m, tiempo, 7303206, 23, Torneo de Botswana, 1, 8023472, 9, Torneo de Australia, 1
+347, Mosinet GEREMEW, 9, carrera 42000 m, tiempo, 7308190, 116, Torneo de Mongolia, 1, 8024575, 191, Torneo de Uzbekistan, 1
+348, Mule WASIHUN, 9, carrera 42000 m, tiempo, 7303410, 158, Torneo de Sierra Leone, 1, 8026576, 29, Torneo de Cambodia, 1
+349, Getaneh MOLLA, 9, carrera 42000 m, tiempo, 7303850, 13, Torneo de Bahrain, 1, 8026049, 128, Torneo de Nigeria, 1
+350, Sisay LEMMA, 9, carrera 42000 m, tiempo, 7309275, 139, Torneo de Peru, 1, 8023521, 91, Torneo de Kiribati, 1
+351, Herpasa NEGASA, 9, carrera 42000 m, tiempo, 7304817, 56, Torneo de Eritrea, 1, 8030853, 175, Torneo de Tajikistan, 1
+352, Kinde ATANAW, 9, carrera 42000 m, tiempo, 7301386, 74, Torneo de Guyana, 1, 8025039, 102, Torneo de Lithuania, 1
+353, Marius KIPSEREM, 9, carrera 42000 m, tiempo, 7307460, 191, Torneo de Uzbekistan, 1, 8026004, 1, Torneo de Afghanistan, 1
+354, Kaan Kigen ÖZBILEN, 9, carrera 42000 m, tiempo, 7303292, 151, Torneo de San Marino, 1, 8028537, 129, Torneo de North Korea, 1
+355, Asefa MENGSTU, 9, carrera 42000 m, tiempo, 7302153, 87, Torneo de Japan, 1, 8030109, 76, Torneo de Honduras, 1
+356, Reuben Kiprop KIPYEGO, 9, carrera 42000 m, tiempo, 7302147, 176, Torneo de Tanzania, 1, 8030629, 29, Torneo de Cambodia, 1
+357, Guye Idemo ADOLA, 9, carrera 42000 m, tiempo, 7306648, 52, Torneo de Ecuador, 1, 8027315, 78, Torneo de Iceland, 1
+358, Titus EKIRU, 9, carrera 42000 m, tiempo, 7303429, 13, Torneo de Bahrain, 1, 8026434, 103, Torneo de Luxembourg, 1
+359, Abebe Negewo DEGEFA, 9, carrera 42000 m, tiempo, 7311718, 40, Torneo de Congo Republic of the, 1, 8030767, 4, Torneo de Andorra, 1
+360, Evans CHEBET, 9, carrera 42000 m, tiempo, 7313756, 103, Torneo de Luxembourg, 1, 8024020, 159, Torneo de Singapore, 1
+361, Philemon RONO, 9, carrera 42000 m, tiempo, 7304007, 179, Torneo de Tonga, 1, 8027625, 171, Torneo de Sweden, 1
+362, Shura KITATA, 9, carrera 42000 m, tiempo, 7307905, 160, Torneo de Slovakia, 1, 8024238, 120, Torneo de Myanmar, 1
+363, Emmanuel SAINA, 9, carrera 42000 m, tiempo, 7304424, 28, Torneo de Burundi, 1, 8030868, 95, Torneo de Laos, 1
+364, Grant HOLLOWAY, 10, carrera 110 m con vallas, tiempo, 12101, 31, Torneo de Canada, 1, 13308, 192, Torneo de Vanuatu, 1
+365, Daniel ROBERTS, 10, carrera 110 m con vallas, tiempo, 12105, 66, Torneo de Georgia, 1, 13283, 109, Torneo de Malta, 1
+366, Orlando ORTEGA, 10, carrera 110 m con vallas, tiempo, 12109, 93, Torneo de Kuwait, 1, 13304, 88, Torneo de Jordan, 1
+367, Omar MCLEOD, 10, carrera 110 m con vallas, tiempo, 12099, 92, Torneo de Kosovo, 1, 13307, 165, Torneo de South Korea, 1
+368, Sergey SHUBENKOV, 10, carrera 110 m con vallas, tiempo, 12113, 44, Torneo de Cuba, 1, 13308, 112, Torneo de Mauritius, 1
+369, Pascal MARTINOT-LAGARDE, 10, carrera 110 m con vallas, tiempo, 12119, 124, Torneo de Netherlands, 1, 13308, 164, Torneo de South Africa, 1
+370, Wenjun XIE, 10, carrera 110 m con vallas, tiempo, 12098, 31, Torneo de Canada, 1, 13308, 16, Torneo de Belarus, 1
+371, Freddie CRITTENDEN, 10, carrera 110 m con vallas, tiempo, 12105, 178, Torneo de Togo, 1, 13287, 180, Torneo de Trinidad and Tobago, 1
+372, Gabriel CONSTANTINO, 10, carrera 110 m con vallas, tiempo, 12098, 51, Torneo de Timor-Leste, 1, 13306, 98, Torneo de Lesotho, 1
+373, Ronald LEVY, 10, carrera 110 m con vallas, tiempo, 12104, 181, Torneo de Tunisia, 1, 13305, 133, Torneo de Oman, 1
+374, Shunya TAKAYAMA, 10, carrera 110 m con vallas, tiempo, 12102, 95, Torneo de Laos, 1, 13308, 22, Torneo de Bosnia and Herzegovina, 1
+375, Orlando BENNETT, 10, carrera 110 m con vallas, tiempo, 12099, 59, Torneo de Micronesia, 1, 13307, 181, Torneo de Tunisia, 1
+376, Wilhem BELOCIAN, 10, carrera 110 m con vallas, tiempo, 12112, 195, Torneo de Vietnam, 1, 13302, 32, Torneo de Cabo Verde, 1
+377, Andrew POZZI, 10, carrera 110 m con vallas, tiempo, 12104, 122, Torneo de Nauru, 1, 13306, 42, Torneo de Ivory Coast, 1
+378, Milan TRAJKOVIC, 10, carrera 110 m con vallas, tiempo, 12106, 121, Torneo de Namibia, 1, 13301, 92, Torneo de Kosovo, 1
+379, Antonio ALKANA, 10, carrera 110 m con vallas, tiempo, 12099, 144, Torneo de Romania, 1, 13307, 137, Torneo de Papua New Guinea, 1
+380, Eduardo RODRIGUES, 10, carrera 110 m con vallas, tiempo, 12100, 103, Torneo de Luxembourg, 1, 13293, 126, Torneo de Nicaragua, 1
+381, Shane BRATHWAITE, 10, carrera 110 m con vallas, tiempo, 12128, 160, Torneo de Slovakia, 1, 13307, 114, Torneo de Moldova, 1
+382, Andrew RILEY, 10, carrera 110 m con vallas, tiempo, 12100, 49, Torneo de Dominica, 1, 13304, 52, Torneo de Ecuador, 1
+383, Devon ALLEN, 10, carrera 110 m con vallas, tiempo, 12105, 59, Torneo de Micronesia, 1, 13304, 51, Torneo de Timor-Leste, 1
+384, Danielle WILLIAMS, 10, carrera 110 m con vallas, tiempo, 12100, 114, Torneo de Moldova, 1, 13306, 181, Torneo de Tunisia, 1
+385, Nia ALI, 10, carrera 110 m con vallas, tiempo, 12102, 137, Torneo de Papua New Guinea, 1, 13305, 192, Torneo de Vanuatu, 1
+387, Kendra HARRISON, 10, carrera 110 m con vallas, tiempo, 12100, 56, Torneo de Eritrea, 1, 13308, 125, Torneo de New Zealand, 1
+388, Tobi AMUSAN, 10, carrera 110 m con vallas, tiempo, 12099, 85, Torneo de Italy, 1, 13305, 196, Torneo de Wales, 1
+389, Chanel BRISSETT, 10, carrera 110 m con vallas, tiempo, 12107, 201, Torneo de Virgin Islands (British), 1, 13303, 150, Torneo de Samoa, 1
+390, Tonea MARSHALL, 10, carrera 110 m con vallas, tiempo, 12100, 137, Torneo de Papua New Guinea, 1, 13286, 66, Torneo de Georgia, 1
+391, Christina CLEMONS, 10, carrera 110 m con vallas, tiempo, 12103, 62, Torneo de France, 1, 13302, 185, Torneo de Uganda, 1
+392, Kendell WILLIAMS, 10, carrera 110 m con vallas, tiempo, 12100, 195, Torneo de Vietnam, 1, 13304, 135, Torneo de Palau, 1
+393, Brianna MCNEAL, 10, carrera 110 m con vallas, tiempo, 12109, 82, Torneo de Iraq, 1, 13293, 1, Torneo de Afghanistan, 1
+394, Megan TAPPER, 10, carrera 110 m con vallas, tiempo, 12115, 148, Torneo de Saint Lucia, 1, 13302, 196, Torneo de Wales, 1
+395, Nadine VISSER, 10, carrera 110 m con vallas, tiempo, 12100, 153, Torneo de Saudi Arabia, 1, 13307, 194, Torneo de Venezuela, 1
+396, Queen CLAYE, 10, carrera 110 m con vallas, tiempo, 12098, 48, Torneo de Djibouti, 1, 13295, 86, Torneo de Jamaica, 1
+397, Andrea Carolina VARGAS, 10, carrera 110 m con vallas, tiempo, 12105, 67, Torneo de Germany, 1, 13295, 148, Torneo de Saint Lucia, 1
+398, Sharika NELVIS, 10, carrera 110 m con vallas, tiempo, 12129, 169, Torneo de Sudan, 1, 13304, 14, Torneo de Bangladesh, 1
+399, Anna COCKRELL, 10, carrera 110 m con vallas, tiempo, 12098, 181, Torneo de Tunisia, 1, 13301, 191, Torneo de Uzbekistan, 1
+400, Payton CHADWICK, 10, carrera 110 m con vallas, tiempo, 12098, 179, Torneo de Tonga, 1, 13305, 56, Torneo de Eritrea, 1
+401, Sally PEARSON, 10, carrera 110 m con vallas, tiempo, 12100, 135, Torneo de Palau, 1, 13305, 116, Torneo de Mongolia, 1
+402, Elvira HERMAN, 10, carrera 110 m con vallas, tiempo, 12105, 125, Torneo de New Zealand, 1, 13305, 127, Torneo de Niger, 1
+403, Britany ANDERSON, 10, carrera 110 m con vallas, tiempo, 12105, 6, Torneo de Antigua and Barbuda, 1, 13297, 107, Torneo de Maldives, 1
+404, Karsten WARHOLM, 11, carrera 400 m con vallas, tiempo, 46102, 84, Torneo de Israel, 1, 50697, 42, Torneo de Ivory Coast, 1
+407, Kyron MCMASTER, 11, carrera 400 m con vallas, tiempo, 46094, 51, Torneo de Timor-Leste, 1, 50689, 13, Torneo de Bahrain, 1
+408, TJ HOLMES, 11, carrera 400 m con vallas, tiempo, 46094, 38, Torneo de Comoros, 1, 50687, 11, Torneo de Azerbaijan, 1
+409, Yasmani COPELLO, 11, carrera 400 m con vallas, tiempo, 46120, 187, Torneo de United Arab Emirates, 1, 50698, 66, Torneo de Georgia, 1
+410, Alison DOS SANTOS, 11, carrera 400 m con vallas, tiempo, 46095, 113, Torneo de Mexico, 1, 50689, 196, Torneo de Wales, 1
+411, Ludvy VAILLANT, 11, carrera 400 m con vallas, tiempo, 46118, 195, Torneo de Vietnam, 1, 50697, 65, Torneo de Gambia, 1
+412, Abdelmalik LAHOULOU, 11, carrera 400 m con vallas, tiempo, 46099, 35, Torneo de Chile, 1, 50702, 102, Torneo de Lithuania, 1
+414, Marcio TELES, 11, carrera 400 m con vallas, tiempo, 46151, 86, Torneo de Jamaica, 1, 50693, 189, Torneo de United States, 1
+415, Amere LATTIN, 11, carrera 400 m con vallas, tiempo, 46115, 113, Torneo de Mexico, 1, 50682, 35, Torneo de Chile, 1
+416, Norman GRIMES, 11, carrera 400 m con vallas, tiempo, 46130, 23, Torneo de Botswana, 1, 50625, 42, Torneo de Ivory Coast, 1
+417, David KENDZIERA, 11, carrera 400 m con vallas, tiempo, 46118, 190, Torneo de Uruguay, 1, 50690, 151, Torneo de San Marino, 1
+418, Kemar MOWATT, 11, carrera 400 m con vallas, tiempo, 46099, 12, Torneo de Bahamas, 1, 50687, 8, Torneo de Armenia, 1
+419, Sokwakhana ZAZINI, 11, carrera 400 m con vallas, tiempo, 46121, 156, Torneo de Serbia, 1, 50623, 170, Torneo de Suriname, 1
+420, Dharun AYYASAMY, 11, carrera 400 m con vallas, tiempo, 46102, 105, Torneo de Malawi, 1, 50696, 164, Torneo de South Africa, 1
+421, Takatoshi ABE, 11, carrera 400 m con vallas, tiempo, 46116, 26, Torneo de Bulgaria, 1, 50692, 61, Torneo de Finland, 1
+422, Patryk DOBEK, 11, carrera 400 m con vallas, tiempo, 46106, 89, Torneo de Kazakhstan, 1, 50679, 13, Torneo de Bahrain, 1
+423, Lindsay HANEKOM, 11, carrera 400 m con vallas, tiempo, 46092, 169, Torneo de Sudan, 1, 50699, 88, Torneo de Jordan, 1
+426, Ashley SPENCER, 11, carrera 400 m con vallas, tiempo, 46092, 62, Torneo de France, 1, 50674, 82, Torneo de Iraq, 1
+427, Shamier LITTLE, 11, carrera 400 m con vallas, tiempo, 46113, 89, Torneo de Kazakhstan, 1, 50699, 113, Torneo de Mexico, 1
+428, Rushell CLAYTON, 11, carrera 400 m con vallas, tiempo, 46118, 137, Torneo de Papua New Guinea, 1, 50693, 58, Torneo de Ethiopia, 1
+429, Lea SPRUNGER, 11, carrera 400 m con vallas, tiempo, 46143, 175, Torneo de Tajikistan, 1, 50701, 173, Torneo de Syria, 1
+430, Zuzana HEJNOVÁ, 11, carrera 400 m con vallas, tiempo, 46138, 11, Torneo de Azerbaijan, 1, 50693, 50, Torneo de Dominican Republic, 1
+431, Tia-Adana BELLE, 11, carrera 400 m con vallas, tiempo, 46202, 33, Torneo de Central African Republic, 1, 50660, 64, Torneo de Gabon, 1
+432, Sage WATSON, 11, carrera 400 m con vallas, tiempo, 46178, 33, Torneo de Central African Republic, 1, 50699, 90, Torneo de Kenya, 1
+433, Anna RYZHYKOVA, 11, carrera 400 m con vallas, tiempo, 46101, 66, Torneo de Georgia, 1, 50656, 19, Torneo de Benin, 1
+434, Janieve RUSSELL, 11, carrera 400 m con vallas, tiempo, 46208, 174, Torneo de Taiwan, 1, 50684, 110, Torneo de Marshall Islands, 1
+435, Amalie IUEL, 11, carrera 400 m con vallas, tiempo, 46104, 156, Torneo de Serbia, 1, 50693, 67, Torneo de Germany, 1
+436, Ayomide FOLORUNSO, 11, carrera 400 m con vallas, tiempo, 46199, 164, Torneo de South Africa, 1, 50696, 34, Torneo de Chad, 1
+437, Lauren WELLS, 11, carrera 400 m con vallas, tiempo, 46100, 21, Torneo de Bolivia, 1, 50698, 38, Torneo de Comoros, 1
+438, Sara Slott PETERSEN, 11, carrera 400 m con vallas, tiempo, 46122, 189, Torneo de United States, 1, 50701, 91, Torneo de Kiribati, 1
+439, Nikita TRACEY, 11, carrera 400 m con vallas, tiempo, 46153, 42, Torneo de Ivory Coast, 1, 50617, 198, Torneo de Zambia, 1
+440, Cassandra TATE, 11, carrera 400 m con vallas, tiempo, 46113, 80, Torneo de Indonesia, 1, 50675, 29, Torneo de Cambodia, 1
+441, Zurian HECHAVARRÍA, 11, carrera 400 m con vallas, tiempo, 46103, 49, Torneo de Dominica, 1, 50685, 86, Torneo de Jamaica, 1
+442, Kori CARTER, 11, carrera 400 m con vallas, tiempo, 46117, 105, Torneo de Malawi, 1, 50694, 140, Torneo de Philippines, 1
+443, Aminat JAMAL, 11, carrera 400 m con vallas, tiempo, 46108, 75, Torneo de Haiti, 1, 50698, 23, Torneo de Botswana, 1
+444, Conseslus KIPRUTO, 12, carrera 3000 m con vallas, tiempo, 481433, 85, Torneo de Italy, 1, 528674, 125, Torneo de New Zealand, 1
+445, Lamecha GIRMA, 12, carrera 3000 m con vallas, tiempo, 481078, 108, Torneo de Mali, 1, 528818, 118, Torneo de Morocco, 1
+446, Soufiane EL BAKKALI, 12, carrera 3000 m con vallas, tiempo, 481711, 110, Torneo de Marshall Islands, 1, 529036, 67, Torneo de Germany, 1
+447, Benjamin KIGEN, 12, carrera 3000 m con vallas, tiempo, 481168, 171, Torneo de Sweden, 1, 528889, 89, Torneo de Kazakhstan, 1
+448, Getnet WALE, 12, carrera 3000 m con vallas, tiempo, 481590, 69, Torneo de Greece, 1, 528948, 161, Torneo de Slovenia, 1
+449, Djilali BEDRANI, 12, carrera 3000 m con vallas, tiempo, 482078, 114, Torneo de Moldova, 1, 528354, 183, Torneo de Turkmenistan, 1
+450, Fernando CARRO, 12, carrera 3000 m con vallas, tiempo, 481126, 63, Torneo de French Guiana, 1, 528963, 107, Torneo de Maldives, 1
+451, Abraham KIBIWOT, 12, carrera 3000 m con vallas, tiempo, 481060, 110, Torneo de Marshall Islands, 1, 528923, 138, Torneo de Paraguay, 1
+452, Chala BEYO, 12, carrera 3000 m con vallas, tiempo, 481040, 66, Torneo de Georgia, 1, 529015, 119, Torneo de Mozambique, 1
+453, Hillary BOR, 12, carrera 3000 m con vallas, tiempo, 481332, 63, Torneo de French Guiana, 1, 529108, 26, Torneo de Bulgaria, 1
+454, Leonard Kipkemoi BETT, 12, carrera 3000 m con vallas, tiempo, 481113, 41, Torneo de Costa Rica, 1, 528870, 121, Torneo de Namibia, 1
+455, Takele NIGATE, 12, carrera 3000 m con vallas, tiempo, 481059, 194, Torneo de Venezuela, 1, 528903, 35, Torneo de Chile, 1
+456, Stanley Kipkoech KEBENEI, 12, carrera 3000 m con vallas, tiempo, 481207, 68, Torneo de Ghana, 1, 529060, 193, Torneo de Vatican City, 1
+457, Lawrence Kemboi KIPSANG, 12, carrera 3000 m con vallas, tiempo, 481452, 111, Torneo de Mauritania, 1, 528660, 19, Torneo de Benin, 1
+458, Nicholas Kiptanui BETT, 12, carrera 3000 m con vallas, tiempo, 481261, 157, Torneo de Seychelles, 1, 528928, 126, Torneo de Nicaragua, 1
+459, Albert CHEMUTAI, 12, carrera 3000 m con vallas, tiempo, 481195, 8, Torneo de Armenia, 1, 529086, 186, Torneo de Ukraine, 1
+460, Andrew BAYER, 12, carrera 3000 m con vallas, tiempo, 481036, 125, Torneo de New Zealand, 1, 529061, 31, Torneo de Canada, 1
+461, Mohamed TINDOUFT, 12, carrera 3000 m con vallas, tiempo, 481061, 94, Torneo de Kyrgyzstan, 1, 528938, 170, Torneo de Suriname, 1
+462, Barnabas KIPYEGO, 12, carrera 3000 m con vallas, tiempo, 481256, 9, Torneo de Australia, 1, 529130, 187, Torneo de United Arab Emirates, 1
+463, Matthew HUGHES, 12, carrera 3000 m con vallas, tiempo, 481095, 67, Torneo de Germany, 1, 529132, 108, Torneo de Mali, 1
+465, Emma COBURN, 12, carrera 3000 m con vallas, tiempo, 481064, 148, Torneo de Saint Lucia, 1, 528477, 195, Torneo de Vietnam, 1
+466, Gesa Felicitas KRAUSE, 12, carrera 3000 m con vallas, tiempo, 481492, 112, Torneo de Mauritius, 1, 528951, 80, Torneo de Indonesia, 1
+467, Norah JERUTO, 12, carrera 3000 m con vallas, tiempo, 481044, 76, Torneo de Honduras, 1, 529121, 41, Torneo de Costa Rica, 1
+468, Hyvin KIYENG, 12, carrera 3000 m con vallas, tiempo, 481179, 90, Torneo de Kenya, 1, 528800, 133, Torneo de Oman, 1
+469, Winfred Mutile YAVI, 12, carrera 3000 m con vallas, tiempo, 481479, 123, Torneo de Nepal, 1, 528814, 38, Torneo de Comoros, 1
+470, Daisy JEPKEMEI, 12, carrera 3000 m con vallas, tiempo, 481060, 52, Torneo de Ecuador, 1, 528623, 74, Torneo de Guyana, 1
+471, Celliphine Chepteek CHESPOL, 12, carrera 3000 m con vallas, tiempo, 481266, 47, Torneo de Denmark, 1, 529006, 68, Torneo de Ghana, 1
+472, Courtney FRERICHS, 12, carrera 3000 m con vallas, tiempo, 482244, 162, Torneo de Solomon Islands, 1, 528970, 172, Torneo de Switzerland, 1
+473, Peruth CHEMUTAI, 12, carrera 3000 m con vallas, tiempo, 481272, 181, Torneo de Tunisia, 1, 529080, 171, Torneo de Sweden, 1
+474, Colleen QUIGLEY, 12, carrera 3000 m con vallas, tiempo, 481375, 104, Torneo de Madagascar, 1, 529033, 23, Torneo de Botswana, 1
+475, Anna Emilie MØLLER, 12, carrera 3000 m con vallas, tiempo, 481045, 15, Torneo de Barbados, 1, 528968, 40, Torneo de Congo Republic of the, 1
+476, Luiza GEGA, 12, carrera 3000 m con vallas, tiempo, 481224, 158, Torneo de Sierra Leone, 1, 528861, 166, Torneo de South Sudan, 1
+478, Maruša MIŠMAŠ, 12, carrera 3000 m con vallas, tiempo, 481151, 100, Torneo de Libya, 1, 529081, 95, Torneo de Laos, 1
+479, Mercy CHEPKURUI, 12, carrera 3000 m con vallas, tiempo, 481081, 116, Torneo de Mongolia, 1, 528670, 87, Torneo de Japan, 1
+480, Genevieve GREGSON, 12, carrera 3000 m con vallas, tiempo, 481076, 34, Torneo de Chad, 1, 528811, 113, Torneo de Mexico, 1
+481, Mekides ABEBE, 12, carrera 3000 m con vallas, tiempo, 481379, 149, Torneo de Saint Vincent and the Grenadines, 1, 529087, 21, Torneo de Bolivia, 1
+482, Mercy WANJIRU, 12, carrera 3000 m con vallas, tiempo, 481184, 110, Torneo de Marshall Islands, 1, 529071, 37, Torneo de Colombia, 1
+483, Zita KÁCSER, 12, carrera 3000 m con vallas, tiempo, 481149, 160, Torneo de Slovakia, 1, 529122, 17, Torneo de Belgium, 1
+484, Mutaz Essa BARSHIM, 13, salto de altura, altura, 261, 180, Torneo de Trinidad and Tobago, 6, 237, 21, Torneo de Bolivia, 1
+485, Maksim NEDASEKAU, 13, salto de altura, altura, 261, 110, Torneo de Marshall Islands, 3, 237, 7, Torneo de Argentina, 3
+486, Mikhail AKIMENKO, 13, salto de altura, altura, 261, 200, Torneo de Puerto Rico, 9, 237, 2, Torneo de Albania, 7
+487, Ilya IVANYUK, 13, salto de altura, altura, 261, 200, Torneo de Puerto Rico, 7, 237, 168, Torneo de Sri Lanka, 5
+488, Stefano SOTTILE, 13, salto de altura, altura, 261, 166, Torneo de South Sudan, 9, 237, 8, Torneo de Armenia, 10
+489, Andriy PROTSENKO, 13, salto de altura, altura, 261, 185, Torneo de Uganda, 9, 237, 30, Torneo de Cameroon, 8
+490, Michael MASON, 13, salto de altura, altura, 261, 195, Torneo de Vietnam, 3, 237, 23, Torneo de Botswana, 8
+491, Majd Eddin GHAZAL, 13, salto de altura, altura, 261, 189, Torneo de United States, 5, 237, 6, Torneo de Antigua and Barbuda, 7
+492, Yu WANG, 13, salto de altura, altura, 261, 130, Torneo de Macedonia, 1, 237, 9, Torneo de Australia, 1
+493, Bohdan BONDARENKO, 13, salto de altura, altura, 261, 186, Torneo de Ukraine, 8, 237, 12, Torneo de Bahamas, 8
+494, Daniil TSYPLAKOV, 13, salto de altura, altura, 261, 194, Torneo de Venezuela, 9, 237, 8, Torneo de Armenia, 3
+495, Joel BADEN, 13, salto de altura, altura, 261, 198, Torneo de Zambia, 3, 237, 103, Torneo de Luxembourg, 6
+496, Django LOVETT, 13, salto de altura, altura, 261, 182, Torneo de Turkey, 4, 237, 11, Torneo de Azerbaijan, 9
+497, Takashi ETO, 13, salto de altura, altura, 261, 136, Torneo de Panama, 5, 237, 15, Torneo de Barbados, 7
+498, Mateusz PRZYBYLKO, 13, salto de altura, altura, 261, 185, Torneo de Uganda, 10, 237, 106, Torneo de Malaysia, 5
+499, Hamish KERR, 13, salto de altura, altura, 261, 154, Torneo de Scotland, 2, 237, 13, Torneo de Bahrain, 8
+500, Tihomir IVANOV, 13, salto de altura, altura, 261, 155, Torneo de Senegal, 6, 237, 18, Torneo de Belize, 1
+501, Jeron ROBINSON, 13, salto de altura, altura, 261, 190, Torneo de Uruguay, 8, 237, 4, Torneo de Andorra, 10
+502, Shelby MCEWEN, 13, salto de altura, altura, 261, 184, Torneo de Tuvalu, 5, 237, 2, Torneo de Albania, 4
+503, Dzmitry NABOKAU, 13, salto de altura, altura, 261, 191, Torneo de Uzbekistan, 10, 237, 54, Torneo de El Salvador, 2
+504, Luis Enrique ZAYAS, 13, salto de altura, altura, 261, 190, Torneo de Uruguay, 10, 237, 19, Torneo de Benin, 9
+505, Mariya LASITSKENE, 13, salto de altura, altura, 261, 201, Torneo de Virgin Islands (British), 3, 237, 91, Torneo de Kiribati, 1
+506, Yaroslava MAHUCHIKH, 13, salto de altura, altura, 261, 199, Torneo de Zimbabwe, 2, 237, 16, Torneo de Belarus, 3
+507, Nafissatou THIAM, 13, salto de altura, altura, 261, 192, Torneo de Vanuatu, 2, 237, 26, Torneo de Bulgaria, 8
+507, Nafissatou THIAM, 15, salto largo, largo, 956, 5, Torneo de Angola, 7, 869, 15, Torneo de Barbados, 1
+508, Yuliya LEVCHENKO, 13, salto de altura, altura, 261, 175, Torneo de Tajikistan, 6, 237, 13, Torneo de Bahrain, 10
+509, Anna CHICHEROVA, 13, salto de altura, altura, 261, 47, Torneo de Denmark, 8, 237, 29, Torneo de Cambodia, 9
+510, Vashti CUNNINGHAM, 13, salto de altura, altura, 261, 192, Torneo de Vanuatu, 10, 237, 12, Torneo de Bahamas, 8
+511, Karyna DEMIDIK, 13, salto de altura, altura, 261, 201, Torneo de Virgin Islands (British), 2, 237, 31, Torneo de Canada, 8
+512, Iryna GERASHCHENKO, 13, salto de altura, altura, 261, 164, Torneo de South Africa, 6, 237, 16, Torneo de Belarus, 9
+513, Kamila LIĆWINKO, 13, salto de altura, altura, 261, 180, Torneo de Trinidad and Tobago, 3, 237, 3, Torneo de Algeria, 10
+514, Mirela DEMIREVA, 13, salto de altura, altura, 261, 197, Torneo de Yemen, 1, 237, 14, Torneo de Bangladesh, 9
+515, Erika KINSEY, 13, salto de altura, altura, 261, 185, Torneo de Uganda, 5, 237, 3, Torneo de Algeria, 1
+516, Nicola MCDERMOTT, 13, salto de altura, altura, 261, 173, Torneo de Syria, 10, 237, 81, Torneo de Iran, 6
+517, Marie-Laurence JUNGFLEISCH, 13, salto de altura, altura, 261, 85, Torneo de Italy, 7, 237, 35, Torneo de Chile, 7
+518, Daniela STANCIU, 13, salto de altura, altura, 261, 199, Torneo de Zimbabwe, 6, 237, 9, Torneo de Australia, 10
+519, Svetlana RADZIVIL, 13, salto de altura, altura, 261, 198, Torneo de Zambia, 5, 237, 6, Torneo de Antigua and Barbuda, 5
+520, Katarina JOHNSON-THOMPSON, 13, salto de altura, altura, 261, 173, Torneo de Syria, 1, 237, 14, Torneo de Bangladesh, 8
+520, Katarina JOHNSON-THOMPSON, 15, salto largo, largo, 955, 159, Torneo de Singapore, 7, 869, 17, Torneo de Belgium, 10
+521, Ella JUNNILA, 13, salto de altura, altura, 261, 149, Torneo de Saint Vincent and the Grenadines, 1, 237, 13, Torneo de Bahrain, 8
+522, María Fernanda MURILLO, 13, salto de altura, altura, 261, 182, Torneo de Turkey, 5, 237, 19, Torneo de Benin, 4
+523, Ana ŠIMIĆ, 13, salto de altura, altura, 261, 126, Torneo de Nicaragua, 6, 237, 2, Torneo de Albania, 3
+524, Sam KENDRICKS, 14, salto con pertiga, altura, 667, 113, Torneo de Mexico, 2, 606, 15, Torneo de Barbados, 4
+525, Piotr LISEK, 14, salto con pertiga, altura, 667, 176, Torneo de Tanzania, 2, 606, 161, Torneo de Slovenia, 8
+526, Armand DUPLANTIS, 14, salto con pertiga, altura, 667, 146, Torneo de Rwanda, 1, 606, 46, Torneo de Czechia, 1
+527, Christopher NILSEN, 14, salto con pertiga, altura, 667, 200, Torneo de Puerto Rico, 10, 606, 11, Torneo de Azerbaijan, 4
+528, Thiago BRAZ, 14, salto con pertiga, altura, 667, 198, Torneo de Zambia, 8, 606, 48, Torneo de Djibouti, 5
+529, Paweł WOJCIECHOWSKI, 14, salto con pertiga, altura, 667, 144, Torneo de Romania, 3, 606, 44, Torneo de Cuba, 9
+530, Renaud LAVILLENIE, 14, salto con pertiga, altura, 667, 170, Torneo de Suriname, 1, 606, 91, Torneo de Kiribati, 10
+531, Cole WALSH, 14, salto con pertiga, altura, 667, 170, Torneo de Suriname, 10, 606, 48, Torneo de Djibouti, 10
+532, Valentin LAVILLENIE, 14, salto con pertiga, altura, 667, 111, Torneo de Mauritania, 4, 606, 61, Torneo de Finland, 5
+533, Kurtis MARSCHALL, 14, salto con pertiga, altura, 667, 194, Torneo de Venezuela, 5, 606, 115, Torneo de Monaco, 7
+534, Ernest John OBIENA, 14, salto con pertiga, altura, 667, 180, Torneo de Trinidad and Tobago, 1, 606, 80, Torneo de Indonesia, 8
+535, Andrew IRWIN, 14, salto con pertiga, altura, 667, 200, Torneo de Puerto Rico, 1, 606, 4, Torneo de Andorra, 5
+536, Torben BLECH, 14, salto con pertiga, altura, 667, 160, Torneo de Slovakia, 10, 606, 126, Torneo de Nicaragua, 4
+537, Sondre GUTTORMSEN, 14, salto con pertiga, altura, 667, 190, Torneo de Uruguay, 7, 606, 22, Torneo de Bosnia and Herzegovina, 4
+538, Raphael HOLZDEPPE, 14, salto con pertiga, altura, 667, 194, Torneo de Venezuela, 2, 606, 47, Torneo de Denmark, 1
+539, Augusto DUTRA, 14, salto con pertiga, altura, 667, 143, Torneo de Qatar, 9, 606, 99, Torneo de Liberia, 10
+540, Zachery BRADFORD, 14, salto con pertiga, altura, 667, 173, Torneo de Syria, 2, 606, 10, Torneo de Austria, 10
+541, Ben BROEDERS, 14, salto con pertiga, altura, 667, 201, Torneo de Virgin Islands (British), 5, 606, 74, Torneo de Guyana, 7
+542, Kc LIGHTFOOT, 14, salto con pertiga, altura, 667, 136, Torneo de Panama, 4, 606, 68, Torneo de Ghana, 2
+543, Anzhelika SIDOROVA, 14, salto con pertiga, altura, 667, 168, Torneo de Sri Lanka, 6, 606, 124, Torneo de Netherlands, 9
+544, Jennifer SUHR, 14, salto con pertiga, altura, 667, 143, Torneo de Qatar, 4, 606, 80, Torneo de Indonesia, 2
+545, Sandi MORRIS, 14, salto con pertiga, altura, 667, 169, Torneo de Sudan, 2, 606, 12, Torneo de Bahamas, 5
+546, Eliza MCCARTNEY, 14, salto con pertiga, altura, 667, 47, Torneo de Denmark, 4, 606, 46, Torneo de Czechia, 6
+547, Katerina STEFANIDI, 14, salto con pertiga, altura, 667, 144, Torneo de Romania, 5, 606, 57, Torneo de Estonia, 4
+548, Katie NAGEOTTE, 14, salto con pertiga, altura, 667, 153, Torneo de Saudi Arabia, 10, 606, 147, Torneo de Saint Kitts and Nevis, 4
+549, Alysha NEWMAN, 14, salto con pertiga, altura, 667, 90, Torneo de Kenya, 3, 606, 38, Torneo de Comoros, 9
+550, Holly BRADSHAW, 14, salto con pertiga, altura, 667, 137, Torneo de Papua New Guinea, 3, 606, 92, Torneo de Kosovo, 4
+551, Angelica BENGTSSON, 14, salto con pertiga, altura, 667, 179, Torneo de Tonga, 1, 606, 5, Torneo de Angola, 7
+552, Yarisley SILVA, 14, salto con pertiga, altura, 667, 193, Torneo de Vatican City, 3, 606, 5, Torneo de Angola, 5
+553, Olivia GRUVER, 14, salto con pertiga, altura, 667, 143, Torneo de Qatar, 9, 606, 71, Torneo de Guatemala, 9
+554, Tina ŠUTEJ, 14, salto con pertiga, altura, 667, 195, Torneo de Vietnam, 1, 606, 92, Torneo de Kosovo, 10
+555, Ling LI, 14, salto con pertiga, altura, 667, 198, Torneo de Zambia, 7, 606, 68, Torneo de Ghana, 2
+556, Nikoleta KIRIAKOPOULOU, 14, salto con pertiga, altura, 667, 96, Torneo de Latvia, 2, 606, 28, Torneo de Burundi, 2
+557, Michaela MEIJER, 14, salto con pertiga, altura, 667, 120, Torneo de Myanmar, 10, 606, 55, Torneo de Equatorial Guinea, 4
+558, Huiqin XU, 14, salto con pertiga, altura, 667, 181, Torneo de Tunisia, 4, 606, 59, Torneo de Micronesia, 2
+559, Emily GROVE, 14, salto con pertiga, altura, 667, 194, Torneo de Venezuela, 2, 606, 47, Torneo de Denmark, 10
+560, Iryna ZHUK, 14, salto con pertiga, altura, 667, 81, Torneo de Iran, 7, 606, 6, Torneo de Antigua and Barbuda, 4
+561, Robeilys PEINADO, 14, salto con pertiga, altura, 666, 196, Torneo de Wales, 9, 606, 29, Torneo de Cambodia, 2
+562, Ninon GUILLON-ROMARIN, 14, salto con pertiga, altura, 667, 187, Torneo de United Arab Emirates, 7, 606, 69, Torneo de Greece, 3
+563, Tajay GAYLE, 15, salto largo, largo, 955, 154, Torneo de Scotland, 3, 869, 26, Torneo de Bulgaria, 8
+564, Juan Miguel ECHEVARRÍA, 15, salto largo, largo, 956, 68, Torneo de Ghana, 5, 869, 20, Torneo de Bhutan, 3
+565, Zarck VISSER, 15, salto largo, largo, 956, 201, Torneo de Virgin Islands (British), 2, 869, 21, Torneo de Bolivia, 2
+566, Shoutarou SHIROYAMA, 15, salto largo, largo, 956, 121, Torneo de Namibia, 8, 869, 149, Torneo de Saint Vincent and the Grenadines, 2
+567, Jeff HENDERSON, 15, salto largo, largo, 956, 90, Torneo de Kenya, 2, 869, 82, Torneo de Iraq, 1
+568, Luvo MANYONGA, 15, salto largo, largo, 956, 187, Torneo de United Arab Emirates, 9, 869, 13, Torneo de Bahrain, 1
+569, Miltiadis TENTOGLOU, 15, salto largo, largo, 956, 187, Torneo de United Arab Emirates, 9, 869, 25, Torneo de Brunei, 4
+570, Yuki HASHIOKA, 15, salto largo, largo, 956, 79, Torneo de India, 1, 869, 98, Torneo de Lesotho, 4
+571, Yaoguang ZHANG, 15, salto largo, largo, 956, 154, Torneo de Scotland, 1, 869, 103, Torneo de Luxembourg, 4
+572, Andwuelle WRIGHT, 15, salto largo, largo, 956, 186, Torneo de Ukraine, 2, 869, 89, Torneo de Kazakhstan, 2
+573, Steffin MCCARTER, 15, salto largo, largo, 956, 134, Torneo de Pakistan, 5, 869, 167, Torneo de Spain, 1
+574, Changzhou HUANG, 15, salto largo, largo, 956, 200, Torneo de Puerto Rico, 8, 870, 55, Torneo de Equatorial Guinea, 9
+575, Xinglong GAO, 15, salto largo, largo, 956, 144, Torneo de Romania, 9, 869, 8, Torneo de Armenia, 5
+576, Hibiki TSUHA, 15, salto largo, largo, 956, 117, Torneo de Montenegro, 3, 869, 144, Torneo de Romania, 1
+577, Ruswahl SAMAAI, 15, salto largo, largo, 956, 6, Torneo de Antigua and Barbuda, 9, 869, 81, Torneo de Iran, 8
+578, Maykel MASSÓ, 15, salto largo, largo, 956, 149, Torneo de Saint Vincent and the Grenadines, 5, 869, 64, Torneo de Gabon, 7
+579, Thobias MONTLER, 15, salto largo, largo, 956, 14, Torneo de Bangladesh, 4, 869, 113, Torneo de Mexico, 2
+580, Will CLAYE, 15, salto largo, largo, 956, 73, Torneo de Guinea-Bissau, 9, 870, 97, Torneo de Lebanon, 3
+580, Will CLAYE, 16, salto triple, largo, 1996, 151, Torneo de San Marino, 7, 1814, 82, Torneo de Iraq, 3
+581, JuVaughn HARRISON, 15, salto largo, largo, 956, 126, Torneo de Nicaragua, 7, 869, 38, Torneo de Comoros, 1
+582, Jianan WANG, 15, salto largo, largo, 956, 177, Torneo de Thailand, 9, 869, 110, Torneo de Marshall Islands, 6
+583, Malaika MIHAMBO, 15, salto largo, largo, 956, 111, Torneo de Mauritania, 5, 869, 199, Torneo de Zimbabwe, 9
+584, Ese BRUME, 15, salto largo, largo, 956, 100, Torneo de Libya, 9, 869, 112, Torneo de Mauritius, 3
+585, Brittney REESE, 15, salto largo, largo, 956, 28, Torneo de Burundi, 9, 869, 64, Torneo de Gabon, 7
+586, Kenyattia HACKWORTH, 15, salto largo, largo, 956, 107, Torneo de Maldives, 1, 869, 5, Torneo de Angola, 4
+587, Florentina Costina IUSCO, 15, salto largo, largo, 956, 101, Torneo de Liechtenstein, 2, 869, 30, Torneo de Cameroon, 5
+588, Maryna BEKH-ROMANCHUK, 15, salto largo, largo, 956, 169, Torneo de Sudan, 1, 869, 57, Torneo de Estonia, 3
+589, Alina ROTARU, 15, salto largo, largo, 956, 158, Torneo de Sierra Leone, 8, 870, 12, Torneo de Bahamas, 2
+590, Chantel MALONE, 15, salto largo, largo, 956, 147, Torneo de Saint Kitts and Nevis, 2, 869, 149, Torneo de Saint Vincent and the Grenadines, 1
+591, Caterine IBARGUEN, 15, salto largo, largo, 956, 176, Torneo de Tanzania, 10, 869, 178, Torneo de Togo, 1
+591, Caterine IBARGUEN, 16, salto triple, largo, 1995, 5, Torneo de Angola, 7, 1814, 95, Torneo de Laos, 1
+593, Abigail IROZURU, 15, salto largo, largo, 955, 190, Torneo de Uruguay, 9, 869, 7, Torneo de Argentina, 8
+594, Ivana ŠPANOVIĆ, 15, salto largo, largo, 956, 136, Torneo de Panama, 8, 869, 71, Torneo de Guatemala, 8
+596, Yanis Esmeralda DAVID, 15, salto largo, largo, 956, 136, Torneo de Panama, 3, 869, 3, Torneo de Algeria, 8
+596, Yanis Esmeralda DAVID, 16, salto triple, largo, 1996, 31, Torneo de Canada, 1, 1815, 138, Torneo de Paraguay, 3
+597, Darya KLISHINA, 15, salto largo, largo, 956, 2, Torneo de Albania, 8, 869, 96, Torneo de Latvia, 2
+598, Shara PROCTOR, 15, salto largo, largo, 956, 178, Torneo de Togo, 3, 869, 18, Torneo de Belize, 1
+599, Tissanna HICKLING, 15, salto largo, largo, 956, 130, Torneo de Macedonia, 7, 871, 63, Torneo de French Guiana, 9
+600, Naa ANANG, 15, salto largo, largo, 956, 201, Torneo de Virgin Islands (British), 3, 869, 42, Torneo de Ivory Coast, 1
+601, Yelena SOKOLOVA, 15, salto largo, largo, 956, 115, Torneo de Monaco, 1, 869, 160, Torneo de Slovakia, 6
+602, Hilary KPATCHA, 15, salto largo, largo, 956, 135, Torneo de Palau, 8, 869, 177, Torneo de Thailand, 2
+603, Tori BOWIE, 15, salto largo, largo, 956, 94, Torneo de Kyrgyzstan, 5, 869, 77, Torneo de Hungary, 1
+604, Keturah ORJI, 15, salto largo, largo, 956, 115, Torneo de Monaco, 7, 870, 26, Torneo de Bulgaria, 10
+604, Keturah ORJI, 16, salto triple, largo, 1996, 64, Torneo de Gabon, 10, 1814, 62, Torneo de France, 4
+605, Yulimar ROJAS, 16, salto triple, largo, 1996, 178, Torneo de Togo, 6, 1815, 31, Torneo de Canada, 4
+606, Shanieka RICKETTS, 16, salto triple, largo, 1995, 15, Torneo de Barbados, 6, 1814, 89, Torneo de Kazakhstan, 10
+608, Liadagmis POVEA, 16, salto triple, largo, 1996, 32, Torneo de Cabo Verde, 7, 1815, 127, Torneo de Niger, 3
+610, Darya NIDBAYKINA, 16, salto triple, largo, 1996, 171, Torneo de Sweden, 4, 1814, 182, Torneo de Turkey, 3
+611, Kimberly WILLIAMS, 16, salto triple, largo, 1996, 44, Torneo de Cuba, 4, 1814, 184, Torneo de Tuvalu, 3
+612, Kristin GIERISCH, 16, salto triple, largo, 1996, 170, Torneo de Suriname, 7, 1814, 94, Torneo de Kyrgyzstan, 4
+613, Ana PELETEIRO, 16, salto triple, largo, 1996, 188, Torneo de United Kingdom, 2, 1814, 63, Torneo de French Guiana, 1
+614, Olha SALADUKHA, 16, salto triple, largo, 1996, 187, Torneo de United Arab Emirates, 4, 1814, 43, Torneo de Croatia, 5
+615, Paraskevi PAPACHRISTOU, 16, salto triple, largo, 1996, 80, Torneo de Indonesia, 8, 1814, 33, Torneo de Central African Republic, 10
+616, Diana ZAGAINOVA, 16, salto triple, largo, 1996, 109, Torneo de Malta, 10, 1816, 32, Torneo de Cabo Verde, 4
+617, Yekaterina KONEVA, 16, salto triple, largo, 1995, 120, Torneo de Myanmar, 7, 1814, 69, Torneo de Greece, 9
+618, Patrícia MAMONA, 16, salto triple, largo, 1996, 37, Torneo de Colombia, 6, 1814, 93, Torneo de Kuwait, 6
+619, Thea LAFOND, 16, salto triple, largo, 1996, 154, Torneo de Scotland, 7, 1814, 9, Torneo de Australia, 3
+620, Olga RYPAKOVA, 16, salto triple, largo, 1996, 56, Torneo de Eritrea, 7, 1814, 65, Torneo de Gambia, 5
+621, Yosiris URRUTIA, 16, salto triple, largo, 1996, 1, Torneo de Afghanistan, 7, 1815, 23, Torneo de Botswana, 8
+622, Tori FRANKLIN, 16, salto triple, largo, 1995, 136, Torneo de Panama, 7, 1814, 162, Torneo de Solomon Islands, 7
+624, Nadia EKE, 16, salto triple, largo, 1996, 20, Torneo de Bhutan, 8, 1814, 74, Torneo de Guyana, 3
+626, Christian TAYLOR, 16, salto triple, largo, 1994, 161, Torneo de Slovenia, 2, 1815, 133, Torneo de Oman, 6
+627, Omar CRADDOCK, 16, salto triple, largo, 1995, 176, Torneo de Tanzania, 3, 1814, 200, Torneo de Puerto Rico, 2
+628, Hugues Fabrice ZANGO, 16, salto triple, largo, 1994, 186, Torneo de Ukraine, 1, 1816, 19, Torneo de Benin, 5
+629, Pedro Pablo PICHARDO, 16, salto triple, largo, 1996, 132, Torneo de Norway, 2, 1815, 51, Torneo de Timor-Leste, 6
+630, Jordan Alejandro DÍAZ FORTUN, 16, salto triple, largo, 1996, 132, Torneo de Norway, 1, 1815, 60, Torneo de Fiji, 1
+631, Ruiting WU, 16, salto triple, largo, 1996, 103, Torneo de Luxembourg, 9, 1815, 104, Torneo de Madagascar, 4
+632, Donald SCOTT, 16, salto triple, largo, 1995, 170, Torneo de Suriname, 4, 1814, 119, Torneo de Mozambique, 7
+633, Yaming ZHU, 16, salto triple, largo, 1996, 200, Torneo de Puerto Rico, 3, 1815, 8, Torneo de Armenia, 5
+634, Cristian NÁPOLES, 16, salto triple, largo, 1996, 107, Torneo de Maldives, 3, 1814, 148, Torneo de Saint Lucia, 9
+635, Necatí ER, 16, salto triple, largo, 1996, 181, Torneo de Tunisia, 9, 1814, 140, Torneo de Philippines, 10
+636, Alexsandro MELO, 16, salto triple, largo, 1995, 165, Torneo de South Korea, 4, 1814, 127, Torneo de Niger, 8
+637, Dmitriy SOROKIN, 16, salto triple, largo, 1996, 90, Torneo de Kenya, 9, 1815, 58, Torneo de Ethiopia, 4
+638, Benjamin WILLIAMS, 16, salto triple, largo, 1996, 74, Torneo de Guyana, 10, 1815, 110, Torneo de Marshall Islands, 6
+639, Almir DOS SANTOS, 16, salto triple, largo, 1994, 121, Torneo de Namibia, 1, 1814, 75, Torneo de Haiti, 10
+640, Andy DÍAZ, 16, salto triple, largo, 1995, 103, Torneo de Luxembourg, 4, 1815, 127, Torneo de Niger, 9
+641, Yaoqing FANG, 16, salto triple, largo, 1996, 122, Torneo de Nauru, 7, 1816, 46, Torneo de Czechia, 4
+642, Chengetayi MAPAYA, 16, salto triple, largo, 1996, 172, Torneo de Switzerland, 9, 1814, 130, Torneo de Macedonia, 7
+643, Nelson ÉVORA, 16, salto triple, largo, 1996, 130, Torneo de Macedonia, 3, 1814, 182, Torneo de Turkey, 3
+644, Alexis COPELLO, 16, salto triple, largo, 1995, 155, Torneo de Senegal, 8, 1815, 39, Torneo de Congo Democratic Republic of the, 7
+645, Joe KOVACS, 17, lanzamiento de bala, lanzamiento, 2519, 186, Torneo de Ukraine, 6, 2291, 31, Torneo de Canada, 7
+646, Ryan CROUSER, 17, lanzamiento de bala, lanzamiento, 2520, 33, Torneo de Central African Republic, 1, 2291, 53, Torneo de Egypt, 8
+647, Tomas WALSH, 17, lanzamiento de bala, lanzamiento, 2521, 136, Torneo de Panama, 6, 2291, 128, Torneo de Nigeria, 1
+648, Darlan ROMANI, 17, lanzamiento de bala, lanzamiento, 2521, 168, Torneo de Sri Lanka, 8, 2291, 58, Torneo de Ethiopia, 8
+649, Darrell HILL, 17, lanzamiento de bala, lanzamiento, 2520, 63, Torneo de French Guiana, 4, 2293, 111, Torneo de Mauritania, 3
+650, Michał HARATYK, 17, lanzamiento de bala, lanzamiento, 2521, 86, Torneo de Jamaica, 2, 2293, 120, Torneo de Myanmar, 3
+651, Konrad BUKOWIECKI, 17, lanzamiento de bala, lanzamiento, 2521, 190, Torneo de Uruguay, 7, 2292, 33, Torneo de Central African Republic, 6
+652, Bob BERTEMES, 17, lanzamiento de bala, lanzamiento, 2521, 187, Torneo de United Arab Emirates, 1, 2292, 85, Torneo de Italy, 3
+653, Filip MIHALJEVIĆ, 17, lanzamiento de bala, lanzamiento, 2520, 179, Torneo de Tonga, 9, 2291, 110, Torneo de Marshall Islands, 8
+654, Chukwuebuka ENEKWECHI, 17, lanzamiento de bala, lanzamiento, 2521, 19, Torneo de Benin, 6, 2292, 115, Torneo de Monaco, 5
+655, Tomáš STANĚK, 17, lanzamiento de bala, lanzamiento, 2521, 115, Torneo de Monaco, 7, 2293, 19, Torneo de Benin, 6
+657, Jordan GEIST, 17, lanzamiento de bala, lanzamiento, 2521, 108, Torneo de Mali, 6, 2291, 192, Torneo de Vanuatu, 5
+658, Orazio CREMONA, 17, lanzamiento de bala, lanzamiento, 2520, 27, Torneo de Burkina Faso, 5, 2294, 103, Torneo de Luxembourg, 1
+659, Armin SINANČEVIĆ, 17, lanzamiento de bala, lanzamiento, 2520, 158, Torneo de Sierra Leone, 4, 2292, 80, Torneo de Indonesia, 10
+660, Mesud PEZER, 17, lanzamiento de bala, lanzamiento, 2521, 198, Torneo de Zambia, 6, 2291, 79, Torneo de India, 5
+661, Eldred HENRY, 17, lanzamiento de bala, lanzamiento, 2519, 199, Torneo de Zimbabwe, 2, 2291, 145, Torneo de Russia, 7
+662, Jacko GILL, 17, lanzamiento de bala, lanzamiento, 2516, 130, Torneo de Macedonia, 3, 2291, 91, Torneo de Kiribati, 9
+663, Payton OTTERDAHL, 17, lanzamiento de bala, lanzamiento, 2520, 182, Torneo de Turkey, 2, 2291, 189, Torneo de United States, 9
+664, Tim NEDOW, 17, lanzamiento de bala, lanzamiento, 2521, 189, Torneo de United States, 7, 2292, 59, Torneo de Micronesia, 1
+665, Lijiao GONG, 17, lanzamiento de bala, lanzamiento, 2521, 46, Torneo de Czechia, 4, 2291, 148, Torneo de Saint Lucia, 8
+666, Chase EALEY, 17, lanzamiento de bala, lanzamiento, 2521, 13, Torneo de Bahrain, 5, 2291, 89, Torneo de Kazakhstan, 5
+667, Danniel THOMAS-DODD, 17, lanzamiento de bala, lanzamiento, 2521, 171, Torneo de Sweden, 10, 2292, 93, Torneo de Kuwait, 6
+668, Maggie EWEN, 17, lanzamiento de bala, lanzamiento, 2521, 133, Torneo de Oman, 5, 2293, 161, Torneo de Slovenia, 9
+668, Maggie EWEN, 19, lanzamiento de martillo, lanzamiento, 8985, 136, Torneo de Panama, 10, 8174, 72, Torneo de Guinea, 3
+669, Christina SCHWANITZ, 17, lanzamiento de bala, lanzamiento, 2520, 189, Torneo de United States, 6, 2291, 193, Torneo de Vatican City, 2
+670, Brittany CREW, 17, lanzamiento de bala, lanzamiento, 2521, 42, Torneo de Ivory Coast, 8, 2291, 143, Torneo de Qatar, 7
+671, Aliona DUBITSKAYA, 17, lanzamiento de bala, lanzamiento, 2513, 166, Torneo de South Sudan, 4, 2291, 24, Torneo de Brazil, 10
+672, Fanny ROOS, 17, lanzamiento de bala, lanzamiento, 2521, 170, Torneo de Suriname, 2, 2291, 80, Torneo de Indonesia, 8
+673, Jessica RAMSEY, 17, lanzamiento de bala, lanzamiento, 2519, 53, Torneo de Egypt, 10, 2292, 59, Torneo de Micronesia, 6
+674, Anita MÁRTON, 17, lanzamiento de bala, lanzamiento, 2521, 76, Torneo de Honduras, 9, 2291, 49, Torneo de Dominica, 5
+675, Michelle CARTER, 17, lanzamiento de bala, lanzamiento, 2521, 134, Torneo de Pakistan, 10, 2291, 107, Torneo de Maldives, 5
+676, Daniella HILL, 17, lanzamiento de bala, lanzamiento, 2518, 199, Torneo de Zimbabwe, 10, 2291, 153, Torneo de Saudi Arabia, 6
+677, Jeneva STEVENS, 17, lanzamiento de bala, lanzamiento, 2521, 20, Torneo de Bhutan, 3, 2291, 105, Torneo de Malawi, 2
+678, Dimitriana SURDU, 17, lanzamiento de bala, lanzamiento, 2521, 196, Torneo de Wales, 1, 2291, 30, Torneo de Cameroon, 1
+679, Paulina GUBA, 17, lanzamiento de bala, lanzamiento, 2516, 126, Torneo de Nicaragua, 2, 2291, 26, Torneo de Bulgaria, 2
+680, Portious WARREN, 17, lanzamiento de bala, lanzamiento, 2521, 28, Torneo de Burundi, 7, 2291, 73, Torneo de Guinea-Bissau, 2
+681, Sophie MCKINNA, 17, lanzamiento de bala, lanzamiento, 2520, 140, Torneo de Philippines, 10, 2291, 87, Torneo de Japan, 5
+682, Anna AVDEYEVA, 17, lanzamiento de bala, lanzamiento, 2518, 103, Torneo de Luxembourg, 6, 2293, 91, Torneo de Kiribati, 3
+683, Alyona GORDEYEVA, 17, lanzamiento de bala, lanzamiento, 2521, 154, Torneo de Scotland, 8, 2292, 20, Torneo de Bhutan, 6
+684, Rachel FATHERLY, 17, lanzamiento de bala, lanzamiento, 2519, 40, Torneo de Congo Republic of the, 9, 2291, 23, Torneo de Botswana, 9
+685, Daniel STÅHL, 18, lanzamiento de disco, lanzamiento, 7905, 147, Torneo de Saint Kitts and Nevis, 3, 7189, 10, Torneo de Austria, 8
+686, Fedrick DACRES, 18, lanzamiento de disco, lanzamiento, 7904, 138, Torneo de Paraguay, 4, 7189, 191, Torneo de Uzbekistan, 1
+687, Lukas WEISSHAIDINGER, 18, lanzamiento de disco, lanzamiento, 7894, 42, Torneo de Ivory Coast, 10, 7188, 110, Torneo de Marshall Islands, 5
+688, Lois Maikel MARTÍNEZ, 18, lanzamiento de disco, lanzamiento, 7902, 52, Torneo de Ecuador, 6, 7187, 77, Torneo de Hungary, 6
+689, Ola STUNES ISENE, 18, lanzamiento de disco, lanzamiento, 7903, 158, Torneo de Sierra Leone, 10, 7186, 72, Torneo de Guinea, 5
+690, Andrius GUDŽIUS, 18, lanzamiento de disco, lanzamiento, 7904, 84, Torneo de Israel, 4, 7192, 152, Torneo de Sao Tome and Principe, 3
+691, Traves SMIKLE, 18, lanzamiento de disco, lanzamiento, 7899, 123, Torneo de Nepal, 8, 7188, 16, Torneo de Belarus, 10
+692, Alin Alexandru FIRFIRICA, 18, lanzamiento de disco, lanzamiento, 7905, 34, Torneo de Chad, 3, 7187, 120, Torneo de Myanmar, 3
+693, Piotr MAŁACHOWSKI, 18, lanzamiento de disco, lanzamiento, 7903, 146, Torneo de Rwanda, 4, 7186, 29, Torneo de Cambodia, 6
+694, Ehsan HADADI, 18, lanzamiento de disco, lanzamiento, 7902, 56, Torneo de Eritrea, 1, 7186, 131, Torneo de Northern Ireland, 7
+695, Mason FINLEY, 18, lanzamiento de disco, lanzamiento, 7901, 163, Torneo de Somalia, 4, 7186, 35, Torneo de Chile, 2
+696, Sam MATTIS, 18, lanzamiento de disco, lanzamiento, 7905, 185, Torneo de Uganda, 5, 7190, 195, Torneo de Vietnam, 4
+697, Reggie JAGERS III, 18, lanzamiento de disco, lanzamiento, 7905, 7, Torneo de Argentina, 3, 7188, 26, Torneo de Bulgaria, 7
+698, Simon PETTERSSON, 18, lanzamiento de disco, lanzamiento, 7898, 195, Torneo de Vietnam, 8, 7192, 176, Torneo de Tanzania, 3
+699, Apostolos PARELLIS, 18, lanzamiento de disco, lanzamiento, 7898, 82, Torneo de Iraq, 1, 7188, 21, Torneo de Bolivia, 4
+700, Alex ROSE, 18, lanzamiento de disco, lanzamiento, 7904, 139, Torneo de Peru, 10, 7186, 27, Torneo de Burkina Faso, 9
+701, Martin WIERIG, 18, lanzamiento de disco, lanzamiento, 7899, 168, Torneo de Sri Lanka, 1, 7187, 2, Torneo de Albania, 5
+702, Christoph HARTING, 18, lanzamiento de disco, lanzamiento, 7905, 132, Torneo de Norway, 4, 7187, 113, Torneo de Mexico, 1
+703, David WROBEL, 18, lanzamiento de disco, lanzamiento, 7905, 102, Torneo de Lithuania, 5, 7191, 82, Torneo de Iraq, 5
+704, Robert URBANEK, 18, lanzamiento de disco, lanzamiento, 7905, 139, Torneo de Peru, 3, 7194, 66, Torneo de Georgia, 3
+705, Yaimé PÉREZ, 18, lanzamiento de disco, lanzamiento, 7899, 65, Torneo de Gambia, 10, 7189, 200, Torneo de Puerto Rico, 4
+706, Denia CABALLERO, 18, lanzamiento de disco, lanzamiento, 7900, 189, Torneo de United States, 5, 7187, 172, Torneo de Switzerland, 7
+707, Sandra PERKOVIĆ, 18, lanzamiento de disco, lanzamiento, 7903, 128, Torneo de Nigeria, 5, 7189, 162, Torneo de Solomon Islands, 5
+708, Valarie ALLMAN, 18, lanzamiento de disco, lanzamiento, 7905, 63, Torneo de French Guiana, 8, 7190, 82, Torneo de Iraq, 7
+709, Claudine VITA, 18, lanzamiento de disco, lanzamiento, 7905, 169, Torneo de Sudan, 9, 7189, 79, Torneo de India, 3
+710, Andressa DE MORAIS, 18, lanzamiento de disco, lanzamiento, 7895, 16, Torneo de Belarus, 7, 7186, 83, Torneo de Ireland, 6
+711, Dani STEVENS, 18, lanzamiento de disco, lanzamiento, 7905, 199, Torneo de Zimbabwe, 10, 7188, 109, Torneo de Malta, 5
+712, Bin FENG, 18, lanzamiento de disco, lanzamiento, 7905, 146, Torneo de Rwanda, 8, 7191, 33, Torneo de Central African Republic, 3
+713, Shadae LAWRENCE, 18, lanzamiento de disco, lanzamiento, 7905, 120, Torneo de Myanmar, 3, 7191, 26, Torneo de Bulgaria, 7
+714, Yang CHEN, 18, lanzamiento de disco, lanzamiento, 7903, 199, Torneo de Zimbabwe, 8, 7189, 96, Torneo de Latvia, 3
+715, Nadine MÜLLER, 18, lanzamiento de disco, lanzamiento, 7903, 2, Torneo de Albania, 6, 7187, 183, Torneo de Turkmenistan, 8
+716, Kristin PUDENZ, 18, lanzamiento de disco, lanzamiento, 7905, 7, Torneo de Argentina, 8, 7187, 66, Torneo de Georgia, 3
+717, Fernanda MARTINS, 18, lanzamiento de disco, lanzamiento, 7904, 99, Torneo de Liberia, 5, 7186, 152, Torneo de Sao Tome and Principe, 10
+718, Mélina ROBERT-MICHON, 18, lanzamiento de disco, lanzamiento, 7903, 71, Torneo de Guatemala, 2, 7186, 145, Torneo de Russia, 1
+719, Laulauga TAUSAGA, 18, lanzamiento de disco, lanzamiento, 7904, 197, Torneo de Yemen, 6, 7187, 170, Torneo de Suriname, 3
+720, Yekaterina STROKOVA, 18, lanzamiento de disco, lanzamiento, 7905, 58, Torneo de Ethiopia, 3, 7191, 19, Torneo de Benin, 9
+721, Xinyue SU, 18, lanzamiento de disco, lanzamiento, 7904, 111, Torneo de Mauritania, 3, 7197, 133, Torneo de Oman, 7
+722, Whitney ASHLEY, 18, lanzamiento de disco, lanzamiento, 7905, 143, Torneo de Qatar, 9, 7194, 171, Torneo de Sweden, 6
+723, Yelena PANOVA, 18, lanzamiento de disco, lanzamiento, 7904, 187, Torneo de United Arab Emirates, 5, 7186, 2, Torneo de Albania, 8
+724, Kelsey CARD, 18, lanzamiento de disco, lanzamiento, 7905, 88, Torneo de Jordan, 1, 7187, 34, Torneo de Chad, 4
+725, Marike STEINACKER, 18, lanzamiento de disco, lanzamiento, 7892, 171, Torneo de Sweden, 4, 7192, 80, Torneo de Indonesia, 10
+726, Wojciech NOWICKI, 19, lanzamiento de martillo, lanzamiento, 8992, 194, Torneo de Venezuela, 5, 8177, 178, Torneo de Togo, 4
+727, Paweł FAJDEK, 19, lanzamiento de martillo, lanzamiento, 8988, 33, Torneo de Central African Republic, 6, 8174, 38, Torneo de Comoros, 1
+728, Javier CIENFUEGOS, 19, lanzamiento de martillo, lanzamiento, 8991, 37, Torneo de Colombia, 8, 8175, 123, Torneo de Nepal, 9
+729, Valeriy PRONKIN, 19, lanzamiento de martillo, lanzamiento, 8991, 48, Torneo de Djibouti, 10, 8174, 69, Torneo de Greece, 5
+730, Denis LUKYANOV, 19, lanzamiento de martillo, lanzamiento, 8980, 185, Torneo de Uganda, 3, 8180, 27, Torneo de Burkina Faso, 6
+731, Bence HALÁSZ, 19, lanzamiento de martillo, lanzamiento, 8991, 7, Torneo de Argentina, 9, 8174, 14, Torneo de Bangladesh, 10
+732, Nick MILLER, 19, lanzamiento de martillo, lanzamiento, 8992, 82, Torneo de Iraq, 9, 8177, 106, Torneo de Malaysia, 8
+733, Hleb DUDARAU, 19, lanzamiento de martillo, lanzamiento, 8988, 54, Torneo de El Salvador, 9, 8178, 38, Torneo de Comoros, 6
+734, Eivind HENRIKSEN, 19, lanzamiento de martillo, lanzamiento, 8992, 127, Torneo de Niger, 6, 8180, 90, Torneo de Kenya, 8
+735, Serghei MARGHIEV, 19, lanzamiento de martillo, lanzamiento, 8991, 189, Torneo de United States, 4, 8175, 112, Torneo de Mauritius, 6
+736, Quentin BIGOT, 19, lanzamiento de martillo, lanzamiento, 8986, 177, Torneo de Thailand, 5, 8182, 105, Torneo de Malawi, 2
+737, Conor MCCULLOUGH, 19, lanzamiento de martillo, lanzamiento, 8988, 194, Torneo de Venezuela, 10, 8181, 47, Torneo de Denmark, 7
+738, Sean DONNELLY, 19, lanzamiento de martillo, lanzamiento, 8988, 170, Torneo de Suriname, 3, 8179, 13, Torneo de Bahrain, 7
+739, Özkan BALTACI, 19, lanzamiento de martillo, lanzamiento, 8990, 196, Torneo de Wales, 8, 8175, 39, Torneo de Congo Democratic Republic of the, 6
+740, Mykhaylo KOKHAN, 19, lanzamiento de martillo, lanzamiento, 8975, 67, Torneo de Germany, 10, 8178, 117, Torneo de Montenegro, 2
+741, Yevgeniy KOROTOVSKIY, 19, lanzamiento de martillo, lanzamiento, 8987, 196, Torneo de Wales, 4, 8176, 128, Torneo de Nigeria, 10
+742, Marcel LOMNICKÝ, 19, lanzamiento de martillo, lanzamiento, 8989, 168, Torneo de Sri Lanka, 7, 8174, 66, Torneo de Georgia, 8
+743, Rudy WINKLER, 19, lanzamiento de martillo, lanzamiento, 8991, 56, Torneo de Eritrea, 2, 8174, 123, Torneo de Nepal, 8
+744, Serhiy PEREVOZNIKOV, 19, lanzamiento de martillo, lanzamiento, 8992, 9, Torneo de Australia, 10, 8174, 101, Torneo de Liechtenstein, 5
+745, Serhiy REHEDA, 19, lanzamiento de martillo, lanzamiento, 8989, 146, Torneo de Rwanda, 6, 8177, 51, Torneo de Timor-Leste, 1
+746, DeAnna PRICE, 19, lanzamiento de martillo, lanzamiento, 8987, 70, Torneo de Grenada, 3, 8176, 106, Torneo de Malaysia, 2
+747, Brooke ANDERSEN, 19, lanzamiento de martillo, lanzamiento, 8990, 112, Torneo de Mauritius, 7, 8177, 38, Torneo de Comoros, 8
+748, Gwen BERRY, 19, lanzamiento de martillo, lanzamiento, 8979, 155, Torneo de Senegal, 10, 8174, 83, Torneo de Ireland, 7
+749, Joanna FIODOROW, 19, lanzamiento de martillo, lanzamiento, 8986, 151, Torneo de San Marino, 1, 8175, 41, Torneo de Costa Rica, 5
+750, Zheng WANG, 19, lanzamiento de martillo, lanzamiento, 8988, 132, Torneo de Norway, 5, 8178, 147, Torneo de Saint Kitts and Nevis, 3
+751, Anita WŁODARCZYK, 19, lanzamiento de martillo, lanzamiento, 8990, 169, Torneo de Sudan, 4, 8175, 192, Torneo de Vanuatu, 1
+752, Janeah STEWART, 19, lanzamiento de martillo, lanzamiento, 8992, 125, Torneo de New Zealand, 10, 8179, 77, Torneo de Hungary, 2
+753, Malwina KOPRON, 19, lanzamiento de martillo, lanzamiento, 8992, 137, Torneo de Papua New Guinea, 10, 8175, 116, Torneo de Mongolia, 2
+755, Hanna MALYSHIK, 19, lanzamiento de martillo, lanzamiento, 8992, 161, Torneo de Slovenia, 4, 8181, 35, Torneo de Chile, 5
+756, Alexandra TAVERNIER, 19, lanzamiento de martillo, lanzamiento, 8990, 145, Torneo de Russia, 9, 8179, 97, Torneo de Lebanon, 9
+757, Zalina PETRIVSKAYA, 19, lanzamiento de martillo, lanzamiento, 8992, 85, Torneo de Italy, 1, 8175, 151, Torneo de San Marino, 9
+758, Laura IGAUNE, 19, lanzamiento de martillo, lanzamiento, 8990, 82, Torneo de Iraq, 10, 8175, 42, Torneo de Ivory Coast, 2
+759, Iryna KLYMETS, 19, lanzamiento de martillo, lanzamiento, 8992, 93, Torneo de Kuwait, 2, 8185, 126, Torneo de Nicaragua, 7
+760, Hanna SKYDAN, 19, lanzamiento de martillo, lanzamiento, 8989, 24, Torneo de Brazil, 10, 8174, 169, Torneo de Sudan, 1
+761, Janee KASSANAVOID, 19, lanzamiento de martillo, lanzamiento, 8992, 167, Torneo de Spain, 8, 8174, 55, Torneo de Equatorial Guinea, 6
+762, Na LUO, 19, lanzamiento de martillo, lanzamiento, 8990, 12, Torneo de Bahamas, 1, 8180, 36, Torneo de China, 6
+763, Réka GYURÁTZ, 19, lanzamiento de martillo, lanzamiento, 8989, 168, Torneo de Sri Lanka, 6, 8175, 136, Torneo de Panama, 1
+764, Sofiya PALKINA, 19, lanzamiento de martillo, lanzamiento, 8984, 70, Torneo de Grenada, 6, 8175, 54, Torneo de El Salvador, 8
+765, Yelizaveta TSAREVA, 19, lanzamiento de martillo, lanzamiento, 8990, 89, Torneo de Kazakhstan, 9, 8175, 186, Torneo de Ukraine, 2
+766, Huihui LYU, 20, lanzamiento de jabalina, lanzamiento, 9959, 159, Torneo de Singapore, 6, 9063, 21, Torneo de Bolivia, 9
+767, Kelsey-Lee BARBER, 20, lanzamiento de jabalina, lanzamiento, 9963, 113, Torneo de Mexico, 7, 9066, 124, Torneo de Netherlands, 3
+768, Nikola OGRODNÍKOVÁ, 20, lanzamiento de jabalina, lanzamiento, 9960, 70, Torneo de Grenada, 6, 9065, 102, Torneo de Lithuania, 4
+769, Tatsiana KHALADOVICH, 20, lanzamiento de jabalina, lanzamiento, 9962, 156, Torneo de Serbia, 6, 9064, 70, Torneo de Grenada, 1
+770, Christin HUSSONG, 20, lanzamiento de jabalina, lanzamiento, 9966, 56, Torneo de Eritrea, 3, 9065, 102, Torneo de Lithuania, 8
+771, Sara KOLAK, 20, lanzamiento de jabalina, lanzamiento, 9940, 118, Torneo de Morocco, 8, 9087, 86, Torneo de Jamaica, 1
+772, Haruka KITAGUCHI, 20, lanzamiento de jabalina, lanzamiento, 9966, 26, Torneo de Bulgaria, 6, 9072, 102, Torneo de Lithuania, 1
+773, Shiying LIU, 20, lanzamiento de jabalina, lanzamiento, 9960, 146, Torneo de Rwanda, 4, 9061, 28, Torneo de Burundi, 8
+774, Kara WINGER, 20, lanzamiento de jabalina, lanzamiento, 9966, 141, Torneo de Poland, 6, 9066, 109, Torneo de Malta, 7
+775, Lina MUZE, 20, lanzamiento de jabalina, lanzamiento, 9963, 2, Torneo de Albania, 3, 9072, 27, Torneo de Burkina Faso, 8
+776, Eda TUĞSUZ, 20, lanzamiento de jabalina, lanzamiento, 9965, 79, Torneo de India, 8, 9071, 180, Torneo de Trinidad and Tobago, 8
+777, Liveta JASIŪNAITĖ, 20, lanzamiento de jabalina, lanzamiento, 9964, 32, Torneo de Cabo Verde, 2, 9064, 118, Torneo de Morocco, 9
+778, Barbora ŠPOTÁKOVÁ, 20, lanzamiento de jabalina, lanzamiento, 9953, 177, Torneo de Thailand, 2, 9064, 21, Torneo de Bolivia, 8
+779, Martina RATEJ, 20, lanzamiento de jabalina, lanzamiento, 9968, 6, Torneo de Antigua and Barbuda, 5, 9067, 66, Torneo de Georgia, 1
+780, Elizabeth GLEADLE, 20, lanzamiento de jabalina, lanzamiento, 9966, 52, Torneo de Ecuador, 8, 9063, 19, Torneo de Benin, 8
+781, Annika Marie FUCHS, 20, lanzamiento de jabalina, lanzamiento, 9967, 85, Torneo de Italy, 2, 9064, 156, Torneo de Serbia, 1
+782, Yekaterina STARYGINA, 20, lanzamiento de jabalina, lanzamiento, 9962, 148, Torneo de Saint Lucia, 5, 9065, 1, Torneo de Afghanistan, 8
+783, Ariana INCE, 20, lanzamiento de jabalina, lanzamiento, 9967, 93, Torneo de Kuwait, 4, 9064, 132, Torneo de Norway, 4
+784, Alexie ALAÏS, 20, lanzamiento de jabalina, lanzamiento, 9965, 181, Torneo de Tunisia, 4, 9063, 129, Torneo de North Korea, 8
+785, Maria ANDREJCZYK, 20, lanzamiento de jabalina, lanzamiento, 9967, 10, Torneo de Austria, 9, 9062, 65, Torneo de Gambia, 2
+786, Magnus KIRT, 20, lanzamiento de jabalina, lanzamiento, 9958, 61, Torneo de Finland, 10, 9065, 128, Torneo de Nigeria, 2
+787, Johannes VETTER, 20, lanzamiento de jabalina, lanzamiento, 9967, 107, Torneo de Maldives, 8, 9063, 142, Torneo de Portugal, 9
+788, Andreas HOFMANN, 20, lanzamiento de jabalina, lanzamiento, 9964, 156, Torneo de Serbia, 5, 9067, 145, Torneo de Russia, 1
+789, Edis MATUSEVIČIUS, 20, lanzamiento de jabalina, lanzamiento, 9966, 88, Torneo de Jordan, 7, 9067, 159, Torneo de Singapore, 10
+790, Bernhard SEIFERT, 20, lanzamiento de jabalina, lanzamiento, 9966, 142, Torneo de Portugal, 8, 9062, 73, Torneo de Guinea-Bissau, 4
+791, Chao-Tsun CHENG, 20, lanzamiento de jabalina, lanzamiento, 9968, 173, Torneo de Syria, 6, 9063, 55, Torneo de Equatorial Guinea, 4
+792, Julius YEGO, 20, lanzamiento de jabalina, lanzamiento, 9968, 187, Torneo de United Arab Emirates, 1, 9062, 10, Torneo de Austria, 9
+793, Anderson PETERS, 20, lanzamiento de jabalina, lanzamiento, 9966, 101, Torneo de Liechtenstein, 8, 9061, 37, Torneo de Colombia, 5
+794, Thomas RÖHLER, 20, lanzamiento de jabalina, lanzamiento, 9967, 34, Torneo de Chad, 9, 9063, 149, Torneo de Saint Vincent and the Grenadines, 3
+795, Oliver HELANDER, 20, lanzamiento de jabalina, lanzamiento, 9956, 160, Torneo de Slovakia, 8, 9067, 73, Torneo de Guinea-Bissau, 7
+796, Julian WEBER, 20, lanzamiento de jabalina, lanzamiento, 9968, 133, Torneo de Oman, 10, 9061, 155, Torneo de Senegal, 3
+797, Arshad NADEEM, 20, lanzamiento de jabalina, lanzamiento, 9968, 87, Torneo de Japan, 10, 9062, 61, Torneo de Finland, 10
+798, Shivpal SINGH, 20, lanzamiento de jabalina, lanzamiento, 9967, 69, Torneo de Greece, 2, 9063, 122, Torneo de Nauru, 2
+799, Keshorn WALCOTT, 20, lanzamiento de jabalina, lanzamiento, 9959, 110, Torneo de Marshall Islands, 9, 9061, 154, Torneo de Scotland, 2
+800, Kim AMB, 20, lanzamiento de jabalina, lanzamiento, 9968, 135, Torneo de Palau, 3, 9061, 2, Torneo de Albania, 6
+801, Jakub VADLEJCH, 20, lanzamiento de jabalina, lanzamiento, 9967, 10, Torneo de Austria, 4, 9062, 172, Torneo de Switzerland, 9
+802, Marcin KRUKOWSKI, 20, lanzamiento de jabalina, lanzamiento, 9968, 125, Torneo de New Zealand, 3, 9064, 14, Torneo de Bangladesh, 1
+803, Dmitriy TARABIN, 20, lanzamiento de jabalina, lanzamiento, 9963, 18, Torneo de Belize, 6, 9085, 4, Torneo de Andorra, 2
+804, Antti RUUSKANEN, 20, lanzamiento de jabalina, lanzamiento, 9966, 127, Torneo de Niger, 5, 9069, 144, Torneo de Romania, 2
+805, Cyprian MRZYGŁÓD, 20, lanzamiento de jabalina, lanzamiento, 9964, 131, Torneo de Northern Ireland, 3, 9068, 24, Torneo de Brazil, 4
