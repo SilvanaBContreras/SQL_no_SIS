@@ -1,0 +1,61 @@
+id_especialidad, nombre_especialidad, posicion, id_deportista, nombre_deportista, marca, id_torneo, nombre_torneo, intento
+5, carrera 1500 m, 1, 184, Sifan HASSAN, 208771, 166, Torneo de South Sudan, 1
+5, carrera 1500 m, 2, 181, Matthew CENTROWITZ, 208772, 127, Torneo de Niger, 1
+5, carrera 1500 m, 3, 201, Dawit SEYAUM, 208772, 133, Torneo de Oman, 1
+10, carrera 110 m con vallas, 1, 370, Wenjun XIE, 12098, 31, Torneo de Canada, 1
+10, carrera 110 m con vallas, 2, 372, Gabriel CONSTANTINO, 12098, 51, Torneo de Timor-Leste, 1
+10, carrera 110 m con vallas, 3, 396, Queen CLAYE, 12098, 48, Torneo de Djibouti, 1
+16, salto triple, 1, 580, Will CLAYE, 1996, 18, Torneo de Belize, 5
+16, salto triple, 2, 580, Will CLAYE, 1996, 37, Torneo de Colombia, 5
+16, salto triple, 3, 580, Will CLAYE, 1996, 151, Torneo de San Marino, 7
+13, salto de altura, 1, 484, Mutaz Essa BARSHIM, 261, 78, Torneo de Iceland, 3
+13, salto de altura, 2, 484, Mutaz Essa BARSHIM, 261, 87, Torneo de Japan, 4
+13, salto de altura, 3, 484, Mutaz Essa BARSHIM, 261, 88, Torneo de Jordan, 2
+11, carrera 400 m con vallas, 1, 423, Lindsay HANEKOM, 46092, 169, Torneo de Sudan, 1
+11, carrera 400 m con vallas, 2, 426, Ashley SPENCER, 46092, 62, Torneo de France, 1
+11, carrera 400 m con vallas, 3, 407, Kyron MCMASTER, 46094, 51, Torneo de Timor-Leste, 1
+1, carrera 100 m, 1, 2, Noah LYLES, 9760, 200, Torneo de Puerto Rico, 1
+1, carrera 100 m, 2, 8, Arthur CISSÉ, 9760, 66, Torneo de Georgia, 1
+1, carrera 100 m, 3, 15, Michael RODGERS, 9760, 97, Torneo de Lebanon, 1
+19, lanzamiento de martillo, 1, 726, Wojciech NOWICKI, 8992, 194, Torneo de Venezuela, 5
+19, lanzamiento de martillo, 2, 732, Nick MILLER, 8992, 82, Torneo de Iraq, 9
+19, lanzamiento de martillo, 3, 734, Eivind HENRIKSEN, 8992, 127, Torneo de Niger, 6
+8, carrera 21000 m, 1, 319, Evaline CHIRCHIR, 3481005, 103, Torneo de Luxembourg, 1
+8, carrera 21000 m, 2, 251, Zeineba YIMER, 3481062, 80, Torneo de Indonesia, 1
+8, carrera 21000 m, 3, 313, Roza DEREJE, 3481121, 155, Torneo de Senegal, 1
+2, carrera 200 m, 1, 17, Mario BURKE, 19500, 166, Torneo de South Sudan, 1
+2, carrera 200 m, 2, 22, Elaine THOMPSON, 19500, 70, Torneo de Grenada, 1
+2, carrera 200 m, 3, 26, Kayla WHITE, 19500, 86, Torneo de Jamaica, 1
+4, carrera 800 m, 1, 146, Francine NIYONSABA, 101892, 100, Torneo de Libya, 1
+4, carrera 800 m, 2, 149, Raevyn ROGERS, 101893, 106, Torneo de Malaysia, 1
+4, carrera 800 m, 3, 159, Natalya PRYSHCHEPA, 101893, 20, Torneo de Bhutan, 1
+18, lanzamiento de disco, 1, 685, Daniel STÅHL, 7905, 19, Torneo de Benin, 5
+18, lanzamiento de disco, 2, 685, Daniel STÅHL, 7905, 147, Torneo de Saint Kitts and Nevis, 3
+18, lanzamiento de disco, 3, 692, Alin Alexandru FIRFIRICA, 7905, 34, Torneo de Chad, 3
+15, salto largo, 1, 507, Nafissatou THIAM, 956, 5, Torneo de Angola, 7
+15, salto largo, 2, 564, Juan Miguel ECHEVARRÍA, 956, 59, Torneo de Micronesia, 1
+15, salto largo, 3, 564, Juan Miguel ECHEVARRÍA, 956, 68, Torneo de Ghana, 5
+20, lanzamiento de jabalina, 1, 779, Martina RATEJ, 9968, 4, Torneo de Andorra, 7
+20, lanzamiento de jabalina, 2, 779, Martina RATEJ, 9968, 6, Torneo de Antigua and Barbuda, 5
+20, lanzamiento de jabalina, 3, 791, Chao-Tsun CHENG, 9968, 173, Torneo de Syria, 6
+7, carrera 10000 m, 1, 214, Lopez LOMONG, 1608036, 20, Torneo de Bhutan, 1
+7, carrera 10000 m, 2, 280, Abdallah Kibet MANDE, 1608063, 103, Torneo de Luxembourg, 1
+7, carrera 10000 m, 3, 271, Rodgers KWEMOI, 1608075, 52, Torneo de Ecuador, 1
+6, carrera 5000 m, 1, 184, Sifan HASSAN, 772098, 9, Torneo de Australia, 1
+6, carrera 5000 m, 2, 207, Birhanu BALEW, 772110, 52, Torneo de Ecuador, 1
+6, carrera 5000 m, 3, 205, Selemon BAREGA, 772111, 14, Torneo de Bangladesh, 1
+9, carrera 42000 m, 1, 251, Zeineba YIMER, 7301146, 52, Torneo de Ecuador, 1
+9, carrera 42000 m, 2, 352, Kinde ATANAW, 7301386, 74, Torneo de Guyana, 1
+9, carrera 42000 m, 3, 352, Kinde ATANAW, 7301499, 109, Torneo de Malta, 1
+14, salto con pertiga, 1, 524, Sam KENDRICKS, 667, 113, Torneo de Mexico, 2
+14, salto con pertiga, 2, 525, Piotr LISEK, 667, 10, Torneo de Austria, 5
+14, salto con pertiga, 3, 525, Piotr LISEK, 667, 33, Torneo de Central African Republic, 7
+17, lanzamiento de bala, 1, 101, Jonathan JONES, 2521, 160, Torneo de Slovakia, 8
+17, lanzamiento de bala, 2, 101, Jonathan JONES, 2521, 199, Torneo de Zimbabwe, 6
+17, lanzamiento de bala, 3, 647, Tomas WALSH, 2521, 136, Torneo de Panama, 6
+12, carrera 3000 m con vallas, 1, 460, Andrew BAYER, 481036, 125, Torneo de New Zealand, 1
+12, carrera 3000 m con vallas, 2, 452, Chala BEYO, 481040, 66, Torneo de Georgia, 1
+12, carrera 3000 m con vallas, 3, 467, Norah JERUTO, 481044, 76, Torneo de Honduras, 1
+3, carrera 400 m, 1, 109, Phyllis FRANCIS, 43450, 102, Torneo de Lithuania, 1
+3, carrera 400 m, 2, 118, Courtney OKOLO, 43451, 82, Torneo de Iraq, 1
+3, carrera 400 m, 3, 113, Galefele MOROKO, 43452, 46, Torneo de Czechia, 1
