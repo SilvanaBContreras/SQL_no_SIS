@@ -12,8 +12,6 @@ conexion = {
 }
 
 
-# Funcion que dada la configuracion y ubicacion del archivo, carga la base de datos, genera el reporte, y borra la
-# base de datos
 def ejecutar(file, conn):
     import time
 
@@ -31,7 +29,6 @@ def ejecutar(file, conn):
     print(end - start)
 
 
-# Funcion que dado un archivo abierto y una linea, imprime por consola y guarda al final de archivo esa linea
 def grabar_linea(archivo, linea):
     print(linea)
     archivo.write(str(linea) + '\n')
@@ -57,11 +54,6 @@ def inicializar(conn):
     drop_table_query = """DROP TABLE IF EXISTS deportista_marcas"""
     session.execute(drop_table_query)
     print("Table dropped successfully!")
-
-    # 4) Imprimir la mejor y peor marca de cada deportista indicando el torneo y el intento en el cuál la logró.
-    # Teniendo en cuenta que un deportista puede practicar más de una especialidad.
-    # La tabla queda ordenada por marca ascendente. La primera fila de cada particion es la marca minima.
-    # La maxima se pide por cada par dando vuelta ese orden.
 
     # Create table
     create_table_query = """
@@ -119,9 +111,6 @@ def procesar_tabla(db, reader):
         if not success:
             raise result
 
-
-# 4) Imprimir la mejor y peor marca de cada deportista indicando el torneo y el intento en el cuál la logró.
-# Teniendo en cuenta que un deportista puede practicar más de una especialidad.
 
 def generar_reporte(db):
     # Con GROUP BY se obtiene el menor valor de marca por deportista y especialidad (la primera fila de cada particion es la marca minima)

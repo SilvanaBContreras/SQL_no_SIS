@@ -12,8 +12,6 @@ conexion = {
 }
 
 
-# Funcion que dada la configuracion y ubicacion del archivo, carga la base de datos, genera el reporte, y borra la
-# base de datos
 def ejecutar(file, conn):
     import time
 
@@ -31,7 +29,6 @@ def ejecutar(file, conn):
     print(end - start)
 
 
-# Funcion que dado un archivo abierto y una linea, imprime por consola y guarda al final de archivo esa linea
 def grabar_linea(archivo, linea):
     print(linea)
     archivo.write(str(linea) + '\n')
