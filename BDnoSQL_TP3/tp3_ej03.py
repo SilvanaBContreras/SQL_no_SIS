@@ -61,22 +61,15 @@ def inicializar(conn):
     session.execute(drop_table_query)
     print("Table dropped successfully!")
 
-    # Create table
+    # Una tabla con counter solo admite columnas counter ademas de la clave.
+    # El total por tipo se obtiene sumando el contador de cada especialidad.
     create_table_query = """
     CREATE TABLE IF NOT EXISTS especialidades (
-        id_tipo_especialidad INT,
         tipo_especialidad TEXT,
+        id_tipo_especialidad INT,
         especialidad TEXT,
-        PRIMARY KEY(id_tipo_especialidad, especialidad)
-    );
-    """
-
-    session.execute(create_table_query)
-
-    create_table_query = """
-    CREATE TABLE IF NOT EXISTS especialidades_contador (
-        tipo_especialidad TEXT PRIMARY KEY,
-        cantidad_marcas COUNTER
+        cantidad_marcas COUNTER,
+        PRIMARY KEY(tipo_especialidad, id_tipo_especialidad, especialidad)
     );
     """
 
@@ -87,36 +80,20 @@ def inicializar(conn):
 
 
 def procesar_tabla(db, reader):
-    # No usamos set porque aca me interesa tener todas las filas
     rows = [
         (int(row["id_tipo_especialidad"]), row["nombre_tipo_especialidad"], row["nombre_especialidad"])
         for row in reader
     ]
 
-    stmt_insert = db.prepare("""
-                             INSERT INTO especialidades (id_tipo_especialidad, tipo_especialidad, especialidad)
-                             VALUES (?, ?, ?)
-                             """)
-
     stmt_counter = db.prepare("""
-                              UPDATE especialidades_contador
+                              UPDATE especialidades
                               SET cantidad_marcas = cantidad_marcas + 1
                               WHERE tipo_especialidad = ?
+                                AND id_tipo_especialidad = ?
+                                AND especialidad = ?
                               """)
 
-    results_insert = execute_concurrent_with_args(
-        db,
-        stmt_insert,
-        rows,
-        concurrency=100,
-        results_generator=False
-    )
-    for success, result in results_insert:
-        if not success:
-            raise result
-
-    # Obtiene el id_tipo_especialidad que es el unico input necesario para el contador
-    counter_args = [(r[1],) for r in rows]
+    counter_args = [(tipo, id_tipo, especialidad) for id_tipo, tipo, especialidad in rows]
 
     results_counter = execute_concurrent_with_args(
         db,
@@ -129,11 +106,6 @@ def procesar_tabla(db, reader):
         if not success:
             raise result
 
-
-# Listar para cada tipo de especialidad los id y nombre de cada uno. Además se debe listar por cada
-# tipo los nombres de las especialidades que se encuentran asociadas a cada uno. Al finalizar este
-# listado se debe emitir un segundo listado indicando el nombre del tipo de especialidad y la cantidad
-# de marcas (es decir, filas del archivo) registradas para ese tipo de especialidad.
 
 def generar_reporte(db):
     prepared_query = db.prepare(
@@ -155,8 +127,9 @@ def generar_reporte(db):
 
     prepared_query = db.prepare(
         """
-        SELECT tipo_especialidad, cantidad_marcas
-        FROM especialidades_contador 
+        SELECT tipo_especialidad, SUM(cantidad_marcas) AS cantidad_marcas
+        FROM especialidades
+        GROUP BY tipo_especialidad
         """
     )
     rows = db.execute(prepared_query)

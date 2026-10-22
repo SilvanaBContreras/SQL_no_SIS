@@ -1,5 +1,9 @@
 Tipos de especialidad
 id_tipo_especialidad, tipo_especialidad, especialidad
+4, lanzamiento, lanzamiento de bala
+4, lanzamiento, lanzamiento de disco
+4, lanzamiento, lanzamiento de jabalina
+4, lanzamiento, lanzamiento de martillo
 1, tiempo, carrera 100 m
 1, tiempo, carrera 10000 m
 1, tiempo, carrera 110 m con vallas
@@ -14,9 +18,5 @@ id_tipo_especialidad, tipo_especialidad, especialidad
 1, tiempo, carrera 800 m
 2, altura, salto con pertiga
 2, altura, salto de altura
-4, lanzamiento, lanzamiento de bala
-4, lanzamiento, lanzamiento de disco
-4, lanzamiento, lanzamiento de jabalina
-4, lanzamiento, lanzamiento de martillo
 3, largo, salto largo
 3, largo, salto triple
