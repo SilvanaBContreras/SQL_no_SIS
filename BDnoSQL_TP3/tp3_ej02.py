@@ -11,9 +11,9 @@ conexion = {
     'cassandrapuerto': 9042
 }
 
+keyspace = "sports"
+tabla_deportista_especialidad = "deportista_especialidad"
 
-# Funcion que dada la configuracion y ubicacion del archivo, carga la base de datos, genera el reporte, y borra la
-# base de datos
 def ejecutar(file, conn):
     import time
 
@@ -30,8 +30,6 @@ def ejecutar(file, conn):
     end = time.time()
     print(end - start)
 
-
-# Funcion que dado un archivo abierto y una linea, imprime por consola y guarda al final de archivo esa linea
 def grabar_linea(archivo, linea):
     print(linea)
     archivo.write(str(linea) + '\n')
@@ -39,27 +37,24 @@ def grabar_linea(archivo, linea):
 def inicializar(conn):
     session = Cluster(contact_points=[conn["cassandraurl"]], port=conn["cassandrapuerto"]).connect()
     # crear db
-    create_keyspace_query = """
-    CREATE KEYSPACE IF NOT EXISTS sports
-    WITH replication = {
+    create_keyspace_query = f"""
+    CREATE KEYSPACE IF NOT EXISTS {keyspace}
+    WITH replication = {{
         'class': 'SimpleStrategy',
         'replication_factor': 1
-    }
+    }}
     """
     session.execute(create_keyspace_query)
     print("Keyspace created successfully!")
 
-    # Use the keyspace
-    session.set_keyspace('sports')
+    session.set_keyspace(keyspace)
 
-    # Drop table
-    drop_table_query = """DROP TABLE IF EXISTS deportista_especialidad"""
+    drop_table_query = f"""DROP TABLE IF EXISTS {tabla_deportista_especialidad}"""
     session.execute(drop_table_query)
     print("Table dropped successfully!")
 
-    # Create table
-    create_table_query = """
-    CREATE TABLE IF NOT EXISTS deportista_especialidad (
+    create_table_query = f"""
+    CREATE TABLE IF NOT EXISTS {tabla_deportista_especialidad} (
         id_deportista INT PRIMARY KEY,
         nombre_deportista TEXT,
         fecha_nacimiento DATE,
@@ -73,15 +68,10 @@ def inicializar(conn):
 
     return session
 
-# 2) Listar todos los datos disponibles de los deportistas con id 10,20 y 30. (id, nombre, fecha de
-# nacimiento, id de país de nacimiento, nombres de país de nacimiento). Además listar los nombres
-# de especialidades que cada deportista practica ordenando alfábeticamente los nombres de las
-# especialidades.
-
 def procesar_tabla(db, reader):
     rows = ((row["nombre_deportista"], row["fecha_nacimiento"], int(row["id_pais_deportista"]), row["nombre_pais_deportista"], {row["nombre_especialidad"]}, int(row["id_deportista"])) for row in reader)
-    statement = db.prepare("""
-        UPDATE deportista_especialidad 
+    statement = db.prepare(f"""
+        UPDATE {tabla_deportista_especialidad}
         SET nombre_deportista= ?,
             fecha_nacimiento = ?,
             id_pais_nacimiento = ?,
@@ -102,12 +92,11 @@ def procesar_tabla(db, reader):
         if not success:
             raise result
 
-
 def generar_reporte(db):
     prepared_query = db.prepare(
-        """
+        f"""
         SELECT id_deportista, nombre_deportista, fecha_nacimiento, id_pais_nacimiento, nombre_pais_nacimiento, especialidades
-        FROM deportista_especialidad 
+        FROM {tabla_deportista_especialidad}
         WHERE id_deportista IN ?
         """
     )
@@ -124,11 +113,12 @@ def generar_reporte(db):
             for especialidad in sorted(row.especialidades):
                 grabar_linea(archivo, f"{row.id_deportista}, {row.nombre_deportista}, {row.fecha_nacimiento}, {row.id_pais_nacimiento}, {row.nombre_pais_nacimiento}, {especialidad}")
 
-
 def finalizar(db):
-    db.shutdown()
-
+    cluster = db.cluster
+    try:
+        db.execute(f"DROP TABLE IF EXISTS {keyspace}.{tabla_deportista_especialidad}")
+    finally:
+        db.shutdown()
+        cluster.shutdown()
 
 ejecutar(archivo_entrada, conexion)
-
-

@@ -11,7 +11,7 @@ conexion = {
     "cassandrapuerto": 9042,
 }
 
-keyspace = "tp3_ej05"
+keyspace = "sports"
 tabla_podio = "podio_anual"
 
 def ejecutar(file, conn):
@@ -88,8 +88,6 @@ def inicializar(conn):
         raise
 
 def procesar_fila(fila, insertar):
-    # Cada fila representa un intento, asi que se conservan los campos
-    # que lo identifican: especialidad, marca, deportista, torneo e intento.
     valores = (
         int(fila["id_especialidad"]),
         int(fila["marca"]),
@@ -107,7 +105,6 @@ def procesar_fila(fila, insertar):
 def procesar_tabla(db, reader):
     import time
 
-    # Se preparan los INSERT una sola vez, sin variables globales.
     columnas = (
         "id_especialidad, marca, marca_orden, id_deportista, id_torneo, intento, "
         "nombre_especialidad, nombre_deportista, nombre_torneo"
@@ -121,7 +118,6 @@ def procesar_tabla(db, reader):
     count = 0
     startbloque = time.time()
     error = None
-    # Hasta 100 inserciones en curso para no esperar una por una.
     for success, detalle in execute_concurrent(
         db,
         solicitudes,
@@ -137,7 +133,6 @@ def procesar_tabla(db, reader):
             tiempo = endbloque-startbloque
             print(str(count) + " en " + str(tiempo) + " segundos")
             startbloque = time.time()
-    # Se revisan todas las respuestas antes de generar el reporte.
     if error is not None:
         raise error
 
@@ -162,7 +157,6 @@ def generar_reporte(db):
         especialidad_anterior = None
         posicion = 0
         for fila in filas:
-            # Solo se reinicia la numeracion; Cassandra ya selecciono el podio.
             if fila.id_especialidad != especialidad_anterior:
                 posicion = 0
                 especialidad_anterior = fila.id_especialidad
@@ -182,5 +176,4 @@ def finalizar(db):
         db.shutdown()
         cluster.shutdown()
 
-if __name__ == "__main__":
-    ejecutar(archivo_entrada, conexion)
+ejecutar(archivo_entrada, conexion)

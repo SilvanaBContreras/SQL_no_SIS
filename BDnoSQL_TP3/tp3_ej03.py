@@ -5,12 +5,14 @@ from cassandra.concurrent import execute_concurrent_with_args
 archivo_entrada = 'full_export.csv'
 nombre_archivo_resultado_ejercicio = ['tp3_ej03_parte1.txt', 'tp3_ej03_parte2.txt']
 
-# Objeto de configuracion para conectarse a la base de datos usada en este ejercicio
 conexion = {
     'cassandraurl': 'localhost',
     'cassandrapuerto': 9042
 }
 
+keyspace = "sports"
+tabla_especialidades = "especialidades"
+tabla_especialidades_contador = "especialidades_contador"
 
 def ejecutar(file, conn):
     import time
@@ -28,40 +30,34 @@ def ejecutar(file, conn):
     end = time.time()
     print(end - start)
 
-
 def grabar_linea(archivo, linea):
     print(linea)
     archivo.write(str(linea) + '\n')
 
 def inicializar(conn):
     session = Cluster(contact_points=[conn["cassandraurl"]], port=conn["cassandrapuerto"]).connect()
-    # crear db
-    create_keyspace_query = """
-    CREATE KEYSPACE IF NOT EXISTS sports
-    WITH replication = {
+    create_keyspace_query = f"""
+    CREATE KEYSPACE IF NOT EXISTS {keyspace}
+    WITH replication = {{
         'class': 'SimpleStrategy',
         'replication_factor': 1
-    }
+    }}
     """
     session.execute(create_keyspace_query)
     print("Keyspace created successfully!")
 
-    # Use the keyspace
-    session.set_keyspace('sports')
+    session.set_keyspace(keyspace)
 
-    # Drop table
-    drop_table_query = """DROP TABLE IF EXISTS especialidades"""
+    drop_table_query = f"""DROP TABLE IF EXISTS {tabla_especialidades}"""
     session.execute(drop_table_query)
     print("Table dropped successfully!")
 
-    drop_table_query = """DROP TABLE IF EXISTS especialidades_contador"""
+    drop_table_query = f"""DROP TABLE IF EXISTS {tabla_especialidades_contador}"""
     session.execute(drop_table_query)
     print("Table dropped successfully!")
 
-    # Una tabla con counter solo admite columnas counter ademas de la clave.
-    # El total por tipo se obtiene sumando el contador de cada especialidad.
-    create_table_query = """
-    CREATE TABLE IF NOT EXISTS especialidades (
+    create_table_query = f"""
+    CREATE TABLE IF NOT EXISTS {tabla_especialidades} (
         tipo_especialidad TEXT,
         id_tipo_especialidad INT,
         especialidad TEXT,
@@ -75,15 +71,14 @@ def inicializar(conn):
 
     return session
 
-
 def procesar_tabla(db, reader):
     rows = [
         (int(row["id_tipo_especialidad"]), row["nombre_tipo_especialidad"], row["nombre_especialidad"])
         for row in reader
     ]
 
-    stmt_counter = db.prepare("""
-                              UPDATE especialidades
+    stmt_counter = db.prepare(f"""
+                              UPDATE {tabla_especialidades}
                               SET cantidad_marcas = cantidad_marcas + 1
                               WHERE tipo_especialidad = ?
                                 AND id_tipo_especialidad = ?
@@ -103,12 +98,11 @@ def procesar_tabla(db, reader):
         if not success:
             raise result
 
-
 def generar_reporte(db):
     prepared_query = db.prepare(
-        """
+        f"""
         SELECT id_tipo_especialidad, tipo_especialidad, especialidad
-        FROM especialidades 
+        FROM {tabla_especialidades}
         """
     )
     rows = db.execute(prepared_query)
@@ -123,9 +117,9 @@ def generar_reporte(db):
             grabar_linea(archivo, f"{row.id_tipo_especialidad}, {row.tipo_especialidad}, {row.especialidad}")
 
     prepared_query = db.prepare(
-        """
+        f"""
         SELECT tipo_especialidad, SUM(cantidad_marcas) AS cantidad_marcas
-        FROM especialidades
+        FROM {tabla_especialidades}
         GROUP BY tipo_especialidad
         """
     )
@@ -140,11 +134,13 @@ def generar_reporte(db):
         for row in rows:
             grabar_linea(archivo, f"{row.tipo_especialidad}, {row.cantidad_marcas}")
 
-
 def finalizar(db):
-    db.shutdown()
+    cluster = db.cluster
+    try:
+        db.execute(f"DROP TABLE IF EXISTS {keyspace}.{tabla_especialidades}")
+    finally:
+        db.shutdown()
+        cluster.shutdown()
 
 
 ejecutar(archivo_entrada, conexion)
-
-

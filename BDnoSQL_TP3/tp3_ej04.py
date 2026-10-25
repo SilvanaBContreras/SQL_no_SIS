@@ -11,6 +11,8 @@ conexion = {
     'cassandrapuerto': 9042
 }
 
+keyspace = "sports"
+tabla_deportista_marcas = "deportista_marcas"
 
 def ejecutar(file, conn):
     import time
@@ -28,36 +30,30 @@ def ejecutar(file, conn):
     end = time.time()
     print(end - start)
 
-
 def grabar_linea(archivo, linea):
     print(linea)
     archivo.write(str(linea) + '\n')
 
-
 def inicializar(conn):
     session = Cluster(contact_points=[conn["cassandraurl"]], port=conn["cassandrapuerto"]).connect()
-    # crear db
-    create_keyspace_query = """
-    CREATE KEYSPACE IF NOT EXISTS sports
-    WITH replication = {
+    create_keyspace_query = f"""
+    CREATE KEYSPACE IF NOT EXISTS {keyspace}
+    WITH replication = {{
         'class': 'SimpleStrategy',
         'replication_factor': 1
-    }
+    }}
     """
     session.execute(create_keyspace_query)
     print("Keyspace created successfully!")
 
-    # Use the keyspace
-    session.set_keyspace('sports')
+    session.set_keyspace(keyspace)
 
-    # Drop table
-    drop_table_query = """DROP TABLE IF EXISTS deportista_marcas"""
+    drop_table_query = f"""DROP TABLE IF EXISTS {tabla_deportista_marcas}"""
     session.execute(drop_table_query)
     print("Table dropped successfully!")
 
-    # Create table
-    create_table_query = """
-    CREATE TABLE IF NOT EXISTS deportista_marcas (
+    create_table_query = f"""
+    CREATE TABLE IF NOT EXISTS {tabla_deportista_marcas} (
         id_deportista int,
         id_especialidad int,
         nombre_deportista text,
@@ -75,7 +71,6 @@ def inicializar(conn):
 
     return session
 
-
 def procesar_tabla(db, reader):
     rows = [
         (
@@ -91,8 +86,8 @@ def procesar_tabla(db, reader):
         )
         for row in reader
     ]
-    statement = db.prepare("""
-        INSERT INTO deportista_marcas (
+    statement = db.prepare(f"""
+        INSERT INTO {tabla_deportista_marcas} (
             id_deportista, id_especialidad, nombre_deportista, nombre_especialidad,
             nombre_tipo_especialidad, marca, id_torneo, nombre_torneo, intento
         )
@@ -111,24 +106,21 @@ def procesar_tabla(db, reader):
         if not success:
             raise result
 
-
 def generar_reporte(db):
-    # Con GROUP BY se obtiene el menor valor de marca por deportista y especialidad (la primera fila de cada particion es la marca minima)
-    consulta_min = db.prepare("""
+    consulta_min = db.prepare(f"""
         SELECT id_deportista, nombre_deportista, id_especialidad, nombre_especialidad,
                nombre_tipo_especialidad, marca, id_torneo, nombre_torneo, intento
-        FROM deportista_marcas
+        FROM {tabla_deportista_marcas}
         GROUP BY id_deportista, id_especialidad
     """)
     marcas_min = {}
     for row in db.execute(consulta_min):
         marcas_min[(row.id_deportista, row.id_especialidad)] = row
 
-    # Cassandra solo permite dar vuelta el orden completo de clustering dentro de una particion.
-    consulta_max = db.prepare("""
+    consulta_max = db.prepare(f"""
         SELECT id_deportista, nombre_deportista, id_especialidad, nombre_especialidad,
                nombre_tipo_especialidad, marca, id_torneo, nombre_torneo, intento
-        FROM deportista_marcas
+        FROM {tabla_deportista_marcas}
         WHERE id_deportista = ? AND id_especialidad = ?
         ORDER BY marca DESC, id_torneo DESC, intento DESC
         LIMIT 1
@@ -166,9 +158,12 @@ def generar_reporte(db):
                 f"{menor.id_deportista}, {menor.nombre_deportista}, {menor.id_especialidad}, {menor.nombre_especialidad}, {menor.nombre_tipo_especialidad}, {mejor.marca}, {mejor.id_torneo}, {mejor.nombre_torneo}, {mejor.intento}, {peor.marca}, {peor.id_torneo}, {peor.nombre_torneo}, {peor.intento}"
             )
 
-
 def finalizar(db):
-    db.shutdown()
-
+    cluster = db.cluster
+    try:
+        db.execute(f"DROP TABLE IF EXISTS {keyspace}.{tabla_deportista_marcas}")
+    finally:
+        db.shutdown()
+        cluster.shutdown()
 
 ejecutar(archivo_entrada, conexion)

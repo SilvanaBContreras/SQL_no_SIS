@@ -12,7 +12,7 @@ conexion = {
     "cassandrapuerto": 9042,
 }
 
-keyspace = "tp3_ej06"
+keyspace = "sports"
 tabla_podio = "podio_anual"
 
 def ejecutar(file, conn):
@@ -92,8 +92,6 @@ def inicializar(conn):
         raise
 
 def procesar_fila(fila, insertar):
-    # Cada fila representa un intento y mantiene sus identificadores para que
-    # distintos intentos, incluso del mismo deportista, ocupen filas propias.
     valores = (
         int(fila["id_torneo"]),
         int(fila["id_especialidad"]),
@@ -111,7 +109,6 @@ def procesar_fila(fila, insertar):
 def procesar_tabla(db, reader):
     import time
 
-    # Se preparan los INSERT una sola vez, sin variables globales.
     columnas = (
         "id_torneo, id_especialidad, marca, marca_orden, id_deportista, intento, "
         "nombre_torneo, nombre_especialidad, nombre_deportista"
@@ -120,7 +117,7 @@ def procesar_tabla(db, reader):
     insertar_marca = db.prepare(
         f"INSERT INTO {tabla_podio} ({columnas}) VALUES ({valores})"
     )
-    # El generador evita guardar todo el CSV en memoria.
+
     solicitudes = (
         procesar_fila(fila, insertar_marca)
         for fila in reader
@@ -128,7 +125,7 @@ def procesar_tabla(db, reader):
     count = 0
     startbloque = time.time()
     error = None
-    # Hasta 100 inserciones en curso para no esperar una por una.
+
     for success, detalle in execute_concurrent(
         db,
         solicitudes,
@@ -144,7 +141,7 @@ def procesar_tabla(db, reader):
             tiempo = endbloque-startbloque
             print(str(count) + " en " + str(tiempo) + " segundos")
             startbloque = time.time()
-    # Se revisan todas las respuestas antes de generar el reporte.
+
     if error is not None:
         raise error
 
@@ -200,5 +197,4 @@ def finalizar(db):
         db.shutdown()
         cluster.shutdown()
 
-if __name__ == "__main__":
-    ejecutar(archivo_entrada, conexion)
+ejecutar(archivo_entrada, conexion)
