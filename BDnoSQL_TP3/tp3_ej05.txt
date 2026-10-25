@@ -1,3 +1,4 @@
+Podio ANUAL por especialidad
 id_especialidad, nombre_especialidad, posicion, id_deportista, nombre_deportista, marca, id_torneo, nombre_torneo, intento
 5, carrera 1500 m, 1, 184, Sifan HASSAN, 208771, 166, Torneo de South Sudan, 1
 5, carrera 1500 m, 2, 181, Matthew CENTROWITZ, 208772, 127, Torneo de Niger, 1

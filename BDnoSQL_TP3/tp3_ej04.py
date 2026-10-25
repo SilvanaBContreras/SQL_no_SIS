@@ -1,6 +1,6 @@
 import csv
 from cassandra.cluster import Cluster
-from cassandra.concurrent import execute_concurrent_with_args
+from cassandra.concurrent import execute_concurrent, execute_concurrent_with_args
 
 archivo_entrada = 'full_export.csv'
 nombre_archivo_resultado_ejercicio = 'tp3_ej04.txt'
@@ -21,6 +21,7 @@ def ejecutar(file, conn):
     db = inicializar(conn)
     reader = csv.DictReader(open(file, "r", encoding="utf-8"))
     startbloque = time.time()
+    print("Iniciando carga de registros a la base...")
     procesar_tabla(db, reader)
     endbloque = time.time()
     tiempo = endbloque-startbloque
@@ -44,13 +45,11 @@ def inicializar(conn):
     }}
     """
     session.execute(create_keyspace_query)
-    print("Keyspace created successfully!")
 
     session.set_keyspace(keyspace)
 
     drop_table_query = f"""DROP TABLE IF EXISTS {tabla_deportista_marcas}"""
     session.execute(drop_table_query)
-    print("Table dropped successfully!")
 
     create_table_query = f"""
     CREATE TABLE IF NOT EXISTS {tabla_deportista_marcas} (
@@ -67,44 +66,53 @@ def inicializar(conn):
     ) WITH CLUSTERING ORDER BY (marca ASC, id_torneo ASC, intento ASC);
     """
     session.execute(create_table_query)
-    print("Table created successfully!")
 
     return session
 
+def procesar_fila(fila, insertar):
+    valores = (
+        int(fila["id_deportista"]),
+        int(fila["id_especialidad"]),
+        fila["nombre_deportista"],
+        fila["nombre_especialidad"],
+        fila["nombre_tipo_especialidad"],
+        int(fila["marca"]),
+        int(fila["id_torneo"]),
+        fila["nombre_torneo"],
+        int(fila["intento"]),
+    )
+    return insertar, valores
+
 def procesar_tabla(db, reader):
-    rows = [
-        (
-            int(row["id_deportista"]),
-            int(row["id_especialidad"]),
-            row["nombre_deportista"],
-            row["nombre_especialidad"],
-            row["nombre_tipo_especialidad"],
-            int(row["marca"]),
-            int(row["id_torneo"]),
-            row["nombre_torneo"],
-            int(row["intento"]),
-        )
-        for row in reader
-    ]
-    statement = db.prepare(f"""
+    import time
+
+    insertar = db.prepare(f"""
         INSERT INTO {tabla_deportista_marcas} (
             id_deportista, id_especialidad, nombre_deportista, nombre_especialidad,
             nombre_tipo_especialidad, marca, id_torneo, nombre_torneo, intento
         )
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
     """)
+    solicitudes = (procesar_fila(fila, insertar) for fila in reader)
+    count = 0
+    startbloque = time.time()
 
-    results = execute_concurrent_with_args(
+    results = execute_concurrent(
         db,
-        statement,
-        rows,
+        solicitudes,
         concurrency=1000,
-        results_generator=False
+        results_generator=True
     )
 
     for success, result in results:
+        count += 1
         if not success:
             raise result
+        if count % 10000 == 0:
+            endbloque = time.time()
+            tiempo = endbloque-startbloque
+            print(str(count) + " en " + str(tiempo) + " segundos")
+            startbloque = time.time()
 
 def generar_reporte(db):
     consulta_min = db.prepare(f"""

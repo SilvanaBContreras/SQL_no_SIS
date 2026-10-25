@@ -1,6 +1,6 @@
 import csv
 from cassandra.cluster import Cluster
-from cassandra.concurrent import execute_concurrent_with_args
+from cassandra.concurrent import execute_concurrent
 
 archivo_entrada = 'full_export.csv'
 nombre_archivo_resultado_ejercicio = ['tp3_ej03_parte1.txt', 'tp3_ej03_parte2.txt']
@@ -21,6 +21,7 @@ def ejecutar(file, conn):
     db = inicializar(conn)
     reader = csv.DictReader(open(file, "r", encoding="utf-8"))
     startbloque = time.time()
+    print("Iniciando carga de registros a la base...")
     procesar_tabla(db, reader)
     endbloque = time.time()
     tiempo = endbloque-startbloque
@@ -44,17 +45,14 @@ def inicializar(conn):
     }}
     """
     session.execute(create_keyspace_query)
-    print("Keyspace created successfully!")
 
     session.set_keyspace(keyspace)
 
     drop_table_query = f"""DROP TABLE IF EXISTS {tabla_especialidades}"""
     session.execute(drop_table_query)
-    print("Table dropped successfully!")
 
     drop_table_query = f"""DROP TABLE IF EXISTS {tabla_especialidades_contador}"""
     session.execute(drop_table_query)
-    print("Table dropped successfully!")
 
     create_table_query = f"""
     CREATE TABLE IF NOT EXISTS {tabla_especialidades} (
@@ -67,17 +65,23 @@ def inicializar(conn):
     """
 
     session.execute(create_table_query)
-    print("Table created successfully!")
 
     return session
 
-def procesar_tabla(db, reader):
-    rows = [
-        (int(row["id_tipo_especialidad"]), row["nombre_tipo_especialidad"], row["nombre_especialidad"])
-        for row in reader
-    ]
+def procesar_fila(fila, insertar):
+    # Preparar los valores en el orden del WHERE; el UPDATE incrementa el contador.
+    valores = (
+        fila["nombre_tipo_especialidad"],
+        int(fila["id_tipo_especialidad"]),
+        fila["nombre_especialidad"],
+    )
+    return insertar, valores
 
-    stmt_counter = db.prepare(f"""
+def procesar_tabla(db, reader):
+    # Preparar la consulta una vez y coordinar la carga concurrente.
+    import time
+
+    insertar = db.prepare(f"""
                               UPDATE {tabla_especialidades}
                               SET cantidad_marcas = cantidad_marcas + 1
                               WHERE tipo_especialidad = ?
@@ -85,18 +89,25 @@ def procesar_tabla(db, reader):
                                 AND especialidad = ?
                               """)
 
-    counter_args = [(tipo, id_tipo, especialidad) for id_tipo, tipo, especialidad in rows]
+    solicitudes = (procesar_fila(fila, insertar) for fila in reader)
+    count = 0
+    startbloque = time.time()
 
-    results_counter = execute_concurrent_with_args(
+    results_counter = execute_concurrent(
         db,
-        stmt_counter,
-        counter_args,
+        solicitudes,
         concurrency=100,
-        results_generator=False
+        results_generator=True
     )
     for success, result in results_counter:
+        count += 1
         if not success:
             raise result
+        if count % 10000 == 0:
+            endbloque = time.time()
+            tiempo = endbloque-startbloque
+            print(str(count) + " en " + str(tiempo) + " segundos")
+            startbloque = time.time()
 
 def generar_reporte(db):
     prepared_query = db.prepare(

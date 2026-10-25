@@ -21,6 +21,7 @@ def ejecutar(file, conn):
     db = inicializar(conn)
     reader = csv.DictReader(open(file, "r", encoding="utf-8"))
     startbloque = time.time()
+    print("Iniciando carga de registros a la base...")
     procesar_tabla(db, reader)
     endbloque = time.time()
     tiempo = endbloque-startbloque
@@ -121,7 +122,7 @@ def procesar_tabla(db, reader):
     for success, detalle in execute_concurrent(
         db,
         solicitudes,
-        concurrency=100,
+        concurrency=1000,
         raise_on_first_error=False,
         results_generator=True,
     ):
@@ -138,6 +139,7 @@ def procesar_tabla(db, reader):
 
 def generar_reporte(db):
     with open(nombre_archivo_resultado_ejercicio, "w", encoding="utf-8") as archivo:
+        grabar_linea(archivo, "Podio ANUAL por especialidad")
         grabar_linea(
             archivo,
             "id_especialidad, nombre_especialidad, posicion, id_deportista, "

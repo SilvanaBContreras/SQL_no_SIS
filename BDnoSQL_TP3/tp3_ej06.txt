@@ -1,3 +1,4 @@
+Podio ANUAL por especialidad y torneo
 id_torneo, nombre_torneo, id_especialidad, nombre_especialidad, posicion, id_deportista, nombre_deportista, intento, marca
 180, Torneo de Trinidad and Tobago, 13, salto de altura, 1, 484, Mutaz Essa BARSHIM, 6, 261
 180, Torneo de Trinidad and Tobago, 13, salto de altura, 2, 487, Ilya IVANYUK, 8, 261

@@ -1,6 +1,6 @@
 import csv
 from cassandra.cluster import Cluster
-from cassandra.concurrent import execute_concurrent_with_args
+from cassandra.concurrent import execute_concurrent
 
 archivo_entrada = 'full_export.csv'
 nombre_archivo_resultado_ejercicio = 'tp3_ej02.txt'
@@ -21,6 +21,7 @@ def ejecutar(file, conn):
     db = inicializar(conn)
     reader = csv.DictReader(open(file, "r", encoding="utf-8"))
     startbloque = time.time()
+    print("Iniciando carga de registros a la base...")
     procesar_tabla(db, reader)
     endbloque = time.time()
     tiempo = endbloque-startbloque
@@ -45,13 +46,11 @@ def inicializar(conn):
     }}
     """
     session.execute(create_keyspace_query)
-    print("Keyspace created successfully!")
 
     session.set_keyspace(keyspace)
 
     drop_table_query = f"""DROP TABLE IF EXISTS {tabla_deportista_especialidad}"""
     session.execute(drop_table_query)
-    print("Table dropped successfully!")
 
     create_table_query = f"""
     CREATE TABLE IF NOT EXISTS {tabla_deportista_especialidad} (
@@ -64,13 +63,24 @@ def inicializar(conn):
     );
     """
     session.execute(create_table_query)
-    print("Table created successfully!")
 
     return session
 
+def procesar_fila(fila, insertar):
+    valores = (
+        fila["nombre_deportista"],
+        fila["fecha_nacimiento"],
+        int(fila["id_pais_deportista"]),
+        fila["nombre_pais_deportista"],
+        {fila["nombre_especialidad"]},
+        int(fila["id_deportista"]),
+    )
+    return insertar, valores
+
 def procesar_tabla(db, reader):
-    rows = ((row["nombre_deportista"], row["fecha_nacimiento"], int(row["id_pais_deportista"]), row["nombre_pais_deportista"], {row["nombre_especialidad"]}, int(row["id_deportista"])) for row in reader)
-    statement = db.prepare(f"""
+    import time
+
+    insertar = db.prepare(f"""
         UPDATE {tabla_deportista_especialidad}
         SET nombre_deportista= ?,
             fecha_nacimiento = ?,
@@ -79,18 +89,26 @@ def procesar_tabla(db, reader):
             especialidades = especialidades + ?
         WHERE id_deportista = ?
         """)
+    solicitudes = (procesar_fila(fila, insertar) for fila in reader)
+    count = 0
+    startbloque = time.time()
 
-    results = execute_concurrent_with_args(
+    results = execute_concurrent(
         db,
-        statement,
-        rows,
+        solicitudes,
         concurrency=1000,
         results_generator=True
     )
 
     for success, result in results:
+        count += 1
         if not success:
             raise result
+        if count % 10000 == 0:
+            endbloque = time.time()
+            tiempo = endbloque-startbloque
+            print(str(count) + " en " + str(tiempo) + " segundos")
+            startbloque = time.time()
 
 def generar_reporte(db):
     prepared_query = db.prepare(
