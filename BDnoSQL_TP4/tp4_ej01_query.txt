@@ -1,24 +1,16 @@
 Ejercicio 1 - Id y nombre de los deportistas con id 10, 20 y 30
 
-Colección usada: deportistas (se carga con tp4_ej01.py).
-Cada documento es un deportista. El id del deportista se guarda en _id y el país va como un
-documento dentro de otro (subdocumento):
-{ _id, nombre, fecha_nacimiento, pais: { id, nombre } }
+Colección: deportistas (cargada con tp4_ej01.py). Un documento por deportista, con el id
+como _id y el país como subdocumento: { _id, nombre, fecha_nacimiento, pais: { id, nombre } }
 
-Cómo se arma la query:
-- find recibe dos partes: qué documentos traer (condición) y qué campos mostrar (proyección).
-- Condición: {_id: {$in: [10, 20, 30]}}. $in trae los documentos cuyo _id está en la lista.
-- Proyección: {nombre: 1}. El 1 indica que ese campo se muestra. El _id aparece siempre,
-  salvo que se lo oculte con _id: 0, por eso no hace falta pedirlo.
+La query es un find con dos partes: la condición y la proyección.
+- Condición {_id: {$in: [10, 20, 30]}}: trae los documentos cuyo _id está en la lista.
+- Proyección {nombre: 1}: muestra solo el nombre. El _id sale siempre, salvo que se lo
+  oculte con _id: 0.
 
-Cómo se obtuvo el resultado (tp4_ej01_resultado.txt): ejecutando la query en Robo3T con
-.forEach(printjsononeline) agregado al final. forEach recorre todos los documentos que devuelve
-la query e imprime cada uno en una línea de texto, sin la paginación de Robo3T (50 documentos
-por página), que sería limitante en los ejercicios 3 (140 documentos), 4 (83), 7 (803) y
-9 (4.020) de este TP.
-En este ejercicio el resultado tiene 3 documentos, así que también podía copiarse
-directamente desde la vista de texto de Robo3T, sin forEach. Se usa igual para que todos los
-resultados del TP tengan el mismo formato: un documento por línea.
+Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
+que imprime un documento por línea. Con 3 documentos no hacía falta (entran en una
+página de Robo3T), pero se usó en todos los ejercicios para mantener el mismo formato.
 
 Query:
 db.deportistas.find({_id: {$in: [10, 20, 30]}}, {nombre: 1});

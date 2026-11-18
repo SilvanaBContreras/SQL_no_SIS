@@ -8,3 +8,6 @@
 !.gitignore
 !*.py
 !*.txt
+
+# Documentos internos de decisiones: nunca se suben
+*decisiones*.txt

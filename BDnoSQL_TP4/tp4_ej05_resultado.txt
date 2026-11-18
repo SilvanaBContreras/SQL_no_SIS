@@ -1,4 +1,4 @@
+{  "id_tipo" : 4,  "nombre_tipo" : "lanzamiento",  "especialidades" : [ "lanzamiento de bala", "lanzamiento de disco", "lanzamiento de jabalina", "lanzamiento de martillo" ] }
 {  "id_tipo" : 3,  "nombre_tipo" : "largo",  "especialidades" : [ "salto triple", "salto largo" ] }
-{  "id_tipo" : 2,  "nombre_tipo" : "altura",  "especialidades" : [ "salto con pertiga", "salto de altura" ] }
-{  "id_tipo" : 1,  "nombre_tipo" : "tiempo",  "especialidades" : [ "carrera 400 m", "carrera 110 m con vallas", "carrera 3000 m con vallas", "carrera 1500 m", "carrera 800 m", "carrera 400 m con vallas", "carrera 42000 m", "carrera 200 m", "carrera 5000 m", "carrera 10000 m", "carrera 100 m", "carrera 21000 m" ] }
-{  "id_tipo" : 4,  "nombre_tipo" : "lanzamiento",  "especialidades" : [ "lanzamiento de jabalina", "lanzamiento de martillo", "lanzamiento de bala", "lanzamiento de disco" ] }
+{  "id_tipo" : 2,  "nombre_tipo" : "altura",  "especialidades" : [ "salto de altura", "salto con pertiga" ] }
+{  "id_tipo" : 1,  "nombre_tipo" : "tiempo",  "especialidades" : [ "carrera 5000 m", "carrera 200 m", "carrera 10000 m", "carrera 100 m", "carrera 21000 m", "carrera 400 m", "carrera 110 m con vallas", "carrera 3000 m con vallas", "carrera 800 m", "carrera 1500 m", "carrera 42000 m", "carrera 400 m con vallas" ] }

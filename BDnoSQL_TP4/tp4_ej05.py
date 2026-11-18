@@ -48,8 +48,12 @@ def inicializar(conn):
     return cliente_mongo
 
 
-# Un documento por fila del CSV (participacion completa), desnormalizado en subdocumentos
+# Un documento por fila del CSV (participacion completa), desnormalizado en subdocumentos.
+# marca_orden: marca en carreras (gana la menor) y marca * -1 en el resto (gana la mayor),
+# para que en todas las especialidades la mejor marca sea la de menor marca_orden
 def procesar_fila(fila):
+    marca = int(fila["marca"])
+    marca_orden = marca if fila["nombre_tipo_especialidad"] == "tiempo" else -marca
     return {
         "deportista": {
             "id": int(fila["id_deportista"]),
@@ -81,7 +85,8 @@ def procesar_fila(fila):
             }
         },
         "intento": int(fila["intento"]),
-        "marca": int(fila["marca"])
+        "marca": marca,
+        "marca_orden": marca_orden
     }
 
 
@@ -105,6 +110,11 @@ def procesar_coleccion(client, lector_filas_csv):
         coleccion_participaciones.insert_many(lote_documentos)
         cantidad_insertados += len(lote_documentos)
         print(str(cantidad_insertados) + " documentos insertados")
+
+    # Indice con los mismos criterios del $sort del ejercicio 9 (slide 34): el ordenamiento usa
+    # el indice en lugar de la memoria. Se crea despues de la carga para no frenar los inserts
+    coleccion_participaciones.create_index([("torneo.id", 1), ("especialidad.id", 1), ("marca_orden", 1)])
+    print("indice torneo + especialidad + marca_orden creado")
 
 
 # Funcion que realiza el o los queries que resuelven el ejercicio, utilizando la base de datos.

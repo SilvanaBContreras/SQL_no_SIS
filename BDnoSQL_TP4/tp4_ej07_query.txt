@@ -1,46 +1,29 @@
 Ejercicio 7 - Mejor y peor marca de cada deportista por especialidad
 
-Colección usada: participaciones (la misma del ejercicio 5).
+Colección: participaciones (la del ejercicio 5).
 
-Mejor y peor marca:
-- En una carrera gana el que tarda menos: la mejor marca es el número más chico.
-- En un salto o un lanzamiento gana el que llega más lejos o más alto: la mejor marca es el
-  número más grande.
-Un deportista puede competir en más de una especialidad (por ejemplo, 100 m y 200 m), así
-que se calcula una mejor y una peor marca para cada especialidad que practica.
+Criterio: en las carreras gana el que tarda menos, así que la mejor marca es la más chica;
+en saltos y lanzamientos gana el que llega más lejos o más alto, así que es la más grande.
+Como un deportista puede competir en varias especialidades (por ejemplo, 100 m y 200 m), se
+calcula por deportista y especialidad.
 
-Cómo se arma la query (aggregate, una etapa después de otra):
-1. $group junta las participaciones de cada deportista en cada especialidad. Para cada grupo:
-   - $first guarda los nombres del deportista, de la especialidad y del tipo (son los mismos
-     en todo el grupo);
-   - $min busca la marca más chica y $max la más grande.
-2. $project arma la salida y decide cuál es la mejor y cuál la peor:
-   - si es una carrera (tipo "tiempo"): mejor = la más chica, peor = la más grande;
-   - si no: mejor = la más grande, peor = la más chica.
-   $cond funciona como un "si / entonces / si no": [condición, valor si se cumple, valor si no].
-   Cómo se lee en la query:
+1. $group por deportista y especialidad: $first guarda los nombres y el tipo, y $min y $max
+   buscan la marca más chica y la más grande.
+2. $project decide cuál es la mejor y cuál la peor según el tipo. $cond funciona como un
+   "si / entonces / si no":
      mejor_marca: {$cond: [{$eq: ["$tipo", "tiempo"]}, "$marca_minima", "$marca_maxima"]}
-     -> mejor_marca = si el tipo es igual a "tiempo", la marca mínima; si no, la máxima.
-     peor_marca:  {$cond: [{$eq: ["$tipo", "tiempo"]}, "$marca_maxima", "$marca_minima"]}
-     -> peor_marca = si el tipo es igual a "tiempo", la marca máxima; si no, la mínima.
-   {$eq: ["$tipo", "tiempo"]} es la condición: pregunta si el campo tipo vale "tiempo".
-No se ordena el resultado porque no lo requiere la consigna.
+     se lee: si el tipo es "tiempo", la mínima; si no, la máxima (peor_marca, al revés).
+No se ordena porque la consigna no lo pide.
 
-Alternativa descartada: ordenar todas las participaciones por marca ($sort) y tomar la primera
-($first) como mejor y la última ($last) como peor. Da el mismo resultado (comprobado: 803
-documentos, sin diferencias), pero ordena las 161.403 participaciones, tarda unas 3 veces más
-y necesita allowDiskUse: true, porque sin esa opción supera el límite de 100 MB de memoria
-para ordenar y la query falla. Con $min y $max no hay ordenamiento, así que no hace falta.
+Alternativa descartada: ordenar las participaciones por marca y tomar la primera ($first) y
+la última ($last). Da el mismo resultado, pero tarda unas 3 veces más y necesita
+allowDiskUse: true, porque ordenar las 161.403 participaciones supera los 100 MB de memoria
+que Mongo permite. Con $min y $max no hace falta ordenar.
 
-Cómo se obtuvo el resultado (tp4_ej07_resultado.txt): ejecutando la query en Robo3T con
-.forEach(printjsononeline) agregado al final. forEach recorre todos los documentos que devuelve
-la query e imprime cada uno en una línea de texto, sin la paginación de Robo3T (50 documentos
-por página), que sería limitante en los ejercicios 3 (140 documentos), 4 (83), 7 (803) y
-9 (4.020) de este TP.
-En este ejercicio el resultado tiene 803 documentos, más de una página. Otras opciones:
-aumentar el tamaño de página de Robo3T (el número junto a las flechas de paginación) o
-agregar .toArray(), que devuelve todo en un único array (formato expandido, menos práctico
-para el txt).
+Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
+que imprime un documento por línea y evita la paginación de Robo3T (50 por página). Acá
+era necesario: el resultado tiene 803 documentos. Otras opciones eran agrandar la página
+de Robo3T o usar .toArray().
 
 Query:
 db.participaciones.aggregate([
@@ -54,9 +37,7 @@ db.participaciones.aggregate([
     }},
     {$project: {
         _id: 0,
-        id_deportista: "$_id.id_deportista",
         nombre_deportista: "$nombre_deportista",
-        id_especialidad: "$_id.id_especialidad",
         nombre_especialidad: "$nombre_especialidad",
         mejor_marca: {$cond: [{$eq: ["$tipo", "tiempo"]}, "$marca_minima", "$marca_maxima"]},
         peor_marca: {$cond: [{$eq: ["$tipo", "tiempo"]}, "$marca_maxima", "$marca_minima"]}

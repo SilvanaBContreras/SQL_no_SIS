@@ -1,21 +1,15 @@
 Ejercicio 3 - Deportistas cuya nacionalidad es el país 189
 
-Colección usada: deportistas (la misma del ejercicio 1).
+Colección: deportistas (la del ejercicio 1).
 
-Cómo se arma la query:
-- El país es un subdocumento, así que para filtrar por su id se usa la notación con punto:
-  "pais.id".
-- Sin proyección, para mostrar todos los datos de cada deportista.
+Como el país es un subdocumento, se filtra con notación de punto: "pais.id" es el campo id
+dentro de pais. Sin proyección, para ver todos los datos de cada deportista. No se ordena
+porque la consigna no lo pide.
 
-Cómo se obtuvo el resultado (tp4_ej03_resultado.txt): ejecutando la query en Robo3T con
-.forEach(printjsononeline) agregado al final. forEach recorre todos los documentos que devuelve
-la query e imprime cada uno en una línea de texto, sin la paginación de Robo3T (50 documentos
-por página), que sería limitante en los ejercicios 3 (140 documentos), 4 (83), 7 (803) y
-9 (4.020) de este TP.
-En este ejercicio el resultado tiene 140 documentos, más de una página. Otras opciones:
-aumentar el tamaño de página de Robo3T (el número junto a las flechas de paginación) o
-agregar .toArray(), que devuelve todo en un único array (formato expandido, menos práctico
-para el txt).
+Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
+que imprime un documento por línea y evita la paginación de Robo3T (50 por página). Acá
+era necesario: el resultado tiene 140 documentos. Otras opciones eran agrandar la página
+de Robo3T o usar .toArray().
 
 Query:
 db.deportistas.find({"pais.id": 189});

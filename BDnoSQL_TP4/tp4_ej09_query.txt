@@ -1,0 +1,51 @@
+Ejercicio 9 - Podio de cada especialidad en cada torneo
+
+Colección: participaciones (la del ejercicio 5). En la carga, cada participación guarda
+también marca_orden (la marca en carreras, la marca * -1 en el resto: así la mejor marca es
+siempre la de menor marca_orden) y se crea un índice por torneo, especialidad y marca_orden.
+
+La query tiene tres pasos:
+1. $sort por torneo, especialidad y marca_orden: deja las participaciones de cada torneo y
+   especialidad ordenadas de mejor a peor marca.
+2. $group por torneo y especialidad: $push arma la lista de deportistas con su marca, en ese
+   orden.
+3. $project con $slice: ["$marcas", 3] se queda con los tres primeros: el podio.
+La salida muestra solo nombres, porque la consigna pide "para cada nombre de torneo y
+especialidad". No se ordena el resultado final porque la consigna no lo pide.
+
+Por qué el índice: el $sort ordena las 161.403 participaciones y, ordenadas en memoria,
+superan el límite de 100 MB de Mongo (la query falla salvo que se use allowDiskUse). El
+slide 34 lo plantea así: si no hay un índice, Mongo ordena en memoria, y la única forma de
+evitar el error es "crear un índice con los mismos criterios del sort". Con el índice, el
+$sort recorre las participaciones ya ordenadas: no usa memoria ni allowDiskUse, y la query
+tarda la mitad (~0,7 s contra ~1,5 s).
+
+A diferencia del ejercicio 8, no hace falta el paso previo "mejor marca de cada deportista":
+en estos datos cada deportista tiene una sola participación por torneo y especialidad
+(comprobado: 161.403 combinaciones para 161.403 participaciones), así que no puede aparecer
+dos veces en el mismo podio.
+
+Empates: mismo criterio que en el ejercicio 8; se ignoran y, entre marcas iguales, el orden
+queda a criterio de Mongo.
+
+Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
+que imprime un documento por línea y evita la paginación de Robo3T (50 por página). Acá
+era necesario: el resultado tiene 4.020 documentos. Otras opciones eran agrandar la página
+de Robo3T o usar .toArray().
+
+Query:
+db.participaciones.aggregate([
+    {$sort: {"torneo.id": 1, "especialidad.id": 1, marca_orden: 1}},
+    {$group: {
+        _id: {id_torneo: "$torneo.id", id_especialidad: "$especialidad.id"},
+        nombre_torneo: {$first: "$torneo.nombre"},
+        nombre_especialidad: {$first: "$especialidad.nombre"},
+        marcas: {$push: {nombre_deportista: "$deportista.nombre", marca: "$marca"}}
+    }},
+    {$project: {
+        _id: 0,
+        nombre_torneo: "$nombre_torneo",
+        nombre_especialidad: "$nombre_especialidad",
+        podio: {$slice: ["$marcas", 3]}
+    }}
+]);
