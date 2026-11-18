@@ -1,0 +1,44 @@
+Ejercicio 5 - Tipos de especialidad con sus especialidades asociadas
+
+Colección usada: participaciones (se carga con tp4_ej05.py). Cada documento es una fila del
+archivo, es decir, una participación completa con todos sus datos:
+{ _id (lo genera Mongo),
+  deportista:   { id, nombre, fecha_nacimiento, pais: { id, nombre } },
+  especialidad: { id, nombre, tipo: { id, nombre } },
+  torneo:       { id, nombre, ciudad: { id, nombre }, pais: { id, nombre } },
+  intento, marca }
+
+Cómo se arma la query (aggregate, una etapa después de otra):
+1. $group por tipo y especialidad juntos: al agruparla queda una sola vez. $first guarda los nombres (son los mismos
+   en todo el grupo).
+2. $group por tipo: $push arma una lista (array) con los nombres de sus especialidades. Como
+   el paso 1 ya dejó cada especialidad una sola vez, la lista no tiene repetidos.
+3. $project muestra id_tipo, nombre_tipo y especialidades.
+
+Nota: el enunciado no pide orden, así que no se ordena. 
+
+Cómo se obtuvo el resultado (tp4_ej05_resultado.txt): ejecutando la query en Robo3T con
+.forEach(printjsononeline) agregado al final. forEach recorre todos los documentos que devuelve
+la query e imprime cada uno en una línea de texto, sin la paginación de Robo3T (50 documentos
+por página), que sería limitante en los ejercicios 3 (140 documentos), 4 (83), 7 (803) y
+9 (4.020) de este TP.
+En este ejercicio el resultado tiene 4 documentos, así que también podía copiarse
+directamente desde la vista de texto de Robo3T, sin forEach. Se usa igual para que todos los
+resultados del TP tengan el mismo formato: un documento por línea.
+
+En el segundo group entran solo 20 documentos resultado del primer group, y salen 4.
+
+Query:
+db.participaciones.aggregate([
+    {$group: {
+        _id: {id_tipo: "$especialidad.tipo.id", id_especialidad: "$especialidad.id"},
+        nombre_tipo: {$first: "$especialidad.tipo.nombre"},
+        nombre_especialidad: {$first: "$especialidad.nombre"}
+    }},
+    {$group: {
+        _id: "$_id.id_tipo",
+        nombre_tipo: {$first: "$nombre_tipo"},
+        especialidades: {$push: "$nombre_especialidad"}
+    }},
+    {$project: {_id: 0, id_tipo: "$_id", nombre_tipo: "$nombre_tipo", especialidades: "$especialidades"}}
+]);
