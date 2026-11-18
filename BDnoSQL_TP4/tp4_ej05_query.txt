@@ -6,8 +6,7 @@ decir, una participación completa:
   deportista:   { id, nombre, fecha_nacimiento, pais: { id, nombre } },
   especialidad: { id, nombre, tipo: { id, nombre } },
   torneo:       { id, nombre, ciudad: { id, nombre }, pais: { id, nombre } },
-  intento, marca,
-  marca_orden }  (auxiliar: marca en carreras, marca * -1 en el resto; ver ejercicio 9)
+  intento, marca }
 
 La query usa dos $group seguidos:
 1. Por tipo y especialidad: cada especialidad aparece miles de veces y acá queda una sola
