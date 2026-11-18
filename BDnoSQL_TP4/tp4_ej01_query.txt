@@ -11,5 +11,14 @@ Cómo se arma la query:
 - Proyección: {nombre: 1}. El 1 indica que ese campo se muestra. El _id aparece siempre,
   salvo que se lo oculte con _id: 0, por eso no hace falta pedirlo.
 
+Cómo se obtuvo el resultado (tp4_ej01_resultado.txt): ejecutando la query en Robo3T con
+.forEach(printjsononeline) agregado al final. forEach recorre todos los documentos que devuelve
+la query e imprime cada uno en una línea de texto, sin la paginación de Robo3T (50 documentos
+por página), que sería limitante en los ejercicios 3 (140 documentos), 4 (83), 7 (803) y
+9 (4.020) de este TP.
+En este ejercicio el resultado tiene 3 documentos, así que también podía copiarse
+directamente desde la vista de texto de Robo3T, sin forEach. Se usa igual para que todos los
+resultados del TP tengan el mismo formato: un documento por línea.
+
 Query:
 db.deportistas.find({_id: {$in: [10, 20, 30]}}, {nombre: 1});
