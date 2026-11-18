@@ -1,0 +1,15 @@
+Ejercicio 1 - Id y nombre de los deportistas con id 10, 20 y 30
+
+Colección usada: deportistas (se carga con tp4_ej01.py).
+Cada documento es un deportista. El id del deportista se guarda en _id y el país va como un
+documento dentro de otro (subdocumento):
+{ _id, nombre, fecha_nacimiento, pais: { id, nombre } }
+
+Cómo se arma la query:
+- find recibe dos partes: qué documentos traer (condición) y qué campos mostrar (proyección).
+- Condición: {_id: {$in: [10, 20, 30]}}. $in trae los documentos cuyo _id está en la lista.
+- Proyección: {nombre: 1}. El 1 indica que ese campo se muestra. El _id aparece siempre,
+  salvo que se lo oculte con _id: 0, por eso no hace falta pedirlo.
+
+Query:
+db.deportistas.find({_id: {$in: [10, 20, 30]}}, {nombre: 1});
