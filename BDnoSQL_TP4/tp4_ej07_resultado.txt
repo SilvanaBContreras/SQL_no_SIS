@@ -1,0 +1,803 @@
+{  "id_deportista" : 192,  "nombre_deportista" : "Jenny SIMPSON",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208884,  "peor_marca" : 229430 }
+{  "id_deportista" : 699,  "nombre_deportista" : "Apostolos PARELLIS",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7898,  "peor_marca" : 7188 }
+{  "id_deportista" : 343,  "nombre_deportista" : "Gladys CHERONO",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7309791,  "peor_marca" : 8029220 }
+{  "id_deportista" : 10,  "nombre_deportista" : "Yohan BLAKE",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9761,  "peor_marca" : 10733 }
+{  "id_deportista" : 340,  "nombre_deportista" : "Ruti AGA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7301667,  "peor_marca" : 8030158 }
+{  "id_deportista" : 473,  "nombre_deportista" : "Peruth CHEMUTAI",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481272,  "peor_marca" : 529080 }
+{  "id_deportista" : 647,  "nombre_deportista" : "Tomas WALSH",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 195,  "nombre_deportista" : "Konstanze KLOSTERHALFEN",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208796,  "peor_marca" : 229463 }
+{  "id_deportista" : 323,  "nombre_deportista" : "Dibabe KUMA",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481578,  "peor_marca" : 3825513 }
+{  "id_deportista" : 394,  "nombre_deportista" : "Megan TAPPER",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12115,  "peor_marca" : 13302 }
+{  "id_deportista" : 249,  "nombre_deportista" : "Netsanet GUDETA",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3482018,  "peor_marca" : 3828474 }
+{  "id_deportista" : 9,  "nombre_deportista" : "Zharnel HUGHES",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9766,  "peor_marca" : 10734 }
+{  "id_deportista" : 591,  "nombre_deportista" : "Caterine IBARGUEN",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 92,  "nombre_deportista" : "Rai BENJAMIN",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43457,  "peor_marca" : 47794 }
+{  "id_deportista" : 788,  "nombre_deportista" : "Andreas HOFMANN",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9964,  "peor_marca" : 9067 }
+{  "id_deportista" : 797,  "nombre_deportista" : "Arshad NADEEM",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9968,  "peor_marca" : 9062 }
+{  "id_deportista" : 580,  "nombre_deportista" : "Will CLAYE",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 801,  "nombre_deportista" : "Jakub VADLEJCH",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9967,  "peor_marca" : 9062 }
+{  "id_deportista" : 270,  "nombre_deportista" : "Jemal Yimer MEKONNEN",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3484446,  "peor_marca" : 3826906 }
+{  "id_deportista" : 198,  "nombre_deportista" : "Sarah MCDONALD",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208794,  "peor_marca" : 229428 }
+{  "id_deportista" : 328,  "nombre_deportista" : "Azmera ABREHA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7311781,  "peor_marca" : 8029944 }
+{  "id_deportista" : 504,  "nombre_deportista" : "Luis Enrique ZAYAS",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 385,  "nombre_deportista" : "Nia ALI",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12102,  "peor_marca" : 13305 }
+{  "id_deportista" : 680,  "nombre_deportista" : "Portious WARREN",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 697,  "nombre_deportista" : "Reggie JAGERS III",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7188 }
+{  "id_deportista" : 434,  "nombre_deportista" : "Janieve RUSSELL",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46208,  "peor_marca" : 50684 }
+{  "id_deportista" : 727,  "nombre_deportista" : "Paweł FAJDEK",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8988,  "peor_marca" : 8174 }
+{  "id_deportista" : 54,  "nombre_deportista" : "Janeek BROWN",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19505,  "peor_marca" : 21442 }
+{  "id_deportista" : 690,  "nombre_deportista" : "Andrius GUDŽIUS",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7904,  "peor_marca" : 7192 }
+{  "id_deportista" : 234,  "nombre_deportista" : "Eva CHERONO",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772275,  "peor_marca" : 848796 }
+{  "id_deportista" : 627,  "nombre_deportista" : "Omar CRADDOCK",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1995,  "peor_marca" : 1814 }
+{  "id_deportista" : 707,  "nombre_deportista" : "Sandra PERKOVIĆ",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7903,  "peor_marca" : 7189 }
+{  "id_deportista" : 451,  "nombre_deportista" : "Abraham KIBIWOT",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481060,  "peor_marca" : 528923 }
+{  "id_deportista" : 664,  "nombre_deportista" : "Tim NEDOW",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2292 }
+{  "id_deportista" : 195,  "nombre_deportista" : "Konstanze KLOSTERHALFEN",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772460,  "peor_marca" : 849050 }
+{  "id_deportista" : 716,  "nombre_deportista" : "Kristin PUDENZ",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7187 }
+{  "id_deportista" : 733,  "nombre_deportista" : "Hleb DUDARAU",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8988,  "peor_marca" : 8178 }
+{  "id_deportista" : 349,  "nombre_deportista" : "Getaneh MOLLA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7303850,  "peor_marca" : 8026049 }
+{  "id_deportista" : 446,  "nombre_deportista" : "Soufiane EL BAKKALI",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481711,  "peor_marca" : 529036 }
+{  "id_deportista" : 416,  "nombre_deportista" : "Norman GRIMES",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46130,  "peor_marca" : 50625 }
+{  "id_deportista" : 316,  "nombre_deportista" : "Lonah Chemtai SALPETER",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481643,  "peor_marca" : 3826972 }
+{  "id_deportista" : 590,  "nombre_deportista" : "Chantel MALONE",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 116,  "nombre_deportista" : "Stephenie Ann MCPHERSON",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43470,  "peor_marca" : 47765 }
+{  "id_deportista" : 263,  "nombre_deportista" : "Stephanie TWELL",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1610159,  "peor_marca" : 1766905 }
+{  "id_deportista" : 436,  "nombre_deportista" : "Ayomide FOLORUNSO",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46199,  "peor_marca" : 50696 }
+{  "id_deportista" : 355,  "nombre_deportista" : "Asefa MENGSTU",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7302153,  "peor_marca" : 8030109 }
+{  "id_deportista" : 452,  "nombre_deportista" : "Chala BEYO",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481040,  "peor_marca" : 529015 }
+{  "id_deportista" : 165,  "nombre_deportista" : "Jakob INGEBRIGTSEN",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208949,  "peor_marca" : 229578 }
+{  "id_deportista" : 89,  "nombre_deportista" : "Kirani JAMES",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43494,  "peor_marca" : 47772 }
+{  "id_deportista" : 109,  "nombre_deportista" : "Phyllis FRANCIS",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43450,  "peor_marca" : 47792 }
+{  "id_deportista" : 260,  "nombre_deportista" : "Degitu AZIMERAW",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3482276,  "peor_marca" : 3825488 }
+{  "id_deportista" : 552,  "nombre_deportista" : "Yarisley SILVA",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 509,  "nombre_deportista" : "Anna CHICHEROVA",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 42,  "nombre_deportista" : "Blessing OKAGBARE",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19508,  "peor_marca" : 21449 }
+{  "id_deportista" : 224,  "nombre_deportista" : "Hellen OBIRI",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772409,  "peor_marca" : 849204 }
+{  "id_deportista" : 70,  "nombre_deportista" : "Zhenye XIE",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19502,  "peor_marca" : 21430 }
+{  "id_deportista" : 557,  "nombre_deportista" : "Michaela MEIJER",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 418,  "nombre_deportista" : "Kemar MOWATT",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46099,  "peor_marca" : 50687 }
+{  "id_deportista" : 225,  "nombre_deportista" : "Agnes Jebet TIROP",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772162,  "peor_marca" : 849293 }
+{  "id_deportista" : 618,  "nombre_deportista" : "Patrícia MAMONA",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 630,  "nombre_deportista" : "Jordan Alejandro DÍAZ FORTUN",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1815 }
+{  "id_deportista" : 2,  "nombre_deportista" : "Noah LYLES",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19505,  "peor_marca" : 21444 }
+{  "id_deportista" : 78,  "nombre_deportista" : "Andrew HUDSON",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19506,  "peor_marca" : 21433 }
+{  "id_deportista" : 110,  "nombre_deportista" : "Shakima WIMBLEY",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43458,  "peor_marca" : 47781 }
+{  "id_deportista" : 211,  "nombre_deportista" : "William KINCAID",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772143,  "peor_marca" : 849211 }
+{  "id_deportista" : 294,  "nombre_deportista" : "Leonard BARSOTON",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3484102,  "peor_marca" : 3827516 }
+{  "id_deportista" : 342,  "nombre_deportista" : "Ababel YESHANEH",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7304941,  "peor_marca" : 8030474 }
+{  "id_deportista" : 216,  "nombre_deportista" : "Yomif KEJELCHA",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481810,  "peor_marca" : 3828454 }
+{  "id_deportista" : 278,  "nombre_deportista" : "Julien WANDERS",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3483721,  "peor_marca" : 3828808 }
+{  "id_deportista" : 376,  "nombre_deportista" : "Wilhem BELOCIAN",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12112,  "peor_marca" : 13302 }
+{  "id_deportista" : 381,  "nombre_deportista" : "Shane BRATHWAITE",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12128,  "peor_marca" : 13307 }
+{  "id_deportista" : 427,  "nombre_deportista" : "Shamier LITTLE",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46113,  "peor_marca" : 50699 }
+{  "id_deportista" : 287,  "nombre_deportista" : "Bedan KAROKI",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3483548,  "peor_marca" : 3827918 }
+{  "id_deportista" : 512,  "nombre_deportista" : "Iryna GERASHCHENKO",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 553,  "nombre_deportista" : "Olivia GRUVER",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 190,  "nombre_deportista" : "Gabriela DEBUES-STAFFORD",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 773042,  "peor_marca" : 848705 }
+{  "id_deportista" : 496,  "nombre_deportista" : "Django LOVETT",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 344,  "nombre_deportista" : "Kenenisa BEKELE",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7309082,  "peor_marca" : 8026649 }
+{  "id_deportista" : 444,  "nombre_deportista" : "Conseslus KIPRUTO",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481433,  "peor_marca" : 528674 }
+{  "id_deportista" : 483,  "nombre_deportista" : "Zita KÁCSER",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481149,  "peor_marca" : 529122 }
+{  "id_deportista" : 604,  "nombre_deportista" : "Keturah ORJI",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 870 }
+{  "id_deportista" : 633,  "nombre_deportista" : "Yaming ZHU",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1815 }
+{  "id_deportista" : 657,  "nombre_deportista" : "Jordan GEIST",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 701,  "nombre_deportista" : "Martin WIERIG",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7899,  "peor_marca" : 7187 }
+{  "id_deportista" : 145,  "nombre_deportista" : "Ajee WILSON",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101983,  "peor_marca" : 112078 }
+{  "id_deportista" : 708,  "nombre_deportista" : "Valarie ALLMAN",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7190 }
+{  "id_deportista" : 714,  "nombre_deportista" : "Yang CHEN",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7903,  "peor_marca" : 7189 }
+{  "id_deportista" : 648,  "nombre_deportista" : "Darlan ROMANI",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 279,  "nombre_deportista" : "Tamirat TOLA",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608079,  "peor_marca" : 1767550 }
+{  "id_deportista" : 216,  "nombre_deportista" : "Yomif KEJELCHA",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772725,  "peor_marca" : 848818 }
+{  "id_deportista" : 543,  "nombre_deportista" : "Anzhelika SIDOROVA",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 118,  "nombre_deportista" : "Courtney OKOLO",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43451,  "peor_marca" : 47791 }
+{  "id_deportista" : 359,  "nombre_deportista" : "Abebe Negewo DEGEFA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7311718,  "peor_marca" : 8030767 }
+{  "id_deportista" : 736,  "nombre_deportista" : "Quentin BIGOT",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8986,  "peor_marca" : 8182 }
+{  "id_deportista" : 54,  "nombre_deportista" : "Janeek BROWN",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12102,  "peor_marca" : 13308 }
+{  "id_deportista" : 479,  "nombre_deportista" : "Mercy CHEPKURUI",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481081,  "peor_marca" : 528670 }
+{  "id_deportista" : 755,  "nombre_deportista" : "Hanna MALYSHIK",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8992,  "peor_marca" : 8181 }
+{  "id_deportista" : 616,  "nombre_deportista" : "Diana ZAGAINOVA",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1816 }
+{  "id_deportista" : 769,  "nombre_deportista" : "Tatsiana KHALADOVICH",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9962,  "peor_marca" : 9064 }
+{  "id_deportista" : 560,  "nombre_deportista" : "Iryna ZHUK",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 574,  "nombre_deportista" : "Changzhou HUANG",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 870 }
+{  "id_deportista" : 144,  "nombre_deportista" : "Caster SEMENYA",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 102076,  "peor_marca" : 112072 }
+{  "id_deportista" : 249,  "nombre_deportista" : "Netsanet GUDETA",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1609354,  "peor_marca" : 1768375 }
+{  "id_deportista" : 803,  "nombre_deportista" : "Dmitriy TARABIN",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9963,  "peor_marca" : 9085 }
+{  "id_deportista" : 487,  "nombre_deportista" : "Ilya IVANYUK",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 765,  "nombre_deportista" : "Yelizaveta TSAREVA",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8990,  "peor_marca" : 8175 }
+{  "id_deportista" : 274,  "nombre_deportista" : "Berehanu TSEGU",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481292,  "peor_marca" : 3828021 }
+{  "id_deportista" : 185,  "nombre_deportista" : "Faith KIPYEGON",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208809,  "peor_marca" : 229641 }
+{  "id_deportista" : 225,  "nombre_deportista" : "Agnes Jebet TIROP",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608740,  "peor_marca" : 1768146 }
+{  "id_deportista" : 284,  "nombre_deportista" : "Geoffrey KAMWOROR",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3484230,  "peor_marca" : 3827647 }
+{  "id_deportista" : 481,  "nombre_deportista" : "Mekides ABEBE",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481379,  "peor_marca" : 529087 }
+{  "id_deportista" : 767,  "nombre_deportista" : "Kelsey-Lee BARBER",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9963,  "peor_marca" : 9066 }
+{  "id_deportista" : 577,  "nombre_deportista" : "Ruswahl SAMAAI",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 632,  "nombre_deportista" : "Donald SCOTT",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1995,  "peor_marca" : 1814 }
+{  "id_deportista" : 644,  "nombre_deportista" : "Alexis COPELLO",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1995,  "peor_marca" : 1815 }
+{  "id_deportista" : 470,  "nombre_deportista" : "Daisy JEPKEMEI",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481060,  "peor_marca" : 528623 }
+{  "id_deportista" : 677,  "nombre_deportista" : "Jeneva STEVENS",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 668,  "nombre_deportista" : "Maggie EWEN",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2293 }
+{  "id_deportista" : 524,  "nombre_deportista" : "Sam KENDRICKS",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 743,  "nombre_deportista" : "Rudy WINKLER",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8991,  "peor_marca" : 8174 }
+{  "id_deportista" : 5,  "nombre_deportista" : "Andre DE GRASSE",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9767,  "peor_marca" : 10731 }
+{  "id_deportista" : 321,  "nombre_deportista" : "Vivian J. CHERUIYOT",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7308210,  "peor_marca" : 8028981 }
+{  "id_deportista" : 447,  "nombre_deportista" : "Benjamin KIGEN",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481168,  "peor_marca" : 528889 }
+{  "id_deportista" : 500,  "nombre_deportista" : "Tihomir IVANOV",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 531,  "nombre_deportista" : "Cole WALSH",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 619,  "nombre_deportista" : "Thea LAFOND",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 586,  "nombre_deportista" : "Kenyattia HACKWORTH",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 629,  "nombre_deportista" : "Pedro Pablo PICHARDO",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1815 }
+{  "id_deportista" : 683,  "nombre_deportista" : "Alyona GORDEYEVA",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2292 }
+{  "id_deportista" : 101,  "nombre_deportista" : "Jonathan JONES",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43455,  "peor_marca" : 47794 }
+{  "id_deportista" : 148,  "nombre_deportista" : "Halimah NAKAAYI",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101916,  "peor_marca" : 112041 }
+{  "id_deportista" : 182,  "nombre_deportista" : "Rabii DOUKKANA",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208801,  "peor_marca" : 229628 }
+{  "id_deportista" : 117,  "nombre_deportista" : "Sydney MCLAUGHLIN",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46095,  "peor_marca" : 50649 }
+{  "id_deportista" : 415,  "nombre_deportista" : "Amere LATTIN",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46115,  "peor_marca" : 50682 }
+{  "id_deportista" : 150,  "nombre_deportista" : "Hanna GREEN",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101928,  "peor_marca" : 112020 }
+{  "id_deportista" : 429,  "nombre_deportista" : "Lea SPRUNGER",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46143,  "peor_marca" : 50701 }
+{  "id_deportista" : 438,  "nombre_deportista" : "Sara Slott PETERSEN",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46122,  "peor_marca" : 50701 }
+{  "id_deportista" : 541,  "nombre_deportista" : "Ben BROEDERS",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 177,  "nombre_deportista" : "Jake WIGHTMAN",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208828,  "peor_marca" : 229574 }
+{  "id_deportista" : 591,  "nombre_deportista" : "Caterine IBARGUEN",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1995,  "peor_marca" : 1814 }
+{  "id_deportista" : 637,  "nombre_deportista" : "Dmitriy SOROKIN",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1815 }
+{  "id_deportista" : 620,  "nombre_deportista" : "Olga RYPAKOVA",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 92,  "nombre_deportista" : "Rai BENJAMIN",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46107,  "peor_marca" : 50610 }
+{  "id_deportista" : 624,  "nombre_deportista" : "Nadia EKE",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 38,  "nombre_deportista" : "Yongli WEI",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9779,  "peor_marca" : 10718 }
+{  "id_deportista" : 81,  "nombre_deportista" : "Joseph Paul AMOAH",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19519,  "peor_marca" : 21441 }
+{  "id_deportista" : 251,  "nombre_deportista" : "Zeineba YIMER",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481062,  "peor_marca" : 3828790 }
+{  "id_deportista" : 538,  "nombre_deportista" : "Raphael HOLZDEPPE",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 715,  "nombre_deportista" : "Nadine MÜLLER",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7903,  "peor_marca" : 7187 }
+{  "id_deportista" : 718,  "nombre_deportista" : "Mélina ROBERT-MICHON",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7903,  "peor_marca" : 7186 }
+{  "id_deportista" : 734,  "nombre_deportista" : "Eivind HENRIKSEN",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8992,  "peor_marca" : 8180 }
+{  "id_deportista" : 178,  "nombre_deportista" : "Elijah Motonei MANANGOI",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208951,  "peor_marca" : 229494 }
+{  "id_deportista" : 774,  "nombre_deportista" : "Kara WINGER",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9966,  "peor_marca" : 9066 }
+{  "id_deportista" : 790,  "nombre_deportista" : "Bernhard SEIFERT",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9966,  "peor_marca" : 9062 }
+{  "id_deportista" : 802,  "nombre_deportista" : "Marcin KRUKOWSKI",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9968,  "peor_marca" : 9064 }
+{  "id_deportista" : 303,  "nombre_deportista" : "Kibiwott KANDIE",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3485317,  "peor_marca" : 3828626 }
+{  "id_deportista" : 408,  "nombre_deportista" : "TJ HOLMES",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46094,  "peor_marca" : 50687 }
+{  "id_deportista" : 492,  "nombre_deportista" : "Yu WANG",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 445,  "nombre_deportista" : "Lamecha GIRMA",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481078,  "peor_marca" : 528818 }
+{  "id_deportista" : 501,  "nombre_deportista" : "Jeron ROBINSON",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 536,  "nombre_deportista" : "Torben BLECH",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 589,  "nombre_deportista" : "Alina ROTARU",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 870 }
+{  "id_deportista" : 184,  "nombre_deportista" : "Sifan HASSAN",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608968,  "peor_marca" : 1766874 }
+{  "id_deportista" : 39,  "nombre_deportista" : "Dafne SCHIPPERS",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19501,  "peor_marca" : 21444 }
+{  "id_deportista" : 199,  "nombre_deportista" : "Laura WEIGHTMAN",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208792,  "peor_marca" : 229613 }
+{  "id_deportista" : 409,  "nombre_deportista" : "Yasmani COPELLO",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46120,  "peor_marca" : 50698 }
+{  "id_deportista" : 588,  "nombre_deportista" : "Maryna BEKH-ROMANCHUK",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 640,  "nombre_deportista" : "Andy DÍAZ",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1995,  "peor_marca" : 1815 }
+{  "id_deportista" : 759,  "nombre_deportista" : "Iryna KLYMETS",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8992,  "peor_marca" : 8185 }
+{  "id_deportista" : 695,  "nombre_deportista" : "Mason FINLEY",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7901,  "peor_marca" : 7186 }
+{  "id_deportista" : 675,  "nombre_deportista" : "Michelle CARTER",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 268,  "nombre_deportista" : "Rhonex KIPRUTO",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608528,  "peor_marca" : 1768742 }
+{  "id_deportista" : 97,  "nombre_deportista" : "​Demish GAYE",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43500,  "peor_marca" : 47724 }
+{  "id_deportista" : 197,  "nombre_deportista" : "Ciara MAGEEAN",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 209043,  "peor_marca" : 229635 }
+{  "id_deportista" : 91,  "nombre_deportista" : "Nathan STROTHER",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43463,  "peor_marca" : 47750 }
+{  "id_deportista" : 213,  "nombre_deportista" : "Muktar EDRIS",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 773126,  "peor_marca" : 849223 }
+{  "id_deportista" : 423,  "nombre_deportista" : "Lindsay HANEKOM",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46092,  "peor_marca" : 50699 }
+{  "id_deportista" : 488,  "nombre_deportista" : "Stefano SOTTILE",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 23,  "nombre_deportista" : "ShaCarri RICHARDSON",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9760,  "peor_marca" : 10732 }
+{  "id_deportista" : 262,  "nombre_deportista" : "Marielle HALL",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608971,  "peor_marca" : 1766456 }
+{  "id_deportista" : 151,  "nombre_deportista" : "Laura MUIR",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 209050,  "peor_marca" : 229591 }
+{  "id_deportista" : 163,  "nombre_deportista" : "Kate GRACE",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101901,  "peor_marca" : 112079 }
+{  "id_deportista" : 133,  "nombre_deportista" : "Marcin LEWANDOWSKI",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101921,  "peor_marca" : 112033 }
+{  "id_deportista" : 518,  "nombre_deportista" : "Daniela STANCIU",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 345,  "nombre_deportista" : "Eliud KIPCHOGE",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7306906,  "peor_marca" : 8027660 }
+{  "id_deportista" : 691,  "nombre_deportista" : "Traves SMIKLE",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7899,  "peor_marca" : 7188 }
+{  "id_deportista" : 397,  "nombre_deportista" : "Andrea Carolina VARGAS",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12105,  "peor_marca" : 13295 }
+{  "id_deportista" : 398,  "nombre_deportista" : "Sharika NELVIS",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12129,  "peor_marca" : 13304 }
+{  "id_deportista" : 554,  "nombre_deportista" : "Tina ŠUTEJ",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 61,  "nombre_deportista" : "Salwa Eid NASER",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43457,  "peor_marca" : 47771 }
+{  "id_deportista" : 651,  "nombre_deportista" : "Konrad BUKOWIECKI",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2292 }
+{  "id_deportista" : 746,  "nombre_deportista" : "DeAnna PRICE",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8987,  "peor_marca" : 8176 }
+{  "id_deportista" : 271,  "nombre_deportista" : "Rodgers KWEMOI",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608075,  "peor_marca" : 1768720 }
+{  "id_deportista" : 126,  "nombre_deportista" : "Ferguson Cheruiyot ROTICH",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101918,  "peor_marca" : 112019 }
+{  "id_deportista" : 502,  "nombre_deportista" : "Shelby MCEWEN",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 634,  "nombre_deportista" : "Cristian NÁPOLES",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 503,  "nombre_deportista" : "Dzmitry NABOKAU",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 43,  "nombre_deportista" : "Shaunae MILLER-UIBO",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43463,  "peor_marca" : 47737 }
+{  "id_deportista" : 610,  "nombre_deportista" : "Darya NIDBAYKINA",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 489,  "nombre_deportista" : "Andriy PROTSENKO",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 713,  "nombre_deportista" : "Shadae LAWRENCE",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7191 }
+{  "id_deportista" : 795,  "nombre_deportista" : "Oliver HELANDER",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9956,  "peor_marca" : 9067 }
+{  "id_deportista" : 98,  "nombre_deportista" : "Quincy HALL",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46127,  "peor_marca" : 50664 }
+{  "id_deportista" : 141,  "nombre_deportista" : "Collins KIPRUTO",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101906,  "peor_marca" : 112056 }
+{  "id_deportista" : 305,  "nombre_deportista" : "Ruth CHEPNGETICH",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7308031,  "peor_marca" : 8028469 }
+{  "id_deportista" : 366,  "nombre_deportista" : "Orlando ORTEGA",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12109,  "peor_marca" : 13304 }
+{  "id_deportista" : 706,  "nombre_deportista" : "Denia CABALLERO",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7900,  "peor_marca" : 7187 }
+{  "id_deportista" : 511,  "nombre_deportista" : "Karyna DEMIDIK",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 32,  "nombre_deportista" : "Briana WILLIAMS",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9762,  "peor_marca" : 10736 }
+{  "id_deportista" : 535,  "nombre_deportista" : "Andrew IRWIN",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 313,  "nombre_deportista" : "Roza DEREJE",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7304491,  "peor_marca" : 8029156 }
+{  "id_deportista" : 693,  "nombre_deportista" : "Piotr MAŁACHOWSKI",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7903,  "peor_marca" : 7186 }
+{  "id_deportista" : 25,  "nombre_deportista" : "Marie-Josée TA LOU",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9760,  "peor_marca" : 10732 }
+{  "id_deportista" : 31,  "nombre_deportista" : "Kiara PARKER",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9765,  "peor_marca" : 10730 }
+{  "id_deportista" : 655,  "nombre_deportista" : "Tomáš STANĚK",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2293 }
+{  "id_deportista" : 396,  "nombre_deportista" : "Queen CLAYE",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12098,  "peor_marca" : 13295 }
+{  "id_deportista" : 735,  "nombre_deportista" : "Serghei MARGHIEV",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8991,  "peor_marca" : 8175 }
+{  "id_deportista" : 27,  "nombre_deportista" : "Twanisha TERRY",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9769,  "peor_marca" : 10734 }
+{  "id_deportista" : 448,  "nombre_deportista" : "Getnet WALE",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481590,  "peor_marca" : 528948 }
+{  "id_deportista" : 626,  "nombre_deportista" : "Christian TAYLOR",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1994,  "peor_marca" : 1815 }
+{  "id_deportista" : 363,  "nombre_deportista" : "Emmanuel SAINA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7304424,  "peor_marca" : 8030868 }
+{  "id_deportista" : 75,  "nombre_deportista" : "Alex WILSON",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19515,  "peor_marca" : 21422 }
+{  "id_deportista" : 674,  "nombre_deportista" : "Anita MÁRTON",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 200,  "nombre_deportista" : "Eilish MCCOLGAN",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772270,  "peor_marca" : 848915 }
+{  "id_deportista" : 22,  "nombre_deportista" : "Elaine THOMPSON",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19500,  "peor_marca" : 21444 }
+{  "id_deportista" : 526,  "nombre_deportista" : "Armand DUPLANTIS",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 260,  "nombre_deportista" : "Degitu AZIMERAW",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7307624,  "peor_marca" : 8030678 }
+{  "id_deportista" : 160,  "nombre_deportista" : "Olha LYAKHOVA",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101940,  "peor_marca" : 111974 }
+{  "id_deportista" : 166,  "nombre_deportista" : "Ronald MUSAGALA",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208813,  "peor_marca" : 229579 }
+{  "id_deportista" : 717,  "nombre_deportista" : "Fernanda MARTINS",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7904,  "peor_marca" : 7186 }
+{  "id_deportista" : 430,  "nombre_deportista" : "Zuzana HEJNOVÁ",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46138,  "peor_marca" : 50693 }
+{  "id_deportista" : 684,  "nombre_deportista" : "Rachel FATHERLY",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2519,  "peor_marca" : 2291 }
+{  "id_deportista" : 731,  "nombre_deportista" : "Bence HALÁSZ",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8991,  "peor_marca" : 8174 }
+{  "id_deportista" : 792,  "nombre_deportista" : "Julius YEGO",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9968,  "peor_marca" : 9062 }
+{  "id_deportista" : 161,  "nombre_deportista" : "Emily Cherotich TUEI",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101999,  "peor_marca" : 112070 }
+{  "id_deportista" : 157,  "nombre_deportista" : "Nelly JEPKOSGEI",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101909,  "peor_marca" : 112032 }
+{  "id_deportista" : 336,  "nombre_deportista" : "Ashete BEKERE",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7304332,  "peor_marca" : 8027313 }
+{  "id_deportista" : 77,  "nombre_deportista" : "Steven GARDINER",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43453,  "peor_marca" : 47789 }
+{  "id_deportista" : 155,  "nombre_deportista" : "Winnie NANYONDO",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101899,  "peor_marca" : 111989 }
+{  "id_deportista" : 304,  "nombre_deportista" : "Brigid KOSGEI",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3482843,  "peor_marca" : 3828074 }
+{  "id_deportista" : 485,  "nombre_deportista" : "Maksim NEDASEKAU",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 120,  "nombre_deportista" : "Justyna ŚWIĘTY-ERSETIC",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43454,  "peor_marca" : 47768 }
+{  "id_deportista" : 382,  "nombre_deportista" : "Andrew RILEY",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12100,  "peor_marca" : 13304 }
+{  "id_deportista" : 232,  "nombre_deportista" : "Caroline Chepkoech KIPKIRUI",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772171,  "peor_marca" : 849044 }
+{  "id_deportista" : 214,  "nombre_deportista" : "Lopez LOMONG",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608036,  "peor_marca" : 1768421 }
+{  "id_deportista" : 450,  "nombre_deportista" : "Fernando CARRO",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481126,  "peor_marca" : 528963 }
+{  "id_deportista" : 205,  "nombre_deportista" : "Selemon BAREGA",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772111,  "peor_marca" : 849153 }
+{  "id_deportista" : 462,  "nombre_deportista" : "Barnabas KIPYEGO",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481256,  "peor_marca" : 529130 }
+{  "id_deportista" : 517,  "nombre_deportista" : "Marie-Laurence JUNGFLEISCH",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 537,  "nombre_deportista" : "Sondre GUTTORMSEN",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 602,  "nombre_deportista" : "Hilary KPATCHA",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 614,  "nombre_deportista" : "Olha SALADUKHA",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 113,  "nombre_deportista" : "Galefele MOROKO",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43452,  "peor_marca" : 47776 }
+{  "id_deportista" : 431,  "nombre_deportista" : "Tia-Adana BELLE",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46202,  "peor_marca" : 50660 }
+{  "id_deportista" : 28,  "nombre_deportista" : "Teahna DANIELS",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19506,  "peor_marca" : 21444 }
+{  "id_deportista" : 642,  "nombre_deportista" : "Chengetayi MAPAYA",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 253,  "nombre_deportista" : "Dera DIDA",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1609982,  "peor_marca" : 1768566 }
+{  "id_deportista" : 364,  "nombre_deportista" : "Grant HOLLOWAY",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12101,  "peor_marca" : 13308 }
+{  "id_deportista" : 356,  "nombre_deportista" : "Reuben Kiprop KIPYEGO",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7302147,  "peor_marca" : 8030629 }
+{  "id_deportista" : 134,  "nombre_deportista" : "Wesley VÁZQUEZ",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101895,  "peor_marca" : 111997 }
+{  "id_deportista" : 208,  "nombre_deportista" : "Abadi HADIS",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608999,  "peor_marca" : 1767320 }
+{  "id_deportista" : 260,  "nombre_deportista" : "Degitu AZIMERAW",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1610703,  "peor_marca" : 1768348 }
+{  "id_deportista" : 579,  "nombre_deportista" : "Thobias MONTLER",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 159,  "nombre_deportista" : "Natalya PRYSHCHEPA",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101893,  "peor_marca" : 111904 }
+{  "id_deportista" : 400,  "nombre_deportista" : "Payton CHADWICK",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12098,  "peor_marca" : 13305 }
+{  "id_deportista" : 523,  "nombre_deportista" : "Ana ŠIMIĆ",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 395,  "nombre_deportista" : "Nadine VISSER",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12100,  "peor_marca" : 13307 }
+{  "id_deportista" : 478,  "nombre_deportista" : "Maruša MIŠMAŠ",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481151,  "peor_marca" : 529081 }
+{  "id_deportista" : 11,  "nombre_deportista" : "Aaron BROWN",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9764,  "peor_marca" : 10726 }
+{  "id_deportista" : 228,  "nombre_deportista" : "Margaret Chelimo KIPKEMBOI",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772274,  "peor_marca" : 849119 }
+{  "id_deportista" : 347,  "nombre_deportista" : "Mosinet GEREMEW",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7308190,  "peor_marca" : 8024575 }
+{  "id_deportista" : 576,  "nombre_deportista" : "Hibiki TSUHA",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 474,  "nombre_deportista" : "Colleen QUIGLEY",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481375,  "peor_marca" : 529033 }
+{  "id_deportista" : 578,  "nombre_deportista" : "Maykel MASSÓ",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 251,  "nombre_deportista" : "Zeineba YIMER",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1610215,  "peor_marca" : 1768287 }
+{  "id_deportista" : 320,  "nombre_deportista" : "Dorcas Jepchirchir TUITOEK",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3483042,  "peor_marca" : 3827062 }
+{  "id_deportista" : 599,  "nombre_deportista" : "Tissanna HICKLING",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 871 }
+{  "id_deportista" : 646,  "nombre_deportista" : "Ryan CROUSER",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2520,  "peor_marca" : 2291 }
+{  "id_deportista" : 686,  "nombre_deportista" : "Fedrick DACRES",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7904,  "peor_marca" : 7189 }
+{  "id_deportista" : 688,  "nombre_deportista" : "Lois Maikel MARTÍNEZ",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7902,  "peor_marca" : 7187 }
+{  "id_deportista" : 719,  "nombre_deportista" : "Laulauga TAUSAGA",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7904,  "peor_marca" : 7187 }
+{  "id_deportista" : 722,  "nombre_deportista" : "Whitney ASHLEY",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7194 }
+{  "id_deportista" : 278,  "nombre_deportista" : "Julien WANDERS",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608920,  "peor_marca" : 1767881 }
+{  "id_deportista" : 289,  "nombre_deportista" : "Benard KIMELI",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3485931,  "peor_marca" : 3826137 }
+{  "id_deportista" : 507,  "nombre_deportista" : "Nafissatou THIAM",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 724,  "nombre_deportista" : "Kelsey CARD",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7187 }
+{  "id_deportista" : 241,  "nombre_deportista" : "Beatrice CHEPKOECH",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481056,  "peor_marca" : 529067 }
+{  "id_deportista" : 747,  "nombre_deportista" : "Brooke ANDERSEN",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8990,  "peor_marca" : 8177 }
+{  "id_deportista" : 140,  "nombre_deportista" : "Ayanleh SOULEIMAN",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208842,  "peor_marca" : 229580 }
+{  "id_deportista" : 542,  "nombre_deportista" : "Kc LIGHTFOOT",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 783,  "nombre_deportista" : "Ariana INCE",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9967,  "peor_marca" : 9064 }
+{  "id_deportista" : 283,  "nombre_deportista" : "Vincent Kiprotich KIBET",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1609953,  "peor_marca" : 1767971 }
+{  "id_deportista" : 311,  "nombre_deportista" : "Birhane DIBABA",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3488790,  "peor_marca" : 3828892 }
+{  "id_deportista" : 387,  "nombre_deportista" : "Kendra HARRISON",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12100,  "peor_marca" : 13308 }
+{  "id_deportista" : 669,  "nombre_deportista" : "Christina SCHWANITZ",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2520,  "peor_marca" : 2291 }
+{  "id_deportista" : 277,  "nombre_deportista" : "Yemaneberhan CRIPPA",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1609113,  "peor_marca" : 1768515 }
+{  "id_deportista" : 771,  "nombre_deportista" : "Sara KOLAK",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9940,  "peor_marca" : 9087 }
+{  "id_deportista" : 184,  "nombre_deportista" : "Sifan HASSAN",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772098,  "peor_marca" : 849167 }
+{  "id_deportista" : 737,  "nombre_deportista" : "Conor MCCULLOUGH",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8988,  "peor_marca" : 8181 }
+{  "id_deportista" : 740,  "nombre_deportista" : "Mykhaylo KOKHAN",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8975,  "peor_marca" : 8178 }
+{  "id_deportista" : 758,  "nombre_deportista" : "Laura IGAUNE",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8990,  "peor_marca" : 8175 }
+{  "id_deportista" : 188,  "nombre_deportista" : "Genzebe DIBABA",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208883,  "peor_marca" : 229523 }
+{  "id_deportista" : 64,  "nombre_deportista" : "Michael NORMAN",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19521,  "peor_marca" : 21448 }
+{  "id_deportista" : 358,  "nombre_deportista" : "Titus EKIRU",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7303429,  "peor_marca" : 8026434 }
+{  "id_deportista" : 696,  "nombre_deportista" : "Sam MATTIS",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7190 }
+{  "id_deportista" : 581,  "nombre_deportista" : "JuVaughn HARRISON",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 179,  "nombre_deportista" : "Josh KERR",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208786,  "peor_marca" : 229632 }
+{  "id_deportista" : 498,  "nombre_deportista" : "Mateusz PRZYBYLKO",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 692,  "nombre_deportista" : "Alin Alexandru FIRFIRICA",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7187 }
+{  "id_deportista" : 257,  "nombre_deportista" : "Tsigie GEBRESELAMA",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608952,  "peor_marca" : 1768723 }
+{  "id_deportista" : 420,  "nombre_deportista" : "Dharun AYYASAMY",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46102,  "peor_marca" : 50696 }
+{  "id_deportista" : 66,  "nombre_deportista" : "Kenneth BEDNAREK",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43496,  "peor_marca" : 47784 }
+{  "id_deportista" : 280,  "nombre_deportista" : "Abdallah Kibet MANDE",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608063,  "peor_marca" : 1768314 }
+{  "id_deportista" : 497,  "nombre_deportista" : "Takashi ETO",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 522,  "nombre_deportista" : "María Fernanda MURILLO",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 573,  "nombre_deportista" : "Steffin MCCARTER",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 662,  "nombre_deportista" : "Jacko GILL",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2516,  "peor_marca" : 2291 }
+{  "id_deportista" : 433,  "nombre_deportista" : "Anna RYZHYKOVA",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46101,  "peor_marca" : 50656 }
+{  "id_deportista" : 98,  "nombre_deportista" : "Quincy HALL",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43457,  "peor_marca" : 47761 }
+{  "id_deportista" : 156,  "nombre_deportista" : "Eunice Jepkoech SUM",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101915,  "peor_marca" : 112045 }
+{  "id_deportista" : 411,  "nombre_deportista" : "Ludvy VAILLANT",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46118,  "peor_marca" : 50697 }
+{  "id_deportista" : 449,  "nombre_deportista" : "Djilali BEDRANI",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 482078,  "peor_marca" : 528354 }
+{  "id_deportista" : 585,  "nombre_deportista" : "Brittney REESE",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 239,  "nombre_deportista" : "Beatrice CHEBET",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772188,  "peor_marca" : 849057 }
+{  "id_deportista" : 666,  "nombre_deportista" : "Chase EALEY",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 617,  "nombre_deportista" : "Yekaterina KONEVA",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1995,  "peor_marca" : 1814 }
+{  "id_deportista" : 784,  "nombre_deportista" : "Alexie ALAÏS",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9965,  "peor_marca" : 9063 }
+{  "id_deportista" : 789,  "nombre_deportista" : "Edis MATUSEVIČIUS",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9966,  "peor_marca" : 9067 }
+{  "id_deportista" : 458,  "nombre_deportista" : "Nicholas Kiptanui BETT",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481261,  "peor_marca" : 528928 }
+{  "id_deportista" : 111,  "nombre_deportista" : "Kendall ELLIS",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43454,  "peor_marca" : 47793 }
+{  "id_deportista" : 459,  "nombre_deportista" : "Albert CHEMUTAI",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481195,  "peor_marca" : 529086 }
+{  "id_deportista" : 180,  "nombre_deportista" : "Ronald KWEMOI",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 209025,  "peor_marca" : 229584 }
+{  "id_deportista" : 28,  "nombre_deportista" : "Teahna DANIELS",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9793,  "peor_marca" : 10722 }
+{  "id_deportista" : 668,  "nombre_deportista" : "Maggie EWEN",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8985,  "peor_marca" : 8174 }
+{  "id_deportista" : 64,  "nombre_deportista" : "Michael NORMAN",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43455,  "peor_marca" : 47793 }
+{  "id_deportista" : 142,  "nombre_deportista" : "Jonathan KITILIT",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101929,  "peor_marca" : 112052 }
+{  "id_deportista" : 139,  "nombre_deportista" : "Abubaker Haydar ABDALLA",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101895,  "peor_marca" : 112075 }
+{  "id_deportista" : 176,  "nombre_deportista" : "Stewart MCSWEYN",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608164,  "peor_marca" : 1768354 }
+{  "id_deportista" : 233,  "nombre_deportista" : "Hawi FEYSA",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772169,  "peor_marca" : 848869 }
+{  "id_deportista" : 506,  "nombre_deportista" : "Yaroslava MAHUCHIKH",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 671,  "nombre_deportista" : "Aliona DUBITSKAYA",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2513,  "peor_marca" : 2291 }
+{  "id_deportista" : 694,  "nombre_deportista" : "Ehsan HADADI",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7902,  "peor_marca" : 7186 }
+{  "id_deportista" : 761,  "nombre_deportista" : "Janee KASSANAVOID",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8992,  "peor_marca" : 8174 }
+{  "id_deportista" : 42,  "nombre_deportista" : "Blessing OKAGBARE",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9760,  "peor_marca" : 10736 }
+{  "id_deportista" : 152,  "nombre_deportista" : "Lynsey SHARP",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101904,  "peor_marca" : 112022 }
+{  "id_deportista" : 229,  "nombre_deportista" : "Letesenbet GIDEY",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608326,  "peor_marca" : 1768785 }
+{  "id_deportista" : 238,  "nombre_deportista" : "Karissa SCHWEIZER",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772237,  "peor_marca" : 848970 }
+{  "id_deportista" : 242,  "nombre_deportista" : "Gloriah KITE",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772318,  "peor_marca" : 849207 }
+{  "id_deportista" : 383,  "nombre_deportista" : "Devon ALLEN",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12105,  "peor_marca" : 13304 }
+{  "id_deportista" : 127,  "nombre_deportista" : "Timothy CHERUIYOT",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101989,  "peor_marca" : 111995 }
+{  "id_deportista" : 391,  "nombre_deportista" : "Christina CLEMONS",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12103,  "peor_marca" : 13302 }
+{  "id_deportista" : 540,  "nombre_deportista" : "Zachery BRADFORD",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 463,  "nombre_deportista" : "Matthew HUGHES",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481095,  "peor_marca" : 529132 }
+{  "id_deportista" : 140,  "nombre_deportista" : "Ayanleh SOULEIMAN",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101918,  "peor_marca" : 112066 }
+{  "id_deportista" : 20,  "nombre_deportista" : "Tyquendo TRACEY",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9770,  "peor_marca" : 10733 }
+{  "id_deportista" : 403,  "nombre_deportista" : "Britany ANDERSON",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12105,  "peor_marca" : 13297 }
+{  "id_deportista" : 209,  "nombre_deportista" : "Joshua CHEPTEGEI",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772176,  "peor_marca" : 848785 }
+{  "id_deportista" : 181,  "nombre_deportista" : "Matthew CENTROWITZ",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208772,  "peor_marca" : 229629 }
+{  "id_deportista" : 230,  "nombre_deportista" : "Tsehay GEMECHU",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481952,  "peor_marca" : 3828843 }
+{  "id_deportista" : 291,  "nombre_deportista" : "Fikadu HAFTU",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481489,  "peor_marca" : 3828843 }
+{  "id_deportista" : 235,  "nombre_deportista" : "Fantu WORKU",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772328,  "peor_marca" : 849255 }
+{  "id_deportista" : 546,  "nombre_deportista" : "Eliza MCCARTNEY",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 596,  "nombre_deportista" : "Yanis Esmeralda DAVID",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1815 }
+{  "id_deportista" : 146,  "nombre_deportista" : "Francine NIYONSABA",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101892,  "peor_marca" : 112075 }
+{  "id_deportista" : 11,  "nombre_deportista" : "Aaron BROWN",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19503,  "peor_marca" : 21448 }
+{  "id_deportista" : 575,  "nombre_deportista" : "Xinglong GAO",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 401,  "nombre_deportista" : "Sally PEARSON",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12100,  "peor_marca" : 13305 }
+{  "id_deportista" : 285,  "nombre_deportista" : "Stephen KIPROP",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481218,  "peor_marca" : 3828110 }
+{  "id_deportista" : 613,  "nombre_deportista" : "Ana PELETEIRO",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 672,  "nombre_deportista" : "Fanny ROOS",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 679,  "nombre_deportista" : "Paulina GUBA",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2516,  "peor_marca" : 2291 }
+{  "id_deportista" : 170,  "nombre_deportista" : "Taoufik MAKHLOUFI",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208784,  "peor_marca" : 229586 }
+{  "id_deportista" : 698,  "nombre_deportista" : "Simon PETTERSSON",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7898,  "peor_marca" : 7192 }
+{  "id_deportista" : 702,  "nombre_deportista" : "Christoph HARTING",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7187 }
+{  "id_deportista" : 705,  "nombre_deportista" : "Yaimé PÉREZ",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7899,  "peor_marca" : 7189 }
+{  "id_deportista" : 205,  "nombre_deportista" : "Selemon BAREGA",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608319,  "peor_marca" : 1768601 }
+{  "id_deportista" : 643,  "nombre_deportista" : "Nelson ÉVORA",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 732,  "nombre_deportista" : "Nick MILLER",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8992,  "peor_marca" : 8177 }
+{  "id_deportista" : 751,  "nombre_deportista" : "Anita WŁODARCZYK",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8990,  "peor_marca" : 8175 }
+{  "id_deportista" : 798,  "nombre_deportista" : "Shivpal SINGH",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9967,  "peor_marca" : 9063 }
+{  "id_deportista" : 102,  "nombre_deportista" : "Michael CHERRY",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43454,  "peor_marca" : 47788 }
+{  "id_deportista" : 726,  "nombre_deportista" : "Wojciech NOWICKI",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8992,  "peor_marca" : 8177 }
+{  "id_deportista" : 800,  "nombre_deportista" : "Kim AMB",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9968,  "peor_marca" : 9061 }
+{  "id_deportista" : 663,  "nombre_deportista" : "Payton OTTERDAHL",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2520,  "peor_marca" : 2291 }
+{  "id_deportista" : 721,  "nombre_deportista" : "Xinyue SU",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7904,  "peor_marca" : 7197 }
+{  "id_deportista" : 24,  "nombre_deportista" : "Dina ASHER-SMITH",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9766,  "peor_marca" : 10728 }
+{  "id_deportista" : 174,  "nombre_deportista" : "George Meitamei MANANGOI",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208809,  "peor_marca" : 229624 }
+{  "id_deportista" : 763,  "nombre_deportista" : "Réka GYURÁTZ",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8989,  "peor_marca" : 8175 }
+{  "id_deportista" : 123,  "nombre_deportista" : "Chloe ABBOTT",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43484,  "peor_marca" : 47790 }
+{  "id_deportista" : 39,  "nombre_deportista" : "Dafne SCHIPPERS",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9776,  "peor_marca" : 10734 }
+{  "id_deportista" : 547,  "nombre_deportista" : "Katerina STEFANIDI",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 570,  "nombre_deportista" : "Yuki HASHIOKA",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 93,  "nombre_deportista" : "Emmanuel Kipkurui KORIR",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101910,  "peor_marca" : 112026 }
+{  "id_deportista" : 635,  "nombre_deportista" : "Necatí ER",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 805,  "nombre_deportista" : "Cyprian MRZYGŁÓD",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9964,  "peor_marca" : 9068 }
+{  "id_deportista" : 14,  "nombre_deportista" : "Abdul Hakim SANI BROWN",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19515,  "peor_marca" : 21450 }
+{  "id_deportista" : 465,  "nombre_deportista" : "Emma COBURN",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481064,  "peor_marca" : 528477 }
+{  "id_deportista" : 682,  "nombre_deportista" : "Anna AVDEYEVA",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2518,  "peor_marca" : 2293 }
+{  "id_deportista" : 571,  "nombre_deportista" : "Yaoguang ZHANG",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 314,  "nombre_deportista" : "Yalemzerf YEHUALAW",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3482942,  "peor_marca" : 3827260 }
+{  "id_deportista" : 437,  "nombre_deportista" : "Lauren WELLS",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46100,  "peor_marca" : 50698 }
+{  "id_deportista" : 564,  "nombre_deportista" : "Juan Miguel ECHEVARRÍA",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 752,  "nombre_deportista" : "Janeah STEWART",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8992,  "peor_marca" : 8179 }
+{  "id_deportista" : 711,  "nombre_deportista" : "Dani STEVENS",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7188 }
+{  "id_deportista" : 362,  "nombre_deportista" : "Shura KITATA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7307905,  "peor_marca" : 8024238 }
+{  "id_deportista" : 652,  "nombre_deportista" : "Bob BERTEMES",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2292 }
+{  "id_deportista" : 169,  "nombre_deportista" : "Filip INGEBRIGTSEN",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208778,  "peor_marca" : 229448 }
+{  "id_deportista" : 21,  "nombre_deportista" : "Shelly-Ann FRASER-PRYCE",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19509,  "peor_marca" : 21440 }
+{  "id_deportista" : 191,  "nombre_deportista" : "Winny CHEBET",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208809,  "peor_marca" : 229539 }
+{  "id_deportista" : 351,  "nombre_deportista" : "Herpasa NEGASA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7304817,  "peor_marca" : 8030853 }
+{  "id_deportista" : 779,  "nombre_deportista" : "Martina RATEJ",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9968,  "peor_marca" : 9067 }
+{  "id_deportista" : 76,  "nombre_deportista" : "Adam GEMILI",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19509,  "peor_marca" : 21406 }
+{  "id_deportista" : 772,  "nombre_deportista" : "Haruka KITAGUCHI",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9966,  "peor_marca" : 9072 }
+{  "id_deportista" : 7,  "nombre_deportista" : "Akani SIMBINE",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9765,  "peor_marca" : 10736 }
+{  "id_deportista" : 495,  "nombre_deportista" : "Joel BADEN",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 201,  "nombre_deportista" : "Dawit SEYAUM",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208772,  "peor_marca" : 229624 }
+{  "id_deportista" : 384,  "nombre_deportista" : "Danielle WILLIAMS",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12100,  "peor_marca" : 13306 }
+{  "id_deportista" : 461,  "nombre_deportista" : "Mohamed TINDOUFT",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481061,  "peor_marca" : 528938 }
+{  "id_deportista" : 435,  "nombre_deportista" : "Amalie IUEL",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46104,  "peor_marca" : 50693 }
+{  "id_deportista" : 621,  "nombre_deportista" : "Yosiris URRUTIA",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1815 }
+{  "id_deportista" : 566,  "nombre_deportista" : "Shoutarou SHIROYAMA",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 36,  "nombre_deportista" : "Jonielle SMITH",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9763,  "peor_marca" : 10734 }
+{  "id_deportista" : 1,  "nombre_deportista" : "Christian COLEMAN",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19505,  "peor_marca" : 21449 }
+{  "id_deportista" : 468,  "nombre_deportista" : "Hyvin KIYENG",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481179,  "peor_marca" : 528800 }
+{  "id_deportista" : 520,  "nombre_deportista" : "Katarina JOHNSON-THOMPSON",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 955,  "peor_marca" : 869 }
+{  "id_deportista" : 507,  "nombre_deportista" : "Nafissatou THIAM",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 304,  "nombre_deportista" : "Brigid KOSGEI",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7305943,  "peor_marca" : 8026138 }
+{  "id_deportista" : 484,  "nombre_deportista" : "Mutaz Essa BARSHIM",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 660,  "nombre_deportista" : "Mesud PEZER",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 154,  "nombre_deportista" : "Jackline WAMBUI",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101926,  "peor_marca" : 112071 }
+{  "id_deportista" : 453,  "nombre_deportista" : "Hillary BOR",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481332,  "peor_marca" : 529108 }
+{  "id_deportista" : 221,  "nombre_deportista" : "Edward CHESEREK",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772938,  "peor_marca" : 849067 }
+{  "id_deportista" : 584,  "nombre_deportista" : "Ese BRUME",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 129,  "nombre_deportista" : "Wyclife KINYAMAL",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101920,  "peor_marca" : 111991 }
+{  "id_deportista" : 375,  "nombre_deportista" : "Orlando BENNETT",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12099,  "peor_marca" : 13307 }
+{  "id_deportista" : 661,  "nombre_deportista" : "Eldred HENRY",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2519,  "peor_marca" : 2291 }
+{  "id_deportista" : 687,  "nombre_deportista" : "Lukas WEISSHAIDINGER",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7894,  "peor_marca" : 7188 }
+{  "id_deportista" : 704,  "nombre_deportista" : "Robert URBANEK",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7194 }
+{  "id_deportista" : 1,  "nombre_deportista" : "Christian COLEMAN",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9762,  "peor_marca" : 10726 }
+{  "id_deportista" : 151,  "nombre_deportista" : "Laura MUIR",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101895,  "peor_marca" : 112043 }
+{  "id_deportista" : 256,  "nombre_deportista" : "Girmawit GEBRZIHAIR",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608151,  "peor_marca" : 1767096 }
+{  "id_deportista" : 709,  "nombre_deportista" : "Claudine VITA",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7189 }
+{  "id_deportista" : 122,  "nombre_deportista" : "Sharrika BARNETT",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43452,  "peor_marca" : 47776 }
+{  "id_deportista" : 412,  "nombre_deportista" : "Abdelmalik LAHOULOU",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46099,  "peor_marca" : 50702 }
+{  "id_deportista" : 723,  "nombre_deportista" : "Yelena PANOVA",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7904,  "peor_marca" : 7186 }
+{  "id_deportista" : 525,  "nombre_deportista" : "Piotr LISEK",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 773,  "nombre_deportista" : "Shiying LIU",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9960,  "peor_marca" : 9061 }
+{  "id_deportista" : 99,  "nombre_deportista" : "Abderrahman SAMBA",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43477,  "peor_marca" : 47769 }
+{  "id_deportista" : 678,  "nombre_deportista" : "Dimitriana SURDU",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 528,  "nombre_deportista" : "Thiago BRAZ",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 167,  "nombre_deportista" : "Charlie DAVALL GRICE",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208780,  "peor_marca" : 229577 }
+{  "id_deportista" : 700,  "nombre_deportista" : "Alex ROSE",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7904,  "peor_marca" : 7186 }
+{  "id_deportista" : 499,  "nombre_deportista" : "Hamish KERR",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 741,  "nombre_deportista" : "Yevgeniy KOROTOVSKIY",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8987,  "peor_marca" : 8176 }
+{  "id_deportista" : 785,  "nombre_deportista" : "Maria ANDREJCZYK",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9967,  "peor_marca" : 9062 }
+{  "id_deportista" : 549,  "nombre_deportista" : "Alysha NEWMAN",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 402,  "nombre_deportista" : "Elvira HERMAN",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12105,  "peor_marca" : 13305 }
+{  "id_deportista" : 101,  "nombre_deportista" : "Jonathan JONES",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2293 }
+{  "id_deportista" : 66,  "nombre_deportista" : "Kenneth BEDNAREK",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19514,  "peor_marca" : 21444 }
+{  "id_deportista" : 321,  "nombre_deportista" : "Vivian J. CHERUIYOT",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3484087,  "peor_marca" : 3827707 }
+{  "id_deportista" : 326,  "nombre_deportista" : "Worknesh DEGEFA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7313334,  "peor_marca" : 8030444 }
+{  "id_deportista" : 25,  "nombre_deportista" : "Marie-Josée TA LOU",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19501,  "peor_marca" : 21420 }
+{  "id_deportista" : 26,  "nombre_deportista" : "Kayla WHITE",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9765,  "peor_marca" : 10732 }
+{  "id_deportista" : 183,  "nombre_deportista" : "Vincent KIBET",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208853,  "peor_marca" : 229496 }
+{  "id_deportista" : 352,  "nombre_deportista" : "Kinde ATANAW",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7301386,  "peor_marca" : 8025039 }
+{  "id_deportista" : 281,  "nombre_deportista" : "Mogos TUEMAY",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1611081,  "peor_marca" : 1768816 }
+{  "id_deportista" : 2,  "nombre_deportista" : "Noah LYLES",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9760,  "peor_marca" : 10736 }
+{  "id_deportista" : 365,  "nombre_deportista" : "Daniel ROBERTS",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12105,  "peor_marca" : 13283 }
+{  "id_deportista" : 583,  "nombre_deportista" : "Malaika MIHAMBO",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 594,  "nombre_deportista" : "Ivana ŠPANOVIĆ",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 208,  "nombre_deportista" : "Abadi HADIS",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772645,  "peor_marca" : 849157 }
+{  "id_deportista" : 753,  "nombre_deportista" : "Malwina KOPRON",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8992,  "peor_marca" : 8175 }
+{  "id_deportista" : 15,  "nombre_deportista" : "Michael RODGERS",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9760,  "peor_marca" : 10733 }
+{  "id_deportista" : 241,  "nombre_deportista" : "Beatrice CHEPKOECH",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772231,  "peor_marca" : 848797 }
+{  "id_deportista" : 454,  "nombre_deportista" : "Leonard Kipkemoi BETT",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481113,  "peor_marca" : 528870 }
+{  "id_deportista" : 467,  "nombre_deportista" : "Norah JERUTO",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481044,  "peor_marca" : 529121 }
+{  "id_deportista" : 777,  "nombre_deportista" : "Liveta JASIŪNAITĖ",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9964,  "peor_marca" : 9064 }
+{  "id_deportista" : 521,  "nombre_deportista" : "Ella JUNNILA",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 337,  "nombre_deportista" : "Mare DIBABA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7302469,  "peor_marca" : 8025541 }
+{  "id_deportista" : 778,  "nombre_deportista" : "Barbora ŠPOTÁKOVÁ",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9953,  "peor_marca" : 9064 }
+{  "id_deportista" : 68,  "nombre_deportista" : "Alex QUIÑÓNEZ",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19514,  "peor_marca" : 21446 }
+{  "id_deportista" : 369,  "nombre_deportista" : "Pascal MARTINOT-LAGARDE",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12119,  "peor_marca" : 13308 }
+{  "id_deportista" : 207,  "nombre_deportista" : "Birhanu BALEW",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772110,  "peor_marca" : 849170 }
+{  "id_deportista" : 389,  "nombre_deportista" : "Chanel BRISSETT",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12107,  "peor_marca" : 13303 }
+{  "id_deportista" : 181,  "nombre_deportista" : "Matthew CENTROWITZ",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772861,  "peor_marca" : 849217 }
+{  "id_deportista" : 371,  "nombre_deportista" : "Freddie CRITTENDEN",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12105,  "peor_marca" : 13287 }
+{  "id_deportista" : 350,  "nombre_deportista" : "Sisay LEMMA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7309275,  "peor_marca" : 8023521 }
+{  "id_deportista" : 608,  "nombre_deportista" : "Liadagmis POVEA",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1815 }
+{  "id_deportista" : 388,  "nombre_deportista" : "Tobi AMUSAN",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12099,  "peor_marca" : 13305 }
+{  "id_deportista" : 622,  "nombre_deportista" : "Tori FRANKLIN",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1995,  "peor_marca" : 1814 }
+{  "id_deportista" : 112,  "nombre_deportista" : "Christine BOTLOGETSWE",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43471,  "peor_marca" : 47791 }
+{  "id_deportista" : 410,  "nombre_deportista" : "Alison DOS SANTOS",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46095,  "peor_marca" : 50689 }
+{  "id_deportista" : 23,  "nombre_deportista" : "ShaCarri RICHARDSON",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19501,  "peor_marca" : 21423 }
+{  "id_deportista" : 510,  "nombre_deportista" : "Vashti CUNNINGHAM",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 149,  "nombre_deportista" : "Raevyn ROGERS",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101893,  "peor_marca" : 112038 }
+{  "id_deportista" : 269,  "nombre_deportista" : "Andamlak BELIHU",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3482665,  "peor_marca" : 3827938 }
+{  "id_deportista" : 426,  "nombre_deportista" : "Ashley SPENCER",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46092,  "peor_marca" : 50674 }
+{  "id_deportista" : 184,  "nombre_deportista" : "Sifan HASSAN",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208771,  "peor_marca" : 229521 }
+{  "id_deportista" : 490,  "nombre_deportista" : "Michael MASON",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 670,  "nombre_deportista" : "Brittany CREW",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 59,  "nombre_deportista" : "Beth DOBBIN",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19502,  "peor_marca" : 21429 }
+{  "id_deportista" : 90,  "nombre_deportista" : "Trevor STEWART",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43458,  "peor_marca" : 47783 }
+{  "id_deportista" : 100,  "nombre_deportista" : "Wilbert LONDON",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43456,  "peor_marca" : 47706 }
+{  "id_deportista" : 379,  "nombre_deportista" : "Antonio ALKANA",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12099,  "peor_marca" : 13307 }
+{  "id_deportista" : 417,  "nombre_deportista" : "David KENDZIERA",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46118,  "peor_marca" : 50690 }
+{  "id_deportista" : 130,  "nombre_deportista" : "Brandon MCBRIDE",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 102106,  "peor_marca" : 111994 }
+{  "id_deportista" : 348,  "nombre_deportista" : "Mule WASIHUN",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7303410,  "peor_marca" : 8026576 }
+{  "id_deportista" : 137,  "nombre_deportista" : "Marco AROP",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101895,  "peor_marca" : 112075 }
+{  "id_deportista" : 370,  "nombre_deportista" : "Wenjun XIE",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12098,  "peor_marca" : 13308 }
+{  "id_deportista" : 319,  "nombre_deportista" : "Evaline CHIRCHIR",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481005,  "peor_marca" : 3823854 }
+{  "id_deportista" : 533,  "nombre_deportista" : "Kurtis MARSCHALL",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 53,  "nombre_deportista" : "Cambrea STURGIS",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19506,  "peor_marca" : 21436 }
+{  "id_deportista" : 18,  "nombre_deportista" : "Yuki KOIKE",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9764,  "peor_marca" : 10733 }
+{  "id_deportista" : 224,  "nombre_deportista" : "Hellen OBIRI",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608470,  "peor_marca" : 1767213 }
+{  "id_deportista" : 133,  "nombre_deportista" : "Marcin LEWANDOWSKI",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208843,  "peor_marca" : 229592 }
+{  "id_deportista" : 654,  "nombre_deportista" : "Chukwuebuka ENEKWECHI",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2292 }
+{  "id_deportista" : 210,  "nombre_deportista" : "Nicholas Kipkorir KIMELI",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772709,  "peor_marca" : 849023 }
+{  "id_deportista" : 374,  "nombre_deportista" : "Shunya TAKAYAMA",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12102,  "peor_marca" : 13308 }
+{  "id_deportista" : 532,  "nombre_deportista" : "Valentin LAVILLENIE",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 6,  "nombre_deportista" : "Cravon GILLESPIE",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9769,  "peor_marca" : 10731 }
+{  "id_deportista" : 550,  "nombre_deportista" : "Holly BRADSHAW",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 649,  "nombre_deportista" : "Darrell HILL",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2520,  "peor_marca" : 2293 }
+{  "id_deportista" : 650,  "nombre_deportista" : "Michał HARATYK",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2293 }
+{  "id_deportista" : 432,  "nombre_deportista" : "Sage WATSON",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46178,  "peor_marca" : 50699 }
+{  "id_deportista" : 158,  "nombre_deportista" : "Rose Mary ALMANZA",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101933,  "peor_marca" : 111967 }
+{  "id_deportista" : 601,  "nombre_deportista" : "Yelena SOKOLOVA",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 135,  "nombre_deportista" : "Cornelius TUWEI",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 102008,  "peor_marca" : 112055 }
+{  "id_deportista" : 563,  "nombre_deportista" : "Tajay GAYLE",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 955,  "peor_marca" : 869 }
+{  "id_deportista" : 739,  "nombre_deportista" : "Özkan BALTACI",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8990,  "peor_marca" : 8175 }
+{  "id_deportista" : 745,  "nombre_deportista" : "Serhiy REHEDA",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8989,  "peor_marca" : 8177 }
+{  "id_deportista" : 138,  "nombre_deportista" : "Bryce HOPPEL",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 102083,  "peor_marca" : 112070 }
+{  "id_deportista" : 223,  "nombre_deportista" : "Stanley Waithaka MBURU",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772521,  "peor_marca" : 849028 }
+{  "id_deportista" : 346,  "nombre_deportista" : "Birhanu LEGESE",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7303206,  "peor_marca" : 8023472 }
+{  "id_deportista" : 96,  "nombre_deportista" : "Machel CEDENIO",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43473,  "peor_marca" : 47774 }
+{  "id_deportista" : 155,  "nombre_deportista" : "Winnie NANYONDO",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208805,  "peor_marca" : 229610 }
+{  "id_deportista" : 255,  "nombre_deportista" : "Gete ALEMAYEHU",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608532,  "peor_marca" : 1768260 }
+{  "id_deportista" : 781,  "nombre_deportista" : "Annika Marie FUCHS",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9967,  "peor_marca" : 9064 }
+{  "id_deportista" : 87,  "nombre_deportista" : "Anthony José ZAMBRANO",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43573,  "peor_marca" : 47777 }
+{  "id_deportista" : 77,  "nombre_deportista" : "Steven GARDINER",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19504,  "peor_marca" : 21450 }
+{  "id_deportista" : 93,  "nombre_deportista" : "Emmanuel Kipkurui KORIR",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43498,  "peor_marca" : 47765 }
+{  "id_deportista" : 460,  "nombre_deportista" : "Andrew BAYER",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481036,  "peor_marca" : 529061 }
+{  "id_deportista" : 199,  "nombre_deportista" : "Laura WEIGHTMAN",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772743,  "peor_marca" : 848834 }
+{  "id_deportista" : 269,  "nombre_deportista" : "Andamlak BELIHU",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608408,  "peor_marca" : 1767554 }
+{  "id_deportista" : 218,  "nombre_deportista" : "Solomon BERIHU",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3484137,  "peor_marca" : 3826954 }
+{  "id_deportista" : 638,  "nombre_deportista" : "Benjamin WILLIAMS",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1815 }
+{  "id_deportista" : 748,  "nombre_deportista" : "Gwen BERRY",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8979,  "peor_marca" : 8174 }
+{  "id_deportista" : 604,  "nombre_deportista" : "Keturah ORJI",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 274,  "nombre_deportista" : "Berehanu TSEGU",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608306,  "peor_marca" : 1768547 }
+{  "id_deportista" : 247,  "nombre_deportista" : "Rosemary Monica WANJIRU",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608863,  "peor_marca" : 1768687 }
+{  "id_deportista" : 399,  "nombre_deportista" : "Anna COCKRELL",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12098,  "peor_marca" : 13301 }
+{  "id_deportista" : 99,  "nombre_deportista" : "Abderrahman SAMBA",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46102,  "peor_marca" : 50676 }
+{  "id_deportista" : 108,  "nombre_deportista" : "Wadeline JONATHAS",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43458,  "peor_marca" : 47795 }
+{  "id_deportista" : 681,  "nombre_deportista" : "Sophie MCKINNA",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2520,  "peor_marca" : 2291 }
+{  "id_deportista" : 770,  "nombre_deportista" : "Christin HUSSONG",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9966,  "peor_marca" : 9065 }
+{  "id_deportista" : 212,  "nombre_deportista" : "Mohammed AHMED",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772524,  "peor_marca" : 847578 }
+{  "id_deportista" : 74,  "nombre_deportista" : "Miguel FRANCIS",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19507,  "peor_marca" : 21438 }
+{  "id_deportista" : 378,  "nombre_deportista" : "Milan TRAJKOVIC",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12106,  "peor_marca" : 13301 }
+{  "id_deportista" : 742,  "nombre_deportista" : "Marcel LOMNICKÝ",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8989,  "peor_marca" : 8174 }
+{  "id_deportista" : 407,  "nombre_deportista" : "Kyron MCMASTER",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46094,  "peor_marca" : 50689 }
+{  "id_deportista" : 115,  "nombre_deportista" : "Chrisann GORDON",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43467,  "peor_marca" : 47791 }
+{  "id_deportista" : 582,  "nombre_deportista" : "Jianan WANG",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 456,  "nombre_deportista" : "Stanley Kipkoech KEBENEI",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481207,  "peor_marca" : 529060 }
+{  "id_deportista" : 258,  "nombre_deportista" : "Molly HUDDLE",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608385,  "peor_marca" : 1768204 }
+{  "id_deportista" : 80,  "nombre_deportista" : "Bernardo BALOYES",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19522,  "peor_marca" : 21440 }
+{  "id_deportista" : 676,  "nombre_deportista" : "Daniella HILL",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2518,  "peor_marca" : 2291 }
+{  "id_deportista" : 153,  "nombre_deportista" : "Catriona BISSET",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101954,  "peor_marca" : 112078 }
+{  "id_deportista" : 40,  "nombre_deportista" : "Manqi GE",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9761,  "peor_marca" : 10736 }
+{  "id_deportista" : 200,  "nombre_deportista" : "Eilish MCCOLGAN",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208821,  "peor_marca" : 229632 }
+{  "id_deportista" : 206,  "nombre_deportista" : "Hagos GEBRHIWET",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608136,  "peor_marca" : 1767755 }
+{  "id_deportista" : 338,  "nombre_deportista" : "Workenesh EDESA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7304505,  "peor_marca" : 8028679 }
+{  "id_deportista" : 514,  "nombre_deportista" : "Mirela DEMIREVA",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 132,  "nombre_deportista" : "Michael SARUNI",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101921,  "peor_marca" : 111973 }
+{  "id_deportista" : 339,  "nombre_deportista" : "Purity Cherotich RIONORIPO",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7303553,  "peor_marca" : 8031054 }
+{  "id_deportista" : 219,  "nombre_deportista" : "Jacob KROP",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772722,  "peor_marca" : 848625 }
+{  "id_deportista" : 414,  "nombre_deportista" : "Marcio TELES",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46151,  "peor_marca" : 50693 }
+{  "id_deportista" : 190,  "nombre_deportista" : "Gabriela DEBUES-STAFFORD",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208819,  "peor_marca" : 229437 }
+{  "id_deportista" : 259,  "nombre_deportista" : "Yasemin CAN",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608516,  "peor_marca" : 1768095 }
+{  "id_deportista" : 639,  "nombre_deportista" : "Almir DOS SANTOS",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1994,  "peor_marca" : 1814 }
+{  "id_deportista" : 712,  "nombre_deportista" : "Bin FENG",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7191 }
+{  "id_deportista" : 33,  "nombre_deportista" : "Murielle AHOURÉ",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9760,  "peor_marca" : 10736 }
+{  "id_deportista" : 203,  "nombre_deportista" : "Shannon OSIKA",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208852,  "peor_marca" : 229623 }
+{  "id_deportista" : 562,  "nombre_deportista" : "Ninon GUILLON-ROMARIN",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 316,  "nombre_deportista" : "Lonah Chemtai SALPETER",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7310801,  "peor_marca" : 8030831 }
+{  "id_deportista" : 14,  "nombre_deportista" : "Abdul Hakim SANI BROWN",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9763,  "peor_marca" : 10731 }
+{  "id_deportista" : 12,  "nombre_deportista" : "Raymond EKEVWO",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9765,  "peor_marca" : 10735 }
+{  "id_deportista" : 24,  "nombre_deportista" : "Dina ASHER-SMITH",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19507,  "peor_marca" : 21441 }
+{  "id_deportista" : 493,  "nombre_deportista" : "Bohdan BONDARENKO",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 508,  "nombre_deportista" : "Yuliya LEVCHENKO",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 539,  "nombre_deportista" : "Augusto DUTRA",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 641,  "nombre_deportista" : "Yaoqing FANG",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1816 }
+{  "id_deportista" : 766,  "nombre_deportista" : "Huihui LYU",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9959,  "peor_marca" : 9063 }
+{  "id_deportista" : 114,  "nombre_deportista" : "Dalilah MUHAMMAD",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46135,  "peor_marca" : 50646 }
+{  "id_deportista" : 106,  "nombre_deportista" : "Aminatou SEYNI",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43484,  "peor_marca" : 47772 }
+{  "id_deportista" : 729,  "nombre_deportista" : "Valeriy PRONKIN",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8991,  "peor_marca" : 8174 }
+{  "id_deportista" : 270,  "nombre_deportista" : "Jemal Yimer MEKONNEN",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1610950,  "peor_marca" : 1768818 }
+{  "id_deportista" : 780,  "nombre_deportista" : "Elizabeth GLEADLE",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9966,  "peor_marca" : 9063 }
+{  "id_deportista" : 558,  "nombre_deportista" : "Huiqin XU",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 243,  "nombre_deportista" : "Karoline Bjerkeli GRØVDAL",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772375,  "peor_marca" : 849135 }
+{  "id_deportista" : 580,  "nombre_deportista" : "Will CLAYE",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 870 }
+{  "id_deportista" : 58,  "nombre_deportista" : "Dezerea BRYANT",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19532,  "peor_marca" : 21426 }
+{  "id_deportista" : 472,  "nombre_deportista" : "Courtney FRERICHS",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 482244,  "peor_marca" : 528970 }
+{  "id_deportista" : 41,  "nombre_deportista" : "Tynia GAITHER",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9760,  "peor_marca" : 10735 }
+{  "id_deportista" : 658,  "nombre_deportista" : "Orazio CREMONA",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2520,  "peor_marca" : 2294 }
+{  "id_deportista" : 17,  "nombre_deportista" : "Mario BURKE",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19500,  "peor_marca" : 21448 }
+{  "id_deportista" : 29,  "nombre_deportista" : "Mujinga KAMBUNDJI",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19515,  "peor_marca" : 21448 }
+{  "id_deportista" : 794,  "nombre_deportista" : "Thomas RÖHLER",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9967,  "peor_marca" : 9063 }
+{  "id_deportista" : 16,  "nombre_deportista" : "Roberto SKYERS",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9766,  "peor_marca" : 10726 }
+{  "id_deportista" : 143,  "nombre_deportista" : "Alfred KIPKETER",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101945,  "peor_marca" : 112066 }
+{  "id_deportista" : 631,  "nombre_deportista" : "Ruiting WU",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1815 }
+{  "id_deportista" : 88,  "nombre_deportista" : "Kahmari MONTGOMERY",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43461,  "peor_marca" : 47791 }
+{  "id_deportista" : 165,  "nombre_deportista" : "Jakob INGEBRIGTSEN",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772184,  "peor_marca" : 849290 }
+{  "id_deportista" : 232,  "nombre_deportista" : "Caroline Chepkoech KIPKIRUI",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481586,  "peor_marca" : 3825784 }
+{  "id_deportista" : 299,  "nombre_deportista" : "Morris Munene GACHAGA",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481732,  "peor_marca" : 3827379 }
+{  "id_deportista" : 117,  "nombre_deportista" : "Sydney MCLAUGHLIN",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43453,  "peor_marca" : 47793 }
+{  "id_deportista" : 34,  "nombre_deportista" : "Aleia HOBBS",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9760,  "peor_marca" : 10736 }
+{  "id_deportista" : 216,  "nombre_deportista" : "Yomif KEJELCHA",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608123,  "peor_marca" : 1768131 }
+{  "id_deportista" : 313,  "nombre_deportista" : "Roza DEREJE",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481121,  "peor_marca" : 3825191 }
+{  "id_deportista" : 505,  "nombre_deportista" : "Mariya LASITSKENE",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 728,  "nombre_deportista" : "Javier CIENFUEGOS",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8991,  "peor_marca" : 8175 }
+{  "id_deportista" : 782,  "nombre_deportista" : "Yekaterina STARYGINA",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9962,  "peor_marca" : 9065 }
+{  "id_deportista" : 480,  "nombre_deportista" : "Genevieve GREGSON",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481076,  "peor_marca" : 528811 }
+{  "id_deportista" : 252,  "nombre_deportista" : "Emily SISSON",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1609185,  "peor_marca" : 1768556 }
+{  "id_deportista" : 744,  "nombre_deportista" : "Serhiy PEREVOZNIKOV",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8992,  "peor_marca" : 8174 }
+{  "id_deportista" : 545,  "nombre_deportista" : "Sandi MORRIS",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 6,  "nombre_deportista" : "Cravon GILLESPIE",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19517,  "peor_marca" : 21438 }
+{  "id_deportista" : 377,  "nombre_deportista" : "Andrew POZZI",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12104,  "peor_marca" : 13306 }
+{  "id_deportista" : 565,  "nombre_deportista" : "Zarck VISSER",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 685,  "nombre_deportista" : "Daniel STÅHL",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7189 }
+{  "id_deportista" : 305,  "nombre_deportista" : "Ruth CHEPNGETICH",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3482162,  "peor_marca" : 3828690 }
+{  "id_deportista" : 361,  "nombre_deportista" : "Philemon RONO",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7304007,  "peor_marca" : 8027625 }
+{  "id_deportista" : 516,  "nombre_deportista" : "Nicola MCDERMOTT",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 442,  "nombre_deportista" : "Kori CARTER",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46117,  "peor_marca" : 50694 }
+{  "id_deportista" : 372,  "nombre_deportista" : "Gabriel CONSTANTINO",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12098,  "peor_marca" : 13306 }
+{  "id_deportista" : 19,  "nombre_deportista" : "Isiah YOUNG",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9769,  "peor_marca" : 10728 }
+{  "id_deportista" : 231,  "nombre_deportista" : "Lilian Kasait RENGERUK",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 773421,  "peor_marca" : 849044 }
+{  "id_deportista" : 390,  "nombre_deportista" : "Tonea MARSHALL",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12100,  "peor_marca" : 13286 }
+{  "id_deportista" : 202,  "nombre_deportista" : "Nikki HILTZ",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208920,  "peor_marca" : 229633 }
+{  "id_deportista" : 519,  "nombre_deportista" : "Svetlana RADZIVIL",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 730,  "nombre_deportista" : "Denis LUKYANOV",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8980,  "peor_marca" : 8180 }
+{  "id_deportista" : 243,  "nombre_deportista" : "Karoline Bjerkeli GRØVDAL",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481175,  "peor_marca" : 529133 }
+{  "id_deportista" : 218,  "nombre_deportista" : "Solomon BERIHU",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608510,  "peor_marca" : 1768122 }
+{  "id_deportista" : 187,  "nombre_deportista" : "Shelby HOULIHAN",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208773,  "peor_marca" : 229598 }
+{  "id_deportista" : 466,  "nombre_deportista" : "Gesa Felicitas KRAUSE",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481492,  "peor_marca" : 528951 }
+{  "id_deportista" : 404,  "nombre_deportista" : "Karsten WARHOLM",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46102,  "peor_marca" : 50697 }
+{  "id_deportista" : 67,  "nombre_deportista" : "Ramil GULIYEV",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19518,  "peor_marca" : 21412 }
+{  "id_deportista" : 317,  "nombre_deportista" : "Joan Chelimo MELLY",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3482666,  "peor_marca" : 3824795 }
+{  "id_deportista" : 353,  "nombre_deportista" : "Marius KIPSEREM",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7307460,  "peor_marca" : 8026004 }
+{  "id_deportista" : 611,  "nombre_deportista" : "Kimberly WILLIAMS",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 603,  "nombre_deportista" : "Tori BOWIE",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 220,  "nombre_deportista" : "Edward Zakayo PINGUA",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772128,  "peor_marca" : 848817 }
+{  "id_deportista" : 520,  "nombre_deportista" : "Katarina JOHNSON-THOMPSON",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 443,  "nombre_deportista" : "Aminat JAMAL",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46108,  "peor_marca" : 50698 }
+{  "id_deportista" : 147,  "nombre_deportista" : "Natoya GOULE",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101894,  "peor_marca" : 112077 }
+{  "id_deportista" : 441,  "nombre_deportista" : "Zurian HECHAVARRÍA",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46103,  "peor_marca" : 50685 }
+{  "id_deportista" : 569,  "nombre_deportista" : "Miltiadis TENTOGLOU",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 665,  "nombre_deportista" : "Lijiao GONG",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2291 }
+{  "id_deportista" : 250,  "nombre_deportista" : "Senbere TEFERI",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481418,  "peor_marca" : 3828714 }
+{  "id_deportista" : 555,  "nombre_deportista" : "Ling LI",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 380,  "nombre_deportista" : "Eduardo RODRIGUES",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12100,  "peor_marca" : 13293 }
+{  "id_deportista" : 796,  "nombre_deportista" : "Julian WEBER",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9968,  "peor_marca" : 9061 }
+{  "id_deportista" : 799,  "nombre_deportista" : "Keshorn WALCOTT",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9959,  "peor_marca" : 9061 }
+{  "id_deportista" : 318,  "nombre_deportista" : "Valary JEMELI",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3482183,  "peor_marca" : 3827475 }
+{  "id_deportista" : 318,  "nombre_deportista" : "Valary JEMELI",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7303454,  "peor_marca" : 8026066 }
+{  "id_deportista" : 209,  "nombre_deportista" : "Joshua CHEPTEGEI",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1609174,  "peor_marca" : 1766586 }
+{  "id_deportista" : 593,  "nombre_deportista" : "Abigail IROZURU",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 955,  "peor_marca" : 869 }
+{  "id_deportista" : 95,  "nombre_deportista" : "Vernon NORWOOD",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43464,  "peor_marca" : 47793 }
+{  "id_deportista" : 556,  "nombre_deportista" : "Nikoleta KIRIAKOPOULOU",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 482,  "nombre_deportista" : "Mercy WANJIRU",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481184,  "peor_marca" : 529071 }
+{  "id_deportista" : 628,  "nombre_deportista" : "Hugues Fabrice ZANGO",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1994,  "peor_marca" : 1816 }
+{  "id_deportista" : 572,  "nombre_deportista" : "Andwuelle WRIGHT",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 367,  "nombre_deportista" : "Omar MCLEOD",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12099,  "peor_marca" : 13307 }
+{  "id_deportista" : 494,  "nombre_deportista" : "Daniil TSYPLAKOV",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 491,  "nombre_deportista" : "Majd Eddin GHAZAL",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 561,  "nombre_deportista" : "Robeilys PEINADO",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 666,  "peor_marca" : 606 }
+{  "id_deportista" : 615,  "nombre_deportista" : "Paraskevi PAPACHRISTOU",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 302,  "nombre_deportista" : "Leonard LANGAT",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481507,  "peor_marca" : 3827462 }
+{  "id_deportista" : 515,  "nombre_deportista" : "Erika KINSEY",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 738,  "nombre_deportista" : "Sean DONNELLY",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8988,  "peor_marca" : 8179 }
+{  "id_deportista" : 393,  "nombre_deportista" : "Brianna MCNEAL",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12109,  "peor_marca" : 13293 }
+{  "id_deportista" : 175,  "nombre_deportista" : "Abdelaati IGUIDER",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208795,  "peor_marca" : 229640 }
+{  "id_deportista" : 17,  "nombre_deportista" : "Mario BURKE",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9760,  "peor_marca" : 10733 }
+{  "id_deportista" : 439,  "nombre_deportista" : "Nikita TRACEY",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46153,  "peor_marca" : 50617 }
+{  "id_deportista" : 47,  "nombre_deportista" : "Anglerne ANNELUS",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19506,  "peor_marca" : 21433 }
+{  "id_deportista" : 61,  "nombre_deportista" : "Salwa Eid NASER",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19504,  "peor_marca" : 21443 }
+{  "id_deportista" : 229,  "nombre_deportista" : "Letesenbet GIDEY",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772303,  "peor_marca" : 849287 }
+{  "id_deportista" : 440,  "nombre_deportista" : "Cassandra TATE",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46113,  "peor_marca" : 50675 }
+{  "id_deportista" : 194,  "nombre_deportista" : "Axumawit EMBAYE",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208867,  "peor_marca" : 229647 }
+{  "id_deportista" : 513,  "nombre_deportista" : "Kamila LIĆWINKO",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 567,  "nombre_deportista" : "Jeff HENDERSON",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 186,  "nombre_deportista" : "Gudaf TSEGAY",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208792,  "peor_marca" : 229566 }
+{  "id_deportista" : 667,  "nombre_deportista" : "Danniel THOMAS-DODD",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2521,  "peor_marca" : 2292 }
+{  "id_deportista" : 206,  "nombre_deportista" : "Hagos GEBRHIWET",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772664,  "peor_marca" : 848703 }
+{  "id_deportista" : 357,  "nombre_deportista" : "Guye Idemo ADOLA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7306648,  "peor_marca" : 8027315 }
+{  "id_deportista" : 750,  "nombre_deportista" : "Zheng WANG",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8988,  "peor_marca" : 8178 }
+{  "id_deportista" : 776,  "nombre_deportista" : "Eda TUĞSUZ",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9965,  "peor_marca" : 9071 }
+{  "id_deportista" : 79,  "nombre_deportista" : "Clarence MUNYAI",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19503,  "peor_marca" : 21434 }
+{  "id_deportista" : 208,  "nombre_deportista" : "Abadi HADIS",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481565,  "peor_marca" : 3828537 }
+{  "id_deportista" : 114,  "nombre_deportista" : "Dalilah MUHAMMAD",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43467,  "peor_marca" : 47786 }
+{  "id_deportista" : 587,  "nombre_deportista" : "Florentina Costina IUSCO",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 559,  "nombre_deportista" : "Emily GROVE",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 725,  "nombre_deportista" : "Marike STEINACKER",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7892,  "peor_marca" : 7192 }
+{  "id_deportista" : 297,  "nombre_deportista" : "Seifu TURA",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3481150,  "peor_marca" : 3829025 }
+{  "id_deportista" : 176,  "nombre_deportista" : "Stewart MCSWEYN",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208788,  "peor_marca" : 229585 }
+{  "id_deportista" : 673,  "nombre_deportista" : "Jessica RAMSEY",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2519,  "peor_marca" : 2292 }
+{  "id_deportista" : 3,  "nombre_deportista" : "Divine ODUDURU",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19503,  "peor_marca" : 21449 }
+{  "id_deportista" : 119,  "nombre_deportista" : "Laviai NIELSEN",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43466,  "peor_marca" : 47793 }
+{  "id_deportista" : 86,  "nombre_deportista" : "Fred KERLEY",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43470,  "peor_marca" : 47776 }
+{  "id_deportista" : 128,  "nombre_deportista" : "Amel TUKA",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101946,  "peor_marca" : 112071 }
+{  "id_deportista" : 428,  "nombre_deportista" : "Rushell CLAYTON",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46118,  "peor_marca" : 50693 }
+{  "id_deportista" : 749,  "nombre_deportista" : "Joanna FIODOROW",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8986,  "peor_marca" : 8175 }
+{  "id_deportista" : 612,  "nombre_deportista" : "Kristin GIERISCH",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1814 }
+{  "id_deportista" : 475,  "nombre_deportista" : "Anna Emilie MØLLER",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481045,  "peor_marca" : 528968 }
+{  "id_deportista" : 551,  "nombre_deportista" : "Angelica BENGTSSON",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 341,  "nombre_deportista" : "Azmera GEBRU",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7303562,  "peor_marca" : 8030363 }
+{  "id_deportista" : 645,  "nombre_deportista" : "Joe KOVACS",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2519,  "peor_marca" : 2291 }
+{  "id_deportista" : 534,  "nombre_deportista" : "Ernest John OBIENA",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 760,  "nombre_deportista" : "Hanna SKYDAN",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8989,  "peor_marca" : 8174 }
+{  "id_deportista" : 764,  "nombre_deportista" : "Sofiya PALKINA",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8984,  "peor_marca" : 8175 }
+{  "id_deportista" : 121,  "nombre_deportista" : "Anastasia LE-ROY",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43462,  "peor_marca" : 47792 }
+{  "id_deportista" : 261,  "nombre_deportista" : "Susan KRUMINS",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1609056,  "peor_marca" : 1768428 }
+{  "id_deportista" : 311,  "nombre_deportista" : "Birhane DIBABA",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7303234,  "peor_marca" : 8023527 }
+{  "id_deportista" : 50,  "nombre_deportista" : "Brittany BROWN",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19508,  "peor_marca" : 21446 }
+{  "id_deportista" : 184,  "nombre_deportista" : "Sifan HASSAN",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3482679,  "peor_marca" : 3826790 }
+{  "id_deportista" : 218,  "nombre_deportista" : "Solomon BERIHU",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772147,  "peor_marca" : 848824 }
+{  "id_deportista" : 43,  "nombre_deportista" : "Shaunae MILLER-UIBO",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19501,  "peor_marca" : 21423 }
+{  "id_deportista" : 292,  "nombre_deportista" : "Felix KIBITOK",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3482012,  "peor_marca" : 3826570 }
+{  "id_deportista" : 419,  "nombre_deportista" : "Sokwakhana ZAZINI",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46121,  "peor_marca" : 50623 }
+{  "id_deportista" : 469,  "nombre_deportista" : "Winfred Mutile YAVI",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481479,  "peor_marca" : 528814 }
+{  "id_deportista" : 597,  "nombre_deportista" : "Darya KLISHINA",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 422,  "nombre_deportista" : "Patryk DOBEK",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46106,  "peor_marca" : 50679 }
+{  "id_deportista" : 659,  "nombre_deportista" : "Armin SINANČEVIĆ",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2520,  "peor_marca" : 2292 }
+{  "id_deportista" : 762,  "nombre_deportista" : "Na LUO",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8990,  "peor_marca" : 8180 }
+{  "id_deportista" : 793,  "nombre_deportista" : "Anderson PETERS",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9966,  "peor_marca" : 9061 }
+{  "id_deportista" : 204,  "nombre_deportista" : "Telahun Haile BEKELE",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772121,  "peor_marca" : 849204 }
+{  "id_deportista" : 354,  "nombre_deportista" : "Kaan Kigen ÖZBILEN",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7303292,  "peor_marca" : 8028537 }
+{  "id_deportista" : 13,  "nombre_deportista" : "Reece PRESCOD",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9762,  "peor_marca" : 10733 }
+{  "id_deportista" : 476,  "nombre_deportista" : "Luiza GEGA",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481224,  "peor_marca" : 528861 }
+{  "id_deportista" : 171,  "nombre_deportista" : "Samuel TEFERA",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208888,  "peor_marca" : 229634 }
+{  "id_deportista" : 804,  "nombre_deportista" : "Antti RUUSKANEN",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9966,  "peor_marca" : 9069 }
+{  "id_deportista" : 55,  "nombre_deportista" : "Amy HUNT",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19501,  "peor_marca" : 21438 }
+{  "id_deportista" : 360,  "nombre_deportista" : "Evans CHEBET",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7313756,  "peor_marca" : 8024020 }
+{  "id_deportista" : 548,  "nombre_deportista" : "Katie NAGEOTTE",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 94,  "nombre_deportista" : "Akeem BLOOMFIELD",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43476,  "peor_marca" : 47760 }
+{  "id_deportista" : 125,  "nombre_deportista" : "Donavan BRAZIER",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101977,  "peor_marca" : 112075 }
+{  "id_deportista" : 26,  "nombre_deportista" : "Kayla WHITE",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19500,  "peor_marca" : 21444 }
+{  "id_deportista" : 455,  "nombre_deportista" : "Takele NIGATE",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481059,  "peor_marca" : 528903 }
+{  "id_deportista" : 193,  "nombre_deportista" : "Rababe ARAFI",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208782,  "peor_marca" : 229647 }
+{  "id_deportista" : 689,  "nombre_deportista" : "Ola STUNES ISENE",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7903,  "peor_marca" : 7186 }
+{  "id_deportista" : 214,  "nombre_deportista" : "Lopez LOMONG",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772331,  "peor_marca" : 849264 }
+{  "id_deportista" : 222,  "nombre_deportista" : "Paul CHELIMO",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772442,  "peor_marca" : 849132 }
+{  "id_deportista" : 544,  "nombre_deportista" : "Jennifer SUHR",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 251,  "nombre_deportista" : "Zeineba YIMER",  "id_especialidad" : 9,  "nombre_especialidad" : "carrera 42000 m",  "mejor_marca" : 7301146,  "peor_marca" : 8030030 }
+{  "id_deportista" : 457,  "nombre_deportista" : "Lawrence Kemboi KIPSANG",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481452,  "peor_marca" : 528660 }
+{  "id_deportista" : 530,  "nombre_deportista" : "Renaud LAVILLENIE",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 124,  "nombre_deportista" : "Nijel AMOS",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101977,  "peor_marca" : 112036 }
+{  "id_deportista" : 703,  "nombre_deportista" : "David WROBEL",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7191 }
+{  "id_deportista" : 653,  "nombre_deportista" : "Filip MIHALJEVIĆ",  "id_especialidad" : 17,  "nombre_especialidad" : "lanzamiento de bala",  "mejor_marca" : 2520,  "peor_marca" : 2291 }
+{  "id_deportista" : 775,  "nombre_deportista" : "Lina MUZE",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9963,  "peor_marca" : 9072 }
+{  "id_deportista" : 230,  "nombre_deportista" : "Tsehay GEMECHU",  "id_especialidad" : 6,  "nombre_especialidad" : "carrera 5000 m",  "mejor_marca" : 772342,  "peor_marca" : 849076 }
+{  "id_deportista" : 29,  "nombre_deportista" : "Mujinga KAMBUNDJI",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9764,  "peor_marca" : 10732 }
+{  "id_deportista" : 8,  "nombre_deportista" : "Arthur CISSÉ",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9760,  "peor_marca" : 10735 }
+{  "id_deportista" : 37,  "nombre_deportista" : "Tebogo MAMATHU",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9763,  "peor_marca" : 10735 }
+{  "id_deportista" : 107,  "nombre_deportista" : "Shericka JACKSON",  "id_especialidad" : 3,  "nombre_especialidad" : "carrera 400 m",  "mejor_marca" : 43501,  "peor_marca" : 47762 }
+{  "id_deportista" : 568,  "nombre_deportista" : "Luvo MANYONGA",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 392,  "nombre_deportista" : "Kendell WILLIAMS",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12100,  "peor_marca" : 13304 }
+{  "id_deportista" : 22,  "nombre_deportista" : "Elaine THOMPSON",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9761,  "peor_marca" : 10732 }
+{  "id_deportista" : 486,  "nombre_deportista" : "Mikhail AKIMENKO",  "id_especialidad" : 13,  "nombre_especialidad" : "salto de altura",  "mejor_marca" : 261,  "peor_marca" : 237 }
+{  "id_deportista" : 3,  "nombre_deportista" : "Divine ODUDURU",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9761,  "peor_marca" : 10716 }
+{  "id_deportista" : 598,  "nombre_deportista" : "Shara PROCTOR",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 162,  "nombre_deportista" : "Habitam ALEMU",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101994,  "peor_marca" : 112017 }
+{  "id_deportista" : 710,  "nombre_deportista" : "Andressa DE MORAIS",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7895,  "peor_marca" : 7186 }
+{  "id_deportista" : 529,  "nombre_deportista" : "Paweł WOJCIECHOWSKI",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 30,  "nombre_deportista" : "Carina HORN",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9764,  "peor_marca" : 10733 }
+{  "id_deportista" : 301,  "nombre_deportista" : "Edwin KIPTOO",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3484115,  "peor_marca" : 3827304 }
+{  "id_deportista" : 230,  "nombre_deportista" : "Tsehay GEMECHU",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608234,  "peor_marca" : 1767171 }
+{  "id_deportista" : 600,  "nombre_deportista" : "Naa ANANG",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 421,  "nombre_deportista" : "Takatoshi ABE",  "id_especialidad" : 11,  "nombre_especialidad" : "carrera 400 m con vallas",  "mejor_marca" : 46116,  "peor_marca" : 50692 }
+{  "id_deportista" : 720,  "nombre_deportista" : "Yekaterina STROKOVA",  "id_especialidad" : 18,  "nombre_especialidad" : "lanzamiento de disco",  "mejor_marca" : 7905,  "peor_marca" : 7191 }
+{  "id_deportista" : 212,  "nombre_deportista" : "Mohammed AHMED",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608242,  "peor_marca" : 1768340 }
+{  "id_deportista" : 4,  "nombre_deportista" : "Justin GATLIN",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9766,  "peor_marca" : 10736 }
+{  "id_deportista" : 527,  "nombre_deportista" : "Christopher NILSEN",  "id_especialidad" : 14,  "nombre_especialidad" : "salto con pertiga",  "mejor_marca" : 667,  "peor_marca" : 606 }
+{  "id_deportista" : 605,  "nombre_deportista" : "Yulimar ROJAS",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1996,  "peor_marca" : 1815 }
+{  "id_deportista" : 756,  "nombre_deportista" : "Alexandra TAVERNIER",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8990,  "peor_marca" : 8179 }
+{  "id_deportista" : 791,  "nombre_deportista" : "Chao-Tsun CHENG",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9968,  "peor_marca" : 9063 }
+{  "id_deportista" : 322,  "nombre_deportista" : "Alemu MEGERTU",  "id_especialidad" : 8,  "nombre_especialidad" : "carrera 21000 m",  "mejor_marca" : 3482593,  "peor_marca" : 3826947 }
+{  "id_deportista" : 136,  "nombre_deportista" : "Clayton MURPHY",  "id_especialidad" : 4,  "nombre_especialidad" : "carrera 800 m",  "mejor_marca" : 101925,  "peor_marca" : 112059 }
+{  "id_deportista" : 606,  "nombre_deportista" : "Shanieka RICKETTS",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1995,  "peor_marca" : 1814 }
+{  "id_deportista" : 596,  "nombre_deportista" : "Yanis Esmeralda DAVID",  "id_especialidad" : 15,  "nombre_especialidad" : "salto largo",  "mejor_marca" : 956,  "peor_marca" : 869 }
+{  "id_deportista" : 5,  "nombre_deportista" : "Andre DE GRASSE",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19508,  "peor_marca" : 21450 }
+{  "id_deportista" : 471,  "nombre_deportista" : "Celliphine Chepteek CHESPOL",  "id_especialidad" : 12,  "nombre_especialidad" : "carrera 3000 m con vallas",  "mejor_marca" : 481266,  "peor_marca" : 529006 }
+{  "id_deportista" : 768,  "nombre_deportista" : "Nikola OGRODNÍKOVÁ",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9960,  "peor_marca" : 9065 }
+{  "id_deportista" : 636,  "nombre_deportista" : "Alexsandro MELO",  "id_especialidad" : 16,  "nombre_especialidad" : "salto triple",  "mejor_marca" : 1995,  "peor_marca" : 1814 }
+{  "id_deportista" : 368,  "nombre_deportista" : "Sergey SHUBENKOV",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12113,  "peor_marca" : 13308 }
+{  "id_deportista" : 250,  "nombre_deportista" : "Senbere TEFERI",  "id_especialidad" : 7,  "nombre_especialidad" : "carrera 10000 m",  "mejor_marca" : 1608244,  "peor_marca" : 1768606 }
+{  "id_deportista" : 373,  "nombre_deportista" : "Ronald LEVY",  "id_especialidad" : 10,  "nombre_especialidad" : "carrera 110 m con vallas",  "mejor_marca" : 12104,  "peor_marca" : 13305 }
+{  "id_deportista" : 787,  "nombre_deportista" : "Johannes VETTER",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9967,  "peor_marca" : 9063 }
+{  "id_deportista" : 172,  "nombre_deportista" : "Bethwell BIRGEN",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208797,  "peor_marca" : 229496 }
+{  "id_deportista" : 786,  "nombre_deportista" : "Magnus KIRT",  "id_especialidad" : 20,  "nombre_especialidad" : "lanzamiento de jabalina",  "mejor_marca" : 9958,  "peor_marca" : 9065 }
+{  "id_deportista" : 35,  "nombre_deportista" : "Kiara GRANT",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9760,  "peor_marca" : 10726 }
+{  "id_deportista" : 127,  "nombre_deportista" : "Timothy CHERUIYOT",  "id_especialidad" : 5,  "nombre_especialidad" : "carrera 1500 m",  "mejor_marca" : 208800,  "peor_marca" : 229619 }
+{  "id_deportista" : 757,  "nombre_deportista" : "Zalina PETRIVSKAYA",  "id_especialidad" : 19,  "nombre_especialidad" : "lanzamiento de martillo",  "mejor_marca" : 8992,  "peor_marca" : 8175 }
+{  "id_deportista" : 57,  "nombre_deportista" : "Ivet LALOVA-COLLIO",  "id_especialidad" : 2,  "nombre_especialidad" : "carrera 200 m",  "mejor_marca" : 19504,  "peor_marca" : 21446 }
+{  "id_deportista" : 21,  "nombre_deportista" : "Shelly-Ann FRASER-PRYCE",  "id_especialidad" : 1,  "nombre_especialidad" : "carrera 100 m",  "mejor_marca" : 9764,  "peor_marca" : 10735 }
