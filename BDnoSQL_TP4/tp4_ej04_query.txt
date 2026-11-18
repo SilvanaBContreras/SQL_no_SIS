@@ -1,0 +1,35 @@
+Ejercicio 4 - Ranking de países por cantidad de deportistas
+
+Colección usada: deportistas (la misma del ejercicio 1). Cada deportista es un solo documento,
+entonces contar documentos es lo mismo que contar deportistas.
+
+Cómo se arma la query:
+La colección tiene un documento por deportista, no por país, así que primero hay que contar
+y después ordenar. aggregate recibe esos pasos en una lista, [paso 1, paso 2, paso 3], y cada
+paso trabaja sobre lo que dejó el anterior:
+1. $group agrupa por nombre de país y cuenta: de 714 documentos (deportistas) quedan 83
+   (países). El campo por el que se agrupa va en _id: "$pais.nombre" (el $ adelante indica
+   que se usa el valor de ese campo). {$sum: 1} suma 1 por cada deportista del grupo.
+2. $sort ordena esos 83 países por cantidad, de mayor a menor (-1).
+3. $project elige qué campos mostrar: oculta el _id (_id: 0) y muestra su valor con el
+   nombre "pais".
+Se agrupa por nombre y no por id de país porque el enunciado pide "para cada nombre de país".
+
+Nota: entre países con igual cantidad, el orden queda a criterio de Mongo.
+
+Cómo se obtuvo el resultado (tp4_ej04_resultado.txt): ejecutando la query en Robo3T con
+.forEach(printjsononeline) agregado al final. forEach recorre todos los documentos que devuelve
+la query e imprime cada uno en una línea de texto, sin la paginación de Robo3T (50 documentos
+por página), que sería limitante en los ejercicios 3 (140 documentos), 4 (83), 7 (803) y
+9 (4.020) de este TP.
+En este ejercicio el resultado tiene 83 documentos, más de una página. Otras opciones:
+aumentar el tamaño de página de Robo3T (el número junto a las flechas de paginación) o
+agregar .toArray(), que devuelve todo en un único array (formato expandido, menos práctico
+para el txt).
+
+Query:
+db.deportistas.aggregate([
+    {$group: {_id: "$pais.nombre", cantidad_deportistas: {$sum: 1}}},
+    {$sort: {cantidad_deportistas: -1}},
+    {$project: {_id: 0, pais: "$_id", cantidad_deportistas: "$cantidad_deportistas"}}
+]);
