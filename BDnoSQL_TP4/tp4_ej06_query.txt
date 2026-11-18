@@ -1,0 +1,30 @@
+Ejercicio 6 - Cantidad de marcas por tipo de especialidad
+
+Colección usada: participaciones (la misma del ejercicio 5). Cada documento es una fila del
+archivo, entonces contar documentos es lo mismo que contar marcas.
+
+Cómo se arma la query (aggregate, una etapa después de otra):
+1. $group por id de tipo de especialidad: $first guarda el nombre del tipo y {$sum: 1}
+   cuenta las marcas de cada grupo.
+2. $project muestra el nombre del tipo y la cantidad, sin el _id.
+
+Nota: el enunciado no pide orden, así que no se ordena.
+
+Cómo se obtuvo el resultado (tp4_ej06_resultado.txt): ejecutando la query en Robo3T con
+.forEach(printjsononeline) agregado al final. forEach recorre todos los documentos que devuelve
+la query e imprime cada uno en una línea de texto, sin la paginación de Robo3T (50 documentos
+por página), que sería limitante en los ejercicios 3 (140 documentos), 4 (83), 7 (803) y
+9 (4.020) de este TP.
+En este ejercicio el resultado tiene 4 documentos, así que también podía copiarse
+directamente desde la vista de texto de Robo3T, sin forEach. Se usa igual para que todos los
+resultados del TP tengan el mismo formato: un documento por línea.
+
+Query:
+db.participaciones.aggregate([
+    {$group: {
+        _id: "$especialidad.tipo.id",
+        tipo_especialidad: {$first: "$especialidad.tipo.nombre"},
+        cantidad_marcas: {$sum: 1}
+    }},
+    {$project: {_id: 0, tipo_especialidad: "$tipo_especialidad", cantidad_marcas: "$cantidad_marcas"}}
+]);

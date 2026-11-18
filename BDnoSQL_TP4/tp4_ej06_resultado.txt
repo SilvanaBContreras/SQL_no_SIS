@@ -1,0 +1,4 @@
+{  "tipo_especialidad" : "lanzamiento",  "cantidad_marcas" : 32361 }
+{  "tipo_especialidad" : "altura",  "cantidad_marcas" : 15879 }
+{  "tipo_especialidad" : "tiempo",  "cantidad_marcas" : 96681 }
+{  "tipo_especialidad" : "largo",  "cantidad_marcas" : 16482 }
