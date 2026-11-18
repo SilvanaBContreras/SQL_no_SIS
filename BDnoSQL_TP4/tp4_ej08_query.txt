@@ -2,31 +2,21 @@ Ejercicio 8 - Podio del récord mundial de cada especialidad
 
 Colección: participaciones (la del ejercicio 5).
 
-Se sigue el esquema TOP N visto en clase (slide 49): primero la mejor marca de cada
-deportista y después las tres mejores de cada especialidad.
-1. $group por especialidad y deportista, con $min y $max como en el ejercicio 7. Así cada
-   deportista aparece una sola vez y no puede ocupar dos lugares del podio.
-2. $project deja solo lo necesario y calcula dos campos:
-   - mejor_marca: la mínima en carreras (tipo "tiempo"), la máxima en el resto.
-   - marca_orden: un campo auxiliar para ordenar todo igual. En carreras es la marca; en el
-     resto, la marca con el signo cambiado (* -1), para que la más alta quede primera.
-3. $sort por especialidad y marca_orden (de mejor a peor), $group por especialidad con $push
-   para armar la lista de deportistas y marcas, y $project con $slice: ["$marcas", 3] para
-   quedarse con los tres primeros: el podio.
-No se ordena el resultado final porque la consigna no lo pide.
+Esquema TOP N visto en clase (slide 49):
+1. $group por especialidad y deportista con $min y $max: la mejor marca de cada deportista,
+   para que nadie ocupe dos lugares del podio (de 161.403 documentos a 803).
+2. $project con mejor_marca y marca_orden, un campo auxiliar para ordenar todo de mejor a
+   peor (la marca en carreras, la marca * -1 en saltos y lanzamientos).
+3. $sort por especialidad y marca_orden, $group por especialidad con $push y $project con
+   $slice: ["$marcas", 3]: el podio.
+La salida no lleva ids ni orden final, porque la consigna no los pide. Los empates se
+ignoran: entre marcas iguales, Mongo decide quién ocupa cada lugar.
 
-Optimización: el paso 1 reduce las 161.403 participaciones a 803 sin ordenar, así que el
-$sort trabaja con muy pocos documentos y no hace falta allowDiskUse. La alternativa
-descartada (ordenar todas las participaciones y tomar la primera marca de cada deportista)
-da las mismas marcas, pero tarda unas 3 veces más y sí necesita allowDiskUse.
+Descartado: ordenar las 161.403 participaciones para obtener la mejor marca de cada
+deportista. Da las mismas marcas, pero es unas 3 veces más lento y necesita allowDiskUse.
 
-Empates: se ignoran, como pide la consigna. Entre deportistas con la misma marca (por
-ejemplo, 11 con 9760 en carrera 100 m) Mongo decide quién ocupa cada lugar, y eso puede
-cambiar de una ejecución a otra.
-
-Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
-que imprime un documento por línea. Con 20 documentos no hacía falta (entran en una
-página de Robo3T), pero se usó en todos los ejercicios para mantener el mismo formato.
+Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query (un
+documento por línea; con 20 documentos no hacía falta, se usó igual por uniformidad).
 
 Query:
 db.participaciones.aggregate([

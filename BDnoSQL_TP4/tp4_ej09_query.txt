@@ -2,42 +2,25 @@ Ejercicio 9 - Podio de cada especialidad en cada torneo
 
 Colección: participaciones (la del ejercicio 5).
 
-Son dos instrucciones: primero se crea un índice y después se ejecuta la query.
-
+Dos instrucciones:
 1. createIndex por torneo, especialidad y marca (campos originales de la colección).
-2. La query:
-   a. $sort por torneo, especialidad y marca: deja las participaciones de cada torneo y
-      especialidad ordenadas de menor a mayor marca.
-   b. $group por torneo y especialidad: $push arma la lista de deportistas con su marca, en
-      ese orden; $first guarda los nombres y el tipo.
-   c. $project arma el podio según el tipo. En una carrera (tipo "tiempo") gana la marca más
-      chica, así que el podio son los 3 primeros de la lista ($slice: ["$marcas", 3]). En
-      saltos y lanzamientos gana la más grande: son los 3 últimos ($slice: ["$marcas", -3]),
-      dados vuelta con $reverseArray para que el mejor quede primero.
-La salida muestra solo nombres, porque la consigna pide "para cada nombre de torneo y
-especialidad". No se ordena el resultado final porque la consigna no lo pide.
+2. La query: $sort por esos campos (usa el índice), $group por torneo y especialidad con
+   $push, y $project que arma el podio. En carreras son los 3 primeros de la lista
+   ($slice 3); en saltos y lanzamientos, los 3 últimos ($slice -3) dados vuelta con
+   $reverseArray para que el mejor quede primero.
+La salida no lleva ids ni orden final, porque la consigna no los pide. Empates: mismo
+criterio que en el ejercicio 8.
 
-Por qué el índice: el $sort ordena las 161.403 participaciones y, ordenadas en memoria,
-superan el límite de 100 MB de Mongo (la query falla salvo que se use allowDiskUse). El
-slide 34 lo plantea así: si no hay un índice, Mongo ordena en memoria, y la única forma de
-evitar el error es "crear un índice con los mismos criterios del sort". Con el índice, el
-$sort recorre las participaciones ya ordenadas: no usa memoria ni allowDiskUse, y la query
-tarda menos de la mitad (~0,65 s contra ~1,5 s). El índice se crea acá, cuando aparece la
-consulta que lo necesita, y no en la carga del ejercicio 5. Usa solo campos originales, así
-que la colección no guarda datos pensados para esta query.
+El índice evita ordenar en memoria, que supera el límite de 100 MB de Mongo; es lo que
+indica el slide 34: "crear un índice con los mismos criterios del sort". Se crea en este
+ejercicio y no en la carga, porque solo lo necesita esta query. No hace falta el paso
+"mejor marca de cada deportista" del ejercicio 8: cada deportista tiene una sola
+participación por torneo y especialidad.
 
-A diferencia del ejercicio 8, no hace falta el paso previo "mejor marca de cada deportista":
-en estos datos cada deportista tiene una sola participación por torneo y especialidad
-(comprobado: 161.403 combinaciones para 161.403 participaciones), así que no puede aparecer
-dos veces en el mismo podio.
+Descartado: ordenar sin índice usando allowDiskUse (más del doble de tiempo).
 
-Empates: mismo criterio que en el ejercicio 8; se ignoran y, entre marcas iguales, el orden
-queda a criterio de Mongo.
-
-Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
-que imprime un documento por línea y evita la paginación de Robo3T (50 por página). Acá
-era necesario: el resultado tiene 4.020 documentos. Otras opciones eran agrandar la página
-de Robo3T o usar .toArray().
+Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query, que
+imprime un documento por línea y evita la paginación de Robo3T (4.020 documentos).
 
 Query:
 db.participaciones.createIndex({"torneo.id": 1, "especialidad.id": 1, marca: 1});

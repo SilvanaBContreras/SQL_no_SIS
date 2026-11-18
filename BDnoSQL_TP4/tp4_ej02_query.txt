@@ -2,12 +2,10 @@ Ejercicio 2 - Id y todos los datos de los deportistas con id 10, 20 y 30
 
 Colección: deportistas (la del ejercicio 1).
 
-Misma condición que en el ejercicio 1, pero sin proyección: así find devuelve el documento
-completo (id, nombre, fecha de nacimiento y país).
+Misma condición del ejercicio 1, sin proyección: find devuelve el documento completo.
 
-Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
-que imprime un documento por línea. Con 3 documentos no hacía falta (entran en una
-página de Robo3T), pero se usó en todos los ejercicios para mantener el mismo formato.
+Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query (un
+documento por línea; con 3 documentos no hacía falta, se usó igual por uniformidad).
 
 Query:
 db.deportistas.find({_id: {$in: [10, 20, 30]}});

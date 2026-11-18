@@ -1,22 +1,15 @@
 Ejercicio 4 - Ranking de países por cantidad de deportistas
 
-Colección: deportistas (la del ejercicio 1). Como hay un documento por deportista, primero
-hay que contar por país y recién después ordenar. aggregate recibe esos pasos en una lista y
-cada uno trabaja sobre lo que dejó el anterior:
-1. $group por nombre de país, con {$sum: 1} para sumar 1 por cada deportista. De 714
-   documentos quedan 83, uno por país. (El $ delante de "$pais.nombre" indica que se usa el
-   valor del campo.)
-2. $sort por cantidad, de mayor a menor (-1).
-3. $project para mostrar el país y la cantidad sin el _id.
-Se agrupa por nombre y no por id porque la consigna pide "para cada nombre de país".
+Colección: deportistas (la del ejercicio 1). Hay un documento por deportista, así que primero
+se cuenta por país y después se ordena:
+1. $group por nombre de país con {$sum: 1}: de 714 deportistas quedan 83 países.
+2. $sort por cantidad, de mayor a menor.
+3. $project para mostrar país y cantidad sin el _id.
+Entre países con igual cantidad el orden queda a criterio de Mongo: la consigna solo pide
+ordenar por cantidad.
 
-Nota: entre países con la misma cantidad el orden queda a criterio de Mongo; la consigna
-solo pide ordenar por cantidad.
-
-Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
-que imprime un documento por línea y evita la paginación de Robo3T (50 por página). Acá
-era necesario: el resultado tiene 83 documentos. Otras opciones eran agrandar la página
-de Robo3T o usar .toArray().
+Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query, que
+imprime un documento por línea y evita la paginación de Robo3T (83 documentos).
 
 Query:
 db.deportistas.aggregate([

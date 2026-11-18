@@ -2,28 +2,20 @@ Ejercicio 7 - Mejor y peor marca de cada deportista por especialidad
 
 Colección: participaciones (la del ejercicio 5).
 
-Criterio: en las carreras gana el que tarda menos, así que la mejor marca es la más chica;
-en saltos y lanzamientos gana el que llega más lejos o más alto, así que es la más grande.
-Como un deportista puede competir en varias especialidades (por ejemplo, 100 m y 200 m), se
-calcula por deportista y especialidad.
-
-1. $group por deportista y especialidad: $first guarda los nombres y el tipo, y $min y $max
-   buscan la marca más chica y la más grande.
-2. $project decide cuál es la mejor y cuál la peor según el tipo. $cond funciona como un
-   "si / entonces / si no":
-     mejor_marca: {$cond: [{$eq: ["$tipo", "tiempo"]}, "$marca_minima", "$marca_maxima"]}
-     se lee: si el tipo es "tiempo", la mínima; si no, la máxima (peor_marca, al revés).
+La mejor marca es la más chica en carreras (tipo "tiempo") y la más grande en saltos y
+lanzamientos. Se calcula por deportista y especialidad, porque un deportista puede competir
+en más de una.
+1. $group por deportista y especialidad: $first para los nombres y el tipo, $min y $max para
+   la marca más chica y la más grande.
+2. $project con $cond ("si / entonces / si no"): si el tipo es "tiempo", la mejor es la
+   mínima y la peor la máxima; si no, al revés.
 No se ordena porque la consigna no lo pide.
 
-Alternativa descartada: ordenar las participaciones por marca y tomar la primera ($first) y
-la última ($last). Da el mismo resultado, pero tarda unas 3 veces más y necesita
-allowDiskUse: true, porque ordenar las 161.403 participaciones supera los 100 MB de memoria
-que Mongo permite. Con $min y $max no hace falta ordenar.
+Descartado: ordenar todas las participaciones y tomar la primera y la última marca. Da lo
+mismo, pero es unas 3 veces más lento y necesita allowDiskUse.
 
-Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
-que imprime un documento por línea y evita la paginación de Robo3T (50 por página). Acá
-era necesario: el resultado tiene 803 documentos. Otras opciones eran agrandar la página
-de Robo3T o usar .toArray().
+Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query, que
+imprime un documento por línea y evita la paginación de Robo3T (803 documentos).
 
 Query:
 db.participaciones.aggregate([

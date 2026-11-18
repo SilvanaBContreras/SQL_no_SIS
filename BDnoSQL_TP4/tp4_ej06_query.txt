@@ -1,15 +1,12 @@
 Ejercicio 6 - Cantidad de marcas por tipo de especialidad
 
-Colección: participaciones (la del ejercicio 5). Cada documento es una fila del archivo, así
-que contar documentos es contar marcas.
+Colección: participaciones (la del ejercicio 5). Un documento por marca.
 
-$group por tipo de especialidad: $first guarda el nombre del tipo y {$sum: 1} suma 1 por
-cada marca. Después, $project muestra el nombre y la cantidad sin el _id. No se ordena
-porque la consigna no lo pide.
+$group por tipo de especialidad, con $first para el nombre y {$sum: 1} para contar las
+marcas; $project para mostrarlos sin el _id. No se ordena porque la consigna no lo pide.
 
-Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
-que imprime un documento por línea. Con 4 documentos no hacía falta (entran en una
-página de Robo3T), pero se usó en todos los ejercicios para mantener el mismo formato.
+Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query (un
+documento por línea; con 4 documentos no hacía falta, se usó igual por uniformidad).
 
 Query:
 db.participaciones.aggregate([

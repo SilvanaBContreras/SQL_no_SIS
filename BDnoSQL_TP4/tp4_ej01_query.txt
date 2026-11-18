@@ -1,16 +1,13 @@
 Ejercicio 1 - Id y nombre de los deportistas con id 10, 20 y 30
 
 Colección: deportistas (cargada con tp4_ej01.py). Un documento por deportista, con el id
-como _id y el país como subdocumento: { _id, nombre, fecha_nacimiento, pais: { id, nombre } }
+como _id y el país como subdocumento.
 
-La query es un find con dos partes: la condición y la proyección.
-- Condición {_id: {$in: [10, 20, 30]}}: trae los documentos cuyo _id está en la lista.
-- Proyección {nombre: 1}: muestra solo el nombre. El _id sale siempre, salvo que se lo
-  oculte con _id: 0.
+find con condición {_id: {$in: [10, 20, 30]}} y proyección {nombre: 1}. El _id se muestra
+por defecto.
 
-Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
-que imprime un documento por línea. Con 3 documentos no hacía falta (entran en una
-página de Robo3T), pero se usó en todos los ejercicios para mantener el mismo formato.
+Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query (un
+documento por línea; con 3 documentos no hacía falta, se usó igual por uniformidad).
 
 Query:
 db.deportistas.find({_id: {$in: [10, 20, 30]}}, {nombre: 1});

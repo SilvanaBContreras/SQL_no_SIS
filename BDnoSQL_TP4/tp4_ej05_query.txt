@@ -1,24 +1,17 @@
 Ejercicio 5 - Tipos de especialidad con sus especialidades asociadas
 
-Colección: participaciones (cargada con tp4_ej05.py). Un documento por fila del archivo, es
-decir, una participación completa:
-{ _id (automático),
-  deportista:   { id, nombre, fecha_nacimiento, pais: { id, nombre } },
-  especialidad: { id, nombre, tipo: { id, nombre } },
-  torneo:       { id, nombre, ciudad: { id, nombre }, pais: { id, nombre } },
-  intento, marca }
+Colección: participaciones (cargada con tp4_ej05.py). Un documento por fila del archivo, con
+subdocumentos deportista, especialidad (con su tipo) y torneo (con ciudad y país), más
+intento y marca.
 
-La query usa dos $group seguidos:
-1. Por tipo y especialidad: cada especialidad aparece miles de veces y acá queda una sola
-   (de 161.403 documentos a 20). $first guarda los nombres, que son iguales en todo el grupo.
-2. Por tipo: $push junta los nombres de sus especialidades en una lista. Entran los 20
-   documentos del paso anterior y salen 4, uno por tipo, sin repetidos.
-Al final, $project muestra id_tipo, nombre_tipo y especialidades. No se ordena porque la
-consigna no lo pide.
+1. $group por tipo y especialidad: deja cada especialidad una sola vez (de 161.403 documentos
+   a 20). $first guarda los nombres.
+2. $group por tipo: $push arma la lista de sus especialidades (de 20 a 4).
+3. $project con id y nombre del tipo y la lista de especialidades.
+No se ordena porque la consigna no lo pide.
 
-Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
-que imprime un documento por línea. Con 4 documentos no hacía falta (entran en una
-página de Robo3T), pero se usó en todos los ejercicios para mantener el mismo formato.
+Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query (un
+documento por línea; con 4 documentos no hacía falta, se usó igual por uniformidad).
 
 Query:
 db.participaciones.aggregate([

@@ -2,14 +2,11 @@ Ejercicio 3 - Deportistas cuya nacionalidad es el país 189
 
 Colección: deportistas (la del ejercicio 1).
 
-Como el país es un subdocumento, se filtra con notación de punto: "pais.id" es el campo id
-dentro de pais. Sin proyección, para ver todos los datos de cada deportista. No se ordena
-porque la consigna no lo pide.
+Filtro sobre el subdocumento país con notación de punto ("pais.id"), sin proyección. No se
+ordena porque la consigna no lo pide.
 
-Resultado: se obtuvo en Robo3T agregando .forEach(printjsononeline) al final de la query,
-que imprime un documento por línea y evita la paginación de Robo3T (50 por página). Acá
-era necesario: el resultado tiene 140 documentos. Otras opciones eran agrandar la página
-de Robo3T o usar .toArray().
+Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query, que
+imprime un documento por línea y evita la paginación de Robo3T (140 documentos).
 
 Query:
 db.deportistas.find({"pais.id": 189});
