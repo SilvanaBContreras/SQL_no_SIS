@@ -2,20 +2,14 @@ Ejercicio 7 - Mejor y peor marca de cada deportista por especialidad
 
 Colección: participaciones (la del ejercicio 5).
 
-La mejor marca es la más chica en carreras (tipo "tiempo") y la más grande en saltos y
-lanzamientos. Se calcula por deportista y especialidad, porque un deportista puede competir
-en más de una.
-1. $group por deportista y especialidad: $first para los nombres y el tipo, $min y $max para
-   la marca más chica y la más grande.
+Se usa:
+1. $group por deportista y especialidad, porque un deportista puede competir en más de una.
+$first para los nombres y el tipo, $min y $max para la marca más chica y la más grande.
 2. $project con $cond ("si / entonces / si no"): si el tipo es "tiempo", la mejor es la
    mínima y la peor la máxima; si no, al revés.
 No se ordena porque la consigna no lo pide.
 
-Descartado: ordenar todas las participaciones y tomar la primera y la última marca. Da lo
-mismo, pero es unas 3 veces más lento y necesita allowDiskUse.
-
-Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query, que
-imprime un documento por línea y evita la paginación de Robo3T (803 documentos).
+Descartado: ordenar todas las participaciones y tomar la primera y la última marca (es unas 3 veces más lento y necesita allowDiskUse).
 
 Query:
 db.participaciones.aggregate([
@@ -34,4 +28,8 @@ db.participaciones.aggregate([
         mejor_marca: {$cond: [{$eq: ["$tipo", "tiempo"]}, "$marca_minima", "$marca_maxima"]},
         peor_marca: {$cond: [{$eq: ["$tipo", "tiempo"]}, "$marca_maxima", "$marca_minima"]}
     }}
-]);
+]).forEach(printjsononeline);
+
+Se usa .forEach(printjsononeline) para imprimir todos los documentos como texto, uno por
+línea, sin la paginación de Robo3T (50 documentos por página). Es más necesario en los
+ej 3, 4, 7 y 9. Pero se aplica también en ej 1, 2, 5, 6 y 8 para unificar el formato.

@@ -3,11 +3,11 @@ Ejercicio 1 - Id y nombre de los deportistas con id 10, 20 y 30
 Colección: deportistas (cargada con tp4_ej01.py). Un documento por deportista, con el id
 como _id y el país como subdocumento.
 
-find con condición {_id: {$in: [10, 20, 30]}} y proyección {nombre: 1}. El _id se muestra
-por defecto.
-
-Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query (un
-documento por línea; con 3 documentos no hacía falta, se usó igual por uniformidad).
+Se usa: find con condición y proyección. El _id se muestra por defecto.
 
 Query:
-db.deportistas.find({_id: {$in: [10, 20, 30]}}, {nombre: 1});
+db.deportistas.find({_id: {$in: [10, 20, 30]}}, {nombre: 1}).forEach(printjsononeline);
+
+Se usa .forEach(printjsononeline) para imprimir todos los documentos como texto, uno por
+línea, sin la paginación de Robo3T (50 documentos por página). Es más necesario en los
+ej 3, 4, 7 y 9. Pero se aplica también en ej 1, 2, 5, 6 y 8 para unificar el formato.

@@ -20,7 +20,7 @@ nombre_coleccion_deportistas = 'deportistas'
 
 
 # Carga de la coleccion. El reporte se genera desde un cliente de Mongo y la coleccion se conserva
-# para los ejercicios siguientes
+# para los ejercicios siguientes. Tiempo de carga: aprox. 0,7 s (714 deportistas)
 def ejecutar(file, conn):
     inicio_total = time.time()
     client = inicializar(conn)
@@ -60,8 +60,12 @@ def procesar_fila(fila):
     }
 
 
-# Diccionario id -> documento: el CSV repite al deportista en cada marca, se guarda una sola vez.
-# Luego, insercion de los 714 deportistas con un unico insert_many
+# Diccionario id > documento: el .csv repite al deportista en cada marca, 
+# pero en el dicc se guarda una sola vez y crea su documento. Si el ID ya está en el dicc la fila se saltea.
+# Luego, insercion de los deportistas con un unico insert_many
+# Descartados: update_one con upsert por fila e insert_one (demasiadas operaciones), 
+#  y un generador con set e islice, porque el código era menos legible.
+
 def procesar_coleccion(client, lector_filas_csv):
     coleccion_deportistas = client[nombre_base_datos][nombre_coleccion_deportistas]
     deportistas_por_id = {}

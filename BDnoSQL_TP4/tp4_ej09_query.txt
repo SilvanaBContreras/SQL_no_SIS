@@ -2,25 +2,20 @@ Ejercicio 9 - Podio de cada especialidad en cada torneo
 
 Colección: participaciones (la del ejercicio 5).
 
-Dos instrucciones:
-1. createIndex por torneo, especialidad y marca (campos originales de la colección).
-2. La query: $sort por esos campos (usa el índice), $group por torneo y especialidad con
-   $push, y $project que arma el podio. En carreras son los 3 primeros de la lista
-   ($slice 3); en saltos y lanzamientos, los 3 últimos ($slice -3) dados vuelta con
-   $reverseArray para que el mejor quede primero.
-La salida no lleva ids ni orden final, porque la consigna no los pide. Empates: mismo
-criterio que en el ejercicio 8.
-
-El índice evita ordenar en memoria, que supera el límite de 100 MB de Mongo; es lo que
-indica el slide 34: "crear un índice con los mismos criterios del sort". Se crea en este
-ejercicio y no en la carga, porque solo lo necesita esta query. No hace falta el paso
-"mejor marca de cada deportista" del ejercicio 8: cada deportista tiene una sola
-participación por torneo y especialidad.
+Se usa:
+1. createIndex por torneo, especialidad y marca, para que el $sort use el índice en lugar de
+   ordenar en memoria (supera el límite de 100 MB). Es lo que indica el slide 34: "crear un
+   índice con los mismos criterios del sort". Se crea acá y no en la carga, porque solo lo
+   necesita esta query.
+2. $sort por torneo, especialidad y marca: de menor a mayor marca.
+3. $group por torneo y especialidad con $push, y $project que arma el podio según el tipo:
+   en el tipo tiempo (carreras), los 3 primeros ($slice 3). En los tipos altura, largo y
+   lanzamiento, los 3 últimos ($slice -3), dados vuelta con $reverseArray.
+No hace falta el paso "mejor marca de cada deportista" del ejercicio 8: cada deportista tiene
+una sola participación por torneo y especialidad. La salida no lleva ids ni orden final,
+porque la consigna no los pide. Los empates se ignoran.
 
 Descartado: ordenar sin índice usando allowDiskUse (más del doble de tiempo).
-
-Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query, que
-imprime un documento por línea y evita la paginación de Robo3T (4.020 documentos).
 
 Query:
 db.participaciones.createIndex({"torneo.id": 1, "especialidad.id": 1, marca: 1});
@@ -38,10 +33,10 @@ db.participaciones.aggregate([
         _id: 0,
         nombre_torneo: "$nombre_torneo",
         nombre_especialidad: "$nombre_especialidad",
-        podio: {$cond: [
-            {$eq: ["$tipo", "tiempo"]},
-            {$slice: ["$marcas", 3]},
-            {$reverseArray: {$slice: ["$marcas", -3]}}
-        ]}
+        podio: {$cond: [{$eq: ["$tipo", "tiempo"]}, {$slice: ["$marcas", 3]}, {$reverseArray: {$slice: ["$marcas", -3]}}]}
     }}
-]);
+]).forEach(printjsononeline);
+
+Se usa .forEach(printjsononeline) para imprimir todos los documentos como texto, uno por
+línea, sin la paginación de Robo3T (50 documentos por página). Es más necesario en los
+ej 3, 4, 7 y 9. Pero se aplica también en ej 1, 2, 5, 6 y 8 para unificar el formato.

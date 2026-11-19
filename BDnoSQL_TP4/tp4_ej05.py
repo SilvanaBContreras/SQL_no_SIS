@@ -21,7 +21,7 @@ tamanio_lote = 10000
 
 
 # Carga de la coleccion. El reporte se genera desde un cliente de Mongo y la coleccion se conserva
-# para los ejercicios siguientes
+# para los ejercicios siguientes. Tiempo de carga: aprox. 5 s.
 def ejecutar(file, conn):
     inicio_total = time.time()
     client = inicializar(conn)

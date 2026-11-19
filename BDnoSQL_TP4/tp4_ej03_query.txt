@@ -2,11 +2,14 @@ Ejercicio 3 - Deportistas cuya nacionalidad es el país 189
 
 Colección: deportistas (la del ejercicio 1).
 
-Filtro sobre el subdocumento país con notación de punto ("pais.id"), sin proyección. No se
-ordena porque la consigna no lo pide.
-
-Resultado: obtenido en Robo3T con .forEach(printjsononeline) al final de la query, que
-imprime un documento por línea y evita la paginación de Robo3T (140 documentos).
+Filtro sobre el subdocumento país con ("pais.id") y proyección {nombre: 1}
+(el _id se muestra por defecto). 
+La consigna no detalla qué campos son requeridos: se decide id y nombre. 
+No se ordena porque la consigna no lo pide.
 
 Query:
-db.deportistas.find({"pais.id": 189});
+db.deportistas.find({"pais.id": 189}, {nombre: 1}).forEach(printjsononeline);
+
+Se usa .forEach(printjsononeline) para imprimir todos los documentos como texto, uno por
+línea, sin la paginación de Robo3T (50 documentos por página). Es más necesario en los
+ej 3, 4, 7 y 9. Pero se aplica también en ej 1, 2, 5, 6 y 8 para unificar el formato.
