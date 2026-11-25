@@ -17,11 +17,9 @@ conexion = {
 
 nombre_base_datos = 'iaaf'
 nombre_coleccion_participaciones = 'participaciones'
-tamanio_lote = 10000
 
 
-# Carga de la coleccion. El reporte se genera desde un cliente de Mongo y la coleccion se conserva
-# para los ejercicios siguientes. Tiempo de carga: aprox. 5 s.
+# Carga de la coleccion. El reporte se genera desde un cliente de Mongo. Tiempo de carga: aprox. 5 s.
 def ejecutar(file, conn):
     inicio_total = time.time()
     client = inicializar(conn)
@@ -85,26 +83,12 @@ def procesar_fila(fila):
     }
 
 
-# Insercion masiva: insert_many por lotes en lugar de un insert_one por fila
-# Probado: insert_one por fila (421 s), insert_many unico, lotes de 1.000, lotes + hilos.
-# Elegido: lotes de 10.000 (aprox. 5 s), con aviso de progreso y sin cargar todo en memoria.
+# Insercion masiva: insert_many recibe todas las filas y pymongo las envia en lotes
+# Tiempo de carga: aprox. 5 s (161.403 participaciones)
 def procesar_coleccion(client, lector_filas_csv):
     coleccion_participaciones = client[nombre_base_datos][nombre_coleccion_participaciones]
-    lote_documentos = []
-    cantidad_insertados = 0
-    for fila in lector_filas_csv:
-        lote_documentos.append(procesar_fila(fila))
-        if len(lote_documentos) == tamanio_lote:
-            coleccion_participaciones.insert_many(lote_documentos)
-            cantidad_insertados += len(lote_documentos)
-            print(str(cantidad_insertados) + " documentos insertados")
-            lote_documentos = []
-
-    # Ultimo lote, con las filas restantes (menos de 10.000)
-    if lote_documentos:
-        coleccion_participaciones.insert_many(lote_documentos)
-        cantidad_insertados += len(lote_documentos)
-        print(str(cantidad_insertados) + " documentos insertados")
+    resultado = coleccion_participaciones.insert_many(procesar_fila(fila) for fila in lector_filas_csv)
+    print(str(len(resultado.inserted_ids)) + " documentos insertados")
 
 
 # Funcion que realiza el o los queries que resuelven el ejercicio, utilizando la base de datos.
