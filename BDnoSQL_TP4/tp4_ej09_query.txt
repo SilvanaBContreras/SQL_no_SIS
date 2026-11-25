@@ -4,20 +4,14 @@ Colección: participaciones (la del ejercicio 5).
 
 Se usa:
 1. createIndex por torneo, especialidad y marca, para que el $sort use el índice en lugar de
-   ordenar en memoria (ordenar las 161.403 participaciones supera el límite de 100 MB). Es lo
-   que indica el slide 34: "crear un índice con los mismos criterios del sort". Se crea acá y
-   no en la carga, porque solo lo necesita esta query.
+   ordenar en memoria.
 2. $sort por torneo, especialidad y marca: de menor a mayor marca.
-3. $group por torneo y especialidad con $push, y $project que arma el podio según el tipo:
+3. $group por torneo y especialidad con $push, $project arma el podio según el tipo:
    en el tipo tiempo (carreras), los 3 primeros ($slice 3). En los tipos altura, largo y
    lanzamiento, los 3 últimos ($slice -3), dados vuelta con $reverseArray.
-No hace falta el paso "mejor marca de cada deportista" del ejercicio 8: cada deportista tiene
-una sola participación por torneo y especialidad (comprobado: 161.403 combinaciones para
-161.403 participaciones). La salida no lleva ids ni orden final, porque la consigna no los
-pide. Los empates se ignoran.
 
-Descartado: la misma solución del ejercicio 8 con el torneo agregado. Funciona, pero necesita
-allowDiskUse (slide 39) y tarda casi el doble.
+La salida no lleva ids ni orden final, porque la consigna no los pide. 
+Los empates se ignoran.
 
 Query:
 db.participaciones.createIndex({"torneo.id": 1, "especialidad.id": 1, marca: 1});
