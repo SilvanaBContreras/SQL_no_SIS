@@ -3,10 +3,10 @@ Ejercicio 9 - Podio de cada especialidad en cada torneo
 Colección: participaciones (la del ejercicio 5).
 
 Se usa:
-1. createIndex por torneo, especialidad y marca, para que el $sort use el índice en lugar de
+createIndex por torneo, especialidad y marca, para que el $sort use el índice en lugar de
    ordenar en memoria.
-2. $sort por torneo, especialidad y marca: de menor a mayor marca.
-3. $group por torneo y especialidad con $push, $project arma el podio según el tipo:
+$sort por torneo, especialidad y marca: de menor a mayor marca.
+$group por torneo y especialidad con $push, $project arma el podio según el tipo:
    en el tipo tiempo (carreras), los 3 primeros ($slice 3). En los tipos altura, largo y
    lanzamiento, los 3 últimos ($slice -3), dados vuelta con $reverseArray.
 

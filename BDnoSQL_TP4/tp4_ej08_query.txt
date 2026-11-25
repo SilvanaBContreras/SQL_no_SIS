@@ -2,12 +2,12 @@ Ejercicio 8 - Podio del récord mundial de cada especialidad
 
 Colección: participaciones (la del ejercicio 5).
 
-Se usa esquema TOP N de slide 49:
-1. $group por especialidad y deportista: se queda con la mejor marca de cada deportista. En el tipo tiempo (carreras) la mejor marca es la menor. En los tipos altura, largo y lanzamiento, la mayor. Para resolver los dos
+Se usa esquema TOP N de diapo 49:
+$group por especialidad y deportista: se queda con la mejor marca de cada deportista. En el tipo tiempo (carreras) la mejor marca es la menor. En los tipos altura, largo y lanzamiento, la mayor. Para resolver los dos
    casos con un solo $min, en esos tres tipos la marca se multiplica por -1: así la mayor
    marca pasa a ser la menor.
-2. $sort por especialidad y mejor_marca: de mejor a peor.
-3. $group por especialidad con $push, volviendo la marca a su valor real con $abs (valor
+$sort por especialidad y mejor_marca: de mejor a peor.
+$group por especialidad con $push, volviendo la marca a su valor real con $abs (valor
    absoluto), y $project con $slice: ["$marcas", 3] para armar el podio.
 
 La salida no lleva ids ni orden final, porque la consigna no los pide. Los empates se ignoran.
