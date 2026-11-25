@@ -1,11 +1,12 @@
 Ejercicio 4 - Ranking de países por cantidad de deportistas
 
-Colección: deportistas (la del ejercicio 1). Hay un documento por deportista, así que primero
-se cuenta por país y después se ordena:
-1. $group por nombre de país con {$sum: 1}.
-2. $sort por cantidad, de mayor a menor.
-3. $project para mostrar país y cantidad sin el _id.
-La consigna no pide ordenar países con igual cantidad, entonces queda a criterio de Mongo.
+Colección: deportistas (la del ejercicio 1). 
+
+Hay un documento por deportista, entonces primero se cuenta por país y después se ordena:
+$group por nombre de país con {$sum: 1}.
+$sort por cantidad, de mayor a menor.
+$project para mostrar país y cantidad sin el _id.
+La consigna no pide ordenar países con igual cantidad.
 
 Query:
 db.deportistas.aggregate([
@@ -14,6 +15,4 @@ db.deportistas.aggregate([
     {$project: {_id: 0, pais: "$_id", cantidad_deportistas: "$cantidad_deportistas"}}
 ]).forEach(printjsononeline);
 
-Se usa .forEach(printjsononeline) para imprimir todos los documentos como texto, uno por
-línea, sin la paginación de Robo3T (50 documentos por página). Es más necesario en los
-ej 3, 4, 7 y 9. Pero se aplica también en ej 1, 2, 5, 6 y 8 para unificar el formato.
+Se usa .forEach(printjsononeline) para imprimir todos los documentos como texto, uno por línea, sin la paginación de Robo3T (50 documentos por página). Es más necesario en los ej 3, 4, 7 y 9. Pero se aplica también en ej 1, 2, 5, 6 y 8 para unificar el formato.

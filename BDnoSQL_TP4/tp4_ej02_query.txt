@@ -2,11 +2,9 @@ Ejercicio 2 - Id y todos los datos de los deportistas con id 10, 20 y 30
 
 Colección: deportistas (la del ejercicio 1).
 
-Misma condición del ejercicio 1, sin proyección: find devuelve el documento completo.
+Se usa la misma condición del ejercicio 1, sin proyección para que find devuelva el documento completo.
 
 Query:
 db.deportistas.find({_id: {$in: [10, 20, 30]}}).forEach(printjsononeline);
 
-Se usa .forEach(printjsononeline) para imprimir todos los documentos como texto, uno por
-línea, sin la paginación de Robo3T (50 documentos por página). Es más necesario en los
-ej 3, 4, 7 y 9. Pero se aplica también en ej 1, 2, 5, 6 y 8 para unificar el formato.
+Se usa .forEach(printjsononeline) para imprimir todos los documentos como texto, uno por línea, sin la paginación de Robo3T (50 documentos por página). Es más necesario en los ej 3, 4, 7 y 9. Pero se aplica también en ej 1, 2, 5, 6 y 8 para unificar el formato.

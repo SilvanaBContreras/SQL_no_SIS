@@ -5,7 +5,7 @@ Colección: participaciones (la del ejercicio 5).
 Se usa:
 $group por deportista y especialidad, porque un deportista puede competir en más de una.
 $first para los nombres y el tipo, $min y $max para la marca más chica y la más grande.
-$project con $cond. Si el tipo es "tiempo", la mejor es la mínima y la peor la máxima. Si no, al revés.
+$project con $cond. Si el tipo es "tiempo", la mejor es la mínima y la peor la máxima. Si es otro tipo de especialidad, es al revés.
 No se ordena porque la consigna no lo pide.
 
 Query:
@@ -27,6 +27,4 @@ db.participaciones.aggregate([
     }}
 ]).forEach(printjsononeline);
 
-Se usa .forEach(printjsononeline) para imprimir todos los documentos como texto, uno por
-línea, sin la paginación de Robo3T (50 documentos por página). Es más necesario en los
-ej 3, 4, 7 y 9. Pero se aplica también en ej 1, 2, 5, 6 y 8 para unificar el formato.
+Se usa .forEach(printjsononeline) para imprimir todos los documentos como texto, uno por línea, sin la paginación de Robo3T (50 documentos por página). Es más necesario en los ej 3, 4, 7 y 9. Pero se aplica también en ej 1, 2, 5, 6 y 8 para unificar el formato.
