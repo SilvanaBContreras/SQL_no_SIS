@@ -1,6 +1,6 @@
 Ejercicio 4 - Ranking de países por cantidad de deportistas
 
-Colección: deportistas (la del ejercicio 1). 
+Colección: deportistas. 
 
 Hay un documento por deportista, entonces primero se cuenta por país y después se ordena:
 $group por nombre de país con {$sum: 1}.

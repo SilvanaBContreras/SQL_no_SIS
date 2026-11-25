@@ -1,6 +1,6 @@
 Ejercicio 2 - Id y todos los datos de los deportistas con id 10, 20 y 30
 
-Colección: deportistas (la del ejercicio 1).
+Colección: deportistas.
 
 Se usa la misma condición del ejercicio 1, sin proyección para que find devuelva el documento completo.
 

@@ -1,11 +1,11 @@
 Ejercicio 7 - Mejor y peor marca de cada deportista por especialidad
 
-Colección: participaciones (la del ejercicio 5).
+Colección: participaciones.
 
 Se usa:
 $group por deportista y especialidad, porque un deportista puede competir en más de una.
 $first para los nombres y el tipo, $min y $max para la marca más chica y la más grande.
-$project con $cond. Si el tipo es "tiempo", la mejor es la mínima y la peor la máxima. Si es otro tipo de especialidad, es al revés.
+$project con $cond. Si el tipo es "tiempo", la mejor es la mínima y la peor la máxima. Si el tipo de especialidad es otro, se toma al revés.
 No se ordena porque la consigna no lo pide.
 
 Query:

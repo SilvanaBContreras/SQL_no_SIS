@@ -1,6 +1,6 @@
 Ejercicio 3 - Deportistas cuya nacionalidad es el país 189
 
-Colección: deportistas (la del ejercicio 1).
+Colección: deportistas.
 
 Se usa un filtro sobre el subdocumento país con ("pais.id") y proyección {nombre: 1} (el _id se muestra por defecto). 
 La consigna no detalla qué campos son requeridos: se decide id y nombre. 

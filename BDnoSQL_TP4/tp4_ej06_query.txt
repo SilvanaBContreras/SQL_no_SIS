@@ -1,6 +1,6 @@
 Ejercicio 6 - Cantidad de marcas por tipo de especialidad
 
-Colección: participaciones (la del ejercicio 5). 
+Colección: participaciones. 
 
 Se usa:
 $group por tipo de especialidad, con $first para el nombre y {$sum: 1} para contar las marcas.
