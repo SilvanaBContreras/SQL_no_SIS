@@ -2,46 +2,42 @@ Ejercicio 9 - Podio de cada especialidad en cada torneo
 
 Colección: participaciones (la del ejercicio 5).
 
-Se usa la misma solución del ejercicio 8 (esquema TOP N, slide 49), con el torneo agregado:
-1. $group por torneo, especialidad y deportista: se queda con la mejor marca de cada
-   deportista, para que nadie ocupe dos lugares del podio. Como en el ejercicio 8, un solo
-   $min sirve para todos los tipos: en altura, largo y lanzamiento la marca se multiplica
-   por -1, así la mayor marca pasa a ser la menor.
-2. $sort por torneo, especialidad y mejor_marca: de mejor a peor.
-3. $group por torneo y especialidad con $push, volviendo la marca a su valor real con $abs,
-   y $project con $slice: ["$marcas", 3] para armar el podio.
-Se usa allowDiskUse: true (slide 39) porque el $sort ordena 161.403 documentos y en memoria
-supera el límite de 100 MB (slide 34). A diferencia del ejercicio 8, el paso 1 no reduce la
-cantidad: cada deportista tiene una sola participación por torneo y especialidad.
-La salida no lleva ids ni orden final, porque la consigna no los pide. Los empates se ignoran.
+Se usa:
+1. createIndex por torneo, especialidad y marca, para que el $sort use el índice en lugar de
+   ordenar en memoria (ordenar las 161.403 participaciones supera el límite de 100 MB). Es lo
+   que indica el slide 34: "crear un índice con los mismos criterios del sort". Se crea acá y
+   no en la carga, porque solo lo necesita esta query.
+2. $sort por torneo, especialidad y marca: de menor a mayor marca.
+3. $group por torneo y especialidad con $push, y $project que arma el podio según el tipo:
+   en el tipo tiempo (carreras), los 3 primeros ($slice 3). En los tipos altura, largo y
+   lanzamiento, los 3 últimos ($slice -3), dados vuelta con $reverseArray.
+No hace falta el paso "mejor marca de cada deportista" del ejercicio 8: cada deportista tiene
+una sola participación por torneo y especialidad (comprobado: 161.403 combinaciones para
+161.403 participaciones). La salida no lleva ids ni orden final, porque la consigna no los
+pide. Los empates se ignoran.
 
-Descartado: crear un índice por torneo, especialidad y marca (slide 34) y omitir el paso 1.
-Es más rápido y no necesita allowDiskUse, pero la query dejaría de garantizar por sí misma
-que un deportista no ocupe dos lugares del podio: dependería de los datos.
+Descartado: la misma solución del ejercicio 8 con el torneo agregado. Funciona, pero necesita
+allowDiskUse (slide 39) y tarda casi el doble.
 
 Query:
+db.participaciones.createIndex({"torneo.id": 1, "especialidad.id": 1, marca: 1});
+
 db.participaciones.aggregate([
+    {$sort: {"torneo.id": 1, "especialidad.id": 1, marca: 1}},
     {$group: {
-        _id: {id_torneo: "$torneo.id", id_especialidad: "$especialidad.id", id_deportista: "$deportista.id"},
+        _id: {id_torneo: "$torneo.id", id_especialidad: "$especialidad.id"},
         nombre_torneo: {$first: "$torneo.nombre"},
         nombre_especialidad: {$first: "$especialidad.nombre"},
-        nombre_deportista: {$first: "$deportista.nombre"},
-        mejor_marca: {$min: {$cond: [{$eq: ["$especialidad.tipo.nombre", "tiempo"]}, "$marca", {$multiply: ["$marca", -1]}]}}
-    }},
-    {$sort: {"_id.id_torneo": 1, "_id.id_especialidad": 1, mejor_marca: 1}},
-    {$group: {
-        _id: {id_torneo: "$_id.id_torneo", id_especialidad: "$_id.id_especialidad"},
-        nombre_torneo: {$first: "$nombre_torneo"},
-        nombre_especialidad: {$first: "$nombre_especialidad"},
-        marcas: {$push: {nombre_deportista: "$nombre_deportista", marca: {$abs: "$mejor_marca"}}}
+        tipo: {$first: "$especialidad.tipo.nombre"},
+        marcas: {$push: {nombre_deportista: "$deportista.nombre", marca: "$marca"}}
     }},
     {$project: {
         _id: 0,
         nombre_torneo: "$nombre_torneo",
         nombre_especialidad: "$nombre_especialidad",
-        podio: {$slice: ["$marcas", 3]}
+        podio: {$cond: [{$eq: ["$tipo", "tiempo"]}, {$slice: ["$marcas", 3]}, {$reverseArray: {$slice: ["$marcas", -3]}}]}
     }}
-], {allowDiskUse: true}).forEach(printjsononeline);
+]).forEach(printjsononeline);
 
 Se usa .forEach(printjsononeline) para imprimir todos los documentos como texto, uno por
 línea, sin la paginación de Robo3T (50 documentos por página). Es más necesario en los
